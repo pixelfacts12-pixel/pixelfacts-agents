@@ -25,6 +25,7 @@ def mettre_en_ligne(video, nom):
     url_depot = f"https://{GH['user']}:{GH_TOKEN}@github.com/{GH['user']}/{GH['repo']}.git"
     if not (DEPOT / ".git").exists():
         subprocess.run(["git", "clone", "-q", url_depot, str(DEPOT)], check=True, capture_output=True)
+        git("remote", "set-url", "origin", f"https://github.com/{GH['user']}/{GH['repo']}.git")  # jeton jamais stocké sur disque
     git("pull", "-q", "--rebase", url_depot, "main")
     (DEPOT / "videos").mkdir(exist_ok=True)
     shutil.copy(video, DEPOT / "videos" / nom)
