@@ -62,6 +62,13 @@ def recevoir():
         texte = m.get("content", "")
         lien = re.search(r"https?://\S+", texte)
         vise = (m.get("message_reference") or {}).get("message_id")
+        if texte.lower().lstrip().startswith(("jeu:", "jeu :")):  # retour sur le jeu Roblox -> liste du Créateur Roblox
+            retours = Path.home() / "Projets" / "balaye-simulator" / "RETOURS.md"
+            with open(retours, "a", encoding="utf-8") as f:
+                f.write("- [ ] (Discord " + time.strftime("%d/%m") + ") " + texte.split(":", 1)[1].strip() + "\n")
+            appel("POST", f"/channels/{SALON}/messages",
+                  {"content": "🎮 Ajouté à la liste du Créateur Roblox.", "message_reference": {"message_id": m["id"]}})
+            continue
         cible = envois.get(vise)
         if not cible and not lien and texte.strip():  # message libre : retour sur la dernière vidéo 🔁 (ou la dernière envoyée)
             f_rev = BASE / "dernier_revoir.txt"
