@@ -5,7 +5,7 @@ Lien reçu : {{URL}}
 Note d'Alex : {{NOTE}}
 Dossier de travail : {{DOSSIER}}
 
-Lis d'abord OUTILS.md (les outils gratuits installés sur ce PC) et plan.md (sujets déjà faits, formats qui marchent).
+Lis d'abord MARQUE.md (la chaîne Pixel Facts : ton, fin de vidéo, titres), OUTILS.md (les outils gratuits installés sur ce PC) et plan.md (sujets déjà faits, formats qui marchent).
 Si le dossier de travail contient déjà des fichiers (production coupée), reprends où il en est.
 
 1. Relève. Ouvre le lien sans te connecter à aucun compte. Note le sujet, le format, la durée, l'accroche des 3 premières secondes, les vues et la date si elles sont visibles.
