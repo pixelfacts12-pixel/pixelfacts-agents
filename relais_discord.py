@@ -62,9 +62,16 @@ def recevoir():
         texte = m.get("content", "")
         lien = re.search(r"https?://\S+", texte)
         vise = (m.get("message_reference") or {}).get("message_id")
-        if vise in envois:  # une réponse à une vidéo envoyée : remarque sur cette vidéo
-            ajouter("events.jsonl", {"type": "remarque", "item": envois[vise], "text": texte, "ts": time.time()})
-            appel("PUT", f"/channels/{SALON}/messages/{m['id']}/reactions/{urllib.parse.quote('👍')}/@me")
+        cible = envois.get(vise)
+        if not cible and not lien and texte.strip():  # message libre : retour sur la dernière vidéo 🔁 (ou la dernière envoyée)
+            f_rev = BASE / "dernier_revoir.txt"
+            avec_boutons = [e["item"] for e in lire("envoyes.jsonl") if e.get("boutons")]
+            cible = f_rev.read_text().strip() if f_rev.exists() else (avec_boutons[-1] if avec_boutons else None)
+        if cible:  # remarque sur cette vidéo / ce jeu
+            ajouter("events.jsonl", {"type": "remarque", "item": cible, "text": texte, "ts": time.time()})
+            (BASE / "dernier_revoir.txt").unlink(missing_ok=True)
+            appel("POST", f"/channels/{SALON}/messages",
+                  {"content": "✍️ Retour transmis : l'agent refait une version avec tes remarques.", "message_reference": {"message_id": m["id"]}})
         elif lien:
             ajouter("inbox.jsonl", {"id": f"d{m['id']}", "url": lien[0], "note": texte.replace(lien[0], "").strip()})
             appel("POST", f"/channels/{SALON}/messages",
@@ -79,8 +86,12 @@ def reactions():
             if any(u["id"] == MOI for u in users):
                 ajouter("events.jsonl", {"type": type_, "item": e["item"], "ts": time.time()})
                 ajouter("decides.jsonl", {"message_id": e["message_id"]})
-                appel("POST", f"/channels/{SALON}/messages",
-                      {"content": "Transmis à la file.", "message_reference": {"message_id": e["message_id"]}})
+                if type_ == "revoir":
+                    (BASE / "dernier_revoir.txt").write_text(e["item"])
+                    texte = "✍️ Écris ton retour juste en dessous, dans le salon (ce qui ne va pas, ce que tu veux à la place)."
+                else:
+                    texte = "Transmis à la file."
+                appel("POST", f"/channels/{SALON}/messages", {"content": texte, "message_reference": {"message_id": e["message_id"]}})
                 break
             time.sleep(0.3)
 
