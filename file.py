@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""File de production de vidéos (version Windows, adaptée du guide Eigenflow).
+"""File de production (version Windows, adaptée du guide Eigenflow), en DEUX voies parallèles.
 
-Un passage = une seule tâche. Le Planificateur de tâches Windows le lance toutes les 10 minutes.
-Rien n'est jamais publié sans que tu aies touché « Valider » sur Telegram.
+  python file.py video   -> voie vidéo  : Veilleur, analyses, Créateur vidéo, Publicateur vidéo + agents sans IA
+  python file.py roblox  -> voie Roblox : Créateur Roblox, retouches, Publicateur Roblox
+
+Chaque voie fait une seule tâche par passage ; le Planificateur de tâches lance chaque voie toutes les 10 minutes.
+Les deux voies partagent state.json : on ne le lit/écrit que sous un verrou court, jamais pendant le travail de l'IA.
+Rien n'est jamais publié sans ton ✅ dans Discord.
 """
-import ctypes, json, msvcrt, os, subprocess, sys, time, uuid
+import contextlib, ctypes, json, msvcrt, os, subprocess, sys, time, uuid
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
@@ -18,10 +22,11 @@ VEILLE_TOUTES_LES = 22 * 3600
 ROBLOX_TOUTES_LES = 48 * 3600
 JEU_ROBLOX = Path.home() / "Projets" / "balaye-simulator"
 ATTENTE = ("pret", "revoir")  # vidéos qui attendent ta réponse
-MAX_EN_ATTENTE = 3  # au-delà, la file fait une pause pour ne pas produire dans le vide
+MAX_EN_ATTENTE = 3  # au-delà, la voie vidéo fait une pause pour ne pas produire dans le vide
 REGLES = {("valider", "pret"): "valide", ("valider", "revoir"): "valide", ("revoir", "pret"): "revoir",
           "rejeter": "rejete", "remarque": "a_reprendre"}
 MOTS_ANALYSE = ("analyse", "pour info", "référence", "reference", "retiens")
+AGENTS_SANS_IA = {"roblox_tendances": 20 * 3600, "roblox_stats": 20 * 3600, "chef": 24 * 3600}  # agents/<nom>.py
 
 
 def lire(p):
@@ -29,9 +34,33 @@ def lire(p):
 
 
 def ecrire(p, data):  # fichier temporaire puis renommage : jamais un fichier écrit à moitié
-    tmp = p.with_suffix(".tmp")
+    tmp = p.with_suffix(f".{os.getpid()}.tmp")
     tmp.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     tmp.replace(p)
+
+
+@contextlib.contextmanager
+def etat():
+    """Verrou court sur state.json, partagé par les deux voies."""
+    f = open(BASE / ".lock-etat", "a+")
+    for _ in range(120):
+        try:
+            f.seek(0)
+            msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
+            break
+        except OSError:
+            time.sleep(1)
+    else:
+        f.close()
+        raise TimeoutError("state.json reste verrouillé")
+    try:
+        st = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {"items": [], "ev_lus": 0}
+        yield st
+        ecrire(STATE, st)
+    finally:
+        f.seek(0)
+        msvcrt.locking(f.fileno(), msvcrt.LK_UNLCK, 1)
+        f.close()
 
 
 def relever(st):
@@ -50,11 +79,11 @@ def relever(st):
             if e["type"] == "valider" and prop["type"] == "video":
                 st["items"].append({"id": e["item"], "url": prop["url"], "note": prop["note"], "status": "a_faire",
                                     "recu": time.time() - 600, "essais": 0, "reprises": 0, "remarques": []})
-            elif e["type"] == "valider":  # idée de jeu Roblox : rangée pour l'agent Roblox
+            elif e["type"] == "valider":  # idée de jeu Roblox : rangée pour le Créateur Roblox
                 with open(BASE / "idees-roblox.md", "a", encoding="utf-8") as f:
                     f.write(f"\n- {time.strftime('%Y-%m-%d')} : {prop['note']} ({prop['url']})\n")
             continue
-        it = next((i for i in st["items"] if i["id"] == e["item"]), None)
+        it = next((i for i in reversed(st["items"]) if i["id"] == e["item"]), None)
         if not it or it["status"] in ("programme", "rejete"):
             continue
         if e["type"] == "remarque":
@@ -63,31 +92,34 @@ def relever(st):
     st["ev_lus"] = len(evs)
 
 
-def choisir(st):
+def choisir(st, voie):
+    roblox = voie == "roblox"
+    mes_items = [i for i in st["items"] if (i.get("type") == "roblox") == roblox]
     for statut, tache in (("valide", "publication"), ("a_reprendre", "reprise"),
                           ("a_analyser", "analyse"), ("en_cours", "production")):
-        for it in (i for i in st["items"] if i["status"] == statut):
+        for it in (i for i in mes_items if i["status"] == statut):
             if tache == "reprise" and it["reprises"] >= 3:
                 it["status"] = "ici"  # trois versions refusées : tu la finis toi-même avec Claude
                 continue
-            if it.get("type") == "roblox":  # même circuit, mais l'agent Roblox à la place de l'agent vidéo
-                tache = {"publication": "publication_roblox", "reprise": "reprise_roblox",
-                         "production": "roblox"}.get(tache, tache)
+            if roblox:
+                tache = {"publication": "publication_roblox", "reprise": "reprise_roblox", "production": "roblox"}.get(tache, tache)
             return tache, it
-    roblox_actif = any(i.get("type") == "roblox" and i["status"] not in ("programme", "rejete", "erreur", "ici")
-                       for i in st["items"])
-    retours = (JEU_ROBLOX / "RETOURS.md")
-    en_retard = retours.exists() and "- [ ]" in retours.read_text(encoding="utf-8")
-    delai = 12 * 3600 if en_retard else ROBLOX_TOUTES_LES  # tant que tes retours ne sont pas finis : toutes les 12 h
-    if not roblox_actif and time.time() - st.get("roblox_derniere", 0) > delai:
-        st["roblox_derniere"] = time.time()  # le Créateur Roblox améliore le jeu tous les 2 jours
-        it = {"id": "roblox-" + time.strftime("%Y%m%d-%H%M"), "type": "roblox", "url": "", "note": "", "status": "en_cours",
-              "recu": time.time(), "essais": 0, "reprises": 0, "remarques": []}
-        st["items"].append(it)
-        return "roblox", it
-    if sum(i["status"] in ATTENTE for i in st["items"]) < MAX_EN_ATTENTE:
-        for i in st["items"]:  # 10 min d'attente : le temps que ta note suive le lien
+    if roblox:
+        actif = any(i["status"] not in ("programme", "rejete", "erreur", "ici") for i in mes_items)
+        retours = JEU_ROBLOX / "RETOURS.md"
+        en_retard = retours.exists() and "- [ ]" in retours.read_text(encoding="utf-8")
+        delai = 12 * 3600 if en_retard else ROBLOX_TOUTES_LES  # tant que tes retours ne sont pas finis : toutes les 12 h
+        if not actif and time.time() - st.get("roblox_derniere", 0) > delai:
+            st["roblox_derniere"] = time.time()
+            it = {"id": "roblox-" + time.strftime("%Y%m%d-%H%M"), "type": "roblox", "url": "", "note": "",
+                  "status": "en_cours", "recu": time.time(), "essais": 0, "reprises": 0, "remarques": []}
+            st["items"].append(it)
+            return "roblox", it
+        return None, None
+    if sum(i["status"] in ATTENTE for i in mes_items) < MAX_EN_ATTENTE:
+        for i in mes_items:  # 10 min d'attente : le temps que ta note suive le lien
             if i["status"] == "a_faire" and time.time() - i.get("recu", 0) > 600:
+                i["status"] = "en_cours"  # coupure en route : le passage suivant reprend cet élément
                 return "production", i
     v = st.setdefault("veille", {"derniere": 0, "essais": 0})
     if time.time() - v["derniere"] > VEILLE_TOUTES_LES:  # le Veilleur passe une fois par jour
@@ -136,7 +168,7 @@ def lancer(tache, it):
                                    creationflags=subprocess.CREATE_NO_WINDOW | subprocess.CREATE_NEW_PROCESS_GROUP)
                 log.write(f"\n[file.py] fin, code {r.returncode}, {int(time.time() - debut)} s\n")
             except subprocess.TimeoutExpired:
-                log.write(f"\n[file.py] coupé : limite de temps atteinte\n")
+                log.write("\n[file.py] coupé : limite de temps atteinte\n")
             except Exception as e:
                 log.write(f"\n[file.py] erreur : {e!r}\n")
     finally:
@@ -150,6 +182,21 @@ def lancer(tache, it):
         PAUSE.write_text(str(time.time() + 3600))  # limite de l'abonnement : pause d'1 h, sans compter d'échec
         return {"status": "limite"}
     return None
+
+
+def script(nom, *args, timeout=1800):
+    """Lance un agent Python de agents/ et renvoie sa dernière ligne JSON (ou une erreur lisible)."""
+    p = subprocess.run([sys.executable, str(BASE / "agents" / nom), *args], capture_output=True, text=True,
+                       encoding="utf-8", env={**os.environ, "PYTHONIOENCODING": "utf-8"},
+                       creationflags=subprocess.CREATE_NO_WINDOW, timeout=timeout)
+    try:
+        res = json.loads(p.stdout.strip().splitlines()[-1])
+    except (ValueError, IndexError):
+        res = {"ok": False}
+    res.setdefault("ok", p.returncode == 0)
+    if not res["ok"]:
+        res["detail"] = (p.stdout + p.stderr)[-300:]
+    return res
 
 
 def message(it, texte, video=None, boutons=False):
@@ -166,8 +213,6 @@ def apres(tache, it, r):
             message(it, "Trois essais ratés, à regarder à la main.")
         return
     if r.get("status") == "limite":
-        if it.get("type") != "roblox" and tache == "production":
-            it["status"] = "en_cours"
         return  # on retentera après la pause, sans compter d'échec
     it["essais"], s = 0, r.get("status")
     if s == "pret":
@@ -176,62 +221,52 @@ def apres(tache, it, r):
     elif s == "appris":
         it["status"] = "appris"
         message(it, r.get("telegram", "Analysée et rangée dans plan.md."))
-    elif tache == "publication" and s == "programme" and r.get("video") and r.get("legende"):
-        publier_video(it, r)
+    elif tache == "publication" and "_pub" in r:
+        res = r["_pub"]
+        if res.get("ok"):
+            it["status"] = "programme"
+            quand = ", ".join(f"{k} : {(v.get('dueAt') or '')[:16].replace('T', ' ')}" for k, v in res["buffer"].items())
+            message(it, r.get("telegram", "") + "\nProgrammée sur YouTube Shorts et Instagram Reels (" + quand + ", heure UTC).")
+        else:
+            it["essais"] += 1
+            it["status"] = "erreur" if it["essais"] >= 3 else "valide"
+            detail = json.dumps(res.get("buffer") or res.get("detail"), ensure_ascii=False)[:300]
+            message(it, f"📤 Publication ratée ({it['essais']}/3) : {detail}")
     else:
         it["status"] = s if s in ("programme", "deja_fait") else "erreur"
         message(it, r.get("telegram") or f"{s or 'erreur'} {r.get('dueAt', '')}".strip())
 
 
-def publier_video(it, r):
-    """Le Publicateur vidéo : GitHub Pages + Buffer (YouTube Shorts et Instagram Reels)."""
-    p = subprocess.run([sys.executable, str(BASE / "agents" / "publier_video.py"), r["video"], r["legende"]],
-                       capture_output=True, text=True, encoding="utf-8", env={**os.environ, "PYTHONIOENCODING": "utf-8"},
-                       creationflags=subprocess.CREATE_NO_WINDOW, timeout=1800)
-    try:
-        res = json.loads(p.stdout.strip().splitlines()[-1])
-    except (ValueError, IndexError):
-        res = {"ok": False, "buffer": (p.stdout + p.stderr)[-300:]}
+def apres_roblox_publie(it, res):
     if res.get("ok"):
         it["status"] = "programme"
-        quand = ", ".join(f"{k} : {(v.get('dueAt') or '')[:16].replace('T', ' ')}" for k, v in res["buffer"].items())
-        texte = r.get("telegram", "") + "\nProgrammée sur YouTube Shorts et Instagram Reels (" + quand + ", heure UTC)."
-        message(it, texte)
+        message(it, "🎮 Mise à jour publiée sur Roblox : elle est en ligne pour les joueurs !")
     else:
         it["essais"] += 1
-        it["status"] = "erreur" if it["essais"] >= 3 else "valide"
-        message(it, f"📤 Publication ratée ({it['essais']}/3) : {json.dumps(res.get('buffer'), ensure_ascii=False)[:300]}")
+        if it["essais"] >= 3:
+            it["status"] = "erreur"
+            message(it, "🎮 La publication Roblox a échoué 3 fois : " + str(res.get("detail", ""))[-300:])
 
 
-def main():
-    verrou = open(BASE / ".lock", "w")
-    try:
-        msvcrt.locking(verrou.fileno(), msvcrt.LK_NBLCK, 1)
-    except OSError:
-        return  # le passage précédent travaille encore
-    st = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {"items": [], "ev_lus": 0}
-    agents_sans_ia(st)
-    if PAUSE.exists() and time.time() < float(PAUSE.read_text() or 0):
-        relever(st)  # on note quand même tes réponses, mais aucune IA ne démarre pendant la pause
-        ecrire(STATE, st)
+def apres_veille(st, it, r):
+    v = st.setdefault("veille", {"derniere": 0, "essais": 0})
+    if r and r.get("status") == "limite":
         return
-    relever(st)
-    tache, it = choisir(st)
-    if tache == "production":
-        it["status"] = "en_cours"  # coupure en route : le passage suivant reprend cet élément
-    ecrire(STATE, st)
-    if tache == "publication_roblox":
-        publier_roblox(it)
-        ecrire(STATE, st)
-    elif tache == "veille":
-        apres_veille(st, it, lancer(tache, it))
-        ecrire(STATE, st)
-    elif tache:
-        apres(tache, it, lancer(tache, it))
-        ecrire(STATE, st)
-
-
-AGENTS_SANS_IA = {"roblox_tendances": 20 * 3600, "roblox_stats": 20 * 3600, "chef": 24 * 3600}  # script dans agents/ : intervalle entre deux passages
+    if not r or not r.get("propositions"):
+        v["essais"] += 1
+        if v["essais"] >= 3:  # on réessaie demain
+            v["derniere"], v["essais"] = time.time(), 0
+            message(it, "🔎 Veilleur : trois essais ratés aujourd'hui, je réessaie demain.")
+        return
+    v["derniere"], v["essais"] = time.time(), 0
+    message(it, r.get("telegram", "🔎 Le Veilleur a trouvé de nouvelles idées :"))
+    for n, p in enumerate(r["propositions"][:6], 1):
+        pid = f"{it['id']}-{n}"
+        st.setdefault("propositions", {})[pid] = {"type": p.get("type", "video"), "url": p.get("url", ""),
+                                                  "note": p.get("note", p.get("titre", ""))}
+        icone = "🎬" if p.get("type", "video") == "video" else "🎮"
+        texte = f"{icone} **{p.get('titre', '')}**\n{p.get('pourquoi', '')}\n<{p.get('url', '')}>\n✅ je veux · ❌ non"
+        message({"id": pid}, texte[:1900], boutons=True)
 
 
 def agents_sans_ia(st):
@@ -252,41 +287,55 @@ def agents_sans_ia(st):
                 log.write(f"erreur : {e!r}\n")
 
 
-def publier_roblox(it):
-    """Publication Roblox : pas besoin d'IA, le script officiel Open Cloud suffit."""
-    r = subprocess.run([sys.executable, str(BASE / "agents" / "roblox_publier.py"), str(JEU_ROBLOX)],
-                       capture_output=True, text=True, encoding="utf-8", env={**os.environ, "PYTHONIOENCODING": "utf-8"},
-                       creationflags=subprocess.CREATE_NO_WINDOW)
-    if r.returncode == 0:
-        it["status"] = "programme"
-        message(it, "🎮 Mise à jour publiée sur Roblox : elle est en ligne pour les joueurs !")
+def main(voie):
+    """voie = "tout" (défaut) : UN agent à la fois pour ménager l'abonnement Pro ; Roblox d'abord, sinon vidéo.
+    voie = "video" ou "roblox" : une seule voie (pour faire tourner les deux en parallèle avec un plus gros abonnement)."""
+    verrou = open(BASE / f".lock-{voie}", "w")
+    try:
+        msvcrt.locking(verrou.fileno(), msvcrt.LK_NBLCK, 1)
+    except OSError:
+        return  # le passage précédent travaille encore
+    for v in (("roblox", "video") if voie == "tout" else (voie,)):
+        if passage(v):
+            return
+
+
+def passage(voie):
+    """Fait au plus une tâche de cette voie. Renvoie True si une tâche a été faite."""
+    # 1. Choisir la tâche (verrou court sur l'état)
+    with etat() as st:
+        if voie == "video":
+            agents_sans_ia(st)
+        relever(st)
+        if PAUSE.exists() and time.time() < float(PAUSE.read_text() or 0):
+            return False  # tes réponses sont notées, mais aucune IA ne démarre pendant la pause
+        tache, it = choisir(st, voie)
+        it = dict(it) if it else None
+    if not tache:
+        return False
+
+    # 2. Le travail long, SANS tenir l'état (l'autre voie continue pendant ce temps)
+    if tache == "publication_roblox":
+        r = script("roblox_publier.py", str(JEU_ROBLOX))
     else:
-        it["essais"] += 1
-        if it["essais"] >= 3:
-            it["status"] = "erreur"
-            message(it, "🎮 La publication Roblox a échoué 3 fois : " + (r.stdout + r.stderr)[-300:])
+        r = lancer(tache, it)
+        if tache == "publication" and r and r.get("status") == "programme" and r.get("video") and r.get("legende"):
+            r["_pub"] = script("publier_video.py", r["video"], r["legende"])
 
-
-def apres_veille(st, it, r):
-    v = st["veille"]
-    if r and r.get("status") == "limite":
-        return
-    if not r or not r.get("propositions"):
-        v["essais"] += 1
-        if v["essais"] >= 3:  # on réessaie demain
-            v["derniere"], v["essais"] = time.time(), 0
-            message(it, "🔎 Veilleur : trois essais ratés aujourd'hui, je réessaie demain.")
-        return
-    v["derniere"], v["essais"] = time.time(), 0
-    message(it, r.get("telegram", "🔎 Le Veilleur a trouvé de nouvelles idées :"))
-    for n, p in enumerate(r["propositions"][:6], 1):
-        pid = f"{it['id']}-{n}"
-        st.setdefault("propositions", {})[pid] = {"type": p.get("type", "video"), "url": p.get("url", ""),
-                                                  "note": p.get("note", p.get("titre", ""))}
-        icone = "🎬" if p.get("type", "video") == "video" else "🎮"
-        texte = f"{icone} **{p.get('titre', '')}**\n{p.get('pourquoi', '')}\n<{p.get('url', '')}>\n✅ je veux · ❌ non"
-        message({"id": pid}, texte[:1900], boutons=True)
+    # 3. Enregistrer le résultat sur l'état le plus récent
+    with etat() as st:
+        if tache == "veille":
+            apres_veille(st, it, r)
+            return True
+        actuel = next((i for i in reversed(st["items"]) if i["id"] == it["id"]), None)
+        if not actuel:
+            return True
+        if tache == "publication_roblox":
+            apres_roblox_publie(actuel, r)
+        else:
+            apres(tache, actuel, r)
+    return True
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1] if len(sys.argv) > 1 and sys.argv[1] in ("video", "roblox", "tout") else "tout")
