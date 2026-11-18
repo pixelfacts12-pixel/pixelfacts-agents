@@ -1,0 +1,14 @@
+.lock
+*.tmp
+state.json
+*.jsonl
+offset.txt
+items/
+outbox/
+productions/
+a-poster/
+pause.txt
+donnees/
+agents/*.log
+idees-roblox.md
+A-FAIRE-ALEX.md
