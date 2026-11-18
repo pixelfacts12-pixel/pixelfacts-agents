@@ -206,7 +206,7 @@ def main():
         ecrire(STATE, st)
 
 
-AGENTS_SANS_IA = {"roblox_tendances": 20 * 3600}  # script dans agents/ : intervalle entre deux passages
+AGENTS_SANS_IA = {"roblox_tendances": 20 * 3600, "roblox_stats": 20 * 3600, "chef": 24 * 3600}  # script dans agents/ : intervalle entre deux passages
 
 
 def agents_sans_ia(st):
