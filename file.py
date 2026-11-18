@@ -173,9 +173,31 @@ def apres(tache, it, r):
     elif s == "appris":
         it["status"] = "appris"
         message(it, r.get("telegram", "Analysée et rangée dans plan.md."))
+    elif tache == "publication" and s == "programme" and r.get("video") and r.get("legende"):
+        publier_video(it, r)
     else:
         it["status"] = s if s in ("programme", "deja_fait") else "erreur"
         message(it, r.get("telegram") or f"{s or 'erreur'} {r.get('dueAt', '')}".strip())
+
+
+def publier_video(it, r):
+    """Le Publicateur vidéo : GitHub Pages + Buffer (YouTube Shorts et Instagram Reels)."""
+    p = subprocess.run([sys.executable, str(BASE / "agents" / "publier_video.py"), r["video"], r["legende"]],
+                       capture_output=True, text=True, encoding="utf-8", env={**os.environ, "PYTHONIOENCODING": "utf-8"},
+                       creationflags=subprocess.CREATE_NO_WINDOW, timeout=1800)
+    try:
+        res = json.loads(p.stdout.strip().splitlines()[-1])
+    except (ValueError, IndexError):
+        res = {"ok": False, "buffer": (p.stdout + p.stderr)[-300:]}
+    if res.get("ok"):
+        it["status"] = "programme"
+        quand = ", ".join(f"{k} : {(v.get('dueAt') or '')[:16].replace('T', ' ')}" for k, v in res["buffer"].items())
+        texte = r.get("telegram", "") + "\nProgrammée sur YouTube Shorts et Instagram Reels (" + quand + ", heure UTC)."
+        message(it, texte)
+    else:
+        it["essais"] += 1
+        it["status"] = "erreur" if it["essais"] >= 3 else "valide"
+        message(it, f"📤 Publication ratée ({it['essais']}/3) : {json.dumps(res.get('buffer'), ensure_ascii=False)[:300]}")
 
 
 def main():

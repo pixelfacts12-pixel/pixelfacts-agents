@@ -1,7 +1,12 @@
 Tu travailles seul, lancé par une file de production. Écris en français.
-Alex a validé l'élément {{ID}}, et cet élément seulement.
+Alex a validé l'élément {{ID}}, et cet élément seulement. Tu ne publies rien toi-même : un script s'en charge après toi.
+Lis MARQUE.md (chaîne Pixel Facts).
 
-Aucun outil de publication n'est encore branché : tu ne publies rien toi-même.
-1. Copie la version finale de productions/{{ID}}/ dans a-poster/{{ID}}/video.mp4.
-2. Écris a-poster/{{ID}}/legende.txt : titre, légende courte, 5 hashtags, et le rappel de cocher la mention IA (Instagram « AI info », TikTok « AI-generated content », YouTube « contenu modifié ou synthétique »).
-3. Écris {{RESULT}} : {"status": "programme", "telegram": "Prête à poster : a-poster/{{ID}} (mention IA à cocher)"}
+1. Trouve la vidéo finale de {{ID}} (productions/{{ID}}/final.mp4 ou dans {{DOSSIER}}). Vérifie qu'elle fait moins de 60 s et qu'elle est verticale.
+2. Écris {{DOSSIER}}/legende.json :
+{"titre": "titre YouTube court, accrocheur, 1 emoji max, finit par #shorts",
+ "legende": "2 lignes qui donnent envie + « Abonne-toi à Pixel Facts » + 5 hashtags (#pixelfacts #gaming ...)",
+ "pour_enfants": false}
+   (pour_enfants = true seulement si la vidéo vise clairement les moins de 13 ans)
+3. Écris {{RESULT}} : {"status": "programme", "video": "chemin complet de final.mp4", "legende": "chemin complet de legende.json",
+   "telegram": "📤 Titre choisi : ..."}
