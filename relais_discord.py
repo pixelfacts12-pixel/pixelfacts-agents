@@ -69,7 +69,6 @@ def recevoir():
             cible = f_rev.read_text().strip() if f_rev.exists() else (avec_boutons[-1] if avec_boutons else None)
         if cible:  # remarque sur cette vidéo / ce jeu
             ajouter("events.jsonl", {"type": "remarque", "item": cible, "text": texte, "ts": time.time()})
-            (BASE / "dernier_revoir.txt").unlink(missing_ok=True)
             appel("POST", f"/channels/{SALON}/messages",
                   {"content": "✍️ Retour transmis : l'agent refait une version avec tes remarques.", "message_reference": {"message_id": m["id"]}})
         elif lien:
