@@ -81,7 +81,7 @@ def choisir(st):
     delai = 12 * 3600 if en_retard else ROBLOX_TOUTES_LES  # tant que tes retours ne sont pas finis : toutes les 12 h
     if not roblox_actif and time.time() - st.get("roblox_derniere", 0) > delai:
         st["roblox_derniere"] = time.time()  # le Créateur Roblox améliore le jeu tous les 2 jours
-        it = {"id": "roblox-" + time.strftime("%Y%m%d"), "type": "roblox", "url": "", "note": "", "status": "en_cours",
+        it = {"id": "roblox-" + time.strftime("%Y%m%d-%H%M"), "type": "roblox", "url": "", "note": "", "status": "en_cours",
               "recu": time.time(), "essais": 0, "reprises": 0, "remarques": []}
         st["items"].append(it)
         return "roblox", it
