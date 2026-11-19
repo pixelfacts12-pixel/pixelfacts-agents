@@ -4,7 +4,7 @@
    "id": "v001",
    "url": "https://www.youtube.com/shorts/WfYn6WJCnpg",
    "note": "Première vidéo. Refais en français l histoire des débuts de Roblox (créateurs, dates, chiffres vérifiés), format short vertical animé en code, ton fun pour ados, rien de choquant. Contenu 100 % refait.",
-   "status": "pret",
+   "status": "revoir",
    "recu": 1794948781.9151354,
    "essais": 0,
    "reprises": 0,
@@ -15,7 +15,7 @@
    "id": "veille-20261117-1",
    "url": "https://www.dexerto.com/roblox/roblox-cracking-down-on-fart-games-as-viral-hit-disappears-3426071/",
    "note": "Angle factuel et malin (pas vulgaire) : raconter l'ascension puis la disparition mystérieuse façon enquête, ton léger, public ado.",
-   "status": "pret",
+   "status": "revoir",
    "recu": 1795029802.149585,
    "essais": 0,
    "reprises": 1,
@@ -42,11 +42,13 @@
    "id": "veille-20261117-4",
    "url": "https://www.dontsplash.com/",
    "note": "Angle courbe de croissance et chiffres (pas de scène qui fait peur à l'écran), ton 'phénomène' plutôt qu'horreur, animation data uniquement.",
-   "status": "revoir",
+   "status": "a_reprendre",
    "recu": 1795029802.149585,
    "essais": 0,
    "reprises": 0,
-   "remarques": [],
+   "remarques": [
+    "modifie la musique pour un vrai truc genre une petite musique pas une note tout le long genre un truc chill qui viens appuyer sur la vidéo pour la rendre meilleur s'il te plait"
+   ],
    "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261119-214002-veille-20261117-4.mp4"
   },
   {
@@ -162,7 +164,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 31,
+ "ev_lus": 35,
  "veille": {
   "derniere": 1795117304.7810583,
   "essais": 0
