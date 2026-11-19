@@ -8,7 +8,7 @@ Dans le salon :
   - sous une vidéo prête : ✅ Valider, 🔁 À revoir, ❌ Rejeter
   - réponds (Répondre) à une vidéo pour demander un changement
 """
-import json, re, subprocess, time, urllib.error, urllib.parse, urllib.request
+import json, os, re, shutil, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
@@ -17,6 +17,8 @@ API = "https://discord.com/api/v10"
 SALON, MOI = CONF["channel_id"], CONF["user_id"]  # le bot ignore tous les autres comptes
 TETE = {"Authorization": f"Bot {CONF['token']}", "User-Agent": "DiscordBot (file-videos, 1.0)"}
 REACTIONS = {"✅": "valider", "🔁": "revoir", "❌": "rejeter"}
+JEU = Path(os.environ.get("JEU_ROBLOX") or (BASE / "jeu" if (BASE / "jeu").exists() else Path.home() / "Projets" / "balaye-simulator"))
+CURL = shutil.which("curl") or "curl.exe"
 
 
 def appel(methode, chemin, corps=None):
@@ -63,7 +65,7 @@ def recevoir():
         lien = re.search(r"https?://\S+", texte)
         vise = (m.get("message_reference") or {}).get("message_id")
         if texte.lower().lstrip().startswith(("jeu:", "jeu :")):  # retour sur le jeu Roblox -> liste du Créateur Roblox
-            retours = Path.home() / "Projets" / "balaye-simulator" / "RETOURS.md"
+            retours = JEU / "RETOURS.md"
             with open(retours, "a", encoding="utf-8") as f:
                 f.write("- [ ] (Discord " + time.strftime("%d/%m") + ") " + texte.split(":", 1)[1].strip() + "\n")
             appel("POST", f"/channels/{SALON}/messages",
@@ -111,7 +113,7 @@ def envoyer():
     for f in sorted((BASE / "outbox").glob("*.json")) if (BASE / "outbox").exists() else []:
         m = json.loads(f.read_text(encoding="utf-8"))
         if m["video"]:  # moins de 10 Mo, sinon Discord refuse
-            cmd = ["curl.exe", "-sf", "-H", f"Authorization: {TETE['Authorization']}", "-H", f"User-Agent: {TETE['User-Agent']}",
+            cmd = [CURL, "-sf", "-H", f"Authorization: {TETE['Authorization']}", "-H", f"User-Agent: {TETE['User-Agent']}",
                    "--form-string", f"payload_json={json.dumps({'content': m['text']})}",
                    "-F", f"files[0]=@{m['video']}", f"{API}/channels/{SALON}/messages"]
             res = json.loads(subprocess.run(cmd, capture_output=True, text=True, check=True).stdout)
@@ -126,7 +128,8 @@ def envoyer():
 
 
 if __name__ == "__main__":
-    for etape in (recevoir, reactions, envoyer):
+    # --envoyer : seulement envoyer ce que la file vient de produire (fin d'un passage de la file dans le cloud)
+    for etape in ((envoyer,) if "--envoyer" in sys.argv else (recevoir, reactions, envoyer)):
         try:
             etape()
         except Exception as e:

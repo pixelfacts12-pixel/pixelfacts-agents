@@ -1,0 +1,36 @@
+# Relais Discord : lit tes ✅ 🔁 ❌ et tes messages, envoie les messages des agents. Toutes les 5 minutes, PC éteint.
+name: Relais Discord
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: relais
+  cancel-in-progress: false
+
+jobs:
+  relais:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Clés (coffre-fort GitHub)
+        env:
+          DISCORD_JSON: ${{ secrets.DISCORD_JSON }}
+        run: |
+          mkdir -p ~/.config/file-videos
+          printf '%s' "$DISCORD_JSON" > ~/.config/file-videos/discord.json
+      - name: Relais
+        run: python relais_discord.py
+      - name: Enregistrer
+        run: bash outils/enregistrer.sh "Relais Discord"

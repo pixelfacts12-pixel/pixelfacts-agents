@@ -1,0 +1,48 @@
+{
+  "status": "veille",
+  "telegram": "🔎 Veille du jour : un jeu de pets banni par Roblox, un indie à 2 pers qui rafle les Golden Joystick, un jeton Fortnite à 4500$, un obby horreur qui explose, et 2 jeux Roblox simples qui montent fort.",
+  "propositions": [
+    {
+      "type": "video",
+      "titre": "Le jeu de pets que Roblox a fait disparaître",
+      "url": "https://www.dexerto.com/roblox/roblox-cracking-down-on-fart-games-as-viral-hit-disappears-3426071/",
+      "pourquoi": "'Fart Together' a dépassé 13M de visites et un pic de 14 000 joueurs en même temps le 7 nov 2026, puis a disparu quelques jours plus tard sans explication officielle de Roblox.",
+      "note": "Angle factuel et malin (pas vulgaire) : raconter l'ascension puis la disparition mystérieuse façon enquête, ton léger, public ado."
+    },
+    {
+      "type": "video",
+      "titre": "Un jeu à 2 personnes bat les plus gros studios du monde",
+      "url": "https://www.ggrecon.com/articles/golden-joystick-awards-2026-winners/",
+      "pourquoi": "Meccha Chameleon (jeu indie japonais à 5$, fait par 2 personnes) a remporté 4 prix aux Golden Joystick Awards le 11 nov 2026, face à des AAA à gros budget.",
+      "note": "Angle 'david contre goliath' inspirant, chiffres clés animés (budget vs récompenses), ton motivant pour public ado créateur de jeux."
+    },
+    {
+      "type": "video",
+      "titre": "Le jeton Fortnite revendu 4500$ sur eBay",
+      "url": "https://www.rtbf.be/article/fortnite-x-one-piece-des-comptes-possedant-un-jeton-pirate-vendus-a-des-prix-indecents-11811799",
+      "pourquoi": "Pendant le crossover Fortnite x One Piece (nov 2026), un objet avec 1 chance sur 700 000 débloquait ~2070€ de skins gratuits ; des comptes se sont revendus jusqu'à 4500$ sur eBay avant suppression par Epic.",
+      "note": "Angle 'fait insolite chiffré' avec compteur de probabilité animé, ton surpris/factuel, pas d'incitation à l'achat de comptes."
+    },
+    {
+      "type": "video",
+      "titre": "L'obby horreur qui a explosé en 17 jours",
+      "url": "https://www.dontsplash.com/",
+      "pourquoi": "DONT SPLASH, sorti le 17 oct 2026 sur Roblox, cumule déjà plus de 160M de visites et 9,7M de visites par jour, un des obbies les plus viraux de l'automne.",
+      "note": "Angle courbe de croissance et chiffres (pas de scène qui fait peur à l'écran), ton 'phénomène' plutôt qu'horreur, animation data uniquement."
+    },
+    {
+      "type": "roblox",
+      "titre": "Casse-l'œuf et fuis les gardes",
+      "url": "https://www.roblox.com/games/114326934417838/Break-and-Steal-an-Egg",
+      "pourquoi": "451,7M de visites totales et plus de 57 800 joueurs actifs en ce moment (source rolimons), sorti il y a ~2 mois, toujours dans le top des jeux en forte croissance de novembre 2026.",
+      "note": "Concept tycoon très simple pour l'IA : casser un objet, récupérer un bonus, échapper à un garde, vendre ; boucle courte et addictive."
+    },
+    {
+      "type": "roblox",
+      "titre": "Petit terrain, grosse voiture, un ballon",
+      "url": "https://www.roblox.com/games/101880234193261/Turbo-Soccer-Beta-1-0",
+      "pourquoi": "204,7M de visites et plus de 18 200 joueurs actifs en ce moment (source rolimons), lancé il y a environ un mois, 92,5% d'avis positifs.",
+      "note": "Concept simulateur/arcade minimal pour l'IA : voiture + ballon + but, physique basique, parties courtes à plusieurs."
+    }
+  ]
+}

@@ -1,16 +1,27 @@
-.lock
+# Verrous et fichiers temporaires
+.lock*
 *.tmp
-state.json
-*.jsonl
-offset.txt
-items/
-outbox/
-productions/
-a-poster/
-pause.txt
-donnees/
-agents/*.log
-idees-roblox.md
-A-FAIRE-ALEX.md
-dernier_revoir.txt
+__pycache__/
+
+# Copie locale du dépôt des vidéos publiques
 media-public/
+
+# Copie brute des messages Discord (contient ton pseudo) : jamais dans un dépôt public
+updates.jsonl
+
+# Gros fichiers de production : les vidéos finales partent sur pixelfacts-media
+items/**/*.mp4
+items/**/*.mp3
+items/**/*.wav
+items/**/*.webm
+items/**/*.png
+items/**/*.jpg
+items/**/*.jpeg
+items/**/*.log
+items/**/node_modules/
+items/**/out/
+items/**/controle_planches/
+items/**/whisper/
+agents/*.log
+jeu/build.rbxlx
+jeu/*.rbxlx

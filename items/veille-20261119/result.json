@@ -1,0 +1,48 @@
+{
+  "status": "veille",
+  "telegram": "🔎 Veille du jour : GTA 6 est sorti ce matin et explose tout (3 angles animés possibles), 'Steal a Brainrot' s'effondre après son record, et 2 nouveaux simulateurs Roblox simples qui montent.",
+  "propositions": [
+    {
+      "type": "video",
+      "titre": "13 ans d'attente pour GTA 6 : le mème de l'ours polaire",
+      "url": "https://www.youtube.com/shorts/_6q0638ZaE8",
+      "pourquoi": "Short en animation stickman publié le 13/11/2026 par une petite chaîne (3,58K abonnés) : déjà 37 000 vues, soit 10x sa taille, juste avant la sortie officielle de GTA 6 le 19/11/2026.",
+      "note": "Angle nostalgie/attente : personnage animé assis sur un banc depuis 2013, chiffres clés (trailer, délais) en incrustation, ton léger, mention 'animation non officielle, non affiliée à Rockstar'."
+    },
+    {
+      "type": "video",
+      "titre": "Le détail WTF de GTA 6 : il faut tout reprendre si on dort trop",
+      "url": "https://www.youtube.com/shorts/06RgMgHtZY0",
+      "pourquoi": "Publié le 18/11/2026 par une petite chaîne gaming FR (10,6K abonnés), déjà 331 000 vues (31x sa taille) : un détail de gameplay surprenant sur GTA 6, sorti le jour même de son lancement mondial.",
+      "note": "Angle fait insolite chiffré façon 'le saviez-vous', animation terminal/UI, pas de gameplay réel montré, ton surpris et familial."
+    },
+    {
+      "type": "video",
+      "titre": "Et si j'étais un PNJ dans GTA 6 ?",
+      "url": "https://www.youtube.com/shorts/Bo4V0iT-UFs",
+      "pourquoi": "Short 'what if' en animation stickman publié le 12/11/2026 par une toute petite chaîne (505 abonnés) : 929 000 vues, un rapport énorme pour sa taille, sur le thème très porteur de la sortie de GTA 6.",
+      "note": "Angle fiction légère et comique (pas de violence), un personnage animé se retrouve coincé comme PNJ dans le jeu, ton absurde gentil, public ado."
+    },
+    {
+      "type": "video",
+      "titre": "Le jeu Roblox qui a battu un record... puis s'est effondré",
+      "url": "https://www.youtube.com/shorts/f_zFgvXFWwY",
+      "pourquoi": "Publié le 16/11/2026 par une petite chaîne de data-visualisation (3,89K abonnés), déjà 94 000 vues (24x sa taille) : 'Steal a Brainrot' a dépassé 25 millions de joueurs en même temps (record Roblox) avant de retomber très vite.",
+      "note": "Angle courbe de croissance et chute façon graphique animé (compteur qui monte puis descend), ton 'phénomène' factuel, aucune image du jeu nécessaire."
+    },
+    {
+      "type": "roblox",
+      "titre": "Lance ton filet, pêche et deviens riche",
+      "url": "https://www.roblox.com/games/93898234979111",
+      "pourquoi": "[🐟] Net a Fish! : 19 188 joueurs actifs en ce moment, sorti il y a 35 jours, 93% d'avis positifs, encore en forte progression dans le classement des jeux récents.",
+      "note": "Simulateur très simple pour l'IA : lancer un filet, attraper des poissons de rareté croissante, vendre, débloquer de meilleurs filets/pets ; ton calme et satisfaisant, boucle courte."
+    },
+    {
+      "type": "roblox",
+      "titre": "Fais s'écraser des voitures pour gagner de l'argent",
+      "url": "https://www.roblox.com/games/83784149502814",
+      "pourquoi": "BloxNG [CRASH PHYSICS] 💥 : 38 634 joueurs actifs en ce moment, sorti il y a 37 jours, 91% d'avis positifs, physique de crash simple mais spectaculaire qui monte fort en novembre.",
+      "note": "Simulateur simple pour l'IA : choisir une voiture, foncer dans un obstacle, toucher de l'argent selon les dégâts, débloquer des voitures plus chères ; ton fun et bruyant, parties très courtes."
+    }
+  ]
+}

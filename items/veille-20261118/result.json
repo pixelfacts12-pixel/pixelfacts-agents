@@ -1,0 +1,48 @@
+{
+  "status": "veille",
+  "telegram": "🔎 Veille du jour : Rob Run explose sur Steam, Guinness World Records débarque sur Roblox, Xbox/Halo fêtent leurs 25 ans, un studio chinois inconnu détrône les AAA, et 2 nouveaux simulateurs Roblox simples qui montent.",
+  "propositions": [
+    {
+      "type": "video",
+      "titre": "Rob Run : le jeu gratuit qui explose Steam",
+      "url": "https://www.youtube.com/shorts/5OoHTd1jUsI",
+      "pourquoi": "Sorti le 4 nov 2026, Rob Run a dépassé 520 000 joueurs simultanés et grimpé à la 3e place du classement Steam en 10 jours ; ce short de la chaîne Daily Gaming News surfe sur ces chiffres chocs.",
+      "note": "Raconte uniquement la montée en flèche des chiffres (compteur animé, classement Steam) sans montrer de scène de vol ou de violence, ton informatif pour ados fans de jeux PC."
+    },
+    {
+      "type": "video",
+      "titre": "Roblox entre dans le livre Guinness",
+      "url": "https://www.youtube.com/shorts/rXlT2potxUM",
+      "pourquoi": "Du 4 au 17 nov 2026, Guinness World Records a lancé son premier jeu officiel sur Roblox (1% Win Obby) : finir en tête du classement permettait d'être inscrit dans l'édition 2026 du livre des records ; ce short de SharkBlox (1,5M abonnés) a capté l'attention de la communauté.",
+      "note": "Angle fait étonnant positif façon 'le saviez-vous', animation terminal/UI stylée Roblox, ton enthousiaste pour jeune public."
+    },
+    {
+      "type": "video",
+      "titre": "Xbox a 25 ans : la console qui a failli ne jamais sortir",
+      "url": "https://www.youtube.com/shorts/zsciHfTLcfw",
+      "pourquoi": "Le 12 nov 2026, Microsoft a célébré les 25 ans de la Xbox et de Halo (FanFest à Seattle, bundle anniversaire) ; ce short récent surfe sur l'actu et sur l'histoire méconnue du projet 'DirectX Box'.",
+      "note": "Angle histoire de marque façon timeline animée (logos, dates clés), aucune scène de jeu violente, ton nostalgique pour fans de jeux vidéo."
+    },
+    {
+      "type": "video",
+      "titre": "Le studio chinois inconnu qui détrône les AAA",
+      "url": "https://www.youtube.com/shorts/-uKVBBfjOo0",
+      "pourquoi": "Sorti le 29 oct 2026, Phantom Blade Zero (studio chinois S-GAME, inconnu en Occident) a atteint 833 921 joueurs simultanés sur Steam le 1er nov, devenant le jeu solo le plus joué de 2026 ; plusieurs shorts très récents (1 à 18 jours) surfent sur cette ascension surprise.",
+      "note": "Raconte l'histoire du studio et la montée des chiffres en animation (graphique, dates clés) sans montrer les combats du jeu, ton 'David contre Goliath'."
+    },
+    {
+      "type": "roblox",
+      "titre": "Throw Food For Animals",
+      "url": "https://www.roblox.com/games/120219252362013",
+      "pourquoi": "216 787 joueurs actifs pour seulement 61 jours d'existence et 94% d'avis positifs : la boucle simple lancer-attirer-vendre cartonne fort en ce moment.",
+      "note": "Simulateur simple pour l'IA : lancer la nourriture, attirer des animaux, gagner de l'argent, débloquer de meilleure nourriture ; ton familial, boucle courte et satisfaisante."
+    },
+    {
+      "type": "roblox",
+      "titre": "Clean The Ballpit!",
+      "url": "https://www.roblox.com/games/126221718321318",
+      "pourquoi": "Sorti il y a seulement 18 jours, déjà 20 869 joueurs actifs et 92% d'avis positifs : nettoyage compétitif de piscines à balles entre amis, un des jeux qui montent le plus vite du moment.",
+      "note": "Clicker/simulateur simple pour l'IA : ramasser des balles de couleur contre le chrono, débloquer outils et pets ; ton fun et compétitif, parties courtes."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+# La file des agents (Veilleur, Créateur vidéo, Publicateur, Créateur Roblox, analystes, Chef).
+# Toutes les 10 minutes, PC éteint. Un seul agent à la fois (abonnement Pro).
+name: File des agents
+
+on:
+  schedule:
+    - cron: "3-59/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: file
+  cancel-in-progress: false
+
+jobs:
+  file:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      JEU_ROBLOX: ${{ github.workspace }}/jeu
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Clés (coffre-fort GitHub)
+        env:
+          CLAUDE: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          DISCORD_JSON: ${{ secrets.DISCORD_JSON }}
+          BUFFER: ${{ secrets.BUFFER_API_KEY }}
+          ROBLOX: ${{ secrets.ROBLOX_API_KEY }}
+          GHMEDIA: ${{ secrets.GH_MEDIA_TOKEN }}
+        run: |
+          d=~/.config/file-videos; mkdir -p $d
+          printf '%s' "$CLAUDE" > $d/claude_token.txt
+          printf '%s' "$DISCORD_JSON" > $d/discord.json
+          printf '%s' "$BUFFER" > $d/buffer_api_key.txt
+          printf '%s' "$ROBLOX" > $d/roblox_api_key.txt
+          printf '%s' "$GHMEDIA" > $d/github_token.txt
+          echo '{"universe_id": 10777583367, "place_id": 106050025931754}' > $d/roblox.json
+          echo '{"user": "pixelfacts12-pixel", "repo": "pixelfacts-media"}' > $d/github.json
+          git config --global user.name "Pixel Facts (robot)"
+          git config --global user.email "pixelfacts-robot@users.noreply.github.com"
+      - name: Y a-t-il du travail ?
+        id: travail
+        run: python file.py --travail >> "$GITHUB_OUTPUT"
+
+      # Outils lourds : seulement s'il y a une tâche d'IA
+      - uses: actions/setup-node@v4
+        if: steps.travail.outputs.travail == 'oui'
+        with:
+          node-version: "22"
+      - uses: actions/cache@v4
+        if: steps.travail.outputs.travail == 'oui'
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+            ~/.npm
+          key: outils-v1
+      - name: Installer les outils (Claude, ffmpeg, voix, sous-titres, Rojo)
+        if: steps.travail.outputs.travail == 'oui'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
+          pip install -q edge-tts faster-whisper
+          npm install -g -q @anthropic-ai/claude-code
+          curl -sL -o /tmp/rojo.zip https://github.com/rojo-rbx/rojo/releases/download/v7.6.1/rojo-7.6.1-linux-x86_64.zip
+          sudo unzip -o -q /tmp/rojo.zip -d /usr/local/bin && sudo chmod +x /usr/local/bin/rojo
+          claude --version && rojo --version && ffmpeg -version | head -1
+
+      - name: Passage de la file
+        run: python file.py tout
+      - name: Envoyer les messages des agents sur Discord
+        if: always()
+        run: python relais_discord.py --envoyer
+      - name: Enregistrer
+        if: always()
+        run: bash outils/enregistrer.sh "File des agents"

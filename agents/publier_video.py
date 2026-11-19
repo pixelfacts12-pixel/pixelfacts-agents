@@ -71,9 +71,16 @@ def programmer(url, leg):
 
 
 def main():
-    video, leg = Path(sys.argv[1]), json.loads(Path(sys.argv[2]).read_text(encoding="utf-8-sig"))
-    nom = f"{time.strftime('%Y%m%d-%H%M%S')}-{video.parent.name}.mp4"
-    url = mettre_en_ligne(video, nom)
+    if sys.argv[1] == "--upload":  # seulement mettre la vidéo en ligne (dès qu'elle est prête)
+        video = Path(sys.argv[2])
+        print(json.dumps({"ok": True, "url": mettre_en_ligne(video, f"{time.strftime('%Y%m%d-%H%M%S')}-{video.parent.name}.mp4")}))
+        return
+    leg = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8-sig"))
+    if sys.argv[1].startswith("http"):  # déjà en ligne
+        url = sys.argv[1]
+    else:
+        video = Path(sys.argv[1])
+        url = mettre_en_ligne(video, f"{time.strftime('%Y%m%d-%H%M%S')}-{video.parent.name}.mp4")
     res = programmer(url, leg)
     ok = all("id" in v for v in res.values())
     print(json.dumps({"ok": ok, "url": url, "buffer": res}, ensure_ascii=False))

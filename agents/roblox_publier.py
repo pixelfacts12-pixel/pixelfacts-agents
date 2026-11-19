@@ -7,13 +7,13 @@ Réglages dans ~/.config/file-videos/roblox.json :
   {"universe_id": 123, "place_id": 456}  + la clé seule dans roblox_api_key.txt
 La clé se crée sur https://create.roblox.com/dashboard/credentials (droit « universe-places : write »).
 """
-import json, subprocess, sys, urllib.request
+import json, shutil, subprocess, sys, urllib.error, urllib.request
 from pathlib import Path
 
 CONFDIR = Path.home() / ".config" / "file-videos"
 CONF = json.loads((CONFDIR / "roblox.json").read_text(encoding="utf-8-sig"))
 CLE = "".join((CONFDIR / "roblox_api_key.txt").read_text(encoding="utf-8-sig").split())  # clé seule, une ligne
-ROJO = Path.home() / "AppData/Local/Microsoft/WinGet/Packages/Rojo.Rojo_Microsoft.Winget.Source_8wekyb3d8bbwe/rojo.exe"
+ROJO = shutil.which("rojo") or str(Path.home() / "AppData/Local/Microsoft/WinGet/Packages/Rojo.Rojo_Microsoft.Winget.Source_8wekyb3d8bbwe/rojo.exe")
 
 
 def main():

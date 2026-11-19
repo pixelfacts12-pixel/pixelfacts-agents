@@ -8,19 +8,27 @@ Chaque voie fait une seule tâche par passage ; le Planificateur de tâches lanc
 Les deux voies partagent state.json : on ne le lit/écrit que sous un verrou court, jamais pendant le travail de l'IA.
 Rien n'est jamais publié sans ton ✅ dans Discord.
 """
-import contextlib, ctypes, json, msvcrt, os, subprocess, sys, time, uuid
+import contextlib, json, os, shutil, subprocess, sys, time, uuid
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
 INBOX, EVENTS, STATE = BASE / "inbox.jsonl", BASE / "events.jsonl", BASE / "state.json"
 PAUSE = BASE / "pause.txt"  # limite de l'abonnement atteinte : heure de reprise
-CLAUDE = str(Path.home() / ".local" / "bin" / "claude.exe")
+WINDOWS = os.name == "nt"
+if WINDOWS:
+    import ctypes, msvcrt
+else:
+    import fcntl
+# console cachée et stable sous Windows : sans elle, chaque commande ouvre puis ferme sa console et Windows tue Claude (code 129)
+FLAGS = (subprocess.CREATE_NO_WINDOW | subprocess.CREATE_NEW_PROCESS_GROUP) if WINDOWS else 0
+CLAUDE = shutil.which("claude") or str(Path.home() / ".local" / "bin" / "claude.exe")
 MODELE = "sonnet"  # abonnement Pro : sonnet use beaucoup moins la limite qu'opus
 TIMEOUT = {"production": 4 * 3600, "reprise": 2 * 3600, "publication": 3600, "analyse": 3600, "veille": 3600,
            "roblox": 3 * 3600, "reprise_roblox": 2 * 3600}
 VEILLE_TOUTES_LES = 22 * 3600
 ROBLOX_TOUTES_LES = 48 * 3600
-JEU_ROBLOX = Path.home() / "Projets" / "balaye-simulator"
+JEU_ROBLOX = Path(os.environ.get("JEU_ROBLOX") or (BASE / "jeu" if (BASE / "jeu").exists() else Path.home() / "Projets" / "balaye-simulator"))
+ROJO = shutil.which("rojo") or str(Path.home() / "AppData/Local/Microsoft/WinGet/Packages/Rojo.Rojo_Microsoft.Winget.Source_8wekyb3d8bbwe/rojo.exe")
 ATTENTE = ("pret", "revoir")  # vidéos qui attendent ta réponse
 MAX_EN_ATTENTE = 3  # au-delà, la voie vidéo fait une pause pour ne pas produire dans le vide
 REGLES = {("valider", "pret"): "valide", ("valider", "revoir"): "valide", ("valider", "a_reprendre"): "valide",
@@ -40,18 +48,35 @@ def ecrire(p, data):  # fichier temporaire puis renommage : jamais un fichier é
     tmp.replace(p)
 
 
+def verrouiller(f, attendre):
+    """Verrou de fichier (Windows ou Linux). Renvoie False si déjà pris et qu'on n'attend pas."""
+    for _ in range(120 if attendre else 1):
+        try:
+            if WINDOWS:
+                f.seek(0)
+                msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
+            else:
+                fcntl.flock(f.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+            return True
+        except OSError:
+            if attendre:
+                time.sleep(1)
+    return False
+
+
+def deverrouiller(f):
+    if WINDOWS:
+        f.seek(0)
+        msvcrt.locking(f.fileno(), msvcrt.LK_UNLCK, 1)
+    else:
+        fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+
+
 @contextlib.contextmanager
 def etat():
     """Verrou court sur state.json, partagé par les deux voies."""
     f = open(BASE / ".lock-etat", "a+")
-    for _ in range(120):
-        try:
-            f.seek(0)
-            msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
-            break
-        except OSError:
-            time.sleep(1)
-    else:
+    if not verrouiller(f, True):
         f.close()
         raise TimeoutError("state.json reste verrouillé")
     try:
@@ -59,8 +84,7 @@ def etat():
         yield st
         ecrire(STATE, st)
     finally:
-        f.seek(0)
-        msvcrt.locking(f.fileno(), msvcrt.LK_UNLCK, 1)
+        deverrouiller(f)
         f.close()
 
 
@@ -131,7 +155,9 @@ def choisir(st, voie):
     return None, None
 
 
-def garder_eveille(oui):  # empêche la mise en veille du PC pendant une tâche
+def garder_eveille(oui):  # empêche la mise en veille du PC pendant une tâche (inutile sur un serveur)
+    if not WINDOWS:
+        return
     ES_CONTINUOUS, ES_SYSTEM_REQUIRED = 0x80000000, 0x00000001
     ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS | (ES_SYSTEM_REQUIRED if oui else 0))
 
@@ -144,7 +170,8 @@ def lancer(tache, it):
         res.rename(d / f"result-{int(time.time())}.json")
     consigne = (BASE / "consignes" / f"{tache}.md").read_text(encoding="utf-8")
     for k, v in {"ID": it["id"], "URL": it["url"], "NOTE": it["note"] or "(aucune)", "RESULT": str(res),
-                 "DOSSIER": str(d), "REMARQUES": "\n".join(it["remarques"]) or "(aucune)"}.items():
+                 "DOSSIER": str(d), "REMARQUES": "\n".join(it["remarques"]) or "(aucune)",
+                 "JEU": str(JEU_ROBLOX), "ROJO": ROJO, "PYTHON": sys.executable}.items():
         consigne = consigne.replace("{{" + k + "}}", v)
     # stream-json : le journal se remplit en direct, on voit où une tâche s'arrête
     # --safe-mode : sans plugins ni serveurs MCP (Fortnite, Vercel...) qui coûtent des jetons pour rien
@@ -165,10 +192,7 @@ def lancer(tache, it):
             debut = time.time()
             try:
                 r = subprocess.run(cmd, cwd=BASE, stdout=log, stderr=subprocess.STDOUT, env=env,
-                                   stdin=subprocess.DEVNULL, timeout=TIMEOUT[tache],
-                                   # console cachée et stable : sans elle, chaque commande ouvre puis
-                                   # ferme sa propre console et Windows tue Claude (code 129)
-                                   creationflags=subprocess.CREATE_NO_WINDOW | subprocess.CREATE_NEW_PROCESS_GROUP)
+                                   stdin=subprocess.DEVNULL, timeout=TIMEOUT[tache], creationflags=FLAGS)
                 log.write(f"\n[file.py] fin, code {r.returncode}, {int(time.time() - debut)} s\n")
             except subprocess.TimeoutExpired:
                 log.write("\n[file.py] coupé : limite de temps atteinte\n")
@@ -191,7 +215,7 @@ def script(nom, *args, timeout=1800):
     """Lance un agent Python de agents/ et renvoie sa dernière ligne JSON (ou une erreur lisible)."""
     p = subprocess.run([sys.executable, str(BASE / "agents" / nom), *args], capture_output=True, text=True,
                        encoding="utf-8", env={**os.environ, "PYTHONIOENCODING": "utf-8"},
-                       creationflags=subprocess.CREATE_NO_WINDOW, timeout=timeout)
+                       creationflags=FLAGS, timeout=timeout)
     try:
         res = json.loads(p.stdout.strip().splitlines()[-1])
     except (ValueError, IndexError):
@@ -220,6 +244,8 @@ def apres(tache, it, r):
     it["essais"], s = 0, r.get("status")
     if s == "pret":
         it["status"], it["reprises"] = "pret", it["reprises"] + (tache in ("reprise", "reprise_roblox"))
+        if r.get("_url"):
+            it["video_url"] = r["_url"]
         message(it, r.get("telegram", "Prête à valider."), r.get("envoi"), boutons=True)
     elif s == "appris":
         it["status"] = "appris"
@@ -285,7 +311,7 @@ def agents_sans_ia(st):
             try:
                 subprocess.run([sys.executable, str(BASE / "agents" / f"{nom}.py")], stdout=log, stderr=subprocess.STDOUT,
                                timeout=600, env={**os.environ, "PYTHONIOENCODING": "utf-8"},
-                               creationflags=subprocess.CREATE_NO_WINDOW)
+                               creationflags=FLAGS)
             except Exception as e:
                 log.write(f"erreur : {e!r}\n")
 
@@ -294,9 +320,7 @@ def main(voie):
     """voie = "tout" (défaut) : UN agent à la fois pour ménager l'abonnement Pro ; Roblox d'abord, sinon vidéo.
     voie = "video" ou "roblox" : une seule voie (pour faire tourner les deux en parallèle avec un plus gros abonnement)."""
     verrou = open(BASE / f".lock-{voie}", "w")
-    try:
-        msvcrt.locking(verrou.fileno(), msvcrt.LK_NBLCK, 1)
-    except OSError:
+    if not verrouiller(verrou, False):
         return  # le passage précédent travaille encore
     for v in (("roblox", "video") if voie == "tout" else (voie,)):
         if passage(v):
@@ -322,8 +346,16 @@ def passage(voie):
         r = script("roblox_publier.py", str(JEU_ROBLOX))
     else:
         r = lancer(tache, it)
-        if tache == "publication" and r and r.get("status") == "programme" and r.get("video") and r.get("legende"):
-            r["_pub"] = script("publier_video.py", r["video"], r["legende"])
+        if r and r.get("status") == "pret" and tache in ("production", "reprise"):
+            # la vidéo finale part tout de suite en ligne : un serveur cloud repart à vide au passage suivant
+            dossier = Path(r.get("dossier") or BASE / "items" / it["id"])
+            finale = next((f for f in (dossier / "final.mp4", Path(r.get("envoi") or "")) if f.is_file()), None)
+            if finale:
+                r["_url"] = script("publier_video.py", "--upload", str(finale)).get("url")
+        if tache == "publication" and r and r.get("status") == "programme" and r.get("legende"):
+            video = it.get("video_url") or r.get("video")
+            if video:
+                r["_pub"] = script("publier_video.py", video, r["legende"])
 
     # 3. Enregistrer le résultat sur l'état le plus récent
     with etat() as st:
@@ -340,5 +372,21 @@ def passage(voie):
     return True
 
 
+def a_du_travail():
+    """Pour le robot GitHub : y a-t-il une tâche d'IA à faire ? (sinon on n'installe pas les outils lourds)"""
+    import copy
+    with etat() as st:
+        relever(st)
+        if PAUSE.exists() and time.time() < float(PAUSE.read_text() or 0):
+            return False
+        for voie in ("roblox", "video"):
+            if choisir(copy.deepcopy(st), voie)[0]:
+                return True
+    return False
+
+
 if __name__ == "__main__":
+    if "--travail" in sys.argv:  # écrit travail=oui/non pour GitHub Actions
+        print("travail=" + ("oui" if a_du_travail() else "non"))
+        sys.exit(0)
     main(sys.argv[1] if len(sys.argv) > 1 and sys.argv[1] in ("video", "roblox", "tout") else "tout")

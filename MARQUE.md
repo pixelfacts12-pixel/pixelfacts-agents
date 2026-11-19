@@ -13,5 +13,5 @@
   marque/mascotte_coucou_transparent.png, mascotte_surpris_transparent.png, mascotte_reflechit_transparent.png, mascotte_montre_transparent.png.
 - Dans CHAQUE vidéo : Pixel apparaît dans l'accroche (pose « surpris » ou « réfléchit », qui rebondit en entrant), réagit 1 ou 2 fois pendant la vidéo (petit, dans un coin, jamais sur le texte principal), et fait « coucou » à la fin avec « Abonne-toi à Pixel Facts ! ».
 - Couleurs : jaune #FFD628, rose #FF5FA2, bleu ciel #5ECBFF, contour violet foncé #281450, blanc. Fond : dégradé bleu ciel ou cubes flous (marque/fond_banniere.png).
-- Texte : Arial Black (C:/Windows/Fonts/ariblk.ttf) ou Fredoka, très gros, contour violet foncé épais.
+- Texte : Fredoka (@remotion/google-fonts/Fredoka), très gros, contour violet foncé épais.
 - Miniature / première image : Pixel surpris + 3 mots géants + un chiffre.
