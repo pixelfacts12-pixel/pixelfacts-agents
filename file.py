@@ -23,7 +23,8 @@ ROBLOX_TOUTES_LES = 48 * 3600
 JEU_ROBLOX = Path.home() / "Projets" / "balaye-simulator"
 ATTENTE = ("pret", "revoir")  # vidéos qui attendent ta réponse
 MAX_EN_ATTENTE = 3  # au-delà, la voie vidéo fait une pause pour ne pas produire dans le vide
-REGLES = {("valider", "pret"): "valide", ("valider", "revoir"): "valide", ("revoir", "pret"): "revoir",
+REGLES = {("valider", "pret"): "valide", ("valider", "revoir"): "valide", ("valider", "a_reprendre"): "valide",
+          ("valider", "erreur"): "valide", ("revoir", "pret"): "revoir",
           "rejeter": "rejete", "remarque": "a_reprendre"}
 MOTS_ANALYSE = ("analyse", "pour info", "référence", "reference", "retiens")
 AGENTS_SANS_IA = {"roblox_tendances": 20 * 3600, "roblox_stats": 20 * 3600, "chef": 24 * 3600}  # agents/<nom>.py
@@ -87,6 +88,8 @@ def relever(st):
         if not it or it["status"] in ("programme", "rejete"):
             continue
         if e["type"] == "remarque":
+            if it["status"] in ("valide", "programme"):
+                continue  # ✅ gagne : un message après la validation ne relance pas de retouche
             it["remarques"].append(e["text"])
         it["status"] = REGLES.get((e["type"], it["status"]), REGLES.get(e["type"], it["status"]))
     st["ev_lus"] = len(evs)

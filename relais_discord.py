@@ -71,9 +71,14 @@ def recevoir():
             continue
         cible = envois.get(vise)
         if not cible and not lien and texte.strip():  # message libre : retour sur la dernière vidéo 🔁 (ou la dernière envoyée)
-            f_rev = BASE / "dernier_revoir.txt"
-            avec_boutons = [e["item"] for e in lire("envoyes.jsonl") if e.get("boutons")]
-            cible = f_rev.read_text().strip() if f_rev.exists() else (avec_boutons[-1] if avec_boutons else None)
+            f_rev = BASE / "dernier_revoir.txt"  # écrit quand tu cliques 🔁 ; valable 1 h
+            if f_rev.exists() and time.time() - f_rev.stat().st_mtime < 3600:
+                cible = f_rev.read_text().strip()
+            else:
+                appel("POST", f"/channels/{SALON}/messages", {"content": "🤔 C'est pour quoi ? Pour une vidéo : clique 🔁 sous la vidéo puis écris ton retour, "
+                      "ou fais « Répondre » sur son message. Pour le jeu Roblox : commence ton message par « jeu : ».",
+                      "message_reference": {"message_id": m["id"]}})
+                continue
         if cible:  # remarque sur cette vidéo / ce jeu
             ajouter("events.jsonl", {"type": "remarque", "item": cible, "text": texte, "ts": time.time()})
             appel("POST", f"/channels/{SALON}/messages",
