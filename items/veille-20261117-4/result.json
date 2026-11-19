@@ -1,5 +1,8 @@
-{"status": "pret", "titre": "341 millions de visites en 1 mois 📈",
- "dossier": "C:\\Users\\alexf\\Projets\\file-videos\\items\\veille-20261117-4\\productions\\veille-20261117-4",
- "envoi": "C:\\Users\\alexf\\Projets\\file-videos\\items\\veille-20261117-4\\productions\\veille-20261117-4\\envoi.mp4",
- "telegram": "Dont Splash explose sur Roblox : 341 millions de visites en un mois, chiffres vérifiés !",
- "resume": "Sujet : l'obby gratuit Dont Splash (Roblox) est devenu un phénomène en 1 mois, raconté uniquement par la courbe de croissance et les chiffres, sans aucune image du jeu d'horreur. Vérifié : chiffres repris du site de veille (snapshot du 3/11) remplacés par l'API publique officielle Roblox le jour même (19/11/2026, universeId 10771421858) : 341 683 726 visites, 27 792 joueurs, 750 629 favoris, 85,8% d'avis positifs ; voix transcrite par Whisper et comparée au script, tous les chiffres et faits concordent. Choix prudents : aucune scène ni mention effrayante du jeu (monstre, Poolrooms) malgré le thème horreur réel, pas de lien vers le jeu, pas de case 'conçu pour les enfants' (public ados). Reste à voir : Alex peut resurveiller ces chiffres avant publication si plusieurs jours s'écoulent, puisqu'ils continuent de grimper vite."}
+{
+ "status": "pret",
+ "titre": "341 millions de visites en 1 mois 📈",
+ "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261117-4/productions/veille-20261117-4",
+ "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261117-4/productions/veille-20261117-4/envoi.mp4",
+ "telegram": "Dont Splash explose sur Roblox : 341 millions de visites en un mois, avec une vraie musique chill !",
+ "resume": "Sujet : l'obby gratuit Dont Splash (Roblox) devenu un phénomène en 1 mois, raconté par les chiffres et une courbe, sans scène d'horreur. Changement demandé par Alex : la note tenue est remplacée par une vraie petite musique chill originale (80 BPM, piano électrique Am7-Fmaj7-Cmaj7-G7, basse, mélodie douce, batterie légère, fondu final), composée par moi donc libre de droits. Contrôles refaits : voix refaite phrase par phrase et transcrite par Whisper, texte identique au script ; chiffres inchangés (vérifiés le 19/11/2026 sur l'API Roblox) ; planches à 2 images/s sans plan vide ni texte petit ; mix final à -22,1 LUFS pour une voix seule à -22,2 (voix toujours dominante), true peak -6,3 dBTP ; version légère de 8,7 Mo. Choix prudent/à voir : musique réglée à environ -16 dB sous la voix (plutôt que -20) pour qu'elle s'entende vraiment comme demandé ; les plans et la durée ont été recalés sur la nouvelle voix (27 s) ; les fichiers sources ayant disparu, voix et rendu ont été reconstruits, à écouter une fois."
+}

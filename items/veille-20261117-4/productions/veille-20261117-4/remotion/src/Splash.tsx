@@ -257,7 +257,7 @@ export const Splash: React.FC = () => {
         background: `linear-gradient(to top, #000000ee, ${beat.accent}22 70%, transparent)`,
       }} />
       <Audio src={staticFile('voix.mp3')} />
-      <Audio src={staticFile('musique.mp3')} volume={1.24} />
+      <Audio src={staticFile('musique.mp3')} volume={(f) => 0.15 * Math.min(1, (810 - f) / 60)} />
 
       {BEATS.map((b, i) => (
         <Sequence key={`w-${b.start}`} from={Math.round(b.start * fps)} durationInFrames={18}>
