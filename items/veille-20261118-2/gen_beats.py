@@ -1,45 +1,45 @@
-import json,re
-T=json.load(open('timing.json')); W=json.load(open('voix.json'))
+import json,re,subprocess
 lines=[l.split('|',1)[1].strip() for l in open('lignes.txt',encoding='utf-8') if l.strip()]
-ww=[m for s in W for m in s['mots']]
+durs=[float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f'voix_l/l{i+1}.wav']))for i in range(len(lines))]
+starts=[];t=0
+for d in durs: starts.append(t); t+=d+0.12
 words=[]
-for i,l in enumerate(lines):
-    a=T['starts'][i]; b=a+T['durs'][i]
-    sel=[m for m in ww if m['debut']>=a-0.05 and m['fin']<=b+0.1]
-    s0=sel[0]['debut']; e0=sel[-1]['fin']
-    toks=re.findall(r"[^\s]+",l); w_=[len(x)+2 for x in toks]; tot=sum(w_); c=s0
-    for x,k in zip(toks,w_):
-        e=c+(e0-s0)*k/tot; words.append({'start':round(c,2),'end':round(e,2),'text':x}); c=e
-Y,P,B='#FFD628','#FF5FA2','#5ECBFF'
-S=T['starts']
-# (start, kind, accent, bg, icon, label, sub, extra)
+for s,d,l in zip(starts,durs,lines):
+    toks=re.findall(r"[^\s]+",l)
+    w=[len(x)+2 for x in toks]; tot=sum(w); sp=d-0.1; c=s
+    for x,ww in zip(toks,w):
+        e=c+sp*ww/tot; words.append({'start':round(c,2),'end':round(e,2),'text':x}); c=e
+Y,B,P,G='#FFD628','#5ECBFF','#FF5FA2','#7CFF8A'
+# (start,kind,accent,bg,label,sub,icon,extra)
 B_=[
-(0,'hook',Y,0,'🏆','RECORD GUINNESS','DANS ROBLOX',"mascot:'surpris'"),
-(2.7,'words',B,4,'🤯','POSSIBLE ?','',"mascot:'reflechit',corner:true"),
-(5.04,'date',P,1,'⭐','NOVEMBRE','2025',""),
-(7.2,'words',Y,2,'🎮','DÉFIS OFFICIELS','SUR ROBLOX',""),
-(10.46,'words',B,0,'🏃','1% WIN OBBY','PREMIER DÉFI',""),
-(12.5,'days',P,5,'📆','DU 4 AU 17','NOVEMBRE',"from:4,to:17"),
-(14.54,'words',Y,0,'🧗','ULTIMATE EASY OBBY','DEUXIÈME DÉFI',""),
-(16.5,'days',B,5,'📆','DU 17 AU 30','NOVEMBRE',"from:17,to:30"),
-(18.58,'words',P,1,'⏱️','FINIR LE PARCOURS','',""),
-(20.3,'words',Y,1,'⚡','LE PLUS VITE','POSSIBLE',"mascot:'surpris',corner:true"),
-(21.74,'words',B,0,'✅','ZÉRO ÉTAPE SAUTÉE','',""),
-(23.6,'words',P,3,'🚫','ZÉRO PASS PAYANT','',""),
-(25.49,'words',Y,4,'📊','TOP DU CLASSEMENT','',""),
-(27.2,'words',Y,2,'🥇','MÉDAILLE D’OR','GUINNESS',""),
-(28.87,'words',B,5,'💥','RECORD BATTU ?','',""),
-(30.9,'words',P,3,'🧑‍⚖️','UN JUGE APPARAÎT','DANS LE JEU',"mascot:'montre',corner:true"),
-(33.0,'words',Y,3,'📜','CERTIFICAT','OFFICIEL',""),
-(35.0,'words',B,3,'💻','VERSION NUMÉRIQUE','',""),
-(36.94,'words',P,4,'🌍','VRAI RECORD','DU MONDE',""),
-(38.5,'words',Y,5,'📱','DEPUIS TON ÉCRAN','',""),
-(40.06,'cta',Y,4,'','','',"mascot:'coucou'"),
+(0,'words',Y,0,'RECORD DU MONDE','','🏆','surpris'),
+(1.9,'words',B,1,'DANS ROBLOX','','🎮',''),
+(4.22,'words',P,2,'NOVEMBRE 2025','','🎯',''),
+(6.2,'words',Y,2,'PREMIÈRE FOIS','OFFICIELLE','🥇',''),
+(7.5,'words',B,1,'1% WIN OBBY','','🧗',''),
+(9.34,'words',G,1,'FINIR LE PARCOURS','','🏁',''),
+(10.9,'words',P,3,'LE PLUS VITE','','⏱️','reflechit'),
+(12.36,'words',Y,0,'ZÉRO PAYANT','','🚫',''),
+(13.9,'words',B,3,'TON TALENT','','⭐',''),
+(15.29,'counter',Y,3,'MEILLEURS','',10,''),
+(16.9,'words',Y,3,'MÉDAILLE D\'OR','','🥇',''),
+(18.53,'words',P,4,'UN JUGE OFFICIEL','','🧑‍⚖️','reflechit'),
+(20.3,'words',B,4,'UN CERTIFICAT','','📜',''),
+(22.49,'words',G,1,'DEUXIÈME DÉFI','','🔥',''),
+(24.4,'words',Y,1,'EASY OBBY','ULTIMATE','🌈',''),
+(26.59,'words',P,0,'AUSSI UN RECORD','','🏆',''),
+(28.0,'counter',B,5,'JOUEURS EN MÊME TEMPS','',25868678,''),
+(30.2,'words',Y,5,'STEAL A BRAINROT','','🧠',''),
+(31.85,'words',G,6,'OUI, C\'EST POSSIBLE','','✅','montre'),
+(33.3,'words',P,6,'LIVRE DES RECORDS','','📖',''),
+(starts[-1],'cta',Y,0,'','','','coucou'),
 ]
-out="export type Beat = {\n  start: number; end: number; kind: 'hook'|'date'|'days'|'words'|'cta'; accent: string; bg: number;\n  label?: string; sub?: string; icon?: string; to?: number; from?: number;\n  mascot?: 'surpris'|'reflechit'|'coucou'|'montre'; corner?: boolean;\n};\n"
-out+=f"export const TOTAL = {T['total']};\nexport const WORDS = {json.dumps(words,ensure_ascii=False)};\nexport const BEATS: Beat[] = [\n"
+total=round(t-0.12+0.3,2)
+out=['export type Beat = {start:number;end:number;kind:"words"|"counter"|"cta";accent:string;bg:number;label:string;sub:string;icon:string;to:number;mascot:string;};','export const TOTAL = %s;'%total,'export const BEATS: Beat[] = ['];
 for i,b in enumerate(B_):
-    end=B_[i+1][0] if i+1<len(B_) else T['total']
-    out+=f"  {{start: {b[0]}, end: {end}, kind: '{b[1]}', accent: '{b[2]}', bg: {b[3]}, icon: '{b[4]}', label: '{b[5]}', sub: '{b[6]}'{', '+b[7] if b[7] else ''}}},\n"
-out+="];\n"
-open('remotion/src/beats.ts','w').write(out)
+    end=B_[i+1][0] if i+1<len(B_) else total
+    to=b[6] if isinstance(b[6],int) else 0
+    icon=b[6] if isinstance(b[6],str) else ''
+    out.append(json.dumps({'start':b[0],'end':end,'kind':b[1],'accent':b[2],'bg':b[3],'label':b[4],'sub':b[5],'icon':icon,'to':to,'mascot':b[7]},ensure_ascii=False)+',')
+out.append('];'); out.append('export const WORDS = '+json.dumps(words,ensure_ascii=False)+';')
+open('remotion/src/beats.ts','w').write('\n'.join(out)); print(total)
