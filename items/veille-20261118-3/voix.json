@@ -1,0 +1,590 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 3.28,
+  "texte": "Savais-tu que la Xbox fête ses 25 ans cette année ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.48
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.48,
+    "fin": 0.56
+   },
+   {
+    "mot": "que",
+    "debut": 0.56,
+    "fin": 0.68
+   },
+   {
+    "mot": "la",
+    "debut": 0.68,
+    "fin": 0.78
+   },
+   {
+    "mot": "Xbox",
+    "debut": 0.78,
+    "fin": 0.98
+   },
+   {
+    "mot": "fête",
+    "debut": 0.98,
+    "fin": 1.26
+   },
+   {
+    "mot": "ses",
+    "debut": 1.26,
+    "fin": 1.4
+   },
+   {
+    "mot": "25",
+    "debut": 1.4,
+    "fin": 1.6
+   },
+   {
+    "mot": "ans",
+    "debut": 1.6,
+    "fin": 1.88
+   },
+   {
+    "mot": "cette",
+    "debut": 1.88,
+    "fin": 2.02
+   },
+   {
+    "mot": "année",
+    "debut": 2.02,
+    "fin": 2.22
+   },
+   {
+    "mot": "?",
+    "debut": 2.22,
+    "fin": 3.28
+   }
+  ]
+ },
+ {
+  "debut": 3.28,
+  "fin": 7.62,
+  "texte": "Tout commence le 15 novembre 2001, aux États-Unis, avec ILO parmi les jeux de lancement.",
+  "mots": [
+   {
+    "mot": "Tout",
+    "debut": 3.28,
+    "fin": 3.44
+   },
+   {
+    "mot": "commence",
+    "debut": 3.44,
+    "fin": 3.72
+   },
+   {
+    "mot": "le",
+    "debut": 3.72,
+    "fin": 3.9
+   },
+   {
+    "mot": "15",
+    "debut": 3.9,
+    "fin": 4.1
+   },
+   {
+    "mot": "novembre",
+    "debut": 4.1,
+    "fin": 4.52
+   },
+   {
+    "mot": "2001,",
+    "debut": 4.52,
+    "fin": 4.94
+   },
+   {
+    "mot": "aux",
+    "debut": 5.18,
+    "fin": 5.32
+   },
+   {
+    "mot": "États",
+    "debut": 5.32,
+    "fin": 5.48
+   },
+   {
+    "mot": "-Unis,",
+    "debut": 5.48,
+    "fin": 5.76
+   },
+   {
+    "mot": "avec",
+    "debut": 6.14,
+    "fin": 6.32
+   },
+   {
+    "mot": "ILO",
+    "debut": 6.32,
+    "fin": 6.6
+   },
+   {
+    "mot": "parmi",
+    "debut": 6.6,
+    "fin": 6.9
+   },
+   {
+    "mot": "les",
+    "debut": 6.9,
+    "fin": 7.04
+   },
+   {
+    "mot": "jeux",
+    "debut": 7.04,
+    "fin": 7.18
+   },
+   {
+    "mot": "de",
+    "debut": 7.18,
+    "fin": 7.26
+   },
+   {
+    "mot": "lancement.",
+    "debut": 7.26,
+    "fin": 7.62
+   }
+  ]
+ },
+ {
+  "debut": 8.7,
+  "fin": 11.6,
+  "texte": "Le Japon la reçoit en février 2002, puis l'Europe en mars.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 8.7,
+    "fin": 8.9
+   },
+   {
+    "mot": "Japon",
+    "debut": 8.9,
+    "fin": 9.14
+   },
+   {
+    "mot": "la",
+    "debut": 9.14,
+    "fin": 9.3
+   },
+   {
+    "mot": "reçoit",
+    "debut": 9.3,
+    "fin": 9.6
+   },
+   {
+    "mot": "en",
+    "debut": 9.6,
+    "fin": 9.72
+   },
+   {
+    "mot": "février",
+    "debut": 9.72,
+    "fin": 10.04
+   },
+   {
+    "mot": "2002,",
+    "debut": 10.04,
+    "fin": 10.5
+   },
+   {
+    "mot": "puis",
+    "debut": 10.92,
+    "fin": 10.98
+   },
+   {
+    "mot": "l",
+    "debut": 10.98,
+    "fin": 11.08
+   },
+   {
+    "mot": "'Europe",
+    "debut": 11.08,
+    "fin": 11.18
+   },
+   {
+    "mot": "en",
+    "debut": 11.18,
+    "fin": 11.36
+   },
+   {
+    "mot": "mars.",
+    "debut": 11.36,
+    "fin": 11.6
+   }
+  ]
+ },
+ {
+  "debut": 12.86,
+  "fin": 15.3,
+  "texte": "En 2005, la Xbox 360 arrive.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 12.86,
+    "fin": 12.98
+   },
+   {
+    "mot": "2005,",
+    "debut": 12.98,
+    "fin": 13.36
+   },
+   {
+    "mot": "la",
+    "debut": 13.9,
+    "fin": 14.0
+   },
+   {
+    "mot": "Xbox",
+    "debut": 14.0,
+    "fin": 14.26
+   },
+   {
+    "mot": "360",
+    "debut": 14.26,
+    "fin": 14.8
+   },
+   {
+    "mot": "arrive.",
+    "debut": 14.8,
+    "fin": 15.3
+   }
+  ]
+ },
+ {
+  "debut": 16.14,
+  "fin": 19.5,
+  "texte": "Puis la Xbox One en 2013, et la Xbox Series X et S en 2020.",
+  "mots": [
+   {
+    "mot": "Puis",
+    "debut": 16.14,
+    "fin": 16.4
+   },
+   {
+    "mot": "la",
+    "debut": 16.4,
+    "fin": 16.5
+   },
+   {
+    "mot": "Xbox",
+    "debut": 16.5,
+    "fin": 16.76
+   },
+   {
+    "mot": "One",
+    "debut": 16.76,
+    "fin": 17.0
+   },
+   {
+    "mot": "en",
+    "debut": 17.0,
+    "fin": 17.1
+   },
+   {
+    "mot": "2013,",
+    "debut": 17.1,
+    "fin": 17.56
+   },
+   {
+    "mot": "et",
+    "debut": 17.96,
+    "fin": 18.08
+   },
+   {
+    "mot": "la",
+    "debut": 18.08,
+    "fin": 18.16
+   },
+   {
+    "mot": "Xbox",
+    "debut": 18.16,
+    "fin": 18.42
+   },
+   {
+    "mot": "Series",
+    "debut": 18.42,
+    "fin": 18.7
+   },
+   {
+    "mot": "X",
+    "debut": 18.7,
+    "fin": 18.94
+   },
+   {
+    "mot": "et",
+    "debut": 18.94,
+    "fin": 19.02
+   },
+   {
+    "mot": "S",
+    "debut": 19.02,
+    "fin": 19.16
+   },
+   {
+    "mot": "en",
+    "debut": 19.16,
+    "fin": 19.24
+   },
+   {
+    "mot": "2020.",
+    "debut": 19.24,
+    "fin": 19.5
+   }
+  ]
+ },
+ {
+  "debut": 20.62,
+  "fin": 23.78,
+  "texte": "La toute première Xbox s'est vendue à environ 24 millions d'exemplaires.",
+  "mots": [
+   {
+    "mot": "La",
+    "debut": 20.62,
+    "fin": 20.88
+   },
+   {
+    "mot": "toute",
+    "debut": 20.88,
+    "fin": 21.02
+   },
+   {
+    "mot": "première",
+    "debut": 21.02,
+    "fin": 21.26
+   },
+   {
+    "mot": "Xbox",
+    "debut": 21.26,
+    "fin": 21.66
+   },
+   {
+    "mot": "s",
+    "debut": 21.66,
+    "fin": 21.86
+   },
+   {
+    "mot": "'est",
+    "debut": 21.86,
+    "fin": 21.88
+   },
+   {
+    "mot": "vendue",
+    "debut": 21.88,
+    "fin": 22.14
+   },
+   {
+    "mot": "à",
+    "debut": 22.14,
+    "fin": 22.24
+   },
+   {
+    "mot": "environ",
+    "debut": 22.24,
+    "fin": 22.44
+   },
+   {
+    "mot": "24",
+    "debut": 22.44,
+    "fin": 22.86
+   },
+   {
+    "mot": "millions",
+    "debut": 22.86,
+    "fin": 23.16
+   },
+   {
+    "mot": "d",
+    "debut": 23.16,
+    "fin": 23.32
+   },
+   {
+    "mot": "'exemplaires.",
+    "debut": 23.32,
+    "fin": 23.78
+   }
+  ]
+ },
+ {
+  "debut": 24.68,
+  "fin": 28.2,
+  "texte": "Pour fêter ça, le nouveau ILO reçoit Firefight, gratuit cet hiver.",
+  "mots": [
+   {
+    "mot": "Pour",
+    "debut": 24.68,
+    "fin": 25.1
+   },
+   {
+    "mot": "fêter",
+    "debut": 25.1,
+    "fin": 25.28
+   },
+   {
+    "mot": "ça,",
+    "debut": 25.28,
+    "fin": 25.54
+   },
+   {
+    "mot": "le",
+    "debut": 25.88,
+    "fin": 25.98
+   },
+   {
+    "mot": "nouveau",
+    "debut": 25.98,
+    "fin": 26.12
+   },
+   {
+    "mot": "ILO",
+    "debut": 26.12,
+    "fin": 26.44
+   },
+   {
+    "mot": "reçoit",
+    "debut": 26.44,
+    "fin": 26.74
+   },
+   {
+    "mot": "Firefight,",
+    "debut": 26.74,
+    "fin": 27.2
+   },
+   {
+    "mot": "gratuit",
+    "debut": 27.5,
+    "fin": 27.74
+   },
+   {
+    "mot": "cet",
+    "debut": 27.74,
+    "fin": 28.0
+   },
+   {
+    "mot": "hiver.",
+    "debut": 28.0,
+    "fin": 28.2
+   }
+  ]
+ },
+ {
+  "debut": 29.279999999999998,
+  "fin": 31.78,
+  "texte": "Etage 25 jeux de la Xbox d'origine arrive sur PC.",
+  "mots": [
+   {
+    "mot": "Etage",
+    "debut": 29.279999999999998,
+    "fin": 29.72
+   },
+   {
+    "mot": "25",
+    "debut": 29.72,
+    "fin": 30.04
+   },
+   {
+    "mot": "jeux",
+    "debut": 30.04,
+    "fin": 30.26
+   },
+   {
+    "mot": "de",
+    "debut": 30.26,
+    "fin": 30.34
+   },
+   {
+    "mot": "la",
+    "debut": 30.34,
+    "fin": 30.44
+   },
+   {
+    "mot": "Xbox",
+    "debut": 30.44,
+    "fin": 30.66
+   },
+   {
+    "mot": "d",
+    "debut": 30.66,
+    "fin": 30.9
+   },
+   {
+    "mot": "'origine",
+    "debut": 30.9,
+    "fin": 31.06
+   },
+   {
+    "mot": "arrive",
+    "debut": 31.06,
+    "fin": 31.4
+   },
+   {
+    "mot": "sur",
+    "debut": 31.4,
+    "fin": 31.56
+   },
+   {
+    "mot": "PC.",
+    "debut": 31.56,
+    "fin": 31.78
+   }
+  ]
+ },
+ {
+  "debut": 32.88,
+  "fin": 35.02,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 32.88,
+    "fin": 33.32
+   },
+   {
+    "mot": "-toi",
+    "debut": 33.32,
+    "fin": 33.5
+   },
+   {
+    "mot": "à",
+    "debut": 33.5,
+    "fin": 33.62
+   },
+   {
+    "mot": "Pixel",
+    "debut": 33.62,
+    "fin": 33.82
+   },
+   {
+    "mot": "Facts",
+    "debut": 33.82,
+    "fin": 34.24
+   },
+   {
+    "mot": "pour",
+    "debut": 34.24,
+    "fin": 34.4
+   },
+   {
+    "mot": "le",
+    "debut": 34.4,
+    "fin": 34.52
+   },
+   {
+    "mot": "prochain",
+    "debut": 34.52,
+    "fin": 34.74
+   },
+   {
+    "mot": "fait.",
+    "debut": 34.74,
+    "fin": 35.02
+   }
+  ]
+ }
+]
