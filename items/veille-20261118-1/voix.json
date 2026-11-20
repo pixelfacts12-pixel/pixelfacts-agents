@@ -1,606 +1,590 @@
 [
  {
   "debut": 0.0,
-  "fin": 6.3,
-  "texte": "Savais-tu que ce jeu gratuit est déjà numéro 3 sur Steam ? Il s'appelle Robrun, sorti le 4 novembre, en accès anticipé.",
+  "fin": 2.66,
+  "texte": "549.661 joueurs en même temps.",
   "mots": [
    {
-    "mot": "Savais",
+    "mot": "549",
     "debut": 0.0,
-    "fin": 0.3
+    "fin": 0.82
    },
    {
-    "mot": "-tu",
-    "debut": 0.3,
-    "fin": 0.38
+    "mot": ".661",
+    "debut": 0.82,
+    "fin": 1.94
    },
    {
-    "mot": "que",
-    "debut": 0.38,
-    "fin": 0.52
-   },
-   {
-    "mot": "ce",
-    "debut": 0.52,
-    "fin": 0.66
-   },
-   {
-    "mot": "jeu",
-    "debut": 0.66,
-    "fin": 0.8
-   },
-   {
-    "mot": "gratuit",
-    "debut": 0.8,
-    "fin": 1.16
-   },
-   {
-    "mot": "est",
-    "debut": 1.16,
-    "fin": 1.48
-   },
-   {
-    "mot": "déjà",
-    "debut": 1.48,
-    "fin": 1.72
-   },
-   {
-    "mot": "numéro",
-    "debut": 1.72,
-    "fin": 1.88
-   },
-   {
-    "mot": "3",
-    "debut": 1.88,
-    "fin": 2.26
-   },
-   {
-    "mot": "sur",
-    "debut": 2.26,
-    "fin": 2.4
-   },
-   {
-    "mot": "Steam",
-    "debut": 2.4,
-    "fin": 2.62
-   },
-   {
-    "mot": "?",
-    "debut": 2.62,
-    "fin": 2.92
-   },
-   {
-    "mot": "Il",
-    "debut": 2.92,
-    "fin": 3.0
-   },
-   {
-    "mot": "s",
-    "debut": 3.0,
-    "fin": 3.16
-   },
-   {
-    "mot": "'appelle",
-    "debut": 3.16,
-    "fin": 3.32
-   },
-   {
-    "mot": "Robrun,",
-    "debut": 3.32,
-    "fin": 3.78
-   },
-   {
-    "mot": "sorti",
-    "debut": 4.0,
-    "fin": 4.38
-   },
-   {
-    "mot": "le",
-    "debut": 4.38,
-    "fin": 4.48
-   },
-   {
-    "mot": "4",
-    "debut": 4.48,
-    "fin": 4.66
-   },
-   {
-    "mot": "novembre,",
-    "debut": 4.66,
-    "fin": 5.22
+    "mot": "joueurs",
+    "debut": 1.94,
+    "fin": 2.18
    },
    {
     "mot": "en",
-    "debut": 5.4,
-    "fin": 5.48
+    "debut": 2.18,
+    "fin": 2.28
    },
    {
-    "mot": "accès",
-    "debut": 5.48,
-    "fin": 5.76
+    "mot": "même",
+    "debut": 2.28,
+    "fin": 2.44
    },
    {
-    "mot": "anticipé.",
-    "debut": 5.76,
-    "fin": 6.3
+    "mot": "temps.",
+    "debut": 2.44,
+    "fin": 2.66
    }
   ]
  },
  {
-  "debut": 6.52,
-  "fin": 13.24,
-  "texte": "Il vient du studio Kefir. 16 jours plus tard, 448 000 joueurs en même, son record du jour, un départ de folie pour un jeu tout-neuf.",
+  "debut": 3.34,
+  "fin": 6.0,
+  "texte": "Savais-tu qu'un jeu gratuit a fait ça en 13 jours ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 3.34,
+    "fin": 3.8
+   },
+   {
+    "mot": "-tu",
+    "debut": 3.8,
+    "fin": 3.9
+   },
+   {
+    "mot": "qu",
+    "debut": 3.9,
+    "fin": 4.02
+   },
+   {
+    "mot": "'un",
+    "debut": 4.02,
+    "fin": 4.08
+   },
+   {
+    "mot": "jeu",
+    "debut": 4.08,
+    "fin": 4.18
+   },
+   {
+    "mot": "gratuit",
+    "debut": 4.18,
+    "fin": 4.46
+   },
+   {
+    "mot": "a",
+    "debut": 4.46,
+    "fin": 4.68
+   },
+   {
+    "mot": "fait",
+    "debut": 4.68,
+    "fin": 4.76
+   },
+   {
+    "mot": "ça",
+    "debut": 4.76,
+    "fin": 4.92
+   },
+   {
+    "mot": "en",
+    "debut": 4.92,
+    "fin": 5.02
+   },
+   {
+    "mot": "13",
+    "debut": 5.02,
+    "fin": 5.16
+   },
+   {
+    "mot": "jours",
+    "debut": 5.16,
+    "fin": 5.38
+   },
+   {
+    "mot": "?",
+    "debut": 5.38,
+    "fin": 6.0
+   }
+  ]
+ },
+ {
+  "debut": 6.54,
+  "fin": 9.22,
+  "texte": "Il s'appelle Robren, sorti le 4 novembre sur Steam.",
   "mots": [
    {
     "mot": "Il",
-    "debut": 6.52,
-    "fin": 6.54
-   },
-   {
-    "mot": "vient",
     "debut": 6.54,
     "fin": 6.7
    },
    {
-    "mot": "du",
+    "mot": "s",
     "debut": 6.7,
     "fin": 6.84
    },
    {
-    "mot": "studio",
+    "mot": "'appelle",
     "debut": 6.84,
-    "fin": 7.12
+    "fin": 6.98
    },
    {
-    "mot": "Kefir.",
-    "debut": 7.12,
-    "fin": 7.48
+    "mot": "Robren,",
+    "debut": 6.98,
+    "fin": 7.42
    },
    {
-    "mot": "16",
-    "debut": 7.82,
-    "fin": 7.94
+    "mot": "sorti",
+    "debut": 7.68,
+    "fin": 8.06
    },
    {
-    "mot": "jours",
-    "debut": 7.94,
-    "fin": 8.12
+    "mot": "le",
+    "debut": 8.06,
+    "fin": 8.18
    },
    {
-    "mot": "plus",
-    "debut": 8.12,
-    "fin": 8.3
+    "mot": "4",
+    "debut": 8.18,
+    "fin": 8.32
    },
    {
-    "mot": "tard,",
-    "debut": 8.3,
-    "fin": 8.54
+    "mot": "novembre",
+    "debut": 8.32,
+    "fin": 8.78
    },
    {
-    "mot": "448",
-    "debut": 8.8,
-    "fin": 9.46
+    "mot": "sur",
+    "debut": 8.78,
+    "fin": 8.98
    },
    {
-    "mot": "000",
-    "debut": 9.46,
-    "fin": 9.74
-   },
+    "mot": "Steam.",
+    "debut": 8.98,
+    "fin": 9.22
+   }
+  ]
+ },
+ {
+  "debut": 10.22,
+  "fin": 12.82,
+  "texte": "Premier jour, environ 24.000 joueurs en même temps.",
+  "mots": [
    {
-    "mot": "joueurs",
-    "debut": 9.74,
-    "fin": 10.04
-   },
-   {
-    "mot": "en",
-    "debut": 10.04,
-    "fin": 10.14
-   },
-   {
-    "mot": "même,",
-    "debut": 10.14,
-    "fin": 10.26
-   },
-   {
-    "mot": "son",
-    "debut": 10.52,
-    "fin": 10.64
-   },
-   {
-    "mot": "record",
-    "debut": 10.64,
-    "fin": 10.86
-   },
-   {
-    "mot": "du",
-    "debut": 10.86,
-    "fin": 11.08
+    "mot": "Premier",
+    "debut": 10.22,
+    "fin": 10.7
    },
    {
     "mot": "jour,",
-    "debut": 11.08,
-    "fin": 11.3
+    "debut": 10.7,
+    "fin": 11.02
    },
    {
-    "mot": "un",
-    "debut": 11.56,
-    "fin": 11.66
+    "mot": "environ",
+    "debut": 11.24,
+    "fin": 11.48
    },
    {
-    "mot": "départ",
-    "debut": 11.66,
-    "fin": 11.9
+    "mot": "24",
+    "debut": 11.48,
+    "fin": 11.82
    },
    {
-    "mot": "de",
-    "debut": 11.9,
-    "fin": 12.04
-   },
-   {
-    "mot": "folie",
-    "debut": 12.04,
-    "fin": 12.34
-   },
-   {
-    "mot": "pour",
-    "debut": 12.34,
-    "fin": 12.5
-   },
-   {
-    "mot": "un",
-    "debut": 12.5,
-    "fin": 12.6
-   },
-   {
-    "mot": "jeu",
-    "debut": 12.6,
-    "fin": 12.74
-   },
-   {
-    "mot": "tout",
-    "debut": 12.74,
-    "fin": 12.88
-   },
-   {
-    "mot": "-neuf.",
-    "debut": 12.88,
-    "fin": 13.24
-   }
-  ]
- },
- {
-  "debut": 13.42,
-  "fin": 19.42,
-  "texte": "Jusqu'à 5000 joueurs se croisent dans le même monde. Seul Counter Strike 2 et Dota 2 font mieux. Le numéro 1 dépasse le million de joueurs.",
-  "mots": [
-   {
-    "mot": "Jusqu",
-    "debut": 13.42,
-    "fin": 13.76
-   },
-   {
-    "mot": "'à",
-    "debut": 13.76,
-    "fin": 13.82
-   },
-   {
-    "mot": "5000",
-    "debut": 13.82,
-    "fin": 14.0
+    "mot": ".000",
+    "debut": 11.82,
+    "fin": 12.08
    },
    {
     "mot": "joueurs",
-    "debut": 14.0,
-    "fin": 14.38
+    "debut": 12.08,
+    "fin": 12.36
    },
    {
-    "mot": "se",
-    "debut": 14.38,
-    "fin": 14.52
-   },
-   {
-    "mot": "croisent",
-    "debut": 14.52,
-    "fin": 14.8
-   },
-   {
-    "mot": "dans",
-    "debut": 14.8,
-    "fin": 14.9
-   },
-   {
-    "mot": "le",
-    "debut": 14.9,
-    "fin": 15.0
+    "mot": "en",
+    "debut": 12.36,
+    "fin": 12.46
    },
    {
     "mot": "même",
-    "debut": 15.0,
-    "fin": 15.14
+    "debut": 12.46,
+    "fin": 12.62
    },
    {
-    "mot": "monde.",
-    "debut": 15.14,
-    "fin": 15.4
+    "mot": "temps.",
+    "debut": 12.62,
+    "fin": 12.82
+   }
+  ]
+ },
+ {
+  "debut": 13.9,
+  "fin": 16.1,
+  "texte": "Une semaine plus tard, 259.000.",
+  "mots": [
+   {
+    "mot": "Une",
+    "debut": 13.9,
+    "fin": 14.08
    },
    {
-    "mot": "Seul",
-    "debut": 15.66,
-    "fin": 15.84
+    "mot": "semaine",
+    "debut": 14.08,
+    "fin": 14.32
    },
    {
-    "mot": "Counter",
-    "debut": 15.84,
+    "mot": "plus",
+    "debut": 14.32,
+    "fin": 14.54
+   },
+   {
+    "mot": "tard,",
+    "debut": 14.54,
+    "fin": 14.82
+   },
+   {
+    "mot": "259",
+    "debut": 15.06,
+    "fin": 15.8
+   },
+   {
+    "mot": ".000.",
+    "debut": 15.8,
     "fin": 16.1
+   }
+  ]
+ },
+ {
+  "debut": 17.04,
+  "fin": 19.12,
+  "texte": "Puis 418.000 le 14 novembre.",
+  "mots": [
+   {
+    "mot": "Puis",
+    "debut": 17.04,
+    "fin": 17.36
    },
    {
-    "mot": "Strike",
-    "debut": 16.1,
-    "fin": 16.4
+    "mot": "418",
+    "debut": 17.36,
+    "fin": 17.94
    },
    {
-    "mot": "2",
-    "debut": 16.4,
-    "fin": 16.64
-   },
-   {
-    "mot": "et",
-    "debut": 16.64,
-    "fin": 16.74
-   },
-   {
-    "mot": "Dota",
-    "debut": 16.74,
-    "fin": 16.94
-   },
-   {
-    "mot": "2",
-    "debut": 16.94,
-    "fin": 17.14
-   },
-   {
-    "mot": "font",
-    "debut": 17.14,
-    "fin": 17.28
-   },
-   {
-    "mot": "mieux.",
-    "debut": 17.28,
-    "fin": 17.46
-   },
-   {
-    "mot": "Le",
-    "debut": 17.74,
-    "fin": 17.8
-   },
-   {
-    "mot": "numéro",
-    "debut": 17.8,
-    "fin": 18.06
-   },
-   {
-    "mot": "1",
-    "debut": 18.06,
-    "fin": 18.22
-   },
-   {
-    "mot": "dépasse",
-    "debut": 18.22,
-    "fin": 18.56
+    "mot": ".000",
+    "debut": 17.94,
+    "fin": 18.2
    },
    {
     "mot": "le",
-    "debut": 18.56,
-    "fin": 18.72
+    "debut": 18.2,
+    "fin": 18.36
    },
    {
-    "mot": "million",
-    "debut": 18.72,
-    "fin": 18.9
+    "mot": "14",
+    "debut": 18.36,
+    "fin": 18.54
    },
    {
-    "mot": "de",
-    "debut": 18.9,
-    "fin": 19.08
+    "mot": "novembre.",
+    "debut": 18.54,
+    "fin": 19.12
+   }
+  ]
+ },
+ {
+  "debut": 20.12,
+  "fin": 24.22,
+  "texte": "Et le 17 novembre, le record 549.661 joueurs.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 20.12,
+    "fin": 20.34
+   },
+   {
+    "mot": "le",
+    "debut": 20.34,
+    "fin": 20.44
+   },
+   {
+    "mot": "17",
+    "debut": 20.44,
+    "fin": 20.68
+   },
+   {
+    "mot": "novembre,",
+    "debut": 20.68,
+    "fin": 21.2
+   },
+   {
+    "mot": "le",
+    "debut": 21.46,
+    "fin": 21.54
+   },
+   {
+    "mot": "record",
+    "debut": 21.54,
+    "fin": 21.8
+   },
+   {
+    "mot": "549",
+    "debut": 21.8,
+    "fin": 22.7
+   },
+   {
+    "mot": ".661",
+    "debut": 22.7,
+    "fin": 23.82
    },
    {
     "mot": "joueurs.",
-    "debut": 19.08,
-    "fin": 19.42
+    "debut": 23.82,
+    "fin": 24.22
    }
   ]
  },
  {
-  "debut": 19.58,
-  "fin": 24.74,
-  "texte": "Mais Robrun dépasse déjà PUBG, qui en compte 344 000. Tout ça en 16 jours seulement. Et il est gratuit.",
+  "debut": 25.340000000000003,
+  "fin": 27.38,
+  "texte": "Résultat numéro 3 du classement Steam,",
   "mots": [
    {
-    "mot": "Mais",
-    "debut": 19.58,
-    "fin": 19.72
+    "mot": "Résultat",
+    "debut": 25.340000000000003,
+    "fin": 25.86
    },
    {
-    "mot": "Robrun",
-    "debut": 19.72,
-    "fin": 20.04
-   },
-   {
-    "mot": "dépasse",
-    "debut": 20.04,
-    "fin": 20.4
-   },
-   {
-    "mot": "déjà",
-    "debut": 20.4,
-    "fin": 20.62
-   },
-   {
-    "mot": "PUBG,",
-    "debut": 20.62,
-    "fin": 20.9
-   },
-   {
-    "mot": "qui",
-    "debut": 21.24,
-    "fin": 21.34
-   },
-   {
-    "mot": "en",
-    "debut": 21.34,
-    "fin": 21.46
-   },
-   {
-    "mot": "compte",
-    "debut": 21.46,
-    "fin": 21.64
-   },
-   {
-    "mot": "344",
-    "debut": 21.64,
-    "fin": 22.5
-   },
-   {
-    "mot": "000.",
-    "debut": 22.5,
-    "fin": 22.66
-   },
-   {
-    "mot": "Tout",
-    "debut": 22.98,
-    "fin": 23.04
-   },
-   {
-    "mot": "ça",
-    "debut": 23.04,
-    "fin": 23.22
-   },
-   {
-    "mot": "en",
-    "debut": 23.22,
-    "fin": 23.32
-   },
-   {
-    "mot": "16",
-    "debut": 23.32,
-    "fin": 23.5
-   },
-   {
-    "mot": "jours",
-    "debut": 23.5,
-    "fin": 23.68
-   },
-   {
-    "mot": "seulement.",
-    "debut": 23.68,
-    "fin": 23.98
-   },
-   {
-    "mot": "Et",
-    "debut": 24.24,
-    "fin": 24.32
-   },
-   {
-    "mot": "il",
-    "debut": 24.32,
-    "fin": 24.4
-   },
-   {
-    "mot": "est",
-    "debut": 24.4,
-    "fin": 24.5
-   },
-   {
-    "mot": "gratuit.",
-    "debut": 24.5,
-    "fin": 24.74
-   }
-  ]
- },
- {
-  "debut": 25.06,
-  "fin": 28.12,
-  "texte": "Jusqu'où va-t-il monter ? Abonne-toi à Pixel Facts pour le prochain fait.",
-  "mots": [
-   {
-    "mot": "Jusqu",
-    "debut": 25.06,
-    "fin": 25.34
-   },
-   {
-    "mot": "'où",
-    "debut": 25.34,
-    "fin": 25.42
-   },
-   {
-    "mot": "va",
-    "debut": 25.42,
-    "fin": 25.52
-   },
-   {
-    "mot": "-t",
-    "debut": 25.52,
-    "fin": 25.6
-   },
-   {
-    "mot": "-il",
-    "debut": 25.6,
-    "fin": 25.66
-   },
-   {
-    "mot": "monter",
-    "debut": 25.66,
-    "fin": 25.88
-   },
-   {
-    "mot": "?",
-    "debut": 25.88,
+    "mot": "numéro",
+    "debut": 25.86,
     "fin": 26.22
    },
    {
-    "mot": "Abonne",
+    "mot": "3",
     "debut": 26.22,
-    "fin": 26.4
-   },
-   {
-    "mot": "-toi",
-    "debut": 26.4,
     "fin": 26.58
    },
    {
-    "mot": "à",
+    "mot": "du",
     "debut": 26.58,
-    "fin": 26.7
+    "fin": 26.68
    },
    {
-    "mot": "Pixel",
-    "debut": 26.7,
-    "fin": 26.9
+    "mot": "classement",
+    "debut": 26.68,
+    "fin": 27.04
    },
    {
-    "mot": "Facts",
-    "debut": 26.9,
-    "fin": 27.3
+    "mot": "Steam,",
+    "debut": 27.04,
+    "fin": 27.38
+   }
+  ]
+ },
+ {
+  "debut": 27.38,
+  "fin": 29.36,
+  "texte": "derrière Counter-Strike 2 et Dota 2.",
+  "mots": [
+   {
+    "mot": "derrière",
+    "debut": 27.38,
+    "fin": 27.92
+   },
+   {
+    "mot": "Counter",
+    "debut": 27.92,
+    "fin": 28.28
+   },
+   {
+    "mot": "-Strike",
+    "debut": 28.28,
+    "fin": 28.64
+   },
+   {
+    "mot": "2",
+    "debut": 28.64,
+    "fin": 28.84
+   },
+   {
+    "mot": "et",
+    "debut": 28.84,
+    "fin": 28.94
+   },
+   {
+    "mot": "Dota",
+    "debut": 28.94,
+    "fin": 29.1
+   },
+   {
+    "mot": "2.",
+    "debut": 29.1,
+    "fin": 29.36
+   }
+  ]
+ },
+ {
+  "debut": 30.3,
+  "fin": 32.1,
+  "texte": "Plus de 20 fois plus de joueurs en 2 semaines.",
+  "mots": [
+   {
+    "mot": "Plus",
+    "debut": 30.3,
+    "fin": 30.56
+   },
+   {
+    "mot": "de",
+    "debut": 30.56,
+    "fin": 30.68
+   },
+   {
+    "mot": "20",
+    "debut": 30.68,
+    "fin": 30.84
+   },
+   {
+    "mot": "fois",
+    "debut": 30.84,
+    "fin": 31.0
+   },
+   {
+    "mot": "plus",
+    "debut": 31.0,
+    "fin": 31.2
+   },
+   {
+    "mot": "de",
+    "debut": 31.2,
+    "fin": 31.38
+   },
+   {
+    "mot": "joueurs",
+    "debut": 31.38,
+    "fin": 31.64
+   },
+   {
+    "mot": "en",
+    "debut": 31.64,
+    "fin": 31.72
+   },
+   {
+    "mot": "2",
+    "debut": 31.72,
+    "fin": 31.86
+   },
+   {
+    "mot": "semaines.",
+    "debut": 31.86,
+    "fin": 32.1
+   }
+  ]
+ },
+ {
+  "debut": 33.120000000000005,
+  "fin": 36.16,
+  "texte": "Attention, c'est un jeu pour adultes en accès anticipé.",
+  "mots": [
+   {
+    "mot": "Attention,",
+    "debut": 33.120000000000005,
+    "fin": 33.6
+   },
+   {
+    "mot": "c",
+    "debut": 34.14,
+    "fin": 34.18
+   },
+   {
+    "mot": "'est",
+    "debut": 34.18,
+    "fin": 34.24
+   },
+   {
+    "mot": "un",
+    "debut": 34.24,
+    "fin": 34.38
+   },
+   {
+    "mot": "jeu",
+    "debut": 34.38,
+    "fin": 34.52
    },
    {
     "mot": "pour",
-    "debut": 27.3,
-    "fin": 27.5
+    "debut": 34.52,
+    "fin": 34.72
+   },
+   {
+    "mot": "adultes",
+    "debut": 34.72,
+    "fin": 35.1
+   },
+   {
+    "mot": "en",
+    "debut": 35.1,
+    "fin": 35.34
+   },
+   {
+    "mot": "accès",
+    "debut": 35.34,
+    "fin": 35.64
+   },
+   {
+    "mot": "anticipé.",
+    "debut": 35.64,
+    "fin": 36.16
+   }
+  ]
+ },
+ {
+  "debut": 37.1,
+  "fin": 39.24,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 37.1,
+    "fin": 37.52
+   },
+   {
+    "mot": "-toi",
+    "debut": 37.52,
+    "fin": 37.7
+   },
+   {
+    "mot": "à",
+    "debut": 37.7,
+    "fin": 37.82
+   },
+   {
+    "mot": "Pixel",
+    "debut": 37.82,
+    "fin": 38.02
+   },
+   {
+    "mot": "Facts",
+    "debut": 38.02,
+    "fin": 38.42
+   },
+   {
+    "mot": "pour",
+    "debut": 38.42,
+    "fin": 38.6
    },
    {
     "mot": "le",
-    "debut": 27.5,
-    "fin": 27.6
+    "debut": 38.6,
+    "fin": 38.72
    },
    {
     "mot": "prochain",
-    "debut": 27.6,
-    "fin": 27.84
+    "debut": 38.72,
+    "fin": 38.96
    },
    {
     "mot": "fait.",
-    "debut": 27.84,
-    "fin": 28.12
+    "debut": 38.96,
+    "fin": 39.24
    }
   ]
  }
