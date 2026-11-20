@@ -4,9 +4,9 @@ Le Créateur Roblox coche chaque ligne quand elle est finie et testée (build OK
 But global : un jeu UNIQUE, beau, qui donne envie dès la 1re minute. Style : cartoon low poly coloré, cohérent partout (pas de mélange réaliste/cartoon).
 
 ## 0. REFONTE VISUELLE (priorité n°1, suite de la vitrine faite le 20/11) — lis STYLE.md
-- [ ] Zones plus petites ou bien plus remplies : le joueur doit toujours avoir un gros tas à moins de 10 studs (Config.TailleZone, PoussieresParZone, TasParZone). Viser des montagnes de 60 à 120 objets.
-- [ ] Grenier : murs en planches avec fenêtres, plus de bric-à-brac (cartons, vieux meubles, toiles d'araignée, malles), pas de grand vide.
-- [ ] Rendre chaque zone aussi remplie que le Grenier (Plage, Forêt, Volcan, Nuages) et vérifier qu'aucun décor ne bloque la caméra ou le passage.
+- [x] Zones plus petites ou bien plus remplies : le joueur doit toujours avoir un gros tas à moins de 10 studs (Config.TailleZone, PoussieresParZone, TasParZone). Viser des montagnes de 60 à 120 objets.
+- [x] Grenier : murs en planches avec fenêtres, plus de bric-à-brac (cartons, vieux meubles, toiles d'araignée, malles), pas de grand vide.
+- [x] Rendre chaque zone aussi remplie que le Grenier (Plage, Forêt, Volcan, Nuages) et vérifier qu'aucun décor ne bloque la caméra ou le passage.
 - [ ] Balai visible et beau, qui change à chaque niveau + effet de poussière à chaque coup.
 - [ ] Particules et texte flottant « +12 » au ramassage ; gros effet pour les raretés.
 - [ ] Musique de fond chill + sons (utiliser seulement des assets audio Roblox libres vérifiés ; sinon noter dans NOTES.md ce qu'Alex doit choisir).

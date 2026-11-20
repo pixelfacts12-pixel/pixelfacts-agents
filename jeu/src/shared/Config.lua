@@ -2,9 +2,10 @@
 local Config = {}
 
 -- Zones : chaque nouvelle zone coûte plus cher et sa poussière vaut plus.
-Config.TailleZone = 140
-Config.PoussieresParZone = 140 -- beaucoup d'objets : c'est le plaisir du jeu (style « Clean The Ballpit »)
-Config.TasParZone = 9 -- les objets sont regroupés en gros tas satisfaisants à vider
+Config.TailleZone = 100 -- zone compacte : un gros tas est toujours à moins de 10 studs
+Config.PoussieresParZone = 900 -- ~14 montagnes de 60 à 70 objets (style « Clean The Ballpit »)
+Config.TasParZone = 14 -- (indicatif : les tas sont placés sur une grille, voir Jeu.server.lua)
+Config.RayonTas = 11 -- rayon d'une montagne d'objets
 
 -- Raretés : chaque objet ramassé a une chance d'être rare (plus de valeur, effets, message).
 Config.Raretes = {

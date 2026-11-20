@@ -214,9 +214,23 @@ local rng = Random.new()
 local centresTas = {}
 for i = 1, #Config.Zones do
 	centresTas[i] = {}
-	local T = Config.TailleZone - 40
-	for _ = 1, Config.TasParZone do
-		table.insert(centresTas[i], Vector3.new(rng:NextNumber(-T / 2, T / 2), 0, rng:NextNumber(-T / 2, T / 2)))
+	-- grille 4x4 de montagnes espacées de 20 studs ; on saute celles qui couvrent le spawn ou la zone de vente
+	local T = Config.TailleZone
+	local pas = 20
+	local evites = { Vector3.new(T / 2 - 14, 0, T / 2 - 14), Vector3.new(0, 0, T / 2 - 15) }
+	for gx = -1.5, 1.5 do
+		for gz = -1.5, 1.5 do
+			local p = Vector3.new(gx * pas + rng:NextNumber(-2, 2), 0, gz * pas + rng:NextNumber(-2, 2))
+			local libre = true
+			for _, e in ipairs(evites) do
+				if (p - e).Magnitude < 15 then
+					libre = false
+				end
+			end
+			if libre then
+				table.insert(centresTas[i], p)
+			end
+		end
 	end
 end
 
@@ -225,7 +239,7 @@ local function placerTas(zoneIndex)
 	local rarete = Config.TirerRarete(rng)
 	local infoR = Config.Raretes[rarete]
 	local c = centresTas[zoneIndex][rng:NextInteger(1, #centresTas[zoneIndex])]
-	local angle, dist = rng:NextNumber(0, math.pi * 2), math.abs(rng:NextNumber() + rng:NextNumber() - 1) * 13
+	local angle, dist = rng:NextNumber(0, math.pi * 2), math.abs(rng:NextNumber() + rng:NextNumber() - 1) * Config.RayonTas
 	local taille = rng:NextNumber(1.3, 2.1) * (rarete > 1 and 1.35 or 1)
 	local tas = Instance.new("Part")
 	tas.Name = "Tas"
@@ -237,7 +251,7 @@ local function placerTas(zoneIndex)
 	tas.Material = rarete >= 4 and Enum.Material.Neon or Enum.Material.SmoothPlastic
 	tas.Reflectance = 0.03
 	-- plus on est près du centre du tas, plus on est haut : ça fait une petite montagne
-	local hauteur = taille / 2 + math.max(0, (13 - dist) / 13) * rng:NextNumber(0, 2.5)
+	local hauteur = taille / 2 + math.max(0, (Config.RayonTas - dist) / Config.RayonTas) * rng:NextNumber(0, 4.5)
 	tas.Position = Config.CentreZone(zoneIndex) + c + Vector3.new(math.cos(angle) * dist, hauteur, math.sin(angle) * dist)
 	tas:SetAttribute("Zone", zoneIndex)
 	tas:SetAttribute("Rarete", rarete)
