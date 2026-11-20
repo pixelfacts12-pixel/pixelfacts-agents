@@ -56,7 +56,7 @@
    "id": "veille-20261117-2",
    "url": "https://www.ggrecon.com/articles/golden-joystick-awards-2026-winners/",
    "note": "Angle 'david contre goliath' inspirant, chiffres clés animés (budget vs récompenses), ton motivant pour public ado créateur de jeux.",
-   "status": "pret",
+   "status": "erreur",
    "recu": 1795029802.150589,
    "essais": 0,
    "reprises": 0,
@@ -166,7 +166,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 37,
+ "ev_lus": 38,
  "veille": {
   "derniere": 1795117304.7810583,
   "essais": 0

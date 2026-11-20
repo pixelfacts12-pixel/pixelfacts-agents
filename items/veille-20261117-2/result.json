@@ -1,8 +1,1 @@
-{
- "status": "pret",
- "titre": "Un jeu à 5,99 $ rafle 4 prix ! 🏆",
- "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261117-2",
- "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261117-2/envoi.mp4",
- "telegram": "Meccha Chameleon, jeu à 5,99 $, rafle quatre Golden Joystick : vidéo prête.",
- "resume": "Sujet : Meccha Chameleon (jeu auto-édité à 5,99 $) gagne 4 prix aux Golden Joystick 2026, angle David contre Goliath motivant pour ados créateurs (38,9 s, 1080x1920).\nVérifié : 4 prix, prix 5,99 $, date de la cérémonie (11/11/2026) sur l'article ggrecon ; 15 M de ventes en 26 jours sur 80.lv. Aucun budget chiffré trouvé nulle part : je n'ai donc pas animé « budget vs récompenses » et j'ai écrit « pas besoin d'un énorme budget » sans chiffre ; « développeur solo » non confirmé par une source fiable, j'ai écrit « auto-édité ».\nChoix prudents : la comparaison avec Resident Evil Requiem se limite à « même soirée » (le « autant de prix » vient d'une seule source). Voix : « Mètcha Caméléone » écrit phonétiquement, nom exact à l'écran. outils/whisper.py plante (bibliothèque av) : transcription faite avec mon propre script. Images IA avec limite de débit (1/45 s), mélange du visuel parfois approximatif (bureau, globe). Musique et pop synthétisés par moi. Mix mesuré : -21,2 LUFS (voix seule -21,3), pic -5,9 dBTP.\nÀ voir : qualité des images IA (un globe un peu abstrait) ; mention IA à cocher ; contenu non conçu spécifiquement pour enfants, public ado."
-}
+{"status": "erreur", "telegram": "⚠️ veille-20261117-2 : aucune vidéo finale trouvée (ni final.mp4 ni envoi.mp4, les .mp4 ne sont pas dans le dépôt). Rien n'a été programmé. Il faut régénérer le rendu."}
