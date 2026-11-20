@@ -1,0 +1,587 @@
+[
+ {
+  "texte": "Un jeu à 5,99$ vient de battre des géants.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 0.0,
+    "fin": 0.28
+   },
+   {
+    "mot": "jeu",
+    "debut": 0.28,
+    "fin": 0.44
+   },
+   {
+    "mot": "à",
+    "debut": 0.44,
+    "fin": 0.56
+   },
+   {
+    "mot": "5",
+    "debut": 0.56,
+    "fin": 0.76
+   },
+   {
+    "mot": ",99",
+    "debut": 0.76,
+    "fin": 1.28
+   },
+   {
+    "mot": "$",
+    "debut": 1.28,
+    "fin": 1.92
+   },
+   {
+    "mot": "vient",
+    "debut": 1.92,
+    "fin": 2.16
+   },
+   {
+    "mot": "de",
+    "debut": 2.16,
+    "fin": 2.28
+   },
+   {
+    "mot": "battre",
+    "debut": 2.28,
+    "fin": 2.5
+   },
+   {
+    "mot": "des",
+    "debut": 2.5,
+    "fin": 2.64
+   },
+   {
+    "mot": "géants.",
+    "debut": 2.64,
+    "fin": 2.9
+   }
+  ]
+ },
+ {
+  "texte": "Il s'appelle Matcha Kameleon, un jeu de cache-cache, sorti en juin.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 3.82,
+    "fin": 4.1
+   },
+   {
+    "mot": "s",
+    "debut": 4.1,
+    "fin": 4.24
+   },
+   {
+    "mot": "'appelle",
+    "debut": 4.24,
+    "fin": 4.42
+   },
+   {
+    "mot": "Matcha",
+    "debut": 4.42,
+    "fin": 4.74
+   },
+   {
+    "mot": "Kameleon,",
+    "debut": 4.74,
+    "fin": 5.22
+   },
+   {
+    "mot": "un",
+    "debut": 5.42,
+    "fin": 5.52
+   },
+   {
+    "mot": "jeu",
+    "debut": 5.52,
+    "fin": 5.64
+   },
+   {
+    "mot": "de",
+    "debut": 5.64,
+    "fin": 5.74
+   },
+   {
+    "mot": "cache",
+    "debut": 5.74,
+    "fin": 5.92
+   },
+   {
+    "mot": "-cache,",
+    "debut": 5.92,
+    "fin": 6.28
+   },
+   {
+    "mot": "sorti",
+    "debut": 6.56,
+    "fin": 6.9
+   },
+   {
+    "mot": "en",
+    "debut": 6.9,
+    "fin": 7.02
+   },
+   {
+    "mot": "juin.",
+    "debut": 7.02,
+    "fin": 7.28
+   }
+  ]
+ },
+ {
+  "texte": "Au Golden Joystick Awards 2026, il a gagné quatre prix.",
+  "mots": [
+   {
+    "mot": "Au",
+    "debut": 8.3,
+    "fin": 8.44
+   },
+   {
+    "mot": "Golden",
+    "debut": 8.44,
+    "fin": 8.64
+   },
+   {
+    "mot": "Joystick",
+    "debut": 8.64,
+    "fin": 9.2
+   },
+   {
+    "mot": "Awards",
+    "debut": 9.2,
+    "fin": 9.44
+   },
+   {
+    "mot": "2026,",
+    "debut": 9.44,
+    "fin": 10.18
+   },
+   {
+    "mot": "il",
+    "debut": 10.58,
+    "fin": 10.66
+   },
+   {
+    "mot": "a",
+    "debut": 10.66,
+    "fin": 10.74
+   },
+   {
+    "mot": "gagné",
+    "debut": 10.74,
+    "fin": 11.0
+   },
+   {
+    "mot": "quatre",
+    "debut": 11.0,
+    "fin": 11.16
+   },
+   {
+    "mot": "prix.",
+    "debut": 11.16,
+    "fin": 11.5
+   }
+  ]
+ },
+ {
+  "texte": "Meilleur jeu multijoueur.",
+  "mots": [
+   {
+    "mot": "Meilleur",
+    "debut": 12.64,
+    "fin": 12.92
+   },
+   {
+    "mot": "jeu",
+    "debut": 12.92,
+    "fin": 13.08
+   },
+   {
+    "mot": "multijoueur.",
+    "debut": 13.08,
+    "fin": 13.7
+   }
+  ]
+ },
+ {
+  "texte": "Meilleur jeu indépendant auto-édité.",
+  "mots": [
+   {
+    "mot": "Meilleur",
+    "debut": 14.660000000000002,
+    "fin": 15.14
+   },
+   {
+    "mot": "jeu",
+    "debut": 15.14,
+    "fin": 15.28
+   },
+   {
+    "mot": "indépendant",
+    "debut": 15.28,
+    "fin": 15.74
+   },
+   {
+    "mot": "auto",
+    "debut": 15.74,
+    "fin": 15.92
+   },
+   {
+    "mot": "-édité.",
+    "debut": 15.92,
+    "fin": 16.3
+   }
+  ]
+ },
+ {
+  "texte": "Et le choix des développeurs, et celui des streamers.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 17.34,
+    "fin": 17.56
+   },
+   {
+    "mot": "le",
+    "debut": 17.56,
+    "fin": 17.66
+   },
+   {
+    "mot": "choix",
+    "debut": 17.66,
+    "fin": 17.82
+   },
+   {
+    "mot": "des",
+    "debut": 17.82,
+    "fin": 17.94
+   },
+   {
+    "mot": "développeurs,",
+    "debut": 17.94,
+    "fin": 18.54
+   },
+   {
+    "mot": "et",
+    "debut": 18.8,
+    "fin": 18.9
+   },
+   {
+    "mot": "celui",
+    "debut": 18.9,
+    "fin": 19.08
+   },
+   {
+    "mot": "des",
+    "debut": 19.08,
+    "fin": 19.22
+   },
+   {
+    "mot": "streamers.",
+    "debut": 19.22,
+    "fin": 19.62
+   }
+  ]
+ },
+ {
+  "texte": "Il a dépassé 15 millions de ventes en 26 jours.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 20.78,
+    "fin": 20.98
+   },
+   {
+    "mot": "a",
+    "debut": 20.98,
+    "fin": 21.06
+   },
+   {
+    "mot": "dépassé",
+    "debut": 21.06,
+    "fin": 21.44
+   },
+   {
+    "mot": "15",
+    "debut": 21.44,
+    "fin": 21.62
+   },
+   {
+    "mot": "millions",
+    "debut": 21.62,
+    "fin": 21.88
+   },
+   {
+    "mot": "de",
+    "debut": 21.88,
+    "fin": 22.06
+   },
+   {
+    "mot": "ventes",
+    "debut": 22.06,
+    "fin": 22.3
+   },
+   {
+    "mot": "en",
+    "debut": 22.3,
+    "fin": 22.36
+   },
+   {
+    "mot": "26",
+    "debut": 22.36,
+    "fin": 22.64
+   },
+   {
+    "mot": "jours.",
+    "debut": 22.64,
+    "fin": 22.94
+   }
+  ]
+ },
+ {
+  "texte": "Même soirée que résidents y veulent récuyerme, le géant élu jeu de l'année.",
+  "mots": [
+   {
+    "mot": "Même",
+    "debut": 24.06,
+    "fin": 24.4
+   },
+   {
+    "mot": "soirée",
+    "debut": 24.4,
+    "fin": 24.72
+   },
+   {
+    "mot": "que",
+    "debut": 24.72,
+    "fin": 24.84
+   },
+   {
+    "mot": "résidents",
+    "debut": 24.84,
+    "fin": 25.16
+   },
+   {
+    "mot": "y",
+    "debut": 25.16,
+    "fin": 25.3
+   },
+   {
+    "mot": "veulent",
+    "debut": 25.3,
+    "fin": 25.4
+   },
+   {
+    "mot": "récuyerme,",
+    "debut": 25.4,
+    "fin": 25.96
+   },
+   {
+    "mot": "le",
+    "debut": 26.24,
+    "fin": 26.34
+   },
+   {
+    "mot": "géant",
+    "debut": 26.34,
+    "fin": 26.58
+   },
+   {
+    "mot": "élu",
+    "debut": 26.58,
+    "fin": 26.7
+   },
+   {
+    "mot": "jeu",
+    "debut": 26.7,
+    "fin": 26.9
+   },
+   {
+    "mot": "de",
+    "debut": 26.9,
+    "fin": 27.0
+   },
+   {
+    "mot": "l",
+    "debut": 27.0,
+    "fin": 27.08
+   },
+   {
+    "mot": "'année.",
+    "debut": 27.08,
+    "fin": 27.24
+   }
+  ]
+ },
+ {
+  "texte": "Pas besoin d'un énorme budget pour viser haut.",
+  "mots": [
+   {
+    "mot": "Pas",
+    "debut": 28.060000000000002,
+    "fin": 28.5
+   },
+   {
+    "mot": "besoin",
+    "debut": 28.5,
+    "fin": 28.78
+   },
+   {
+    "mot": "d",
+    "debut": 28.78,
+    "fin": 28.88
+   },
+   {
+    "mot": "'un",
+    "debut": 28.88,
+    "fin": 28.96
+   },
+   {
+    "mot": "énorme",
+    "debut": 28.96,
+    "fin": 29.26
+   },
+   {
+    "mot": "budget",
+    "debut": 29.26,
+    "fin": 29.48
+   },
+   {
+    "mot": "pour",
+    "debut": 29.48,
+    "fin": 29.7
+   },
+   {
+    "mot": "viser",
+    "debut": 29.7,
+    "fin": 29.98
+   },
+   {
+    "mot": "haut.",
+    "debut": 29.98,
+    "fin": 30.12
+   }
+  ]
+ },
+ {
+  "texte": "Alors lance ton idée de jeu, elle peut faire le tour du monde.",
+  "mots": [
+   {
+    "mot": "Alors",
+    "debut": 30.96,
+    "fin": 31.4
+   },
+   {
+    "mot": "lance",
+    "debut": 31.4,
+    "fin": 31.62
+   },
+   {
+    "mot": "ton",
+    "debut": 31.62,
+    "fin": 31.78
+   },
+   {
+    "mot": "idée",
+    "debut": 31.78,
+    "fin": 32.0
+   },
+   {
+    "mot": "de",
+    "debut": 32.0,
+    "fin": 32.16
+   },
+   {
+    "mot": "jeu,",
+    "debut": 32.16,
+    "fin": 32.36
+   },
+   {
+    "mot": "elle",
+    "debut": 32.62,
+    "fin": 32.7
+   },
+   {
+    "mot": "peut",
+    "debut": 32.7,
+    "fin": 32.86
+   },
+   {
+    "mot": "faire",
+    "debut": 32.86,
+    "fin": 33.08
+   },
+   {
+    "mot": "le",
+    "debut": 33.08,
+    "fin": 33.18
+   },
+   {
+    "mot": "tour",
+    "debut": 33.18,
+    "fin": 33.34
+   },
+   {
+    "mot": "du",
+    "debut": 33.34,
+    "fin": 33.48
+   },
+   {
+    "mot": "monde.",
+    "debut": 33.48,
+    "fin": 33.68
+   }
+  ]
+ },
+ {
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 34.68,
+    "fin": 35.12
+   },
+   {
+    "mot": "-toi",
+    "debut": 35.12,
+    "fin": 35.28
+   },
+   {
+    "mot": "à",
+    "debut": 35.28,
+    "fin": 35.42
+   },
+   {
+    "mot": "Pixel",
+    "debut": 35.42,
+    "fin": 35.62
+   },
+   {
+    "mot": "Facts",
+    "debut": 35.62,
+    "fin": 36.02
+   },
+   {
+    "mot": "pour",
+    "debut": 36.02,
+    "fin": 36.2
+   },
+   {
+    "mot": "le",
+    "debut": 36.2,
+    "fin": 36.32
+   },
+   {
+    "mot": "prochain",
+    "debut": 36.32,
+    "fin": 36.56
+   },
+   {
+    "mot": "fait.",
+    "debut": 36.56,
+    "fin": 36.82
+   }
+  ]
+ }
+]
