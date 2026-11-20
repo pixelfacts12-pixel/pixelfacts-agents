@@ -1,0 +1,519 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 5.22,
+  "texte": "savait-tu qu'un jeu à 6€ a gagné 4 trophées ? Il s'appelle Mekashamelon, un jeu de cash-cash",
+  "mots": [
+   {
+    "mot": "savait",
+    "debut": 0.0,
+    "fin": 0.44
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.44,
+    "fin": 0.56
+   },
+   {
+    "mot": "qu",
+    "debut": 0.56,
+    "fin": 0.66
+   },
+   {
+    "mot": "'un",
+    "debut": 0.66,
+    "fin": 0.72
+   },
+   {
+    "mot": "jeu",
+    "debut": 0.72,
+    "fin": 0.86
+   },
+   {
+    "mot": "à",
+    "debut": 0.86,
+    "fin": 0.96
+   },
+   {
+    "mot": "6€",
+    "debut": 0.96,
+    "fin": 1.3
+   },
+   {
+    "mot": "a",
+    "debut": 1.3,
+    "fin": 1.44
+   },
+   {
+    "mot": "gagné",
+    "debut": 1.44,
+    "fin": 1.68
+   },
+   {
+    "mot": "4",
+    "debut": 1.68,
+    "fin": 1.86
+   },
+   {
+    "mot": "trophées",
+    "debut": 1.86,
+    "fin": 2.28
+   },
+   {
+    "mot": "?",
+    "debut": 2.28,
+    "fin": 3.2
+   },
+   {
+    "mot": "Il",
+    "debut": 3.2,
+    "fin": 3.3
+   },
+   {
+    "mot": "s",
+    "debut": 3.3,
+    "fin": 3.46
+   },
+   {
+    "mot": "'appelle",
+    "debut": 3.46,
+    "fin": 3.6
+   },
+   {
+    "mot": "Mekashamelon,",
+    "debut": 3.6,
+    "fin": 4.3
+   },
+   {
+    "mot": "un",
+    "debut": 4.52,
+    "fin": 4.6
+   },
+   {
+    "mot": "jeu",
+    "debut": 4.6,
+    "fin": 4.72
+   },
+   {
+    "mot": "de",
+    "debut": 4.72,
+    "fin": 4.82
+   },
+   {
+    "mot": "cash",
+    "debut": 4.82,
+    "fin": 5.0
+   },
+   {
+    "mot": "-cash",
+    "debut": 5.0,
+    "fin": 5.22
+   }
+  ]
+ },
+ {
+  "debut": 5.22,
+  "fin": 11.96,
+  "texte": "venu du Japon. Derrière, une toute petite équipe indépendante. Sorti en juin 2026, il coûte",
+  "mots": [
+   {
+    "mot": "venu",
+    "debut": 5.22,
+    "fin": 5.48
+   },
+   {
+    "mot": "du",
+    "debut": 5.48,
+    "fin": 5.6
+   },
+   {
+    "mot": "Japon.",
+    "debut": 5.6,
+    "fin": 5.86
+   },
+   {
+    "mot": "Derrière,",
+    "debut": 6.7,
+    "fin": 7.18
+   },
+   {
+    "mot": "une",
+    "debut": 7.54,
+    "fin": 7.62
+   },
+   {
+    "mot": "toute",
+    "debut": 7.62,
+    "fin": 7.78
+   },
+   {
+    "mot": "petite",
+    "debut": 7.78,
+    "fin": 8.1
+   },
+   {
+    "mot": "équipe",
+    "debut": 8.1,
+    "fin": 8.42
+   },
+   {
+    "mot": "indépendante.",
+    "debut": 8.42,
+    "fin": 9.0
+   },
+   {
+    "mot": "Sorti",
+    "debut": 9.8,
+    "fin": 10.28
+   },
+   {
+    "mot": "en",
+    "debut": 10.28,
+    "fin": 10.4
+   },
+   {
+    "mot": "juin",
+    "debut": 10.4,
+    "fin": 10.6
+   },
+   {
+    "mot": "2026,",
+    "debut": 10.6,
+    "fin": 11.24
+   },
+   {
+    "mot": "il",
+    "debut": 11.62,
+    "fin": 11.7
+   },
+   {
+    "mot": "coûte",
+    "debut": 11.7,
+    "fin": 11.96
+   }
+  ]
+ },
+ {
+  "debut": 11.96,
+  "fin": 16.38,
+  "texte": "environ 6€. Au Golden Joystick Awards, il a brillé à côté des géants.",
+  "mots": [
+   {
+    "mot": "environ",
+    "debut": 11.96,
+    "fin": 12.14
+   },
+   {
+    "mot": "6€.",
+    "debut": 12.14,
+    "fin": 12.68
+   },
+   {
+    "mot": "Au",
+    "debut": 13.56,
+    "fin": 13.7
+   },
+   {
+    "mot": "Golden",
+    "debut": 13.7,
+    "fin": 13.94
+   },
+   {
+    "mot": "Joystick",
+    "debut": 13.94,
+    "fin": 14.48
+   },
+   {
+    "mot": "Awards,",
+    "debut": 14.48,
+    "fin": 14.8
+   },
+   {
+    "mot": "il",
+    "debut": 15.22,
+    "fin": 15.34
+   },
+   {
+    "mot": "a",
+    "debut": 15.34,
+    "fin": 15.42
+   },
+   {
+    "mot": "brillé",
+    "debut": 15.42,
+    "fin": 15.68
+   },
+   {
+    "mot": "à",
+    "debut": 15.68,
+    "fin": 15.78
+   },
+   {
+    "mot": "côté",
+    "debut": 15.78,
+    "fin": 15.94
+   },
+   {
+    "mot": "des",
+    "debut": 15.94,
+    "fin": 16.16
+   },
+   {
+    "mot": "géants.",
+    "debut": 16.16,
+    "fin": 16.38
+   }
+  ]
+ },
+ {
+  "debut": 17.24,
+  "fin": 23.5,
+  "texte": "Meilleur jeu multijoueur. Meilleur indéauto-édité. Le choix des streamers, et celui des développeurs.",
+  "mots": [
+   {
+    "mot": "Meilleur",
+    "debut": 17.24,
+    "fin": 17.54
+   },
+   {
+    "mot": "jeu",
+    "debut": 17.54,
+    "fin": 17.7
+   },
+   {
+    "mot": "multijoueur.",
+    "debut": 17.7,
+    "fin": 18.34
+   },
+   {
+    "mot": "Meilleur",
+    "debut": 19.06,
+    "fin": 19.54
+   },
+   {
+    "mot": "indéauto",
+    "debut": 19.54,
+    "fin": 19.9
+   },
+   {
+    "mot": "-édité.",
+    "debut": 19.9,
+    "fin": 20.3
+   },
+   {
+    "mot": "Le",
+    "debut": 21.3,
+    "fin": 21.42
+   },
+   {
+    "mot": "choix",
+    "debut": 21.42,
+    "fin": 21.6
+   },
+   {
+    "mot": "des",
+    "debut": 21.6,
+    "fin": 21.72
+   },
+   {
+    "mot": "streamers,",
+    "debut": 21.72,
+    "fin": 22.18
+   },
+   {
+    "mot": "et",
+    "debut": 22.42,
+    "fin": 22.56
+   },
+   {
+    "mot": "celui",
+    "debut": 22.56,
+    "fin": 22.74
+   },
+   {
+    "mot": "des",
+    "debut": 22.74,
+    "fin": 22.9
+   },
+   {
+    "mot": "développeurs.",
+    "debut": 22.9,
+    "fin": 23.5
+   }
+  ]
+ },
+ {
+  "debut": 24.38,
+  "fin": 29.5,
+  "texte": "4 Trophées. Autant que résidents y veulent récuillem de Capcom. Le son pour les",
+  "mots": [
+   {
+    "mot": "4",
+    "debut": 24.38,
+    "fin": 24.58
+   },
+   {
+    "mot": "Trophées.",
+    "debut": 24.58,
+    "fin": 25.04
+   },
+   {
+    "mot": "Autant",
+    "debut": 25.76,
+    "fin": 26.18
+   },
+   {
+    "mot": "que",
+    "debut": 26.18,
+    "fin": 26.3
+   },
+   {
+    "mot": "résidents",
+    "debut": 26.3,
+    "fin": 26.64
+   },
+   {
+    "mot": "y",
+    "debut": 26.64,
+    "fin": 26.78
+   },
+   {
+    "mot": "veulent",
+    "debut": 26.78,
+    "fin": 26.88
+   },
+   {
+    "mot": "récuillem",
+    "debut": 26.88,
+    "fin": 27.36
+   },
+   {
+    "mot": "de",
+    "debut": 27.36,
+    "fin": 27.48
+   },
+   {
+    "mot": "Capcom.",
+    "debut": 27.48,
+    "fin": 27.9
+   },
+   {
+    "mot": "Le",
+    "debut": 28.72,
+    "fin": 29.04
+   },
+   {
+    "mot": "son",
+    "debut": 29.04,
+    "fin": 29.22
+   },
+   {
+    "mot": "pour",
+    "debut": 29.22,
+    "fin": 29.38
+   },
+   {
+    "mot": "les",
+    "debut": 29.38,
+    "fin": 29.5
+   }
+  ]
+ },
+ {
+  "debut": 29.5,
+  "fin": 34.76,
+  "texte": "adocréateurs, une bonne idée peut battre un gros budget. Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "adocréateurs,",
+    "debut": 29.5,
+    "fin": 30.14
+   },
+   {
+    "mot": "une",
+    "debut": 30.48,
+    "fin": 30.56
+   },
+   {
+    "mot": "bonne",
+    "debut": 30.56,
+    "fin": 30.72
+   },
+   {
+    "mot": "idée",
+    "debut": 30.72,
+    "fin": 30.94
+   },
+   {
+    "mot": "peut",
+    "debut": 30.94,
+    "fin": 31.1
+   },
+   {
+    "mot": "battre",
+    "debut": 31.1,
+    "fin": 31.36
+   },
+   {
+    "mot": "un",
+    "debut": 31.36,
+    "fin": 31.42
+   },
+   {
+    "mot": "gros",
+    "debut": 31.42,
+    "fin": 31.54
+   },
+   {
+    "mot": "budget.",
+    "debut": 31.54,
+    "fin": 31.8
+   },
+   {
+    "mot": "Abonne",
+    "debut": 32.62,
+    "fin": 33.06
+   },
+   {
+    "mot": "-toi",
+    "debut": 33.06,
+    "fin": 33.24
+   },
+   {
+    "mot": "à",
+    "debut": 33.24,
+    "fin": 33.36
+   },
+   {
+    "mot": "Pixel",
+    "debut": 33.36,
+    "fin": 33.56
+   },
+   {
+    "mot": "Facts",
+    "debut": 33.56,
+    "fin": 33.96
+   },
+   {
+    "mot": "pour",
+    "debut": 33.96,
+    "fin": 34.14
+   },
+   {
+    "mot": "le",
+    "debut": 34.14,
+    "fin": 34.24
+   },
+   {
+    "mot": "prochain",
+    "debut": 34.24,
+    "fin": 34.48
+   },
+   {
+    "mot": "fait.",
+    "debut": 34.48,
+    "fin": 34.76
+   }
+  ]
+ }
+]
