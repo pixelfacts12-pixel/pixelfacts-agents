@@ -3,6 +3,22 @@
 Le Créateur Roblox coche chaque ligne quand elle est finie et testée (build OK + publication de test).
 But global : un jeu UNIQUE, beau, qui donne envie dès la 1re minute. Style : cartoon low poly coloré, cohérent partout (pas de mélange réaliste/cartoon).
 
+## 00. PREMIÈRE IMPRESSION (priorité n°1 absolue — demande d'Alex du 20/11, référence : le jeu « Atomic Incremental »)
+Quand un joueur arrive, il doit voir TOUT ça, adapté à Balaye (balais, poussière, pièces). On reprend les idées, jamais leurs images ni leurs textes.
+- [ ] Gros titre de bienvenue en haut « Bienvenue dans Balaye Simulator ! » + objectif du moment juste dessous (« Balaie 0 / 5 tas »), qui change à chaque étape (= le tutoriel).
+- [ ] Flèches au sol (chevrons animés) qui guident vers l'objectif du moment.
+- [ ] Panneaux d'améliorations DANS le monde, face au spawn (grands panneaux SurfaceGui inclinés) : une carte par amélioration avec nom, « Niveau 0 / 20 », effet « x1.00 → x1.40 », prix, boutons ACHETER et MAXIMUM. Un panneau pour les améliorations du balai/poussière (valeur, vitesse d'apparition, capacité du sac, rayon de balayage), un second pour celles du joueur (vitesse de marche, aimant, collecte automatique verrouillée « Débloqué à la renaissance 1 »).
+- [ ] Tableau de renaissance (prestige) dans le monde : ce qu'il faut, ce que ça rapporte (x2.5 pièces…), ce que ça débloque, bouton « PAS ASSEZ » / « RENAÎTRE ».
+- [ ] Classement géant dans le monde (top joueurs par pièces) + statue/piédestal du n°1.
+- [ ] Zones verrouillées visibles avec panneau « Débloquer avec la renaissance II » et grande porte « Nécessite la renaissance IV » avec barre 0/4.
+- [ ] Menu à droite en grosses icônes 3D colorées avec texte : Quotidien (compteur + « ! » rouge quand dispo), Boutique, Inventaire, Statistiques, Paramètres.
+- [ ] En bas au centre : 2e monnaie + bouton « Arbre de talents » (verrouillé au début, cadenas).
+- [ ] En bas à droite : boost actif avec minuteur (« x2 pièces 2:42 »).
+- [ ] En bas à gauche : bonus amis (« +0 % », bouton + pour inviter) ; à gauche : compteur de pièces avec grosse icône.
+- [ ] Bouton « Updates » en haut à droite (nouveautés du jeu).
+- [ ] Les objets à ramasser apparaissent autour du joueur en continu (comme les orbes) avec une étiquette « Capacité 5/5 — Sac plein ».
+- [ ] Monde : sol en damier lumineux, chemins orange en dalles, falaises stylisées autour, arbres et rochers low-poly, ciel bleu ; tout lisible de loin.
+
 ## 0. REFONTE VISUELLE (priorité n°1, suite de la vitrine faite le 20/11) — lis STYLE.md
 - [x] Zones plus petites ou bien plus remplies : le joueur doit toujours avoir un gros tas à moins de 10 studs (Config.TailleZone, PoussieresParZone, TasParZone). Viser des montagnes de 60 à 120 objets.
 - [x] Grenier : murs en planches avec fenêtres, plus de bric-à-brac (cartons, vieux meubles, toiles d'araignée, malles), pas de grand vide.

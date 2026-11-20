@@ -135,7 +135,7 @@ def choisir(st, voie):
         actif = any(i["status"] not in ("programme", "rejete", "erreur", "ici") for i in mes_items)
         retours = JEU_ROBLOX / "RETOURS.md"
         en_retard = retours.exists() and "- [ ]" in retours.read_text(encoding="utf-8")
-        delai = 12 * 3600 if en_retard else ROBLOX_TOUTES_LES  # tant que tes retours ne sont pas finis : toutes les 12 h
+        delai = 6 * 3600 if en_retard else ROBLOX_TOUTES_LES  # tant que tes retours ne sont pas finis : toutes les 6 h
         if not actif and time.time() - st.get("roblox_derniere", 0) > delai:
             st["roblox_derniere"] = time.time()
             it = {"id": "roblox-" + time.strftime("%Y%m%d-%H%M"), "type": "roblox", "url": "", "note": "",
