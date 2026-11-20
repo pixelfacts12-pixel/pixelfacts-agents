@@ -1,0 +1,656 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 2.04,
+  "texte": "Un record du monde Guinness, dans Roblox.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 0.0,
+    "fin": 0.3
+   },
+   {
+    "mot": "record",
+    "debut": 0.3,
+    "fin": 0.52
+   },
+   {
+    "mot": "du",
+    "debut": 0.52,
+    "fin": 0.72
+   },
+   {
+    "mot": "monde",
+    "debut": 0.72,
+    "fin": 0.86
+   },
+   {
+    "mot": "Guinness,",
+    "debut": 0.86,
+    "fin": 1.28
+   },
+   {
+    "mot": "dans",
+    "debut": 1.48,
+    "fin": 1.6
+   },
+   {
+    "mot": "Roblox.",
+    "debut": 1.6,
+    "fin": 2.04
+   }
+  ]
+ },
+ {
+  "debut": 2.7000000000000006,
+  "fin": 5.16,
+  "texte": "Savais-tu que c'était possible ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 2.7000000000000006,
+    "fin": 3.22
+   },
+   {
+    "mot": "-tu",
+    "debut": 3.22,
+    "fin": 3.32
+   },
+   {
+    "mot": "que",
+    "debut": 3.32,
+    "fin": 3.44
+   },
+   {
+    "mot": "c",
+    "debut": 3.44,
+    "fin": 3.54
+   },
+   {
+    "mot": "'était",
+    "debut": 3.54,
+    "fin": 3.64
+   },
+   {
+    "mot": "possible",
+    "debut": 3.64,
+    "fin": 4.04
+   },
+   {
+    "mot": "?",
+    "debut": 4.04,
+    "fin": 5.16
+   }
+  ]
+ },
+ {
+  "debut": 5.16,
+  "fin": 9.48,
+  "texte": "En novembre 2025, Guinness World Record a lancé de vrais défis officiels dans Roblox.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 5.16,
+    "fin": 5.32
+   },
+   {
+    "mot": "novembre",
+    "debut": 5.32,
+    "fin": 5.68
+   },
+   {
+    "mot": "2025,",
+    "debut": 5.68,
+    "fin": 6.26
+   },
+   {
+    "mot": "Guinness",
+    "debut": 6.72,
+    "fin": 6.96
+   },
+   {
+    "mot": "World",
+    "debut": 6.96,
+    "fin": 7.16
+   },
+   {
+    "mot": "Record",
+    "debut": 7.16,
+    "fin": 7.48
+   },
+   {
+    "mot": "a",
+    "debut": 7.48,
+    "fin": 7.64
+   },
+   {
+    "mot": "lancé",
+    "debut": 7.64,
+    "fin": 7.88
+   },
+   {
+    "mot": "de",
+    "debut": 7.88,
+    "fin": 7.98
+   },
+   {
+    "mot": "vrais",
+    "debut": 7.98,
+    "fin": 8.14
+   },
+   {
+    "mot": "défis",
+    "debut": 8.14,
+    "fin": 8.42
+   },
+   {
+    "mot": "officiels",
+    "debut": 8.42,
+    "fin": 8.88
+   },
+   {
+    "mot": "dans",
+    "debut": 8.88,
+    "fin": 9.02
+   },
+   {
+    "mot": "Roblox.",
+    "debut": 9.02,
+    "fin": 9.48
+   }
+  ]
+ },
+ {
+  "debut": 10.26,
+  "fin": 13.62,
+  "texte": "Le premier, 1% Winobi, du 4 au 17 novembre.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 10.26,
+    "fin": 10.78
+   },
+   {
+    "mot": "premier,",
+    "debut": 10.78,
+    "fin": 11.04
+   },
+   {
+    "mot": "1",
+    "debut": 11.38,
+    "fin": 11.5
+   },
+   {
+    "mot": "%",
+    "debut": 11.5,
+    "fin": 11.76
+   },
+   {
+    "mot": "Winobi,",
+    "debut": 11.76,
+    "fin": 12.14
+   },
+   {
+    "mot": "du",
+    "debut": 12.44,
+    "fin": 12.54
+   },
+   {
+    "mot": "4",
+    "debut": 12.54,
+    "fin": 12.7
+   },
+   {
+    "mot": "au",
+    "debut": 12.7,
+    "fin": 12.86
+   },
+   {
+    "mot": "17",
+    "debut": 12.86,
+    "fin": 13.04
+   },
+   {
+    "mot": "novembre.",
+    "debut": 13.04,
+    "fin": 13.62
+   }
+  ]
+ },
+ {
+  "debut": 14.54,
+  "fin": 17.66,
+  "texte": "Le deuxième, Ultimate Easyobi, du 17 au 30 novembre.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 14.54,
+    "fin": 14.84
+   },
+   {
+    "mot": "deuxième,",
+    "debut": 14.84,
+    "fin": 15.12
+   },
+   {
+    "mot": "Ultimate",
+    "debut": 15.44,
+    "fin": 15.6
+   },
+   {
+    "mot": "Easyobi,",
+    "debut": 15.6,
+    "fin": 16.14
+   },
+   {
+    "mot": "du",
+    "debut": 16.46,
+    "fin": 16.54
+   },
+   {
+    "mot": "17",
+    "debut": 16.54,
+    "fin": 16.8
+   },
+   {
+    "mot": "au",
+    "debut": 16.8,
+    "fin": 17.0
+   },
+   {
+    "mot": "30",
+    "debut": 17.0,
+    "fin": 17.12
+   },
+   {
+    "mot": "novembre.",
+    "debut": 17.12,
+    "fin": 17.66
+   }
+  ]
+ },
+ {
+  "debut": 18.72,
+  "fin": 20.68,
+  "texte": "Le but, finir le parcours le plus vite possible.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 18.72,
+    "fin": 18.9
+   },
+   {
+    "mot": "but,",
+    "debut": 18.9,
+    "fin": 19.04
+   },
+   {
+    "mot": "finir",
+    "debut": 19.24,
+    "fin": 19.5
+   },
+   {
+    "mot": "le",
+    "debut": 19.5,
+    "fin": 19.6
+   },
+   {
+    "mot": "parcours",
+    "debut": 19.6,
+    "fin": 19.94
+   },
+   {
+    "mot": "le",
+    "debut": 19.94,
+    "fin": 20.04
+   },
+   {
+    "mot": "plus",
+    "debut": 20.04,
+    "fin": 20.2
+   },
+   {
+    "mot": "vite",
+    "debut": 20.2,
+    "fin": 20.34
+   },
+   {
+    "mot": "possible.",
+    "debut": 20.34,
+    "fin": 20.68
+   }
+  ]
+ },
+ {
+  "debut": 21.86,
+  "fin": 24.54,
+  "texte": "Rêgue d'or, aucune étape sautée, aucun passe payant.",
+  "mots": [
+   {
+    "mot": "Rêgue",
+    "debut": 21.86,
+    "fin": 22.16
+   },
+   {
+    "mot": "d",
+    "debut": 22.16,
+    "fin": 22.36
+   },
+   {
+    "mot": "'or,",
+    "debut": 22.36,
+    "fin": 22.48
+   },
+   {
+    "mot": "aucune",
+    "debut": 22.66,
+    "fin": 22.86
+   },
+   {
+    "mot": "étape",
+    "debut": 22.86,
+    "fin": 23.16
+   },
+   {
+    "mot": "sautée,",
+    "debut": 23.16,
+    "fin": 23.5
+   },
+   {
+    "mot": "aucun",
+    "debut": 23.78,
+    "fin": 24.0
+   },
+   {
+    "mot": "passe",
+    "debut": 24.0,
+    "fin": 24.2
+   },
+   {
+    "mot": "payant.",
+    "debut": 24.2,
+    "fin": 24.54
+   }
+  ]
+ },
+ {
+  "debut": 25.42,
+  "fin": 27.88,
+  "texte": "Les meilleurs du classement gagnaient une médaille d'or Guinness.",
+  "mots": [
+   {
+    "mot": "Les",
+    "debut": 25.42,
+    "fin": 25.8
+   },
+   {
+    "mot": "meilleurs",
+    "debut": 25.8,
+    "fin": 26.04
+   },
+   {
+    "mot": "du",
+    "debut": 26.04,
+    "fin": 26.18
+   },
+   {
+    "mot": "classement",
+    "debut": 26.18,
+    "fin": 26.54
+   },
+   {
+    "mot": "gagnaient",
+    "debut": 26.54,
+    "fin": 26.84
+   },
+   {
+    "mot": "une",
+    "debut": 26.84,
+    "fin": 26.94
+   },
+   {
+    "mot": "médaille",
+    "debut": 26.94,
+    "fin": 27.24
+   },
+   {
+    "mot": "d",
+    "debut": 27.24,
+    "fin": 27.36
+   },
+   {
+    "mot": "'or",
+    "debut": 27.36,
+    "fin": 27.4
+   },
+   {
+    "mot": "Guinness.",
+    "debut": 27.4,
+    "fin": 27.88
+   }
+  ]
+ },
+ {
+  "debut": 28.68,
+  "fin": 32.08,
+  "texte": "Et si tu battais le record, un juge Guinness pouvait apparaître dans le jeu.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 28.68,
+    "fin": 29.16
+   },
+   {
+    "mot": "si",
+    "debut": 29.16,
+    "fin": 29.3
+   },
+   {
+    "mot": "tu",
+    "debut": 29.3,
+    "fin": 29.4
+   },
+   {
+    "mot": "battais",
+    "debut": 29.4,
+    "fin": 29.66
+   },
+   {
+    "mot": "le",
+    "debut": 29.66,
+    "fin": 29.76
+   },
+   {
+    "mot": "record,",
+    "debut": 29.76,
+    "fin": 30.04
+   },
+   {
+    "mot": "un",
+    "debut": 30.4,
+    "fin": 30.52
+   },
+   {
+    "mot": "juge",
+    "debut": 30.52,
+    "fin": 30.68
+   },
+   {
+    "mot": "Guinness",
+    "debut": 30.68,
+    "fin": 30.94
+   },
+   {
+    "mot": "pouvait",
+    "debut": 30.94,
+    "fin": 31.18
+   },
+   {
+    "mot": "apparaître",
+    "debut": 31.18,
+    "fin": 31.62
+   },
+   {
+    "mot": "dans",
+    "debut": 31.62,
+    "fin": 31.78
+   },
+   {
+    "mot": "le",
+    "debut": 31.78,
+    "fin": 31.9
+   },
+   {
+    "mot": "jeu.",
+    "debut": 31.9,
+    "fin": 32.08
+   }
+  ]
+ },
+ {
+  "debut": 33.12,
+  "fin": 35.94,
+  "texte": "Il te remettait un certificat officiel, version numérique.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 33.12,
+    "fin": 33.28
+   },
+   {
+    "mot": "te",
+    "debut": 33.28,
+    "fin": 33.44
+   },
+   {
+    "mot": "remettait",
+    "debut": 33.44,
+    "fin": 33.76
+   },
+   {
+    "mot": "un",
+    "debut": 33.76,
+    "fin": 33.86
+   },
+   {
+    "mot": "certificat",
+    "debut": 33.86,
+    "fin": 34.38
+   },
+   {
+    "mot": "officiel,",
+    "debut": 34.38,
+    "fin": 34.9
+   },
+   {
+    "mot": "version",
+    "debut": 35.2,
+    "fin": 35.46
+   },
+   {
+    "mot": "numérique.",
+    "debut": 35.46,
+    "fin": 35.94
+   }
+  ]
+ },
+ {
+  "debut": 37.06,
+  "fin": 39.1,
+  "texte": "Un vrai record du monde, depuis ton écran.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 37.06,
+    "fin": 37.24
+   },
+   {
+    "mot": "vrai",
+    "debut": 37.24,
+    "fin": 37.38
+   },
+   {
+    "mot": "record",
+    "debut": 37.38,
+    "fin": 37.68
+   },
+   {
+    "mot": "du",
+    "debut": 37.68,
+    "fin": 37.84
+   },
+   {
+    "mot": "monde,",
+    "debut": 37.84,
+    "fin": 38.06
+   },
+   {
+    "mot": "depuis",
+    "debut": 38.36,
+    "fin": 38.54
+   },
+   {
+    "mot": "ton",
+    "debut": 38.54,
+    "fin": 38.78
+   },
+   {
+    "mot": "écran.",
+    "debut": 38.78,
+    "fin": 39.1
+   }
+  ]
+ },
+ {
+  "debut": 40.08,
+  "fin": 42.18,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 40.08,
+    "fin": 40.46
+   },
+   {
+    "mot": "-toi",
+    "debut": 40.46,
+    "fin": 40.66
+   },
+   {
+    "mot": "à",
+    "debut": 40.66,
+    "fin": 40.78
+   },
+   {
+    "mot": "Pixel",
+    "debut": 40.78,
+    "fin": 40.96
+   },
+   {
+    "mot": "Facts",
+    "debut": 40.96,
+    "fin": 41.36
+   },
+   {
+    "mot": "pour",
+    "debut": 41.36,
+    "fin": 41.56
+   },
+   {
+    "mot": "le",
+    "debut": 41.56,
+    "fin": 41.68
+   },
+   {
+    "mot": "prochain",
+    "debut": 41.68,
+    "fin": 41.92
+   },
+   {
+    "mot": "fait.",
+    "debut": 41.92,
+    "fin": 42.18
+   }
+  ]
+ }
+]
