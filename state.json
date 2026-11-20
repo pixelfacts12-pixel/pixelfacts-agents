@@ -42,7 +42,7 @@
    "id": "veille-20261117-4",
    "url": "https://www.dontsplash.com/",
    "note": "Angle courbe de croissance et chiffres (pas de scène qui fait peur à l'écran), ton 'phénomène' plutôt qu'horreur, animation data uniquement.",
-   "status": "valide",
+   "status": "programme",
    "recu": 1795029802.149585,
    "essais": 0,
    "reprises": 1,
@@ -67,7 +67,7 @@
    "id": "veille-20261118-1",
    "url": "https://www.youtube.com/shorts/5OoHTd1jUsI",
    "note": "Raconte uniquement la montée en flèche des chiffres (compteur animé, classement Steam) sans montrer de scène de vol ou de violence, ton informatif pour ados fans de jeux PC.",
-   "status": "pret",
+   "status": "valide",
    "recu": 1795032181.098475,
    "essais": 0,
    "reprises": 0,
@@ -165,9 +165,29 @@
    "essais": 0,
    "reprises": 0,
    "remarques": []
+  },
+  {
+   "id": "veille-20261120-2",
+   "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/",
+   "note": "Angle « une marque devient un jeu sans le savoir » : compteurs de visites, ton curieux, pas de logo ni image de marque reprise.",
+   "status": "a_faire",
+   "recu": 1795210835.67917,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261120-3",
+   "url": "https://rowatcher.com/games/10770728771/the-hollow",
+   "note": "Angle courbe de pic puis retombée, uniquement chiffres et graphique animé, ton neutre, aucune scène effrayante.",
+   "status": "a_faire",
+   "recu": 1795210835.6791732,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
   }
  ],
- "ev_lus": 38,
+ "ev_lus": 42,
  "veille": {
   "derniere": 1795198855.346953,
   "essais": 0
@@ -178,25 +198,10 @@
    "url": "https://www.gamesradar.com/games/jrpg/jrpg-mystery-solved-after-29-years-as-tales-of-destiny-fans-find-a-way-to-recruit-a-hidden-character-in-the-original-ps1-version/",
    "note": "Raconter en 30 s : 1997, personnage rumeur, 29 ans de mystère, trouvé en 2026 ; ton enquête, aucun extrait de jeu copié, vérifier les détails sur Siliconera/Kotaku avant d'écrire."
   },
-  "veille-20261120-2": {
-   "type": "video",
-   "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/",
-   "note": "Angle « une marque devient un jeu sans le savoir » : compteurs de visites, ton curieux, pas de logo ni image de marque reprise."
-  },
-  "veille-20261120-3": {
-   "type": "video",
-   "url": "https://rowatcher.com/games/10770728771/the-hollow",
-   "note": "Angle courbe de pic puis retombée, uniquement chiffres et graphique animé, ton neutre, aucune scène effrayante."
-  },
   "veille-20261120-4": {
    "type": "roblox",
    "url": "https://www.roblox.com/games/129081220403721",
    "note": "Simulateur : lancer des graines, faire pousser, vendre, améliorer l'outil ; ton familial, parties courtes, pas de copie des assets."
-  },
-  "veille-20261120-5": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/99352685758267",
-   "note": "Clicker : aplatir une montagne par paliers, gagner de l'argent, acheter de meilleurs outils et machines ; ton fun, progression visible."
   }
  },
  "agents": {
