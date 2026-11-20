@@ -171,7 +171,8 @@ def lancer(tache, it):
     consigne = (BASE / "consignes" / f"{tache}.md").read_text(encoding="utf-8")
     for k, v in {"ID": it["id"], "URL": it["url"], "NOTE": it["note"] or "(aucune)", "RESULT": str(res),
                  "DOSSIER": str(d), "REMARQUES": "\n".join(it["remarques"]) or "(aucune)",
-                 "JEU": str(JEU_ROBLOX), "ROJO": ROJO, "PYTHON": sys.executable}.items():
+                 "JEU": str(JEU_ROBLOX), "ROJO": ROJO, "PYTHON": sys.executable,
+                 "VIDEO_URL": it.get("video_url") or "(inconnue : cherche final.mp4 dans le dossier)"}.items():
         consigne = consigne.replace("{{" + k + "}}", v)
     # stream-json : le journal se remplit en direct, on voit où une tâche s'arrête
     # --safe-mode : sans plugins ni serveurs MCP (Fortnite, Vercel...) qui coûtent des jetons pour rien
