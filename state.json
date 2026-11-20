@@ -56,7 +56,7 @@
    "id": "veille-20261117-2",
    "url": "https://www.ggrecon.com/articles/golden-joystick-awards-2026-winners/",
    "note": "Angle 'david contre goliath' inspirant, chiffres clés animés (budget vs récompenses), ton motivant pour public ado créateur de jeux.",
-   "status": "valide",
+   "status": "programme",
    "recu": 1795029802.150589,
    "essais": 0,
    "reprises": 0,
@@ -185,25 +185,24 @@
    "essais": 0,
    "reprises": 0,
    "remarques": []
+  },
+  {
+   "id": "veille-20261120-1",
+   "url": "https://www.gamesradar.com/games/jrpg/jrpg-mystery-solved-after-29-years-as-tales-of-destiny-fans-find-a-way-to-recruit-a-hidden-character-in-the-original-ps1-version/",
+   "note": "Raconter en 30 s : 1997, personnage rumeur, 29 ans de mystère, trouvé en 2026 ; ton enquête, aucun extrait de jeu copié, vérifier les détails sur Siliconera/Kotaku avant d'écrire.",
+   "status": "a_faire",
+   "recu": 1795211349.6227627,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
   }
  ],
- "ev_lus": 42,
+ "ev_lus": 44,
  "veille": {
   "derniere": 1795198855.346953,
   "essais": 0
  },
- "propositions": {
-  "veille-20261120-1": {
-   "type": "video",
-   "url": "https://www.gamesradar.com/games/jrpg/jrpg-mystery-solved-after-29-years-as-tales-of-destiny-fans-find-a-way-to-recruit-a-hidden-character-in-the-original-ps1-version/",
-   "note": "Raconter en 30 s : 1997, personnage rumeur, 29 ans de mystère, trouvé en 2026 ; ton enquête, aucun extrait de jeu copié, vérifier les détails sur Siliconera/Kotaku avant d'écrire."
-  },
-  "veille-20261120-4": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/129081220403721",
-   "note": "Simulateur : lancer des graines, faire pousser, vendre, améliorer l'outil ; ton familial, parties courtes, pas de copie des assets."
-  }
- },
+ "propositions": {},
  "agents": {
   "roblox_tendances": 1795187433.4323857,
   "roblox_stats": 1795187438.7078805,
