@@ -3,7 +3,37 @@ local Config = {}
 
 -- Zones : chaque nouvelle zone coûte plus cher et sa poussière vaut plus.
 Config.TailleZone = 140
-Config.PoussieresParZone = 45
+Config.PoussieresParZone = 140 -- beaucoup d'objets : c'est le plaisir du jeu (style « Clean The Ballpit »)
+Config.TasParZone = 9 -- les objets sont regroupés en gros tas satisfaisants à vider
+
+-- Raretés : chaque objet ramassé a une chance d'être rare (plus de valeur, effets, message).
+Config.Raretes = {
+	{ nom = "Commun", chance = 0.86, mult = 1 },
+	{ nom = "Rare", chance = 0.10, mult = 3, couleur = Color3.fromRGB(70, 160, 255) },
+	{ nom = "Épique", chance = 0.03, mult = 10, couleur = Color3.fromRGB(190, 80, 255) },
+	{ nom = "Légendaire", chance = 0.009, mult = 50, couleur = Color3.fromRGB(255, 205, 40) },
+	{ nom = "Mystère", chance = 0.001, mult = 250, couleur = Color3.fromRGB(20, 20, 30) },
+}
+
+-- Couleurs des objets communs de chaque zone (dans l'ordre des zones).
+Config.Palettes = {
+	{ Color3.fromRGB(255, 90, 90), Color3.fromRGB(255, 200, 60), Color3.fromRGB(90, 200, 255), Color3.fromRGB(120, 220, 120), Color3.fromRGB(255, 140, 200) },
+	{ Color3.fromRGB(255, 240, 200), Color3.fromRGB(255, 170, 120), Color3.fromRGB(120, 220, 230), Color3.fromRGB(255, 255, 255), Color3.fromRGB(250, 200, 90) },
+	{ Color3.fromRGB(200, 110, 40), Color3.fromRGB(240, 170, 50), Color3.fromRGB(170, 60, 40), Color3.fromRGB(120, 170, 60), Color3.fromRGB(150, 90, 50) },
+	{ Color3.fromRGB(255, 120, 40), Color3.fromRGB(255, 70, 30), Color3.fromRGB(80, 70, 70), Color3.fromRGB(255, 190, 60), Color3.fromRGB(60, 55, 60) },
+	{ Color3.fromRGB(180, 220, 255), Color3.fromRGB(255, 200, 240), Color3.fromRGB(255, 255, 255), Color3.fromRGB(200, 180, 255), Color3.fromRGB(255, 240, 170) },
+}
+
+function Config.TirerRarete(rng)
+	local x, cumul = rng:NextNumber(), 0
+	for i = #Config.Raretes, 2, -1 do -- des plus rares aux moins rares
+		cumul += Config.Raretes[i].chance
+		if x < cumul then
+			return i
+		end
+	end
+	return 1
+end
 Config.DelaiReapparition = 4 -- secondes avant qu'un tas de poussière réapparaisse
 
 -- bordure/murMateriau : look des murs qui ferment chaque zone (plus de murs gris tous pareils).

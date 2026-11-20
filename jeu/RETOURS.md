@@ -3,6 +3,14 @@
 Le Créateur Roblox coche chaque ligne quand elle est finie et testée (build OK + publication de test).
 But global : un jeu UNIQUE, beau, qui donne envie dès la 1re minute. Style : cartoon low poly coloré, cohérent partout (pas de mélange réaliste/cartoon).
 
+## 0. REFONTE VISUELLE (priorité n°1, suite de la vitrine faite le 20/11) — lis STYLE.md
+- [ ] Zones plus petites ou bien plus remplies : le joueur doit toujours avoir un gros tas à moins de 10 studs (Config.TailleZone, PoussieresParZone, TasParZone). Viser des montagnes de 60 à 120 objets.
+- [ ] Grenier : murs en planches avec fenêtres, plus de bric-à-brac (cartons, vieux meubles, toiles d'araignée, malles), pas de grand vide.
+- [ ] Rendre chaque zone aussi remplie que le Grenier (Plage, Forêt, Volcan, Nuages) et vérifier qu'aucun décor ne bloque la caméra ou le passage.
+- [ ] Balai visible et beau, qui change à chaque niveau + effet de poussière à chaque coup.
+- [ ] Particules et texte flottant « +12 » au ramassage ; gros effet pour les raretés.
+- [ ] Musique de fond chill + sons (utiliser seulement des assets audio Roblox libres vérifiés ; sinon noter dans NOTES.md ce qu'Alex doit choisir).
+
 ## 1. Les bases (Alex a testé le 18/11 et trouve le jeu « un peu nul »)
 - [x] Bordures de map : chaque zone fermée proprement (murs/haies/clôtures décorées, pas de vide où l'on tombe), plus de murs gris.
 - [x] Passer d'une zone à l'autre intuitivement : quand on touche la barrière avec assez d'argent, une fenêtre « Débloquer La Plage pour 400 pièces ? Oui » ; sinon « Il te manque X pièces ». Plus besoin de passer par la boutique.

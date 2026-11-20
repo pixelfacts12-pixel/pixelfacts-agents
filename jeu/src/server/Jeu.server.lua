@@ -210,19 +210,70 @@ dossierPoussiere.Name = "Poussiere"
 dossierPoussiere.Parent = workspace
 local rng = Random.new()
 
+-- Centres des gros tas de chaque zone (les objets se regroupent autour : effet « montagne à vider »)
+local centresTas = {}
+for i = 1, #Config.Zones do
+	centresTas[i] = {}
+	local T = Config.TailleZone - 40
+	for _ = 1, Config.TasParZone do
+		table.insert(centresTas[i], Vector3.new(rng:NextNumber(-T / 2, T / 2), 0, rng:NextNumber(-T / 2, T / 2)))
+	end
+end
+
 local function placerTas(zoneIndex)
-	local z = Config.Zones[zoneIndex]
-	local T = Config.TailleZone - 16
+	local palette = Config.Palettes[zoneIndex] or { Config.Zones[zoneIndex].poussiere }
+	local rarete = Config.TirerRarete(rng)
+	local infoR = Config.Raretes[rarete]
+	local c = centresTas[zoneIndex][rng:NextInteger(1, #centresTas[zoneIndex])]
+	local angle, dist = rng:NextNumber(0, math.pi * 2), math.abs(rng:NextNumber() + rng:NextNumber() - 1) * 13
+	local taille = rng:NextNumber(1.3, 2.1) * (rarete > 1 and 1.35 or 1)
 	local tas = Instance.new("Part")
 	tas.Name = "Tas"
 	tas.Shape = Enum.PartType.Ball
 	tas.Anchored = true
 	tas.CanCollide = false
-	tas.Size = Vector3.new(3, 1.2, 3)
-	tas.Color = z.poussiere
-	tas.Material = Enum.Material.Sand
-	tas.Position = Config.CentreZone(zoneIndex) + Vector3.new(rng:NextNumber(-T / 2, T / 2), 0.4, rng:NextNumber(-T / 2, T / 2))
+	tas.Size = Vector3.new(taille, taille, taille)
+	tas.Color = infoR.couleur or palette[rng:NextInteger(1, #palette)]
+	tas.Material = rarete >= 4 and Enum.Material.Neon or Enum.Material.SmoothPlastic
+	tas.Reflectance = 0.03
+	-- plus on est près du centre du tas, plus on est haut : ça fait une petite montagne
+	local hauteur = taille / 2 + math.max(0, (13 - dist) / 13) * rng:NextNumber(0, 2.5)
+	tas.Position = Config.CentreZone(zoneIndex) + c + Vector3.new(math.cos(angle) * dist, hauteur, math.sin(angle) * dist)
 	tas:SetAttribute("Zone", zoneIndex)
+	tas:SetAttribute("Rarete", rarete)
+	if rarete >= 2 then -- les rares brillent et scintillent : on les repère de loin
+		local lumiere = Instance.new("PointLight")
+		lumiere.Color = infoR.couleur
+		lumiere.Range = 6 + rarete * 2
+		lumiere.Brightness = 1.5
+		lumiere.Parent = tas
+		local etincelles = Instance.new("ParticleEmitter")
+		etincelles.Texture = "rbxasset://textures/particles/sparkles_main.dds"
+		etincelles.Color = ColorSequence.new(infoR.couleur)
+		etincelles.LightEmission = 1
+		etincelles.Size = NumberSequence.new(0.4, 0)
+		etincelles.Lifetime = NumberRange.new(0.6, 1.2)
+		etincelles.Rate = 3 + rarete * 3
+		etincelles.Speed = NumberRange.new(1, 3)
+		etincelles.SpreadAngle = Vector2.new(180, 180)
+		etincelles.Parent = tas
+	end
+	if rarete == #Config.Raretes then -- l'objet mystère : un « ? » géant au-dessus
+		local bb = Instance.new("BillboardGui")
+		bb.Size = UDim2.fromOffset(60, 60)
+		bb.StudsOffset = Vector3.new(0, 3, 0)
+		bb.MaxDistance = 80
+		bb.Parent = tas
+		local q = Instance.new("TextLabel")
+		q.Size = UDim2.fromScale(1, 1)
+		q.BackgroundTransparency = 1
+		q.Text = "?"
+		q.TextScaled = true
+		q.Font = Enum.Font.FredokaOne
+		q.TextColor3 = Color3.fromRGB(255, 230, 60)
+		q.TextStrokeTransparency = 0
+		q.Parent = bb
+	end
 	tas.Parent = dossierPoussiere
 end
 
@@ -264,7 +315,12 @@ local function balayer(joueur)
 		end
 		local zoneIndex = tas:GetAttribute("Zone")
 		if not tas:GetAttribute("Ramasse") and zoneIndex <= d.zone and (tas.Position - racine.Position).Magnitude <= b.rayon then
-			d.sac = math.min(capacite, d.sac + Config.Zones[zoneIndex].valeur)
+			local rarete = tas:GetAttribute("Rarete") or 1
+			local infoR = Config.Raretes[rarete]
+			d.sac = math.min(capacite, d.sac + Config.Zones[zoneIndex].valeur * infoR.mult)
+			if rarete >= 3 then
+				evMessage:FireClient(joueur, "✨ " .. string.upper(infoR.nom) .. " ! x" .. infoR.mult)
+			end
 			pris += 1
 			ramasser(tas)
 		end
