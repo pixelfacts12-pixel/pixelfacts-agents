@@ -15,3 +15,8 @@
 - Couleurs : jaune #FFD628, rose #FF5FA2, bleu ciel #5ECBFF, contour violet foncé #281450, blanc. Fond : dégradé bleu ciel ou cubes flous (marque/fond_banniere.png).
 - Texte : Fredoka (@remotion/google-fonts/Fredoka), très gros, contour violet foncé épais.
 - Miniature / première image : Pixel surpris + 3 mots géants + un chiffre.
+
+## Musique (demande d'Alex, valable pour TOUTES les vidéos)
+- Toujours une vraie petite musique chill qui « ambiance » (lo-fi, chill-hop, pop douce) sous la voix, jamais une note tenue ni un bip continu.
+- Libre de droits pour un usage commercial (CC0, ou CC-BY créditée dans la légende ; jamais BY-SA ni musique connue). Sources : Openverse/Freesound/Pixabay Music, ou composée en code avec plusieurs instruments et une vraie mélodie.
+- Volume : audible mais sous la voix (environ -18 à -22 dB sous la voix), fondu en début et en fin.
