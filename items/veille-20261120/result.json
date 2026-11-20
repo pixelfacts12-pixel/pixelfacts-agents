@@ -1,16 +1,41 @@
-{"status": "veille",
- "telegram": "🔎 Veille du jour : une seule idée vidéo vérifiable (le personnage caché de Tales of Destiny trouvé après 29 ans), les pages YouTube ne montrant pas leurs vues sans compte ; 2 simulateurs Roblox simples qui montent (Throw a Seed, Flat the Mountain).",
+{
+ "status": "veille",
+ "telegram": "🔎 Veille du jour : 3 idées vidéo (Tales of Destiny, Kukirin Life, The Hollow) et 2 jeux Roblox simples (Throw a Seed, Flat the Mountain) ; pas de 4e vidéo vérifiable.",
  "propositions": [
-  {"type": "video", "titre": "Le personnage caché trouvé après 29 ans",
-   "url": "https://kotaku.com/someone-just-figured-out-how-to-recruit-a-previously-unrecruitable-party-member-in-a-nearly-30-year-old-rpg-2000752817",
-   "pourquoi": "Kotaku, Siliconera et GamesRadar le 3/11/2026 : des fans trouvent comment recruter Lilith, 10e personnage jamais jouable, dans Tales of Destiny (PS1, 1997), après près de 29 ans. Sujet historique/insolite très partagé ; aucune vue de short vérifiable sans compte.",
-   "note": "Angle mystère résolu en chiffres (1997 → 2026, 9 persos → 10, niveau 6) en animation code/terminal, ton curieux et familial, aucune image du jeu, source citée à l'oral."},
-  {"type": "roblox", "titre": "Lance une graine, fais pousser des plantes rares",
+  {
+   "type": "video",
+   "titre": "Tales of Destiny : le perso caché trouvé après 29 ans",
+   "url": "https://www.gamesradar.com/games/jrpg/jrpg-mystery-solved-after-29-years-as-tales-of-destiny-fans-find-a-way-to-recruit-a-hidden-character-in-the-original-ps1-version/",
+   "pourquoi": "Article GamesRadar de début novembre 2026 (titre vérifié ; détails de l'article tronqués à la lecture) : un mystère de 29 ans résolu sur un JRPG PS1 de 1997. Fait insolite chiffré, format « enquête » qui marche déjà sur nos shorts.",
+   "note": "Raconter en 30 s : 1997, personnage rumeur, 29 ans de mystère, trouvé en 2026 ; ton enquête, aucun extrait de jeu copié, vérifier les détails sur Siliconera/Kotaku avant d'écrire."
+  },
+  {
+   "type": "video",
+   "titre": "Kukirin Life : le jeu Roblox d'une marque qui n'a rien demandé",
+   "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/",
+   "pourquoi": "GGRecon (2/11/2026) : Kukirin Life, jeu fan-made sur la marque de trottinettes KuKirin, 74,8 M de visites en ~6 semaines, 10 778 joueurs, 86 % d'avis positifs, sans lien avec la marque. Angle histoire de marque + chiffres.",
+   "note": "Angle « une marque devient un jeu sans le savoir » : compteurs de visites, ton curieux, pas de logo ni image de marque reprise."
+  },
+  {
+   "type": "video",
+   "titre": "The Hollow : 506 000 joueurs pour un événement Roblox mystère",
+   "url": "https://rowatcher.com/games/10770728771/the-hollow",
+   "pourquoi": "RoWatcher (page ouverte le 20/11/2026) : pic de 506 000 joueurs simultanés en octobre 2026 pour l'événement Halloween de Roblox, 9 jeux liés ; il est à 180 joueurs aujourd'hui. Contraste chiffré pic/chute.",
+   "note": "Angle courbe de pic puis retombée, uniquement chiffres et graphique animé, ton neutre, aucune scène effrayante."
+  },
+  {
+   "type": "roblox",
+   "titre": "Throw a Seed (simulateur de lancer de graines)",
    "url": "https://www.roblox.com/games/129081220403721",
-   "pourquoi": "Throw a Seed : 21 016 joueurs en ce moment, 7,7 M de visites, créé le 7/11/2026 (API Roblox, 20/11/2026), 95% d'avis positifs.",
-   "note": "Simulateur simple : lancer une graine au bon timing dans un canyon, plus c'est loin plus la plante est rare, placer les plantes dans un jardin pour gagner de l'argent, 15 zones ; ton calme et satisfaisant, boucle courte."},
-  {"type": "roblox", "titre": "Aplatis la montagne, aspire les pierres",
+   "pourquoi": "API Roblox 20/11/2026 : 20 967 joueurs, 7,7 M de visites, créé le 07/11/2026, note 95 % (tableau du jour). Cousin du n°1 Throw Food For Animals, boucle très simple.",
+   "note": "Simulateur : lancer des graines, faire pousser, vendre, améliorer l'outil ; ton familial, parties courtes, pas de copie des assets."
+  },
+  {
+   "type": "roblox",
+   "titre": "Flat the Mountain (clicker de terrassement)",
    "url": "https://www.roblox.com/games/99352685758267",
-   "pourquoi": "Flat the Mountain : 20 591 joueurs en ce moment, 5,9 M de visites, créé le 3/11/2026 (API Roblox, 20/11/2026), 90% d'avis positifs.",
-   "note": "Clicker/simulateur simple : creuser une montagne, aspirer les pierres pour gagner des pièces, acheter explosifs et outils améliorables, classes à débloquer ; ton fun et satisfaisant, solo ou entre amis."}
- ]}
+   "pourquoi": "API Roblox 20/11/2026 : 20 591 joueurs, 5,9 M de visites, créé le 03/11/2026, note 90 %. Concept de clicker/simulateur facile à bâtir.",
+   "note": "Clicker : aplatir une montagne par paliers, gagner de l'argent, acheter de meilleurs outils et machines ; ton fun, progression visible."
+  }
+ ]
+}

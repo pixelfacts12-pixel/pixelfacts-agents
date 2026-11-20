@@ -169,24 +169,34 @@
  ],
  "ev_lus": 38,
  "veille": {
-  "derniere": 1795198722.209092,
+  "derniere": 1795198855.346953,
   "essais": 0
  },
  "propositions": {
   "veille-20261120-1": {
    "type": "video",
-   "url": "https://kotaku.com/someone-just-figured-out-how-to-recruit-a-previously-unrecruitable-party-member-in-a-nearly-30-year-old-rpg-2000752817",
-   "note": "Angle mystère résolu en chiffres (1997 → 2026, 9 persos → 10, niveau 6) en animation code/terminal, ton curieux et familial, aucune image du jeu, source citée à l'oral."
+   "url": "https://www.gamesradar.com/games/jrpg/jrpg-mystery-solved-after-29-years-as-tales-of-destiny-fans-find-a-way-to-recruit-a-hidden-character-in-the-original-ps1-version/",
+   "note": "Raconter en 30 s : 1997, personnage rumeur, 29 ans de mystère, trouvé en 2026 ; ton enquête, aucun extrait de jeu copié, vérifier les détails sur Siliconera/Kotaku avant d'écrire."
   },
   "veille-20261120-2": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/129081220403721",
-   "note": "Simulateur simple : lancer une graine au bon timing dans un canyon, plus c'est loin plus la plante est rare, placer les plantes dans un jardin pour gagner de l'argent, 15 zones ; ton calme et satisfaisant, boucle courte."
+   "type": "video",
+   "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/",
+   "note": "Angle « une marque devient un jeu sans le savoir » : compteurs de visites, ton curieux, pas de logo ni image de marque reprise."
   },
   "veille-20261120-3": {
+   "type": "video",
+   "url": "https://rowatcher.com/games/10770728771/the-hollow",
+   "note": "Angle courbe de pic puis retombée, uniquement chiffres et graphique animé, ton neutre, aucune scène effrayante."
+  },
+  "veille-20261120-4": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/129081220403721",
+   "note": "Simulateur : lancer des graines, faire pousser, vendre, améliorer l'outil ; ton familial, parties courtes, pas de copie des assets."
+  },
+  "veille-20261120-5": {
    "type": "roblox",
    "url": "https://www.roblox.com/games/99352685758267",
-   "note": "Clicker/simulateur simple : creuser une montagne, aspirer les pierres pour gagner des pièces, acheter explosifs et outils améliorables, classes à débloquer ; ton fun et satisfaisant, solo ou entre amis."
+   "note": "Clicker : aplatir une montagne par paliers, gagner de l'argent, acheter de meilleurs outils et machines ; ton fun, progression visible."
   }
  },
  "agents": {
