@@ -1,29 +1,29 @@
-# Jeux Roblox récents qui montent (2026-11-19)
+# Jeux Roblox récents qui montent (2026-11-20)
 
 | Jeu | Joueurs | Âge (j) | Note | Genre | Lien |
 |---|---|---|---|---|---|
-| Throw Food For Animals | 221936 | 62 | 94% | Simulation | https://www.roblox.com/games/120219252362013 |
-| Hyper Realistic Ragdoll | 92086 | 21 | 90% | Simulation | https://www.roblox.com/games/101277003916102 |
-| Break and Steal an Egg | 57479 | 75 | 97% | Simulation | https://www.roblox.com/games/114326934417838 |
-| Ragdoll Soccer | 53128 | 37 | 74% | Sports & Racing | https://www.roblox.com/games/106931373443671 |
-| BloxNG [CRASH PHYSICS] 💥 | 38634 | 37 | 91% | Simulation | https://www.roblox.com/games/83784149502814 |
-| Survive Your Ideas | 38018 | 44 | 89% | Survival | https://www.roblox.com/games/77900175935766 |
-| 100 Miles Down the River | 35961 | 38 | 93% | Survival | https://www.roblox.com/games/95105291546154 |
-| DONT SPLASH | 30928 | 33 | 86% | Obby & Platformer | https://www.roblox.com/games/119958473240233 |
-| [🐜] Ant Evolution | 26716 | 22 | 93% | Survival | https://www.roblox.com/games/123969755970816 |
-| Volley Bomb | 26475 | 18 | 92% | Action | https://www.roblox.com/games/98979169190595 |
-| Unstable SMP FFA [JAVA PVP!] | 24963 | 29 | 85% | Action | https://www.roblox.com/games/76870565041704 |
-| 13 Days to Escape [ALPHA] | 23912 | 41 | 82% | Survival | https://www.roblox.com/games/134117451433332 |
-| Realistic Ragdoll MMA 🥊 | 23553 | 14 | 76% | Action | https://www.roblox.com/games/124780003623150 |
-| [🏆] Huss Valley | 23163 | 80 | 87% | Action | https://www.roblox.com/games/107535308163741 |
-| Voxel Wars | 22600 | 22 | 80% | Shooter | https://www.roblox.com/games/78884249003161 |
-| Turbo Soccer [BETA] | 21962 | 61 | 93% | Sports & Racing | https://www.roblox.com/games/101880234193261 |
-| Clean The Ballpit!  | 21703 | 19 | 92% | Simulation | https://www.roblox.com/games/126221718321318 |
-| Bloody Ragdoll Physics 🩸 | 21701 | 19 | 87% | Simulation | https://www.roblox.com/games/140431845542654 |
-| Stop The Tsunami! | 20923 | 38 | 87% | All | https://www.roblox.com/games/71586501620185 |
-| MOUSE | 20032 | 46 | 84% | Survival | https://www.roblox.com/games/81688312343760 |
-| Build Your World! 🔨 | 19800 | 49 | 70% | Simulation | https://www.roblox.com/games/80392427444524 |
-| [🐟] Net a Fish! | 19188 | 35 | 93% | Simulation | https://www.roblox.com/games/93898234979111 |
-| 🎃 KRN: Crosshair | 18651 | 37 | 78% | Survival | https://www.roblox.com/games/129382295065915 |
-| [⚔️] Kit PVP FFA  | 18610 | 18 | 79% | Action | https://www.roblox.com/games/75260404327641 |
-| [PATCH🎉] Cameraman Tower Defense | 18573 | 85 | 98% | Strategy | https://www.roblox.com/games/132929771812494 |
+| Throw Food For Animals | 340427 | 63 | 94% | Simulation | https://www.roblox.com/games/120219252362013 |
+| Hyper Realistic Ragdoll | 129863 | 22 | 91% | Simulation | https://www.roblox.com/games/101277003916102 |
+| Break and Steal an Egg | 76287 | 76 | 97% | Simulation | https://www.roblox.com/games/114326934417838 |
+| 100 Miles Down the River | 61526 | 39 | 94% | Survival | https://www.roblox.com/games/95105291546154 |
+| Survive Your Ideas | 56463 | 45 | 89% | Survival | https://www.roblox.com/games/77900175935766 |
+| Ragdoll Soccer | 55071 | 38 | 73% | Sports & Racing | https://www.roblox.com/games/106931373443671 |
+| [🐜] Ant Evolution | 48970 | 23 | 93% | Survival | https://www.roblox.com/games/123969755970816 |
+| BloxNG [CRASH PHYSICS] 💥 | 42560 | 38 | 90% | Simulation | https://www.roblox.com/games/83784149502814 |
+| DONT SPLASH | 37939 | 34 | 86% | Obby & Platformer | https://www.roblox.com/games/119958473240233 |
+| [⚔️] Kit PVP FFA  | 34551 | 19 | 79% | Action | https://www.roblox.com/games/75260404327641 |
+| Unstable SMP FFA [JAVA PVP!] | 32986 | 30 | 85% | Action | https://www.roblox.com/games/76870565041704 |
+| Volley Bomb | 31981 | 19 | 92% | Action | https://www.roblox.com/games/98979169190595 |
+| Stop The Tsunami! | 29468 | 39 | 86% | All | https://www.roblox.com/games/71586501620185 |
+| Clean The Ballpit!  | 28945 | 20 | 92% | Simulation | https://www.roblox.com/games/126221718321318 |
+| [PATCH🎉] Cameraman Tower Defense | 28354 | 86 | 98% | Strategy | https://www.roblox.com/games/132929771812494 |
+| Bloody Ragdoll Physics 🩸 | 27440 | 20 | 87% | Simulation | https://www.roblox.com/games/140431845542654 |
+| Voxel Wars | 27222 | 23 | 80% | Shooter | https://www.roblox.com/games/78884249003161 |
+| Build Your World! 🔨 | 26608 | 50 | 70% | Simulation | https://www.roblox.com/games/80392427444524 |
+| Realistic Ragdoll MMA 🥊 | 26590 | 15 | 75% | Action | https://www.roblox.com/games/124780003623150 |
+| 13 Days to Escape [ALPHA] | 25379 | 42 | 82% | Survival | https://www.roblox.com/games/134117451433332 |
+| [🏆] Huss Valley | 25113 | 81 | 87% | Action | https://www.roblox.com/games/107535308163741 |
+| [🏹] Shoot Arrows For Animals! | 24930 | 15 | 99% | Simulation | https://www.roblox.com/games/128749725449995 |
+| Throw a Seed | 24609 | 13 | 95% | Simulation | https://www.roblox.com/games/129081220403721 |
+| [🐟] Net a Fish! | 24079 | 36 | 93% | Simulation | https://www.roblox.com/games/93898234979111 |
+| Flat the Mountain | 23175 | 17 | 90% | Simulation | https://www.roblox.com/games/99352685758267 |
