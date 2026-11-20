@@ -6,7 +6,7 @@ Lis aussi : NOTES.md du jeu (s'il existe : ce qui a déjà été fait), idees-ro
 
 1. S'il ne reste rien dans RETOURS.md : choisis UNE amélioration, la plus utile pour garder les joueurs et les faire revenir (ex. récompense quotidienne, classement, nouvelle zone, effets et sons quand on balaie, familiers, quêtes simples, codes promo, meilleure map). Petite et finie vaut mieux que grosse et cassée.
 2. Code-la proprement : le serveur décide de tout (jamais confiance au client), sauvegarde avec pcall, pas de wait() (task.wait), pour les sons et décors, utilise des Parts, MeshParts simples, ParticleEmitter, Beam, Lighting/Atmosphere/Sky construits en code ; un rbxassetid seulement si tu as vérifié qu'il existe et qu'il est libre d'usage. Pas d'achat Robux nouveau sans le noter dans le résumé.
-3. Relis chaque fichier modifié ligne par ligne pour les fautes de Luau (end manquants, variables nil, fautes de frappe). Construis, depuis le dossier du jeu :
+3. Relis chaque fichier modifié ligne par ligne pour les fautes de Luau (end manquants, variables nil, fautes de frappe), puis vérifie-les avec l'outil officiel : `luau-compile --null <fichier>` sur chaque .lua modifié (aucun message = OK ; corrige toute erreur avant de continuer). Construis, depuis le dossier du jeu :
    "{{ROJO}}" build default.project.json -o build.rbxlx
 4. Envoie une version de TEST (pas en ligne pour les joueurs), depuis le dossier de la file :
    "{{PYTHON}}" agents/roblox_publier.py "{{JEU}}" --test

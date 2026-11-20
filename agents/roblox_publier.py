@@ -84,6 +84,16 @@ def controler(version):
 def main():
     projet = Path(sys.argv[1]).resolve()
     test = "--test" in sys.argv
+    compilateur = shutil.which("luau-compile")
+    if compilateur:  # outil officiel Luau : refuse de publier un fichier avec une faute de code
+        fautes = []
+        for f in sorted((projet / "src").rglob("*.lua")):
+            r = subprocess.run([compilateur, "--null", str(f)], capture_output=True, text=True)
+            if r.returncode != 0:
+                fautes.append(f"{f.relative_to(projet)} : {(r.stdout + r.stderr).strip()[:300]}")
+        if fautes:
+            print(json.dumps({"ok": False, "erreur": "fautes de code Luau", "fautes": fautes}, ensure_ascii=False))
+            sys.exit(1)
     fichier = projet / "build.rbxlx"
     subprocess.run([str(ROJO), "build", str(projet / "default.project.json"), "-o", str(fichier)], check=True, capture_output=True)
     code, rep = appel("POST", f"https://apis.roblox.com/universes/v1/{U}/places/{P}/versions?versionType={'Saved' if test else 'Published'}",
