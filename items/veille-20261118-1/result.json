@@ -1,8 +1,2 @@
-{
- "status": "pret",
- "titre": "549 661 joueurs : Rob Run explose Steam 🚀",
- "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261118-1",
- "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261118-1/envoi.mp4",
- "telegram": "Rob Run, gratuit, passe de 24 000 à 549 661 joueurs en 13 jours.",
- "resume": "Sujet : Rob Run (Kefir, gratuit, accès anticipé, sorti le 4/11/2026) grimpe au n°3 de Steam, vidéo 100 % chiffres sans scène de jeu.\nVérifié : API Steam et SteamDB le 20/11 (pic 549 661 le 17/11, jour 1 ≈ 24 000, 259 000 le 11/11, 418 000 le 14/11, n°3 derrière CS2 et Dota 2). Les 520 000 de la veille et les 418 021 du short de référence étaient périmés, j'ai pris SteamDB.\nPrudence : le jeu est classé pour adultes (violence, nudité partielle, jeu d'argent virtuel), donc mention « jeu pour adultes » dans la vidéo et PAS « conçu pour les enfants » sur YouTube. Fonds IA flous (limite 1 image/45 s), watermark rogné par le zoom ; whisper.py cassé sur ce serveur, remplacé par transcrire.py (voix contrôlée, script respecté).\nÀ voir : le classement affiche les chiffres Steam du 20/11 (pas des valeurs fixes du jour de publication) ; musique synthétisée simple ; mention IA à cocher."
-}
+{"status": "programme", "video": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261120-181428-veille-20261118-1.mp4", "legende": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261118-1/legende.json",
+ "telegram": "📤 Titre choisi : 549 661 joueurs en 13 jours : Rob Run explose Steam 🚀 #shorts"}
