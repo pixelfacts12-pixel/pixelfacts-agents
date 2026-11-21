@@ -6,7 +6,7 @@ Usage : publier_video.py <chemin video.mp4> <fichier legende.json>
 legende.json : {"titre": "...", "legende": "texte + hashtags", "pour_enfants": false}
 Réglages (~/.config/file-videos/) : buffer_api_key.txt, github.json {"user": "...", "repo": "..."}, github_token.txt
 """
-import json, shutil, subprocess, sys, time, urllib.error, urllib.request
+import json, re, shutil, subprocess, sys, time, urllib.error, urllib.request
 from pathlib import Path
 
 CONFDIR = Path.home() / ".config" / "file-videos"
@@ -58,17 +58,45 @@ MUTATION = """mutation($i: CreatePostInput!) { createPost(input: $i) {
 ORGANISATION = "6afe13ce2258c4f532685c07"
 
 
+def idee(url):
+    """Identifiant de l'idée dans le nom du fichier : « 20261120-225934-veille-20261118-2.mp4 » → « veille-20261118-2 ».
+    Deux rendus de la même idée (après une retouche) ont des noms différents mais la même idée."""
+    nom = url.rsplit("/", 1)[-1]
+    m = re.match(r"\d{8}-\d{6}-(.+)\.mp4$", nom)
+    return m.group(1) if m else nom
+
+
+def supprimer(post_id):
+    q = """mutation($i: DeletePostInput!) { deletePost(input: $i) { __typename ... on VoidMutationError { message } } }"""
+    r = buffer(q, {"i": {"id": post_id}})
+    print(f"Buffer : post {post_id} retiré (doublon) → {((r.get('data') or {}).get('deletePost') or r.get('errors'))}", file=sys.stderr)
+    return r
+
+
 def deja_programmees(url):
-    """Posts Buffer (programmés, en cours ou envoyés) qui utilisent déjà cette vidéo : on ne la reprogramme jamais deux fois."""
+    """Une idée ne sort qu'une fois par réseau :
+    - déjà envoyée, en cours d'envoi, ou programmée avec CETTE vidéo → on ne touche à rien ;
+    - programmée avec une AUTRE version de la même idée (ancienne retouche) → l'ancien post est retiré,
+      la nouvelle version prend sa place ;
+    - plusieurs posts programmés pour la même idée sur un réseau → on n'en garde qu'un."""
     q = """query($i: PostsInput!) { posts(input: $i, first: 100) { edges { node {
       id channelService status dueAt assets { source } } } } }"""
+    cle = idee(url)
     trouves = {}
-    for statut in ("scheduled", "sending", "sent"):
+    for statut in ("sent", "sending", "scheduled"):  # les envois réels passent en premier
         r = buffer(q, {"i": {"organizationId": ORGANISATION, "filter": {"status": [statut]}}})
-        for e in ((r.get("data") or {}).get("posts") or {}).get("edges", []):
-            n = e["node"]
-            if any(url in str(a.get("source", "")) for a in (n.get("assets") or [])):
-                trouves.setdefault(n["channelService"], {"id": n["id"], "dueAt": n.get("dueAt"), "deja": True})
+        noeuds = [e["node"] for e in ((r.get("data") or {}).get("posts") or {}).get("edges", [])]
+        noeuds.sort(key=lambda n: n.get("dueAt") or "")  # en cas de doublon, on garde le plus tôt
+        for n in noeuds:
+            sources = [str(a.get("source", "")) for a in (n.get("assets") or [])]
+            if not any(idee(s) == cle for s in sources if s):
+                continue
+            service = n["channelService"]
+            meme_video = any(url in s for s in sources)
+            if statut == "scheduled" and (service in trouves or not meme_video):
+                supprimer(n["id"])  # doublon, ou ancienne version de la même idée
+                continue
+            trouves.setdefault(service, {"id": n["id"], "dueAt": n.get("dueAt"), "deja": True})
     return trouves
 
 
