@@ -1,0 +1,565 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 3.32,
+  "texte": "Savais-tu qu'une marque de trottinette est devenue un jeu Roblox ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.44
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.44,
+    "fin": 0.56
+   },
+   {
+    "mot": "qu",
+    "debut": 0.56,
+    "fin": 0.68
+   },
+   {
+    "mot": "'une",
+    "debut": 0.68,
+    "fin": 0.76
+   },
+   {
+    "mot": "marque",
+    "debut": 0.76,
+    "fin": 0.92
+   },
+   {
+    "mot": "de",
+    "debut": 0.92,
+    "fin": 1.04
+   },
+   {
+    "mot": "trottinette",
+    "debut": 1.04,
+    "fin": 1.44
+   },
+   {
+    "mot": "est",
+    "debut": 1.44,
+    "fin": 1.56
+   },
+   {
+    "mot": "devenue",
+    "debut": 1.56,
+    "fin": 1.8
+   },
+   {
+    "mot": "un",
+    "debut": 1.8,
+    "fin": 1.96
+   },
+   {
+    "mot": "jeu",
+    "debut": 1.96,
+    "fin": 2.08
+   },
+   {
+    "mot": "Roblox",
+    "debut": 2.08,
+    "fin": 2.48
+   },
+   {
+    "mot": "?",
+    "debut": 2.48,
+    "fin": 3.32
+   }
+  ]
+ },
+ {
+  "debut": 3.32,
+  "fin": 6.22,
+  "texte": "Elle s'appelle QQirain, et ce jeu a été créé par des fans.",
+  "mots": [
+   {
+    "mot": "Elle",
+    "debut": 3.32,
+    "fin": 3.74
+   },
+   {
+    "mot": "s",
+    "debut": 3.74,
+    "fin": 3.9
+   },
+   {
+    "mot": "'appelle",
+    "debut": 3.9,
+    "fin": 4.04
+   },
+   {
+    "mot": "QQirain,",
+    "debut": 4.04,
+    "fin": 4.52
+   },
+   {
+    "mot": "et",
+    "debut": 4.76,
+    "fin": 4.9
+   },
+   {
+    "mot": "ce",
+    "debut": 4.9,
+    "fin": 5.04
+   },
+   {
+    "mot": "jeu",
+    "debut": 5.04,
+    "fin": 5.18
+   },
+   {
+    "mot": "a",
+    "debut": 5.18,
+    "fin": 5.3
+   },
+   {
+    "mot": "été",
+    "debut": 5.3,
+    "fin": 5.42
+   },
+   {
+    "mot": "créé",
+    "debut": 5.42,
+    "fin": 5.7
+   },
+   {
+    "mot": "par",
+    "debut": 5.7,
+    "fin": 5.84
+   },
+   {
+    "mot": "des",
+    "debut": 5.84,
+    "fin": 6.0
+   },
+   {
+    "mot": "fans.",
+    "debut": 6.0,
+    "fin": 6.22
+   }
+  ]
+ },
+ {
+  "debut": 7.38,
+  "fin": 10.82,
+  "texte": "Lancé le 19 septembre, il a déjà dépassé 105 millions de visites.",
+  "mots": [
+   {
+    "mot": "Lancé",
+    "debut": 7.38,
+    "fin": 7.72
+   },
+   {
+    "mot": "le",
+    "debut": 7.72,
+    "fin": 7.82
+   },
+   {
+    "mot": "19",
+    "debut": 7.82,
+    "fin": 8.08
+   },
+   {
+    "mot": "septembre,",
+    "debut": 8.08,
+    "fin": 8.64
+   },
+   {
+    "mot": "il",
+    "debut": 8.9,
+    "fin": 8.98
+   },
+   {
+    "mot": "a",
+    "debut": 8.98,
+    "fin": 9.06
+   },
+   {
+    "mot": "déjà",
+    "debut": 9.06,
+    "fin": 9.28
+   },
+   {
+    "mot": "dépassé",
+    "debut": 9.28,
+    "fin": 9.7
+   },
+   {
+    "mot": "105",
+    "debut": 9.7,
+    "fin": 9.94
+   },
+   {
+    "mot": "millions",
+    "debut": 9.94,
+    "fin": 10.3
+   },
+   {
+    "mot": "de",
+    "debut": 10.3,
+    "fin": 10.44
+   },
+   {
+    "mot": "visites.",
+    "debut": 10.44,
+    "fin": 10.82
+   }
+  ]
+ },
+ {
+  "debut": 11.82,
+  "fin": 15.2,
+  "texte": "En trois semaines, il est passé de 75 à 105 millions de visites.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 11.82,
+    "fin": 12.06
+   },
+   {
+    "mot": "trois",
+    "debut": 12.06,
+    "fin": 12.24
+   },
+   {
+    "mot": "semaines,",
+    "debut": 12.24,
+    "fin": 12.54
+   },
+   {
+    "mot": "il",
+    "debut": 12.92,
+    "fin": 13.0
+   },
+   {
+    "mot": "est",
+    "debut": 13.0,
+    "fin": 13.1
+   },
+   {
+    "mot": "passé",
+    "debut": 13.1,
+    "fin": 13.28
+   },
+   {
+    "mot": "de",
+    "debut": 13.28,
+    "fin": 13.44
+   },
+   {
+    "mot": "75",
+    "debut": 13.44,
+    "fin": 13.8
+   },
+   {
+    "mot": "à",
+    "debut": 13.8,
+    "fin": 14.06
+   },
+   {
+    "mot": "105",
+    "debut": 14.06,
+    "fin": 14.26
+   },
+   {
+    "mot": "millions",
+    "debut": 14.26,
+    "fin": 14.66
+   },
+   {
+    "mot": "de",
+    "debut": 14.66,
+    "fin": 14.8
+   },
+   {
+    "mot": "visites.",
+    "debut": 14.8,
+    "fin": 15.2
+   }
+  ]
+ },
+ {
+  "debut": 16.32,
+  "fin": 18.02,
+  "texte": "Environ 11 000 joueurs y roulent en même temps.",
+  "mots": [
+   {
+    "mot": "Environ",
+    "debut": 16.32,
+    "fin": 16.5
+   },
+   {
+    "mot": "11",
+    "debut": 16.5,
+    "fin": 16.86
+   },
+   {
+    "mot": "000",
+    "debut": 16.86,
+    "fin": 16.98
+   },
+   {
+    "mot": "joueurs",
+    "debut": 16.98,
+    "fin": 17.28
+   },
+   {
+    "mot": "y",
+    "debut": 17.28,
+    "fin": 17.42
+   },
+   {
+    "mot": "roulent",
+    "debut": 17.42,
+    "fin": 17.54
+   },
+   {
+    "mot": "en",
+    "debut": 17.54,
+    "fin": 17.62
+   },
+   {
+    "mot": "même",
+    "debut": 17.62,
+    "fin": 17.8
+   },
+   {
+    "mot": "temps.",
+    "debut": 17.8,
+    "fin": 18.02
+   }
+  ]
+ },
+ {
+  "debut": 19.1,
+  "fin": 21.04,
+  "texte": "Et presque 800 000 personnes l'ont mis en favoris.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 19.1,
+    "fin": 19.24
+   },
+   {
+    "mot": "presque",
+    "debut": 19.24,
+    "fin": 19.44
+   },
+   {
+    "mot": "800",
+    "debut": 19.44,
+    "fin": 19.74
+   },
+   {
+    "mot": "000",
+    "debut": 19.74,
+    "fin": 19.9
+   },
+   {
+    "mot": "personnes",
+    "debut": 19.9,
+    "fin": 20.18
+   },
+   {
+    "mot": "l",
+    "debut": 20.18,
+    "fin": 20.4
+   },
+   {
+    "mot": "'ont",
+    "debut": 20.4,
+    "fin": 20.42
+   },
+   {
+    "mot": "mis",
+    "debut": 20.42,
+    "fin": 20.54
+   },
+   {
+    "mot": "en",
+    "debut": 20.54,
+    "fin": 20.64
+   },
+   {
+    "mot": "favoris.",
+    "debut": 20.64,
+    "fin": 21.04
+   }
+  ]
+ },
+ {
+  "debut": 22.04,
+  "fin": 23.98,
+  "texte": "Le jeu précise bien qu'il n'est pas lié à la marque.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 22.04,
+    "fin": 22.26
+   },
+   {
+    "mot": "jeu",
+    "debut": 22.26,
+    "fin": 22.4
+   },
+   {
+    "mot": "précise",
+    "debut": 22.4,
+    "fin": 22.76
+   },
+   {
+    "mot": "bien",
+    "debut": 22.76,
+    "fin": 22.94
+   },
+   {
+    "mot": "qu",
+    "debut": 22.94,
+    "fin": 23.1
+   },
+   {
+    "mot": "'il",
+    "debut": 23.1,
+    "fin": 23.16
+   },
+   {
+    "mot": "n",
+    "debut": 23.16,
+    "fin": 23.26
+   },
+   {
+    "mot": "'est",
+    "debut": 23.26,
+    "fin": 23.28
+   },
+   {
+    "mot": "pas",
+    "debut": 23.28,
+    "fin": 23.4
+   },
+   {
+    "mot": "lié",
+    "debut": 23.4,
+    "fin": 23.58
+   },
+   {
+    "mot": "à",
+    "debut": 23.58,
+    "fin": 23.66
+   },
+   {
+    "mot": "la",
+    "debut": 23.66,
+    "fin": 23.74
+   },
+   {
+    "mot": "marque.",
+    "debut": 23.74,
+    "fin": 23.98
+   }
+  ]
+ },
+ {
+  "debut": 25.04,
+  "fin": 27.8,
+  "texte": "Une trottinette bien réelle, devenue un phénomène virtuel.",
+  "mots": [
+   {
+    "mot": "Une",
+    "debut": 25.04,
+    "fin": 25.3
+   },
+   {
+    "mot": "trottinette",
+    "debut": 25.3,
+    "fin": 25.72
+   },
+   {
+    "mot": "bien",
+    "debut": 25.72,
+    "fin": 25.94
+   },
+   {
+    "mot": "réelle,",
+    "debut": 25.94,
+    "fin": 26.28
+   },
+   {
+    "mot": "devenue",
+    "debut": 26.5,
+    "fin": 26.86
+   },
+   {
+    "mot": "un",
+    "debut": 26.86,
+    "fin": 27.02
+   },
+   {
+    "mot": "phénomène",
+    "debut": 27.02,
+    "fin": 27.38
+   },
+   {
+    "mot": "virtuel.",
+    "debut": 27.38,
+    "fin": 27.8
+   }
+  ]
+ },
+ {
+  "debut": 28.840000000000003,
+  "fin": 30.98,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 28.840000000000003,
+    "fin": 29.26
+   },
+   {
+    "mot": "-toi",
+    "debut": 29.26,
+    "fin": 29.46
+   },
+   {
+    "mot": "à",
+    "debut": 29.46,
+    "fin": 29.58
+   },
+   {
+    "mot": "Pixel",
+    "debut": 29.58,
+    "fin": 29.76
+   },
+   {
+    "mot": "Facts",
+    "debut": 29.76,
+    "fin": 30.18
+   },
+   {
+    "mot": "pour",
+    "debut": 30.18,
+    "fin": 30.34
+   },
+   {
+    "mot": "le",
+    "debut": 30.34,
+    "fin": 30.46
+   },
+   {
+    "mot": "prochain",
+    "debut": 30.46,
+    "fin": 30.68
+   },
+   {
+    "mot": "fait.",
+    "debut": 30.68,
+    "fin": 30.98
+   }
+  ]
+ }
+]
