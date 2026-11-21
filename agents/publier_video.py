@@ -55,9 +55,28 @@ MUTATION = """mutation($i: CreatePostInput!) { createPost(input: $i) {
   ... on MutationError { message } } }"""
 
 
+ORGANISATION = "6afe13ce2258c4f532685c07"
+
+
+def deja_programmees(url):
+    """Posts Buffer (programmés, en cours ou envoyés) qui utilisent déjà cette vidéo : on ne la reprogramme jamais deux fois."""
+    q = """query($i: PostsInput!) { posts(input: $i, first: 100) { edges { node {
+      id channelService status dueAt assets { source } } } } }"""
+    trouves = {}
+    for statut in ("scheduled", "sending", "sent"):
+        r = buffer(q, {"i": {"organizationId": ORGANISATION, "filter": {"status": [statut]}}})
+        for e in ((r.get("data") or {}).get("posts") or {}).get("edges", []):
+            n = e["node"]
+            if any(url in str(a.get("source", "")) for a in (n.get("assets") or [])):
+                trouves.setdefault(n["channelService"], {"id": n["id"], "dueAt": n.get("dueAt"), "deja": True})
+    return trouves
+
+
 def programmer(url, leg):
-    resultats = {}
+    resultats = deja_programmees(url)
     for service, canal in CANAUX.items():
+        if service in resultats:
+            continue  # déjà dans Buffer pour ce réseau : pas de doublon
         meta = ({"youtube": {"title": leg["titre"][:100], "categoryId": "20", "privacy": "public", "madeForKids": bool(leg.get("pour_enfants")),
                              "isAiGenerated": True, "notifySubscribers": True}}
                 if service == "youtube" else

@@ -227,6 +227,21 @@ def script(nom, *args, timeout=1800):
     return res
 
 
+def heure_suisse(iso):
+    """« 2026-11-21T11:47:00Z » -> « sam. 21/11 à 12:47 » (heure de Zurich, été comme hiver)."""
+    if not iso:
+        return "?"
+    from datetime import datetime
+    d = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    try:
+        from zoneinfo import ZoneInfo
+        d = d.astimezone(ZoneInfo("Europe/Zurich"))
+    except Exception:
+        pass
+    jours = ["lun.", "mar.", "mer.", "jeu.", "ven.", "sam.", "dim."]
+    return f"{jours[d.weekday()]} {d:%d/%m} à {d:%H:%M}"
+
+
 def message(it, texte, video=None, boutons=False):
     (BASE / "outbox").mkdir(exist_ok=True)
     ecrire(BASE / "outbox" / f"{time.time_ns()}-{uuid.uuid4().hex[:6]}.json",
@@ -255,8 +270,8 @@ def apres(tache, it, r):
         res = r["_pub"]
         if res.get("ok"):
             it["status"] = "programme"
-            quand = ", ".join(f"{k} : {(v.get('dueAt') or '')[:16].replace('T', ' ')}" for k, v in res["buffer"].items())
-            message(it, r.get("telegram", "") + "\nProgrammée sur YouTube Shorts et Instagram Reels (" + quand + ", heure UTC).")
+            quand = ", ".join(f"{k} : {heure_suisse(v.get('dueAt'))}" for k, v in res["buffer"].items())
+            message(it, r.get("telegram", "") + "\nProgrammée sur YouTube Shorts et Instagram Reels (" + quand + ", heure suisse).")
         else:
             it["essais"] += 1
             it["status"] = "erreur" if it["essais"] >= 3 else "valide"
