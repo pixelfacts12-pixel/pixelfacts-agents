@@ -1,7 +1,7 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
-const MUSVOL = 0.068;
+const MUSVOL = 0.07;
 
 const {fontFamily} = loadFont();
 const IMGS = ['a', 'b', 'c', 'd', 'e'];
@@ -85,7 +85,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   if (beat.kind === 'chart') return <div style={{transform: `scale(${sc})`}}><Chart beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.92))} /></div>;
   if (beat.kind === 'counter') {
     const dec = beat.dec ?? 0; const v = (beat.to ?? 0) * p;
-    const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : fmt(Math.round(v));
+    const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : beat.nofmt ? String(Math.round(v)) : fmt(Math.round(v));
     const size = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : 300;
     return <div style={{width: 1000, height: 820, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
@@ -107,7 +107,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`}}>
     <div style={{fontSize: 420, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
     {beat.sub && <div style={big(100, '#fff', {marginTop: 10})}>{beat.sub}</div>}
-    <div style={big(L > 17 ? 118 : L > 9 ? 130 : 170, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
+    <div style={big(L > 17 ? 118 : L > 12 ? 140 : 170, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
   </div>;
 };
 

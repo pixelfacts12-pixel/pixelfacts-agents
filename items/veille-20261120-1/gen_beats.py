@@ -12,30 +12,28 @@ S=starts
 Y,B,P,G='#FFD628','#5ECBFF','#FF5FA2','#7CFF8A'
 # (start,kind,accent,bg,label,sub,icon,mascot,extra)
 B_=[
-(0,'words',Y,2,'PERSO CACHÉ','UN','🕵️','surpris',{}),
-(S[0]+1.9,'counter',B,2,'ANS DE MYSTÈRE','',0,'',{'to':29,'suffix':'','prefix':'~'}),
-(S[1],'words',Y,1,'1997','EN','💿','',{}),
-(S[1]+2.4,'words',P,1,'TALES OF DESTINY','PLAYSTATION','🎮','',{}),
-(S[2],'words',P,3,'LILITH','ELLE S\'APPELLE','👧','',{}),
-(S[2]+1.8,'words',Y,3,'PETITE SŒUR','DU HÉROS','🍳','',{}),
-(S[3],'words',B,3,'INTROUVABLE','','🔒','reflechit',{'corner':1}),
-(S[3]+1.4,'words',P,0,'COMMENT ?','LA RECRUTER','❓','',{}),
-(S[4],'words',Y,0,'RUMEURS','','🗣️','',{}),
-(S[4]+1.8,'words',P,3,'RETIRÉE !','AU DERNIER MOMENT','✂️','surpris',{'corner':1}),
-(S[5],'words',B,2,'LES FANS','','👥','',{}),
-(S[5]+1.2,'words',Y,2,'CHERCHENT','','🔎','',{}),
-(S[6],'words',P,4,'NOVEMBRE','2026','🆕','',{}),
-(S[6]+2.1,'words',G,4,'MÉTHODE OFFICIELLE','','✅','',{}),
-(S[7],'words',Y,0,'RÈGLES STRICTES','','📜','',{}),
-(S[7]+1.9,'words',B,0,'RIEN PRENDRE','DANS LES MAISONS','🏠','',{}),
-(S[8],'words',P,1,'VERSION PS2','','🎮','',{}),
-(S[8]+1.9,'words',G,1,'EN 2006','DÉJÀ JOUABLE','🎉','',{}),
-(S[9],'words',Y,2,'PRESQUE 30 ANS','','⏳','reflechit',{'corner':1}),
-(S[9]+1.7,'words',G,4,'MYSTÈRE RÉSOLU','','🧩','',{}),
-(S[10],'cta',Y,0,'','','','coucou',{}),
+(0,'words',Y,0,'29 ANS CACHÉ','','🕵️','surpris',{}),
+(1.7,'counter',B,0,'ANS DE MYSTÈRE','',0,'',{'to':29,'suffix':''}),
+(S[1],'words',P,2,'TALES OF DESTINY','','🎮','',{}),
+(S[1]+2.0,'counter',Y,2,'ANNÉE DE SORTIE','',0,'',{'to':1997,'suffix':'','nofmt':1}),
+(S[2],'words',G,1,'LILITH','','👧','',{}),
+(S[2]+1.7,'words',B,1,'DANS LE CODE','','💾','',{}),
+(S[3],'words',P,3,'PERSONNE SAIT','','❓','reflechit',{'corner':1}),
+(S[3]+1.8,'words',Y,3,'JUSQU\'À...','','🔒','',{}),
+(S[4],'words',B,4,'JUSTE UNE RUMEUR','','💬','',{}),
+(S[4]+2.0,'words',P,0,'DES ANNÉES','','⏳','',{}),
+(S[5],'words',Y,3,'NOVEMBRE 2026','','🗓️','',{}),
+(S[5]+1.7,'words',G,3,'LE CHEMIN !','','🔑','surpris',{'corner':1}),
+(S[6],'words',B,1,'RIEN PRENDRE','','🚫','',{}),
+(S[6]+1.8,'words',P,1,'PAS GRONDÉ','','🙊','',{}),
+(S[7],'words',Y,4,'LE PRODUCTEUR','','🎤','',{}),
+(S[7]+1.5,'words',G,4,'INCROYABLE','','🤩','',{}),
+(S[8],'counter',B,2,'REMAKE OFFICIEL','',0,'',{'to':2006,'suffix':'','nofmt':1}),
+(S[8]+1.7,'words',P,2,'29 ANS RÉSOLUS','','✅','',{}),
+(S[9],'cta',Y,0,'','','','coucou',{}),
 ]
 total=round(t-0.12+0.3,2)
-out=['export type Beat = {start:number;end:number;kind:"words"|"counter"|"chart"|"cta";accent:string;bg:number;label:string;sub:string;icon:string;mascot:string;to?:number;dec?:number;suffix?:string;prefix?:string;corner?:number;r0?:number;r1?:number;v0?:number;v1?:number;};','export const TOTAL = %s;'%total,'export const BEATS: Beat[] = [']
+out=['export type Beat = {start:number;end:number;kind:"words"|"counter"|"chart"|"cta";accent:string;bg:number;label:string;sub:string;icon:string;mascot:string;to?:number;dec?:number;suffix?:string;prefix?:string;corner?:number;nofmt?:number;r0?:number;r1?:number;v0?:number;v1?:number;};','export const TOTAL = %s;'%total,'export const BEATS: Beat[] = [']
 for i,b in enumerate(B_):
     end=B_[i+1][0] if i+1<len(B_) else total
     d={'start':round(b[0],2),'end':round(end,2),'kind':b[1],'accent':b[2],'bg':b[3],'label':b[4],'sub':b[5],'icon':b[6] if isinstance(b[6],str) else '','mascot':b[7]}

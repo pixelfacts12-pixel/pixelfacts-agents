@@ -1,8 +1,8 @@
 [
  {
   "debut": 0.0,
-  "fin": 4.26,
-  "texte": "savait-tu qu'un personnage caché est resté introuvable pendant presque 29 ans ?",
+  "fin": 3.54,
+  "texte": "savait-tu qu'un personnage jouable est resté caché pendant 29 ans ?",
   "mots": [
    {
     "mot": "savait",
@@ -12,11 +12,11 @@
    {
     "mot": "-tu",
     "debut": 0.44,
-    "fin": 0.56
+    "fin": 0.54
    },
    {
     "mot": "qu",
-    "debut": 0.56,
+    "debut": 0.54,
     "fin": 0.64
    },
    {
@@ -27,622 +27,580 @@
    {
     "mot": "personnage",
     "debut": 0.72,
-    "fin": 1.04
+    "fin": 0.94
    },
    {
-    "mot": "caché",
-    "debut": 1.04,
-    "fin": 1.42
+    "mot": "jouable",
+    "debut": 0.94,
+    "fin": 1.38
    },
    {
     "mot": "est",
-    "debut": 1.42,
-    "fin": 1.54
+    "debut": 1.38,
+    "fin": 1.5
    },
    {
     "mot": "resté",
-    "debut": 1.54,
+    "debut": 1.5,
     "fin": 1.76
    },
    {
-    "mot": "introuvable",
+    "mot": "caché",
     "debut": 1.76,
-    "fin": 2.18
+    "fin": 2.04
    },
    {
     "mot": "pendant",
-    "debut": 2.18,
-    "fin": 2.44
-   },
-   {
-    "mot": "presque",
-    "debut": 2.44,
-    "fin": 2.8
+    "debut": 2.04,
+    "fin": 2.22
    },
    {
     "mot": "29",
-    "debut": 2.8,
-    "fin": 3.12
+    "debut": 2.22,
+    "fin": 2.58
    },
    {
     "mot": "ans",
-    "debut": 3.12,
-    "fin": 3.3
+    "debut": 2.58,
+    "fin": 2.72
    },
    {
     "mot": "?",
-    "debut": 3.3,
-    "fin": 4.26
+    "debut": 2.72,
+    "fin": 3.54
    }
   ]
  },
  {
-  "debut": 4.26,
-  "fin": 8.24,
-  "texte": "Tout commence en 1997, sur PlayStation, avec Tales of Destiny.",
+  "debut": 3.54,
+  "fin": 7.12,
+  "texte": "C'est dans Tels of Destiny, un jeu PlayStation sorti en 1997.",
   "mots": [
    {
-    "mot": "Tout",
-    "debut": 4.26,
-    "fin": 4.46
+    "mot": "C",
+    "debut": 3.54,
+    "fin": 3.98
    },
    {
-    "mot": "commence",
-    "debut": 4.46,
-    "fin": 4.74
-   },
-   {
-    "mot": "en",
-    "debut": 4.74,
-    "fin": 4.92
-   },
-   {
-    "mot": "1997,",
-    "debut": 4.92,
-    "fin": 5.66
-   },
-   {
-    "mot": "sur",
-    "debut": 6.2,
-    "fin": 6.4
-   },
-   {
-    "mot": "PlayStation,",
-    "debut": 6.4,
-    "fin": 6.72
-   },
-   {
-    "mot": "avec",
-    "debut": 7.36,
-    "fin": 7.54
-   },
-   {
-    "mot": "Tales",
-    "debut": 7.54,
-    "fin": 7.74
-   },
-   {
-    "mot": "of",
-    "debut": 7.74,
-    "fin": 7.94
-   },
-   {
-    "mot": "Destiny.",
-    "debut": 7.94,
-    "fin": 8.24
-   }
-  ]
- },
- {
-  "debut": 9.44,
-  "fin": 11.96,
-  "texte": "Dans le jeu, il y a Lilith, la petite sœur du héros.",
-  "mots": [
-   {
-    "mot": "Dans",
-    "debut": 9.44,
-    "fin": 9.64
-   },
-   {
-    "mot": "le",
-    "debut": 9.64,
-    "fin": 9.74
-   },
-   {
-    "mot": "jeu,",
-    "debut": 9.74,
-    "fin": 9.96
-   },
-   {
-    "mot": "il",
-    "debut": 10.28,
-    "fin": 10.34
-   },
-   {
-    "mot": "y",
-    "debut": 10.34,
-    "fin": 10.44
-   },
-   {
-    "mot": "a",
-    "debut": 10.44,
-    "fin": 10.46
-   },
-   {
-    "mot": "Lilith,",
-    "debut": 10.46,
-    "fin": 10.78
-   },
-   {
-    "mot": "la",
-    "debut": 11.12,
-    "fin": 11.22
-   },
-   {
-    "mot": "petite",
-    "debut": 11.22,
-    "fin": 11.42
-   },
-   {
-    "mot": "sœur",
-    "debut": 11.42,
-    "fin": 11.64
-   },
-   {
-    "mot": "du",
-    "debut": 11.64,
-    "fin": 11.76
-   },
-   {
-    "mot": "héros.",
-    "debut": 11.76,
-    "fin": 11.96
-   }
-  ]
- },
- {
-  "debut": 12.98,
-  "fin": 14.66,
-  "texte": "Mais personne ne savait comment la recruter.",
-  "mots": [
-   {
-    "mot": "Mais",
-    "debut": 12.98,
-    "fin": 13.24
-   },
-   {
-    "mot": "personne",
-    "debut": 13.24,
-    "fin": 13.54
-   },
-   {
-    "mot": "ne",
-    "debut": 13.54,
-    "fin": 13.72
-   },
-   {
-    "mot": "savait",
-    "debut": 13.72,
-    "fin": 13.94
-   },
-   {
-    "mot": "comment",
-    "debut": 13.94,
-    "fin": 14.14
-   },
-   {
-    "mot": "la",
-    "debut": 14.14,
-    "fin": 14.3
-   },
-   {
-    "mot": "recruter.",
-    "debut": 14.3,
-    "fin": 14.66
-   }
-  ]
- },
- {
-  "debut": 15.8,
-  "fin": 18.54,
-  "texte": "Alors les rumeurs ont couru, elle aurait été retirée au dernier moment.",
-  "mots": [
-   {
-    "mot": "Alors",
-    "debut": 15.8,
-    "fin": 16.08
-   },
-   {
-    "mot": "les",
-    "debut": 16.08,
-    "fin": 16.26
-   },
-   {
-    "mot": "rumeurs",
-    "debut": 16.26,
-    "fin": 16.5
-   },
-   {
-    "mot": "ont",
-    "debut": 16.5,
-    "fin": 16.62
-   },
-   {
-    "mot": "couru,",
-    "debut": 16.62,
-    "fin": 16.9
-   },
-   {
-    "mot": "elle",
-    "debut": 17.14,
-    "fin": 17.22
-   },
-   {
-    "mot": "aurait",
-    "debut": 17.22,
-    "fin": 17.36
-   },
-   {
-    "mot": "été",
-    "debut": 17.36,
-    "fin": 17.56
-   },
-   {
-    "mot": "retirée",
-    "debut": 17.56,
-    "fin": 18.0
-   },
-   {
-    "mot": "au",
-    "debut": 18.0,
-    "fin": 18.1
-   },
-   {
-    "mot": "dernier",
-    "debut": 18.1,
-    "fin": 18.28
-   },
-   {
-    "mot": "moment.",
-    "debut": 18.28,
-    "fin": 18.54
-   }
-  ]
- },
- {
-  "debut": 19.6,
-  "fin": 21.14,
-  "texte": "Les fans ont cherché pendant des années.",
-  "mots": [
-   {
-    "mot": "Les",
-    "debut": 19.6,
-    "fin": 19.86
-   },
-   {
-    "mot": "fans",
-    "debut": 19.86,
-    "fin": 20.04
-   },
-   {
-    "mot": "ont",
-    "debut": 20.04,
-    "fin": 20.16
-   },
-   {
-    "mot": "cherché",
-    "debut": 20.16,
-    "fin": 20.5
-   },
-   {
-    "mot": "pendant",
-    "debut": 20.5,
-    "fin": 20.7
-   },
-   {
-    "mot": "des",
-    "debut": 20.7,
-    "fin": 20.92
-   },
-   {
-    "mot": "années.",
-    "debut": 20.92,
-    "fin": 21.14
-   }
-  ]
- },
- {
-  "debut": 22.24,
-  "fin": 25.52,
-  "texte": "Et début novembre 2026, une méthode officielle est enfin trouvée.",
-  "mots": [
-   {
-    "mot": "Et",
-    "debut": 22.24,
-    "fin": 22.4
-   },
-   {
-    "mot": "début",
-    "debut": 22.4,
-    "fin": 22.6
-   },
-   {
-    "mot": "novembre",
-    "debut": 22.6,
-    "fin": 22.98
-   },
-   {
-    "mot": "2026,",
-    "debut": 22.98,
-    "fin": 23.62
-   },
-   {
-    "mot": "une",
-    "debut": 24.02,
-    "fin": 24.14
-   },
-   {
-    "mot": "méthode",
-    "debut": 24.14,
-    "fin": 24.38
-   },
-   {
-    "mot": "officielle",
-    "debut": 24.38,
-    "fin": 24.78
-   },
-   {
-    "mot": "est",
-    "debut": 24.78,
-    "fin": 24.92
-   },
-   {
-    "mot": "enfin",
-    "debut": 24.92,
-    "fin": 25.06
-   },
-   {
-    "mot": "trouvée.",
-    "debut": 25.06,
-    "fin": 25.52
-   }
-  ]
- },
- {
-  "debut": 26.340000000000003,
-  "fin": 29.42,
-  "texte": "Il faut suivre des règles strictes, comme ne rien prendre dans les maisons.",
-  "mots": [
-   {
-    "mot": "Il",
-    "debut": 26.340000000000003,
-    "fin": 26.78
-   },
-   {
-    "mot": "faut",
-    "debut": 26.78,
-    "fin": 26.92
-   },
-   {
-    "mot": "suivre",
-    "debut": 26.92,
-    "fin": 27.14
-   },
-   {
-    "mot": "des",
-    "debut": 27.14,
-    "fin": 27.34
-   },
-   {
-    "mot": "règles",
-    "debut": 27.34,
-    "fin": 27.54
-   },
-   {
-    "mot": "strictes,",
-    "debut": 27.54,
-    "fin": 28.18
-   },
-   {
-    "mot": "comme",
-    "debut": 28.18,
-    "fin": 28.32
-   },
-   {
-    "mot": "ne",
-    "debut": 28.32,
-    "fin": 28.46
-   },
-   {
-    "mot": "rien",
-    "debut": 28.46,
-    "fin": 28.64
-   },
-   {
-    "mot": "prendre",
-    "debut": 28.64,
-    "fin": 28.86
+    "mot": "'est",
+    "debut": 3.98,
+    "fin": 4.0
    },
    {
     "mot": "dans",
-    "debut": 28.86,
-    "fin": 29.04
+    "debut": 4.0,
+    "fin": 4.14
    },
    {
-    "mot": "les",
-    "debut": 29.04,
-    "fin": 29.14
+    "mot": "Tels",
+    "debut": 4.14,
+    "fin": 4.32
    },
    {
-    "mot": "maisons.",
-    "debut": 29.14,
-    "fin": 29.42
-   }
-  ]
- },
- {
-  "debut": 30.080000000000002,
-  "fin": 33.28,
-  "texte": "Dans la version PS2 de 2006, elle était déjà jouable.",
-  "mots": [
-   {
-    "mot": "Dans",
-    "debut": 30.080000000000002,
-    "fin": 30.62
+    "mot": "of",
+    "debut": 4.32,
+    "fin": 4.44
    },
    {
-    "mot": "la",
-    "debut": 30.62,
-    "fin": 30.74
-   },
-   {
-    "mot": "version",
-    "debut": 30.74,
-    "fin": 31.0
-   },
-   {
-    "mot": "PS2",
-    "debut": 31.0,
-    "fin": 31.46
-   },
-   {
-    "mot": "de",
-    "debut": 31.46,
-    "fin": 31.58
-   },
-   {
-    "mot": "2006,",
-    "debut": 31.58,
-    "fin": 31.98
-   },
-   {
-    "mot": "elle",
-    "debut": 32.44,
-    "fin": 32.52
-   },
-   {
-    "mot": "était",
-    "debut": 32.52,
-    "fin": 32.68
-   },
-   {
-    "mot": "déjà",
-    "debut": 32.68,
-    "fin": 32.96
-   },
-   {
-    "mot": "jouable.",
-    "debut": 32.96,
-    "fin": 33.28
-   }
-  ]
- },
- {
-  "debut": 34.34,
-  "fin": 36.92,
-  "texte": "Parfois, un isterme est presque 30 ans à se résoudre.",
-  "mots": [
-   {
-    "mot": "Parfois,",
-    "debut": 34.34,
-    "fin": 34.78
+    "mot": "Destiny,",
+    "debut": 4.44,
+    "fin": 4.82
    },
    {
     "mot": "un",
-    "debut": 35.06,
-    "fin": 35.2
+    "debut": 5.18,
+    "fin": 5.3
    },
    {
-    "mot": "isterme",
-    "debut": 35.2,
-    "fin": 35.58
+    "mot": "jeu",
+    "debut": 5.3,
+    "fin": 5.44
    },
    {
-    "mot": "est",
-    "debut": 35.58,
-    "fin": 35.68
+    "mot": "PlayStation",
+    "debut": 5.44,
+    "fin": 5.82
    },
    {
-    "mot": "presque",
-    "debut": 35.68,
-    "fin": 35.84
+    "mot": "sorti",
+    "debut": 5.82,
+    "fin": 6.3
    },
    {
-    "mot": "30",
-    "debut": 35.84,
-    "fin": 36.14
+    "mot": "en",
+    "debut": 6.3,
+    "fin": 6.42
    },
    {
-    "mot": "ans",
-    "debut": 36.14,
-    "fin": 36.3
-   },
-   {
-    "mot": "à",
-    "debut": 36.3,
-    "fin": 36.38
-   },
-   {
-    "mot": "se",
-    "debut": 36.38,
-    "fin": 36.5
-   },
-   {
-    "mot": "résoudre.",
-    "debut": 36.5,
-    "fin": 36.92
+    "mot": "1997.",
+    "debut": 6.42,
+    "fin": 7.12
    }
   ]
  },
  {
-  "debut": 37.76,
-  "fin": 40.02,
+  "debut": 8.620000000000003,
+  "fin": 11.7,
+  "texte": "Lilith, la petite sœur du héros, existait dans le code du jeu.",
+  "mots": [
+   {
+    "mot": "Lilith,",
+    "debut": 8.620000000000003,
+    "fin": 9.06
+   },
+   {
+    "mot": "la",
+    "debut": 9.38,
+    "fin": 9.5
+   },
+   {
+    "mot": "petite",
+    "debut": 9.5,
+    "fin": 9.7
+   },
+   {
+    "mot": "sœur",
+    "debut": 9.7,
+    "fin": 9.94
+   },
+   {
+    "mot": "du",
+    "debut": 9.94,
+    "fin": 10.04
+   },
+   {
+    "mot": "héros,",
+    "debut": 10.04,
+    "fin": 10.28
+   },
+   {
+    "mot": "existait",
+    "debut": 10.58,
+    "fin": 10.96
+   },
+   {
+    "mot": "dans",
+    "debut": 10.96,
+    "fin": 11.08
+   },
+   {
+    "mot": "le",
+    "debut": 11.08,
+    "fin": 11.18
+   },
+   {
+    "mot": "code",
+    "debut": 11.18,
+    "fin": 11.36
+   },
+   {
+    "mot": "du",
+    "debut": 11.36,
+    "fin": 11.52
+   },
+   {
+    "mot": "jeu.",
+    "debut": 11.52,
+    "fin": 11.7
+   }
+  ]
+ },
+ {
+  "debut": 12.76,
+  "fin": 15.54,
+  "texte": "Mais personne ne savait la recruter, sauf avec des astuces.",
+  "mots": [
+   {
+    "mot": "Mais",
+    "debut": 12.76,
+    "fin": 12.94
+   },
+   {
+    "mot": "personne",
+    "debut": 12.94,
+    "fin": 13.22
+   },
+   {
+    "mot": "ne",
+    "debut": 13.22,
+    "fin": 13.4
+   },
+   {
+    "mot": "savait",
+    "debut": 13.4,
+    "fin": 13.62
+   },
+   {
+    "mot": "la",
+    "debut": 13.62,
+    "fin": 13.74
+   },
+   {
+    "mot": "recruter,",
+    "debut": 13.74,
+    "fin": 14.16
+   },
+   {
+    "mot": "sauf",
+    "debut": 14.46,
+    "fin": 14.7
+   },
+   {
+    "mot": "avec",
+    "debut": 14.7,
+    "fin": 14.86
+   },
+   {
+    "mot": "des",
+    "debut": 14.86,
+    "fin": 15.04
+   },
+   {
+    "mot": "astuces.",
+    "debut": 15.04,
+    "fin": 15.54
+   }
+  ]
+ },
+ {
+  "debut": 16.66,
+  "fin": 19.0,
+  "texte": "Les fans parlaient d'une simple rumeur pendant des années.",
+  "mots": [
+   {
+    "mot": "Les",
+    "debut": 16.66,
+    "fin": 16.84
+   },
+   {
+    "mot": "fans",
+    "debut": 16.84,
+    "fin": 17.02
+   },
+   {
+    "mot": "parlaient",
+    "debut": 17.02,
+    "fin": 17.3
+   },
+   {
+    "mot": "d",
+    "debut": 17.3,
+    "fin": 17.4
+   },
+   {
+    "mot": "'une",
+    "debut": 17.4,
+    "fin": 17.46
+   },
+   {
+    "mot": "simple",
+    "debut": 17.46,
+    "fin": 17.7
+   },
+   {
+    "mot": "rumeur",
+    "debut": 17.7,
+    "fin": 18.16
+   },
+   {
+    "mot": "pendant",
+    "debut": 18.16,
+    "fin": 18.6
+   },
+   {
+    "mot": "des",
+    "debut": 18.6,
+    "fin": 18.8
+   },
+   {
+    "mot": "années.",
+    "debut": 18.8,
+    "fin": 19.0
+   }
+  ]
+ },
+ {
+  "debut": 20.1,
+  "fin": 22.92,
+  "texte": "Début novembre 2026, un fan trouve enfin le chemin.",
+  "mots": [
+   {
+    "mot": "Début",
+    "debut": 20.1,
+    "fin": 20.36
+   },
+   {
+    "mot": "novembre",
+    "debut": 20.36,
+    "fin": 20.78
+   },
+   {
+    "mot": "2026,",
+    "debut": 20.78,
+    "fin": 21.4
+   },
+   {
+    "mot": "un",
+    "debut": 21.8,
+    "fin": 21.9
+   },
+   {
+    "mot": "fan",
+    "debut": 21.9,
+    "fin": 22.06
+   },
+   {
+    "mot": "trouve",
+    "debut": 22.06,
+    "fin": 22.28
+   },
+   {
+    "mot": "enfin",
+    "debut": 22.28,
+    "fin": 22.54
+   },
+   {
+    "mot": "le",
+    "debut": 22.54,
+    "fin": 22.68
+   },
+   {
+    "mot": "chemin.",
+    "debut": 22.68,
+    "fin": 22.92
+   }
+  ]
+ },
+ {
+  "debut": 24.08,
+  "fin": 26.72,
+  "texte": "Il faut ne rien prendre chez les habitants et ne pas se faire gronder.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 24.08,
+    "fin": 24.2
+   },
+   {
+    "mot": "faut",
+    "debut": 24.2,
+    "fin": 24.34
+   },
+   {
+    "mot": "ne",
+    "debut": 24.34,
+    "fin": 24.46
+   },
+   {
+    "mot": "rien",
+    "debut": 24.46,
+    "fin": 24.62
+   },
+   {
+    "mot": "prendre",
+    "debut": 24.62,
+    "fin": 24.84
+   },
+   {
+    "mot": "chez",
+    "debut": 24.84,
+    "fin": 25.06
+   },
+   {
+    "mot": "les",
+    "debut": 25.06,
+    "fin": 25.18
+   },
+   {
+    "mot": "habitants",
+    "debut": 25.18,
+    "fin": 25.58
+   },
+   {
+    "mot": "et",
+    "debut": 25.58,
+    "fin": 25.96
+   },
+   {
+    "mot": "ne",
+    "debut": 25.96,
+    "fin": 26.06
+   },
+   {
+    "mot": "pas",
+    "debut": 26.06,
+    "fin": 26.18
+   },
+   {
+    "mot": "se",
+    "debut": 26.18,
+    "fin": 26.32
+   },
+   {
+    "mot": "faire",
+    "debut": 26.32,
+    "fin": 26.48
+   },
+   {
+    "mot": "gronder.",
+    "debut": 26.48,
+    "fin": 26.72
+   }
+  ]
+ },
+ {
+  "debut": 27.779999999999994,
+  "fin": 30.26,
+  "texte": "Le producteur du jeu a même réagi, incroyable.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 27.779999999999994,
+    "fin": 28.179999999999996
+   },
+   {
+    "mot": "producteur",
+    "debut": 28.179999999999996,
+    "fin": 28.58
+   },
+   {
+    "mot": "du",
+    "debut": 28.58,
+    "fin": 28.7
+   },
+   {
+    "mot": "jeu",
+    "debut": 28.7,
+    "fin": 28.88
+   },
+   {
+    "mot": "a",
+    "debut": 28.88,
+    "fin": 28.98
+   },
+   {
+    "mot": "même",
+    "debut": 28.98,
+    "fin": 29.12
+   },
+   {
+    "mot": "réagi,",
+    "debut": 29.12,
+    "fin": 29.52
+   },
+   {
+    "mot": "incroyable.",
+    "debut": 29.76,
+    "fin": 30.26
+   }
+  ]
+ },
+ {
+  "debut": 31.34,
+  "fin": 33.26,
+  "texte": "Elle n'était officielle que dans le remake de 2006.",
+  "mots": [
+   {
+    "mot": "Elle",
+    "debut": 31.34,
+    "fin": 31.56
+   },
+   {
+    "mot": "n",
+    "debut": 31.56,
+    "fin": 31.66
+   },
+   {
+    "mot": "'était",
+    "debut": 31.66,
+    "fin": 31.72
+   },
+   {
+    "mot": "officielle",
+    "debut": 31.72,
+    "fin": 32.24
+   },
+   {
+    "mot": "que",
+    "debut": 32.24,
+    "fin": 32.36
+   },
+   {
+    "mot": "dans",
+    "debut": 32.36,
+    "fin": 32.48
+   },
+   {
+    "mot": "le",
+    "debut": 32.48,
+    "fin": 32.58
+   },
+   {
+    "mot": "remake",
+    "debut": 32.58,
+    "fin": 32.78
+   },
+   {
+    "mot": "de",
+    "debut": 32.78,
+    "fin": 32.96
+   },
+   {
+    "mot": "2006.",
+    "debut": 32.96,
+    "fin": 33.26
+   }
+  ]
+ },
+ {
+  "debut": 34.54,
+  "fin": 36.66,
   "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
   "mots": [
    {
     "mot": "Abonne",
-    "debut": 37.76,
-    "fin": 38.3
+    "debut": 34.54,
+    "fin": 34.94
    },
    {
     "mot": "-toi",
-    "debut": 38.3,
-    "fin": 38.48
+    "debut": 34.94,
+    "fin": 35.14
    },
    {
     "mot": "à",
-    "debut": 38.48,
-    "fin": 38.6
+    "debut": 35.14,
+    "fin": 35.26
    },
    {
     "mot": "Pixel",
-    "debut": 38.6,
-    "fin": 38.82
+    "debut": 35.26,
+    "fin": 35.44
    },
    {
     "mot": "Facts",
-    "debut": 38.82,
-    "fin": 39.22
+    "debut": 35.44,
+    "fin": 35.84
    },
    {
     "mot": "pour",
-    "debut": 39.22,
-    "fin": 39.4
+    "debut": 35.84,
+    "fin": 36.04
    },
    {
     "mot": "le",
-    "debut": 39.4,
-    "fin": 39.5
+    "debut": 36.04,
+    "fin": 36.14
    },
    {
     "mot": "prochain",
-    "debut": 39.5,
-    "fin": 39.74
+    "debut": 36.14,
+    "fin": 36.38
    },
    {
     "mot": "fait.",
-    "debut": 39.74,
-    "fin": 40.02
+    "debut": 36.38,
+    "fin": 36.66
    }
   ]
  }

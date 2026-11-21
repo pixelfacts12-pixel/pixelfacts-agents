@@ -1,13 +1,13 @@
 import numpy as np, wave
-sr=44100; dur=44; bpm=100; beat=60/bpm
+sr=44100; dur=40; bpm=96; beat=60/bpm
 t=np.arange(int(sr*dur))/sr; out=np.zeros_like(t)
 def env(n,a=0.01,r=0.4):
     x=np.arange(n)/sr; return np.minimum(1,x/a)*np.exp(-x/r)
 def note(f,n,amp,r):
     x=np.arange(n)/sr; w=np.sin(2*np.pi*f*x)+0.3*np.sin(4*np.pi*f*x)+0.1*np.sin(6*np.pi*f*x)
     return amp*w*env(n,0.008,r)
-chords=[(220.00,261.63,329.63),(174.61,220.00,261.63),(130.81,164.81,196.00),(196.00,246.94,293.66)]
-bass=[55.0,43.65,65.41,49.0]
+chords=[(196.00,246.94,293.66),(220.00,261.63,329.63),(174.61,220.00,261.63),(164.81,196.00,246.94)]
+bass=[49.0,55.0,43.65,41.2]
 for bar in range(int(dur/(4*beat))+1):
     c=chords[bar%4]; b0=bar*4*beat
     for k in range(8):  # croches arpégées
