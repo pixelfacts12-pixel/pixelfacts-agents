@@ -1,0 +1,647 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.02,
+  "texte": "Savais-tu qu'un jeu Roblox a atteint environ 500 000 joueurs en même temps ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "qu",
+    "debut": 0.54,
+    "fin": 0.66
+   },
+   {
+    "mot": "'un",
+    "debut": 0.66,
+    "fin": 0.74
+   },
+   {
+    "mot": "jeu",
+    "debut": 0.74,
+    "fin": 0.86
+   },
+   {
+    "mot": "Roblox",
+    "debut": 0.86,
+    "fin": 1.18
+   },
+   {
+    "mot": "a",
+    "debut": 1.18,
+    "fin": 1.28
+   },
+   {
+    "mot": "atteint",
+    "debut": 1.28,
+    "fin": 1.52
+   },
+   {
+    "mot": "environ",
+    "debut": 1.52,
+    "fin": 1.74
+   },
+   {
+    "mot": "500",
+    "debut": 1.74,
+    "fin": 2.0
+   },
+   {
+    "mot": "000",
+    "debut": 2.0,
+    "fin": 2.28
+   },
+   {
+    "mot": "joueurs",
+    "debut": 2.28,
+    "fin": 2.52
+   },
+   {
+    "mot": "en",
+    "debut": 2.52,
+    "fin": 2.62
+   },
+   {
+    "mot": "même",
+    "debut": 2.62,
+    "fin": 2.78
+   },
+   {
+    "mot": "temps",
+    "debut": 2.78,
+    "fin": 2.96
+   },
+   {
+    "mot": "?",
+    "debut": 2.96,
+    "fin": 4.02
+   }
+  ]
+ },
+ {
+  "debut": 4.02,
+  "fin": 6.84,
+  "texte": "Il s'appelle The Hollow, et il est sorti en octobre 2026.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 4.02,
+    "fin": 4.16
+   },
+   {
+    "mot": "s",
+    "debut": 4.16,
+    "fin": 4.34
+   },
+   {
+    "mot": "'appelle",
+    "debut": 4.34,
+    "fin": 4.46
+   },
+   {
+    "mot": "The",
+    "debut": 4.46,
+    "fin": 4.64
+   },
+   {
+    "mot": "Hollow,",
+    "debut": 4.64,
+    "fin": 4.8
+   },
+   {
+    "mot": "et",
+    "debut": 5.14,
+    "fin": 5.3
+   },
+   {
+    "mot": "il",
+    "debut": 5.3,
+    "fin": 5.36
+   },
+   {
+    "mot": "est",
+    "debut": 5.36,
+    "fin": 5.46
+   },
+   {
+    "mot": "sorti",
+    "debut": 5.46,
+    "fin": 5.74
+   },
+   {
+    "mot": "en",
+    "debut": 5.74,
+    "fin": 5.86
+   },
+   {
+    "mot": "octobre",
+    "debut": 5.86,
+    "fin": 6.22
+   },
+   {
+    "mot": "2026.",
+    "debut": 6.22,
+    "fin": 6.84
+   }
+  ]
+ },
+ {
+  "debut": 8.04,
+  "fin": 11.96,
+  "texte": "En quelques jours, la courbe monte tout en haut, un pic d'environ 506 000 joueurs.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 8.04,
+    "fin": 8.28
+   },
+   {
+    "mot": "quelques",
+    "debut": 8.28,
+    "fin": 8.48
+   },
+   {
+    "mot": "jours,",
+    "debut": 8.48,
+    "fin": 8.8
+   },
+   {
+    "mot": "la",
+    "debut": 9.18,
+    "fin": 9.3
+   },
+   {
+    "mot": "courbe",
+    "debut": 9.3,
+    "fin": 9.54
+   },
+   {
+    "mot": "monte",
+    "debut": 9.54,
+    "fin": 9.72
+   },
+   {
+    "mot": "tout",
+    "debut": 9.72,
+    "fin": 9.92
+   },
+   {
+    "mot": "en",
+    "debut": 9.92,
+    "fin": 10.1
+   },
+   {
+    "mot": "haut,",
+    "debut": 10.1,
+    "fin": 10.22
+   },
+   {
+    "mot": "un",
+    "debut": 10.38,
+    "fin": 10.52
+   },
+   {
+    "mot": "pic",
+    "debut": 10.52,
+    "fin": 10.58
+   },
+   {
+    "mot": "d",
+    "debut": 10.58,
+    "fin": 10.72
+   },
+   {
+    "mot": "'environ",
+    "debut": 10.72,
+    "fin": 10.86
+   },
+   {
+    "mot": "506",
+    "debut": 10.86,
+    "fin": 11.5
+   },
+   {
+    "mot": "000",
+    "debut": 11.5,
+    "fin": 11.6
+   },
+   {
+    "mot": "joueurs.",
+    "debut": 11.6,
+    "fin": 11.96
+   }
+  ]
+ },
+ {
+  "debut": 12.9,
+  "fin": 15.42,
+  "texte": "Un événement officiel, créé par Roblox présent.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 12.9,
+    "fin": 13.2
+   },
+   {
+    "mot": "événement",
+    "debut": 13.2,
+    "fin": 13.5
+   },
+   {
+    "mot": "officiel,",
+    "debut": 13.5,
+    "fin": 14.02
+   },
+   {
+    "mot": "créé",
+    "debut": 14.34,
+    "fin": 14.6
+   },
+   {
+    "mot": "par",
+    "debut": 14.6,
+    "fin": 14.76
+   },
+   {
+    "mot": "Roblox",
+    "debut": 14.76,
+    "fin": 15.1
+   },
+   {
+    "mot": "présent.",
+    "debut": 15.1,
+    "fin": 15.42
+   }
+  ]
+ },
+ {
+  "debut": 16.48,
+  "fin": 18.88,
+  "texte": "Mais une courbe qui monte aussi vite peut aussi redescendre.",
+  "mots": [
+   {
+    "mot": "Mais",
+    "debut": 16.48,
+    "fin": 16.7
+   },
+   {
+    "mot": "une",
+    "debut": 16.7,
+    "fin": 16.82
+   },
+   {
+    "mot": "courbe",
+    "debut": 16.82,
+    "fin": 17.1
+   },
+   {
+    "mot": "qui",
+    "debut": 17.1,
+    "fin": 17.24
+   },
+   {
+    "mot": "monte",
+    "debut": 17.24,
+    "fin": 17.42
+   },
+   {
+    "mot": "aussi",
+    "debut": 17.42,
+    "fin": 17.64
+   },
+   {
+    "mot": "vite",
+    "debut": 17.64,
+    "fin": 17.82
+   },
+   {
+    "mot": "peut",
+    "debut": 17.82,
+    "fin": 17.98
+   },
+   {
+    "mot": "aussi",
+    "debut": 17.98,
+    "fin": 18.28
+   },
+   {
+    "mot": "redescendre.",
+    "debut": 18.28,
+    "fin": 18.88
+   }
+  ]
+ },
+ {
+  "debut": 19.94,
+  "fin": 22.22,
+  "texte": "Aujourd'hui, ils sont environ 200 en même temps.",
+  "mots": [
+   {
+    "mot": "Aujourd",
+    "debut": 19.94,
+    "fin": 20.2
+   },
+   {
+    "mot": "'hui,",
+    "debut": 20.2,
+    "fin": 20.52
+   },
+   {
+    "mot": "ils",
+    "debut": 20.84,
+    "fin": 20.94
+   },
+   {
+    "mot": "sont",
+    "debut": 20.94,
+    "fin": 21.1
+   },
+   {
+    "mot": "environ",
+    "debut": 21.1,
+    "fin": 21.38
+   },
+   {
+    "mot": "200",
+    "debut": 21.38,
+    "fin": 21.66
+   },
+   {
+    "mot": "en",
+    "debut": 21.66,
+    "fin": 21.86
+   },
+   {
+    "mot": "même",
+    "debut": 21.86,
+    "fin": 22.0
+   },
+   {
+    "mot": "temps.",
+    "debut": 22.0,
+    "fin": 22.22
+   }
+  ]
+ },
+ {
+  "debut": 23.26,
+  "fin": 25.96,
+  "texte": "C'est plus de 99,9 % de moins qu'au sommet.",
+  "mots": [
+   {
+    "mot": "C",
+    "debut": 23.26,
+    "fin": 23.46
+   },
+   {
+    "mot": "'est",
+    "debut": 23.46,
+    "fin": 23.5
+   },
+   {
+    "mot": "plus",
+    "debut": 23.5,
+    "fin": 23.62
+   },
+   {
+    "mot": "de",
+    "debut": 23.62,
+    "fin": 23.76
+   },
+   {
+    "mot": "99",
+    "debut": 23.76,
+    "fin": 24.14
+   },
+   {
+    "mot": ",9",
+    "debut": 24.14,
+    "fin": 24.86
+   },
+   {
+    "mot": "%",
+    "debut": 24.86,
+    "fin": 25.18
+   },
+   {
+    "mot": "de",
+    "debut": 25.18,
+    "fin": 25.36
+   },
+   {
+    "mot": "moins",
+    "debut": 25.36,
+    "fin": 25.48
+   },
+   {
+    "mot": "qu",
+    "debut": 25.48,
+    "fin": 25.64
+   },
+   {
+    "mot": "'au",
+    "debut": 25.64,
+    "fin": 25.7
+   },
+   {
+    "mot": "sommet.",
+    "debut": 25.7,
+    "fin": 25.96
+   }
+  ]
+ },
+ {
+  "debut": 27.04,
+  "fin": 30.14,
+  "texte": "Pourtant, le jeu cumule près de 197 millions de visites.",
+  "mots": [
+   {
+    "mot": "Pourtant,",
+    "debut": 27.04,
+    "fin": 27.4
+   },
+   {
+    "mot": "le",
+    "debut": 27.74,
+    "fin": 27.84
+   },
+   {
+    "mot": "jeu",
+    "debut": 27.84,
+    "fin": 28.0
+   },
+   {
+    "mot": "cumule",
+    "debut": 28.0,
+    "fin": 28.28
+   },
+   {
+    "mot": "près",
+    "debut": 28.28,
+    "fin": 28.44
+   },
+   {
+    "mot": "de",
+    "debut": 28.44,
+    "fin": 28.56
+   },
+   {
+    "mot": "197",
+    "debut": 28.56,
+    "fin": 29.04
+   },
+   {
+    "mot": "millions",
+    "debut": 29.04,
+    "fin": 29.58
+   },
+   {
+    "mot": "de",
+    "debut": 29.58,
+    "fin": 29.74
+   },
+   {
+    "mot": "visites.",
+    "debut": 29.74,
+    "fin": 30.14
+   }
+  ]
+ },
+ {
+  "debut": 31.24,
+  "fin": 34.2,
+  "texte": "Un événement qui explose, puis qui retombe, c'est la vie d'un pic.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 31.24,
+    "fin": 31.42
+   },
+   {
+    "mot": "événement",
+    "debut": 31.42,
+    "fin": 31.76
+   },
+   {
+    "mot": "qui",
+    "debut": 31.76,
+    "fin": 31.9
+   },
+   {
+    "mot": "explose,",
+    "debut": 31.9,
+    "fin": 32.4
+   },
+   {
+    "mot": "puis",
+    "debut": 32.72,
+    "fin": 32.82
+   },
+   {
+    "mot": "qui",
+    "debut": 32.82,
+    "fin": 32.96
+   },
+   {
+    "mot": "retombe,",
+    "debut": 32.96,
+    "fin": 33.42
+   },
+   {
+    "mot": "c",
+    "debut": 33.6,
+    "fin": 33.66
+   },
+   {
+    "mot": "'est",
+    "debut": 33.66,
+    "fin": 33.7
+   },
+   {
+    "mot": "la",
+    "debut": 33.7,
+    "fin": 33.8
+   },
+   {
+    "mot": "vie",
+    "debut": 33.8,
+    "fin": 33.9
+   },
+   {
+    "mot": "d",
+    "debut": 33.9,
+    "fin": 33.98
+   },
+   {
+    "mot": "'un",
+    "debut": 33.98,
+    "fin": 34.08
+   },
+   {
+    "mot": "pic.",
+    "debut": 34.08,
+    "fin": 34.2
+   }
+  ]
+ },
+ {
+  "debut": 35.42,
+  "fin": 37.48,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 35.42,
+    "fin": 35.76
+   },
+   {
+    "mot": "-toi",
+    "debut": 35.76,
+    "fin": 35.94
+   },
+   {
+    "mot": "à",
+    "debut": 35.94,
+    "fin": 36.08
+   },
+   {
+    "mot": "Pixel",
+    "debut": 36.08,
+    "fin": 36.26
+   },
+   {
+    "mot": "Facts",
+    "debut": 36.26,
+    "fin": 36.66
+   },
+   {
+    "mot": "pour",
+    "debut": 36.66,
+    "fin": 36.86
+   },
+   {
+    "mot": "le",
+    "debut": 36.86,
+    "fin": 36.98
+   },
+   {
+    "mot": "prochain",
+    "debut": 36.98,
+    "fin": 37.2
+   },
+   {
+    "mot": "fait.",
+    "debut": 37.2,
+    "fin": 37.48
+   }
+  ]
+ }
+]

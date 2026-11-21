@@ -187,11 +187,12 @@
    "id": "veille-20261120-3",
    "url": "https://rowatcher.com/games/10770728771/the-hollow",
    "note": "Angle courbe de pic puis retombée, uniquement chiffres et graphique animé, ton neutre, aucune scène effrayante.",
-   "status": "a_faire",
+   "status": "pret",
    "recu": 1795210835.6791732,
    "essais": 0,
    "reprises": 0,
-   "remarques": []
+   "remarques": [],
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-173942-veille-20261120-3.mp4"
   },
   {
    "id": "veille-20261120-1",
@@ -215,7 +216,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 52,
+ "ev_lus": 53,
  "veille": {
   "derniere": 1795198855.346953,
   "essais": 0
