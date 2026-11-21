@@ -1,0 +1,475 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 2.42,
+  "texte": "savait-tu que ce cubatant j'étais à 6 depuis 13 ans.",
+  "mots": [
+   {
+    "mot": "savait",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.56
+   },
+   {
+    "mot": "que",
+    "debut": 0.56,
+    "fin": 0.68
+   },
+   {
+    "mot": "ce",
+    "debut": 0.68,
+    "fin": 0.8
+   },
+   {
+    "mot": "cubatant",
+    "debut": 0.8,
+    "fin": 1.2
+   },
+   {
+    "mot": "j",
+    "debut": 1.2,
+    "fin": 1.32
+   },
+   {
+    "mot": "'étais",
+    "debut": 1.32,
+    "fin": 1.44
+   },
+   {
+    "mot": "à",
+    "debut": 1.44,
+    "fin": 1.62
+   },
+   {
+    "mot": "6",
+    "debut": 1.62,
+    "fin": 1.76
+   },
+   {
+    "mot": "depuis",
+    "debut": 1.76,
+    "fin": 1.98
+   },
+   {
+    "mot": "13",
+    "debut": 1.98,
+    "fin": 2.26
+   },
+   {
+    "mot": "ans.",
+    "debut": 2.26,
+    "fin": 2.42
+   }
+  ]
+ },
+ {
+  "debut": 3.460000000000004,
+  "fin": 6.86,
+  "texte": "Septembre 2013, j'étais à 5 sortes et il s'assoit sur ce banc.",
+  "mots": [
+   {
+    "mot": "Septembre",
+    "debut": 3.460000000000004,
+    "fin": 3.98
+   },
+   {
+    "mot": "2013,",
+    "debut": 3.98,
+    "fin": 4.44
+   },
+   {
+    "mot": "j",
+    "debut": 4.86,
+    "fin": 4.92
+   },
+   {
+    "mot": "'étais",
+    "debut": 4.92,
+    "fin": 5.02
+   },
+   {
+    "mot": "à",
+    "debut": 5.02,
+    "fin": 5.18
+   },
+   {
+    "mot": "5",
+    "debut": 5.18,
+    "fin": 5.36
+   },
+   {
+    "mot": "sortes",
+    "debut": 5.36,
+    "fin": 5.92
+   },
+   {
+    "mot": "et",
+    "debut": 5.92,
+    "fin": 6.02
+   },
+   {
+    "mot": "il",
+    "debut": 6.02,
+    "fin": 6.12
+   },
+   {
+    "mot": "s",
+    "debut": 6.12,
+    "fin": 6.26
+   },
+   {
+    "mot": "'assoit",
+    "debut": 6.26,
+    "fin": 6.44
+   },
+   {
+    "mot": "sur",
+    "debut": 6.44,
+    "fin": 6.6
+   },
+   {
+    "mot": "ce",
+    "debut": 6.6,
+    "fin": 6.72
+   },
+   {
+    "mot": "banc.",
+    "debut": 6.72,
+    "fin": 6.86
+   }
+  ]
+ },
+ {
+  "debut": 7.940000000000008,
+  "fin": 10.98,
+  "texte": "Décembre 2023, enfin, une première bande annonce.",
+  "mots": [
+   {
+    "mot": "Décembre",
+    "debut": 7.940000000000008,
+    "fin": 8.460000000000004
+   },
+   {
+    "mot": "2023,",
+    "debut": 8.460000000000004,
+    "fin": 8.98
+   },
+   {
+    "mot": "enfin,",
+    "debut": 9.3,
+    "fin": 9.56
+   },
+   {
+    "mot": "une",
+    "debut": 9.96,
+    "fin": 10.08
+   },
+   {
+    "mot": "première",
+    "debut": 10.08,
+    "fin": 10.38
+   },
+   {
+    "mot": "bande",
+    "debut": 10.38,
+    "fin": 10.52
+   },
+   {
+    "mot": "annonce.",
+    "debut": 10.52,
+    "fin": 10.98
+   }
+  ]
+ },
+ {
+  "debut": 12.1,
+  "fin": 13.52,
+  "texte": "Mais 2025, la deuxième.",
+  "mots": [
+   {
+    "mot": "Mais",
+    "debut": 12.1,
+    "fin": 12.3
+   },
+   {
+    "mot": "2025,",
+    "debut": 12.3,
+    "fin": 12.76
+   },
+   {
+    "mot": "la",
+    "debut": 13.24,
+    "fin": 13.3
+   },
+   {
+    "mot": "deuxième.",
+    "debut": 13.3,
+    "fin": 13.52
+   }
+  ]
+ },
+ {
+  "debut": 14.6,
+  "fin": 19.28,
+  "texte": "Mais la date bouge automne 2025, mais 2026, puis novembre 2026.",
+  "mots": [
+   {
+    "mot": "Mais",
+    "debut": 14.6,
+    "fin": 14.98
+   },
+   {
+    "mot": "la",
+    "debut": 14.98,
+    "fin": 15.08
+   },
+   {
+    "mot": "date",
+    "debut": 15.08,
+    "fin": 15.2
+   },
+   {
+    "mot": "bouge",
+    "debut": 15.2,
+    "fin": 15.56
+   },
+   {
+    "mot": "automne",
+    "debut": 15.56,
+    "fin": 15.98
+   },
+   {
+    "mot": "2025,",
+    "debut": 15.98,
+    "fin": 16.4
+   },
+   {
+    "mot": "mais",
+    "debut": 16.92,
+    "fin": 17.14
+   },
+   {
+    "mot": "2026,",
+    "debut": 17.14,
+    "fin": 17.78
+   },
+   {
+    "mot": "puis",
+    "debut": 18.16,
+    "fin": 18.26
+   },
+   {
+    "mot": "novembre",
+    "debut": 18.26,
+    "fin": 18.64
+   },
+   {
+    "mot": "2026.",
+    "debut": 18.64,
+    "fin": 19.28
+   }
+  ]
+ },
+ {
+  "debut": 20.48,
+  "fin": 23.24,
+  "texte": "Le 19 novembre, Rockstar l'affiche disponible.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 20.48,
+    "fin": 20.72
+   },
+   {
+    "mot": "19",
+    "debut": 20.72,
+    "fin": 20.96
+   },
+   {
+    "mot": "novembre,",
+    "debut": 20.96,
+    "fin": 21.48
+   },
+   {
+    "mot": "Rockstar",
+    "debut": 21.78,
+    "fin": 22.06
+   },
+   {
+    "mot": "l",
+    "debut": 22.06,
+    "fin": 22.2
+   },
+   {
+    "mot": "'affiche",
+    "debut": 22.2,
+    "fin": 22.44
+   },
+   {
+    "mot": "disponible.",
+    "debut": 22.44,
+    "fin": 23.24
+   }
+  ]
+ },
+ {
+  "debut": 24.24,
+  "fin": 26.26,
+  "texte": "13 ans plus tard, le banc se libère enfin.",
+  "mots": [
+   {
+    "mot": "13",
+    "debut": 24.24,
+    "fin": 24.54
+   },
+   {
+    "mot": "ans",
+    "debut": 24.54,
+    "fin": 24.68
+   },
+   {
+    "mot": "plus",
+    "debut": 24.68,
+    "fin": 24.78
+   },
+   {
+    "mot": "tard,",
+    "debut": 24.78,
+    "fin": 25.04
+   },
+   {
+    "mot": "le",
+    "debut": 25.38,
+    "fin": 25.48
+   },
+   {
+    "mot": "banc",
+    "debut": 25.48,
+    "fin": 25.6
+   },
+   {
+    "mot": "se",
+    "debut": 25.6,
+    "fin": 25.76
+   },
+   {
+    "mot": "libère",
+    "debut": 25.76,
+    "fin": 25.98
+   },
+   {
+    "mot": "enfin.",
+    "debut": 25.98,
+    "fin": 26.26
+   }
+  ]
+ },
+ {
+  "debut": 27.06,
+  "fin": 29.26,
+  "texte": "Et toi, tu as attendu combien de temps ?",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 27.06,
+    "fin": 27.5
+   },
+   {
+    "mot": "toi,",
+    "debut": 27.5,
+    "fin": 27.68
+   },
+   {
+    "mot": "tu",
+    "debut": 28.02,
+    "fin": 28.14
+   },
+   {
+    "mot": "as",
+    "debut": 28.14,
+    "fin": 28.24
+   },
+   {
+    "mot": "attendu",
+    "debut": 28.24,
+    "fin": 28.58
+   },
+   {
+    "mot": "combien",
+    "debut": 28.58,
+    "fin": 28.82
+   },
+   {
+    "mot": "de",
+    "debut": 28.82,
+    "fin": 28.96
+   },
+   {
+    "mot": "temps",
+    "debut": 28.96,
+    "fin": 29.14
+   },
+   {
+    "mot": "?",
+    "debut": 29.14,
+    "fin": 29.36
+   }
+  ]
+ },
+ {
+  "debut": 30.16,
+  "fin": 32.22,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 30.16,
+    "fin": 30.5
+   },
+   {
+    "mot": "-toi",
+    "debut": 30.5,
+    "fin": 30.68
+   },
+   {
+    "mot": "à",
+    "debut": 30.68,
+    "fin": 30.8
+   },
+   {
+    "mot": "Pixel",
+    "debut": 30.8,
+    "fin": 31.0
+   },
+   {
+    "mot": "Facts",
+    "debut": 31.0,
+    "fin": 31.42
+   },
+   {
+    "mot": "pour",
+    "debut": 31.42,
+    "fin": 31.6
+   },
+   {
+    "mot": "le",
+    "debut": 31.6,
+    "fin": 31.7
+   },
+   {
+    "mot": "prochain",
+    "debut": 31.7,
+    "fin": 31.96
+   },
+   {
+    "mot": "fait.",
+    "debut": 31.96,
+    "fin": 32.22
+   }
+  ]
+ }
+]
