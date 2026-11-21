@@ -35,20 +35,6 @@ const Mascot: React.FC<{pose: string; corner: boolean; frame: number; fps: numbe
 };
 
 
-const Bench: React.FC<{frame: number; fps: number}> = ({frame, fps}) => {
-  const enter = spring({frame, fps, config: {damping: 9, stiffness: 120}, durationInFrames: 20});
-  const wood = '#B8763A'; const dark = '#6B3E1A';
-  return <div style={{position: 'absolute', left: 0, right: 0, bottom: 300, height: 640, zIndex: 5, transform: `translateY(${(1 - enter) * 500}px)`}}>
-    <div style={{position: 'absolute', left: 170, width: 740, top: 190, height: 26, background: wood, border: `8px solid ${OUT}`, borderRadius: 14}} />
-    <div style={{position: 'absolute', left: 170, width: 740, top: 250, height: 26, background: wood, border: `8px solid ${OUT}`, borderRadius: 14}} />
-    <div style={{position: 'absolute', left: 150, width: 780, top: 400, height: 40, background: wood, border: `8px solid ${OUT}`, borderRadius: 16}} />
-    <div style={{position: 'absolute', left: 190, width: 36, top: 440, height: 170, background: dark, border: `8px solid ${OUT}`, borderRadius: 10}} />
-    <div style={{position: 'absolute', left: 854, width: 36, top: 440, height: 170, background: dark, border: `8px solid ${OUT}`, borderRadius: 10}} />
-    <Img src={staticFile('mascotte_reflechit_transparent.png')} style={{position: 'absolute', left: 270, top: 20, width: 540, transformOrigin: '50% 100%', transform: `rotate(${Math.sin(frame / 14) * 3}deg) scale(${enter})`, filter: 'drop-shadow(0 16px 30px rgba(0,0,0,0.5))'}} />
-    <div style={{position: 'absolute', left: 760, top: 0, ...big(110, '#fff', {padding: 0}), opacity: 0.5 + 0.5 * Math.sin(frame / 6), transform: `translateY(${-((frame * 3) % 60)}px)`}}>Zzz</div>
-  </div>;
-};
-
 const Caption: React.FC<{t: number; frame: number; fps: number; accent: string}> = ({t, frame, fps, accent}) => {
   let idx = WORDS.findIndex((w) => t >= w.start && t < w.end);
   if (idx === -1) { for (let i = 0; i < WORDS.length; i++) if (WORDS[i].start <= t) idx = i; }
@@ -130,10 +116,9 @@ export const Video: React.FC = () => {
         </Sequence>;
       })}
       <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', paddingBottom: 140}}>
-        <div style={{}}><Stage beat={beat} localT={localT} dur={dur} frame={bf} fps={fps} /></div>
+        <Stage beat={beat} localT={localT} dur={dur} frame={bf} fps={fps} />
       </AbsoluteFill>
-            {beat.mascot && <Mascot pose={beat.mascot} corner={idx !== 0 && beat.kind !== 'cta'} frame={bf} fps={fps} />}
-      <div style={{position: 'absolute', top: 24, left: 0, right: 0, textAlign: 'center', zIndex: 9, fontFamily, fontWeight: 600, fontSize: 40, color: '#fff', ...stroke(6), textShadow: 'none'}}>Histoire inventée · animation Pixel Facts</div>
+      {beat.mascot && <Mascot pose={beat.mascot} corner={idx !== 0 && beat.kind !== 'cta'} frame={bf} fps={fps} />}
       <Caption t={t} frame={frame} fps={fps} accent={beat.accent} />
       {isLast && <AbsoluteFill style={{background: '#fff', opacity: interpolate(localT, [0, 0.15, 0.4], [0.5, 0.3, 0], {extrapolateRight: 'clamp'}), pointerEvents: 'none'}} />}
     </AbsoluteFill>

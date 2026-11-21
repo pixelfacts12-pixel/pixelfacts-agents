@@ -1,11 +1,10 @@
-+14%|Imagine : Pixel fait un vœu, et le voilà PNJ dans un jeu !
-+12%|PNJ, ça veut dire personnage non joueur.
-+13%|Problème numéro un : répéter la même phrase toute la journée.
-+12%|Bienvenue, voyageur ! Pour la deux-millième fois.
-+13%|Problème numéro deux : marcher en rond autour du même arbre.
-+12%|Problème numéro trois : sa quête. Retrouver trois poules perdues.
-+13%|Il les trouve enfin... et la quête recommence !
-+12%|Alors Pixel refait un vœu : redevenir un cube jaune. Et ça marche !
-+12%|Moralité : un PNJ, ça travaille dur. Dis-lui merci !
-+12%|Histoire inventée, sans lien avec un jeu officiel.
++14%|Savais-tu que Pixel s'est retrouvé coincé dans un jeu vidéo ? Comme simple PNJ !
++12%|Un joueur arrive et lui dit : « Salut ! As-tu une quête pour moi ? »
++13%|Pixel panique, et ne sait répéter qu'une seule phrase : « Quelle belle journée ! »
++12%|Le joueur lui parle dix fois de suite. Dix fois, la même phrase !
++13%|Pixel essaie de fuir, mais il marche dans un mur pendant une heure.
++12%|Puis il cherche le bouton quitter. Mais un PNJ n'a pas de bouton !
++12%|Alors il donne une pomme au joueur. Quête terminée, et ça fait ding !
++13%|Pixel est libre ! Mais déjà, un autre joueur arrive en courant.
++12%|Et toi, tu parlerais à un PNJ pendant une heure ?
 +12%|Abonne-toi à Pixel Facts pour le prochain fait !
