@@ -219,10 +219,41 @@
  ],
  "ev_lus": 54,
  "veille": {
-  "derniere": 1795198855.346953,
+  "derniere": 1795286776.3864515,
   "essais": 0
  },
- "propositions": {},
+ "propositions": {
+  "veille-20261121-1": {
+   "type": "video",
+   "url": "https://www.youtube.com/shorts/1KP8-D2SgQ0",
+   "note": "Refaire l'idée en enquête courte : d'où vient vraiment le son « oof », sans utiliser le son original (bruitage synthétisé), ton curieux, sans visage réel ; ne citer que des faits sourcés (histoire du son et de son remplacement en 2022)."
+  },
+  "veille-20261121-2": {
+   "type": "video",
+   "url": "https://www.youtube.com/shorts/btw0lhys_aw",
+   "note": "Fait rapide et nostalgique sur la baie d'extension de la PS2 (disque dur, adaptateur réseau) ; 20 à 25 s, compteurs/années animés, aucune image de console copiée, vérifier le fait avant de le dire."
+  },
+  "veille-20261121-3": {
+   "type": "video",
+   "url": "https://www.youtube.com/shorts/8tdA1iNiR8k",
+   "note": "Mini-histoire de la panne (surchauffe, garantie prolongée de 2007) en animation code, ton léger et nostalgique, chiffres sourcés uniquement, sans logo ni visuel officiel."
+  },
+  "veille-20261121-4": {
+   "type": "video",
+   "url": "https://www.youtube.com/shorts/-EXhzOSijKQ",
+   "note": "Angle différent de v001 (pas de chronologie DynaBlocks) : seulement l'anecdote du compte Bacon, vérifiée sur une source écrite, en 25 à 30 s, ton complice ; ne pas copier le texte ni les images de la vidéo."
+  },
+  "veille-20261121-5": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/71586501620185",
+   "note": "Obby de survie familial : une vague qui monte à intervalles réguliers, abris à améliorer, argent par manche réussie, 3 niveaux d'améliorations ; aucun asset copié, aucun élément effrayant."
+  },
+  "veille-20261121-6": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/90773083590844",
+   "note": "Tycoon simple : collectibles qui rapportent de l'argent sur une base, vol d'un objet chez les autres avec porte verrouillable, améliorations ; thème original (autre objet, ton humoristique), sans copier noms ni assets."
+  }
+ },
  "agents": {
   "roblox_tendances": 1795259434.082572,
   "roblox_stats": 1795259439.2567883,

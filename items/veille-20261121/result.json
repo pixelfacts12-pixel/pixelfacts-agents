@@ -1,0 +1,48 @@
+{
+ "status": "veille",
+ "telegram": "🔎 Veille du jour : 4 Shorts qui montent (cri « oof » de Roblox, port caché de la PS2, Red Ring Xbox 360, compte Bacon) et 2 jeux Roblox simples (Stop The Tsunami!, Steal A Balut).",
+ "propositions": [
+  {
+   "type": "video",
+   "titre": "Le cri « oof » de Roblox n'a pas été fait pour Roblox",
+   "url": "https://www.youtube.com/shorts/1KP8-D2SgQ0",
+   "pourquoi": "Short LachyzBlox de 32 s publié le 20/11/2026 : environ 26 200 vues en moins de 24 h (page vérifiée le 21/11). Fait culte, court, que tout joueur Roblox reconnaît.",
+   "note": "Refaire l'idée en enquête courte : d'où vient vraiment le son « oof », sans utiliser le son original (bruitage synthétisé), ton curieux, sans visage réel ; ne citer que des faits sourcés (histoire du son et de son remplacement en 2022)."
+  },
+  {
+   "type": "video",
+   "titre": "Ta PS2 « fat » avait un port que personne n'utilisait",
+   "url": "https://www.youtube.com/shorts/btw0lhys_aw",
+   "pourquoi": "Short Gamer Facts de 6 s publié le 20/11/2026 : environ 131 900 vues en 1 jour (page vérifiée le 21/11). Fait de hardware nostalgique, très court, format « tu l'avais sans le savoir ».",
+   "note": "Fait rapide et nostalgique sur la baie d'extension de la PS2 (disque dur, adaptateur réseau) ; 20 à 25 s, compteurs/années animés, aucune image de console copiée, vérifier le fait avant de le dire."
+  },
+  {
+   "type": "video",
+   "titre": "Le « Red Ring » de la Xbox 360 : d'où venait la panne",
+   "url": "https://www.youtube.com/shorts/8tdA1iNiR8k",
+   "pourquoi": "Short Gamer Facts de 6 s publié le 20/11/2026 : environ 44 800 vues en 1 jour (page vérifiée le 21/11). Souvenir partagé par toute une génération, lié à l'anniversaire des 25 ans de la Xbox.",
+   "note": "Mini-histoire de la panne (surchauffe, garantie prolongée de 2007) en animation code, ton léger et nostalgique, chiffres sourcés uniquement, sans logo ni visuel officiel."
+  },
+  {
+   "type": "video",
+   "titre": "Roblox, le compte « Bacon » : l'origine de la tête par défaut",
+   "url": "https://www.youtube.com/shorts/-EXhzOSijKQ",
+   "pourquoi": "Short Sygma de 39 s publié le 20/11/2026 : environ 28 500 vues en 1 jour sur une chaîne d'environ 6,6 k abonnés (page vérifiée le 21/11). Anecdote de marque sur Roblox, format « mais ensuite… ».",
+   "note": "Angle différent de v001 (pas de chronologie DynaBlocks) : seulement l'anecdote du compte Bacon, vérifiée sur une source écrite, en 25 à 30 s, ton complice ; ne pas copier le texte ni les images de la vidéo."
+  },
+  {
+   "type": "roblox",
+   "titre": "Stop The Tsunami! : survivre à la vague, version simple",
+   "url": "https://www.roblox.com/games/71586501620185",
+   "pourquoi": "Relevé du 21/11/2026 : environ 32 300 joueurs, jeu de 40 jours, 86 % d'avis positifs. La boucle (vague qui arrive, courir/se protéger, gagner et améliorer) est lisible en 10 secondes.",
+   "note": "Obby de survie familial : une vague qui monte à intervalles réguliers, abris à améliorer, argent par manche réussie, 3 niveaux d'améliorations ; aucun asset copié, aucun élément effrayant."
+  },
+  {
+   "type": "roblox",
+   "titre": "Steal A Balut : tycoon « vole et protège » très simple",
+   "url": "https://www.roblox.com/games/90773083590844",
+   "pourquoi": "Relevé du 21/11/2026 : environ 76 500 joueurs, jeu de 34 jours, 95 % d'avis positifs. Reprend la boucle « Steal a… » déjà énorme (voir Steal a Brainrot) avec peu de systèmes à coder.",
+   "note": "Tycoon simple : collectibles qui rapportent de l'argent sur une base, vol d'un objet chez les autres avec porte verrouillable, améliorations ; thème original (autre objet, ton humoristique), sans copier noms ni assets."
+  }
+ ]
+}
