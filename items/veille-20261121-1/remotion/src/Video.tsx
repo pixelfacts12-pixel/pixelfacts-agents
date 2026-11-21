@@ -1,7 +1,7 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
-const MUSVOL = 0.07;
+const MUSVOL = 0.068;
 
 const {fontFamily} = loadFont();
 const IMGS = ['a', 'b', 'c', 'd', 'e'];
@@ -86,14 +86,14 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   if (beat.kind === 'counter') {
     const dec = beat.dec ?? 0; const v = (beat.to ?? 0) * p;
     const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : beat.nofmt ? String(Math.round(v)) : fmt(Math.round(v));
-    const size = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : 300;
-    return <div style={{width: 1000, height: 820, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
+    const size = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : (beat.to ?? 0) < 1000 ? 460 : 340;
+    return <div style={{width: 1000, height: 1250, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
       <div style={big(size, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{beat.prefix ?? ''}{txt}{beat.suffix ?? ''}</div>
       <div style={{width: 760, height: 46, borderRadius: 23, background: '#ffffff33', marginTop: 50, overflow: 'hidden'}}>
         <div style={{width: `${p * 100}%`, height: '100%', background: beat.accent}} />
       </div>
-      <div style={big(beat.label.length > 14 ? 84 : 110, beat.accent, {marginTop: 36})}>{beat.label}</div>
+      <div style={big(beat.label.length > 14 ? 100 : 130, beat.accent, {marginTop: 36})}>{beat.label}</div>
     </div>;
   }
   if (beat.kind === 'cta') {
@@ -105,9 +105,9 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   }
   const L = beat.label.length;
   return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`}}>
-    <div style={{fontSize: 420, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
+    <div style={{fontSize: 560, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
     {beat.sub && <div style={big(100, '#fff', {marginTop: 10})}>{beat.sub}</div>}
-    <div style={big(L > 17 ? 118 : L > 12 ? 140 : 170, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
+    <div style={big(L > 17 ? 132 : L > 12 ? 160 : 200, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
   </div>;
 };
 
@@ -135,7 +135,7 @@ export const Video: React.FC = () => {
           <Audio src={staticFile(`${s}.mp3`)} volume={s.startsWith('pop') ? 0.35 : 0.28} />
         </Sequence>;
       })}
-      {[1, 15].map((bi) => <Sequence key={`o${bi}`} from={Math.round(BEATS[bi].start * fps) + 6} durationInFrames={20}><Audio src={staticFile('oofsynth.mp3')} volume={0.5} /></Sequence>)}
+      <Sequence from={9} durationInFrames={20}><Audio src={staticFile('ouf_synth.mp3')} volume={0.5} /></Sequence>
       <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', paddingBottom: 140}}>
         <Stage beat={beat} localT={localT} dur={dur} frame={bf} fps={fps} />
       </AbsoluteFill>

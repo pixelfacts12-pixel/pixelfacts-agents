@@ -1,22 +1,22 @@
 [
  {
   "debut": 0.0,
-  "fin": 4.0,
-  "texte": "savait-tu que le fameux O.F. de Roblox n'a pas été fait pour Roblox ?",
+  "fin": 4.4,
+  "texte": "Savais-tu que le fameux, ouf, de Roblox n'a pas été fait pour Roblox ?",
   "mots": [
    {
-    "mot": "savait",
+    "mot": "Savais",
     "debut": 0.0,
     "fin": 0.46
    },
    {
     "mot": "-tu",
     "debut": 0.46,
-    "fin": 0.56
+    "fin": 0.52
    },
    {
     "mot": "que",
-    "debut": 0.56,
+    "debut": 0.52,
     "fin": 0.66
    },
    {
@@ -25,587 +25,612 @@
     "fin": 0.76
    },
    {
-    "mot": "fameux",
+    "mot": "fameux,",
     "debut": 0.76,
     "fin": 1.06
    },
    {
-    "mot": "O",
-    "debut": 1.06,
-    "fin": 1.36
-   },
-   {
-    "mot": ".F.",
-    "debut": 1.36,
-    "fin": 1.66
+    "mot": "ouf,",
+    "debut": 1.26,
+    "fin": 1.54
    },
    {
     "mot": "de",
-    "debut": 1.9,
-    "fin": 1.94
+    "debut": 1.76,
+    "fin": 1.76
    },
    {
     "mot": "Roblox",
-    "debut": 1.94,
-    "fin": 2.26
+    "debut": 1.76,
+    "fin": 2.08
    },
    {
     "mot": "n",
-    "debut": 2.26,
-    "fin": 2.38
+    "debut": 2.08,
+    "fin": 2.2
    },
    {
     "mot": "'a",
-    "debut": 2.38,
-    "fin": 2.42
+    "debut": 2.2,
+    "fin": 2.24
    },
    {
     "mot": "pas",
-    "debut": 2.42,
-    "fin": 2.52
+    "debut": 2.24,
+    "fin": 2.36
    },
    {
     "mot": "été",
-    "debut": 2.52,
-    "fin": 2.72
+    "debut": 2.36,
+    "fin": 2.54
    },
    {
     "mot": "fait",
-    "debut": 2.72,
-    "fin": 2.92
+    "debut": 2.54,
+    "fin": 2.74
    },
    {
     "mot": "pour",
-    "debut": 2.92,
-    "fin": 3.06
+    "debut": 2.74,
+    "fin": 2.9
    },
    {
     "mot": "Roblox",
-    "debut": 3.06,
-    "fin": 3.48
+    "debut": 2.9,
+    "fin": 3.3
    },
    {
     "mot": "?",
-    "debut": 3.48,
-    "fin": 4.0
+    "debut": 3.3,
+    "fin": 4.4
    }
   ]
  },
  {
-  "debut": 4.56,
-  "fin": 7.02,
-  "texte": "Il vient de Messia, un jeu vidéo sorti en l'an 2000.",
+  "debut": 4.4,
+  "fin": 6.08,
+  "texte": "Il vient d'un jeu de l'an 2000, Messia.",
   "mots": [
    {
     "mot": "Il",
-    "debut": 4.56,
-    "fin": 4.72
+    "debut": 4.4,
+    "fin": 4.54
    },
    {
     "mot": "vient",
+    "debut": 4.54,
+    "fin": 4.72
+   },
+   {
+    "mot": "d",
     "debut": 4.72,
+    "fin": 4.82
+   },
+   {
+    "mot": "'un",
+    "debut": 4.82,
     "fin": 4.88
    },
    {
-    "mot": "de",
+    "mot": "jeu",
     "debut": 4.88,
     "fin": 5.02
    },
    {
-    "mot": "Messia,",
+    "mot": "de",
     "debut": 5.02,
-    "fin": 5.34
-   },
-   {
-    "mot": "un",
-    "debut": 5.62,
-    "fin": 5.76
-   },
-   {
-    "mot": "jeu",
-    "debut": 5.76,
-    "fin": 5.92
-   },
-   {
-    "mot": "vidéo",
-    "debut": 5.92,
-    "fin": 6.16
-   },
-   {
-    "mot": "sorti",
-    "debut": 6.16,
-    "fin": 6.54
-   },
-   {
-    "mot": "en",
-    "debut": 6.54,
-    "fin": 6.66
+    "fin": 5.16
    },
    {
     "mot": "l",
-    "debut": 6.66,
-    "fin": 6.74
+    "debut": 5.16,
+    "fin": 5.22
    },
    {
     "mot": "'an",
-    "debut": 6.74,
-    "fin": 6.76
+    "debut": 5.22,
+    "fin": 5.26
    },
    {
-    "mot": "2000.",
-    "debut": 6.76,
-    "fin": 7.02
+    "mot": "2000,",
+    "debut": 5.26,
+    "fin": 5.54
+   },
+   {
+    "mot": "Messia.",
+    "debut": 5.8,
+    "fin": 6.08
    }
   ]
  },
  {
-  "debut": 8.08,
-  "fin": 11.76,
-  "texte": "Qui l'a créé ? Le débat dur encore, les crédicides de non.",
+  "debut": 7.18,
+  "fin": 10.0,
+  "texte": "Le fichier du son ne cite qu'un nom, le sound designer Joe Ucura.",
   "mots": [
    {
-    "mot": "Qui",
-    "debut": 8.08,
-    "fin": 8.38
-   },
-   {
-    "mot": "l",
-    "debut": 8.38,
-    "fin": 8.48
-   },
-   {
-    "mot": "'a",
-    "debut": 8.48,
-    "fin": 8.5
-   },
-   {
-    "mot": "créé",
-    "debut": 8.5,
-    "fin": 8.78
-   },
-   {
-    "mot": "?",
-    "debut": 8.78,
-    "fin": 9.68
-   },
-   {
     "mot": "Le",
-    "debut": 9.68,
-    "fin": 9.8
+    "debut": 7.18,
+    "fin": 7.36
    },
    {
-    "mot": "débat",
-    "debut": 9.8,
-    "fin": 10.06
+    "mot": "fichier",
+    "debut": 7.36,
+    "fin": 7.68
    },
    {
-    "mot": "dur",
-    "debut": 10.06,
-    "fin": 10.18
+    "mot": "du",
+    "debut": 7.68,
+    "fin": 7.78
    },
    {
-    "mot": "encore,",
-    "debut": 10.18,
-    "fin": 10.5
+    "mot": "son",
+    "debut": 7.78,
+    "fin": 7.92
    },
    {
-    "mot": "les",
-    "debut": 10.92,
-    "fin": 11.0
+    "mot": "ne",
+    "debut": 7.92,
+    "fin": 8.06
    },
    {
-    "mot": "crédicides",
-    "debut": 11.0,
-    "fin": 11.38
+    "mot": "cite",
+    "debut": 8.06,
+    "fin": 8.2
    },
    {
-    "mot": "de",
-    "debut": 11.38,
-    "fin": 11.6
+    "mot": "qu",
+    "debut": 8.2,
+    "fin": 8.36
    },
    {
-    "mot": "non.",
-    "debut": 11.6,
-    "fin": 11.76
+    "mot": "'un",
+    "debut": 8.36,
+    "fin": 8.42
+   },
+   {
+    "mot": "nom,",
+    "debut": 8.42,
+    "fin": 8.58
+   },
+   {
+    "mot": "le",
+    "debut": 8.8,
+    "fin": 8.9
+   },
+   {
+    "mot": "sound",
+    "debut": 8.9,
+    "fin": 9.06
+   },
+   {
+    "mot": "designer",
+    "debut": 9.06,
+    "fin": 9.48
+   },
+   {
+    "mot": "Joe",
+    "debut": 9.48,
+    "fin": 9.76
+   },
+   {
+    "mot": "Ucura.",
+    "debut": 9.76,
+    "fin": 10.0
    }
   ]
  },
  {
-  "debut": 12.92,
-  "fin": 16.06,
-  "texte": "Roblox, lui, dit l'avoir pris sur un CD de bruitage tout près.",
+  "debut": 11.319999999999997,
+  "fin": 14.74,
+  "texte": "Roblox, sorti en 2006, l'a pris comme son de mort par défaut.",
   "mots": [
    {
     "mot": "Roblox,",
-    "debut": 12.92,
-    "fin": 13.36
+    "debut": 11.319999999999997,
+    "fin": 11.68
    },
    {
-    "mot": "lui,",
-    "debut": 13.56,
-    "fin": 13.72
+    "mot": "sorti",
+    "debut": 11.86,
+    "fin": 12.22
    },
    {
-    "mot": "dit",
-    "debut": 14.16,
-    "fin": 14.22
+    "mot": "en",
+    "debut": 12.22,
+    "fin": 12.34
+   },
+   {
+    "mot": "2006,",
+    "debut": 12.34,
+    "fin": 12.74
    },
    {
     "mot": "l",
-    "debut": 14.22,
-    "fin": 14.3
+    "debut": 13.28,
+    "fin": 13.4
    },
    {
-    "mot": "'avoir",
-    "debut": 14.3,
-    "fin": 14.4
+    "mot": "'a",
+    "debut": 13.4,
+    "fin": 13.42
    },
    {
     "mot": "pris",
-    "debut": 14.4,
-    "fin": 14.66
+    "debut": 13.42,
+    "fin": 13.58
    },
    {
-    "mot": "sur",
-    "debut": 14.66,
-    "fin": 14.84
+    "mot": "comme",
+    "debut": 13.58,
+    "fin": 13.76
    },
    {
-    "mot": "un",
-    "debut": 14.84,
-    "fin": 14.94
-   },
-   {
-    "mot": "CD",
-    "debut": 14.94,
-    "fin": 15.12
+    "mot": "son",
+    "debut": 13.76,
+    "fin": 13.94
    },
    {
     "mot": "de",
-    "debut": 15.12,
-    "fin": 15.28
+    "debut": 13.94,
+    "fin": 14.04
    },
    {
-    "mot": "bruitage",
-    "debut": 15.28,
-    "fin": 15.7
+    "mot": "mort",
+    "debut": 14.04,
+    "fin": 14.2
    },
    {
-    "mot": "tout",
-    "debut": 15.7,
-    "fin": 15.84
+    "mot": "par",
+    "debut": 14.2,
+    "fin": 14.4
    },
    {
-    "mot": "près.",
-    "debut": 15.84,
-    "fin": 16.06
+    "mot": "défaut.",
+    "debut": 14.4,
+    "fin": 14.74
    }
   ]
  },
  {
-  "debut": 17.12,
-  "fin": 19.32,
-  "texte": "Pendant des années, il retentissait à chaque chute.",
-  "mots": [
-   {
-    "mot": "Pendant",
-    "debut": 17.12,
-    "fin": 17.44
-   },
-   {
-    "mot": "des",
-    "debut": 17.44,
-    "fin": 17.58
-   },
-   {
-    "mot": "années,",
-    "debut": 17.58,
-    "fin": 17.8
-   },
-   {
-    "mot": "il",
-    "debut": 18.16,
-    "fin": 18.24
-   },
-   {
-    "mot": "retentissait",
-    "debut": 18.24,
-    "fin": 18.78
-   },
-   {
-    "mot": "à",
-    "debut": 18.78,
-    "fin": 18.92
-   },
-   {
-    "mot": "chaque",
-    "debut": 18.92,
-    "fin": 19.04
-   },
-   {
-    "mot": "chute.",
-    "debut": 19.04,
-    "fin": 19.32
-   }
-  ]
- },
- {
-  "debut": 20.44,
-  "fin": 23.58,
-  "texte": "En 2020, un accord le son devient payant, sans robux.",
+  "debut": 15.74,
+  "fin": 19.04,
+  "texte": "En 2019, le compositeur Tomita Larico réclame les droits.",
   "mots": [
    {
     "mot": "En",
-    "debut": 20.44,
-    "fin": 20.62
+    "debut": 15.74,
+    "fin": 15.98
    },
    {
-    "mot": "2020,",
-    "debut": 20.62,
-    "fin": 20.9
+    "mot": "2019,",
+    "debut": 15.98,
+    "fin": 16.38
    },
    {
-    "mot": "un",
-    "debut": 21.34,
+    "mot": "le",
+    "debut": 17.04,
+    "fin": 17.14
+   },
+   {
+    "mot": "compositeur",
+    "debut": 17.14,
+    "fin": 17.68
+   },
+   {
+    "mot": "Tomita",
+    "debut": 17.68,
+    "fin": 17.96
+   },
+   {
+    "mot": "Larico",
+    "debut": 17.96,
+    "fin": 18.28
+   },
+   {
+    "mot": "réclame",
+    "debut": 18.28,
+    "fin": 18.66
+   },
+   {
+    "mot": "les",
+    "debut": 18.66,
+    "fin": 18.76
+   },
+   {
+    "mot": "droits.",
+    "debut": 18.76,
+    "fin": 19.04
+   }
+  ]
+ },
+ {
+  "debut": 20.18,
+  "fin": 22.46,
+  "texte": "Roblox répond que le son vient d'un CD d'effet sonore.",
+  "mots": [
+   {
+    "mot": "Roblox",
+    "debut": 20.18,
+    "fin": 20.54
+   },
+   {
+    "mot": "répond",
+    "debut": 20.54,
+    "fin": 20.74
+   },
+   {
+    "mot": "que",
+    "debut": 20.74,
+    "fin": 20.94
+   },
+   {
+    "mot": "le",
+    "debut": 20.94,
+    "fin": 21.06
+   },
+   {
+    "mot": "son",
+    "debut": 21.06,
+    "fin": 21.18
+   },
+   {
+    "mot": "vient",
+    "debut": 21.18,
+    "fin": 21.36
+   },
+   {
+    "mot": "d",
+    "debut": 21.36,
     "fin": 21.46
    },
    {
-    "mot": "accord",
+    "mot": "'un",
     "debut": 21.46,
-    "fin": 21.78
+    "fin": 21.52
+   },
+   {
+    "mot": "CD",
+    "debut": 21.52,
+    "fin": 21.7
+   },
+   {
+    "mot": "d",
+    "debut": 21.7,
+    "fin": 21.88
+   },
+   {
+    "mot": "'effet",
+    "debut": 21.88,
+    "fin": 22.04
+   },
+   {
+    "mot": "sonore.",
+    "debut": 22.04,
+    "fin": 22.46
+   }
+  ]
+ },
+ {
+  "debut": 23.44,
+  "fin": 26.42,
+  "texte": "Fin 2020, le son devient un objet payant, sans Robux.",
+  "mots": [
+   {
+    "mot": "Fin",
+    "debut": 23.44,
+    "fin": 23.78
+   },
+   {
+    "mot": "2020,",
+    "debut": 23.78,
+    "fin": 24.12
    },
    {
     "mot": "le",
-    "debut": 21.78,
-    "fin": 22.1
+    "debut": 24.6,
+    "fin": 24.7
    },
    {
     "mot": "son",
-    "debut": 22.1,
-    "fin": 22.24
+    "debut": 24.7,
+    "fin": 24.84
    },
    {
     "mot": "devient",
-    "debut": 22.24,
-    "fin": 22.46
-   },
-   {
-    "mot": "payant,",
-    "debut": 22.46,
-    "fin": 22.88
-   },
-   {
-    "mot": "sans",
-    "debut": 23.12,
-    "fin": 23.28
-   },
-   {
-    "mot": "robux.",
-    "debut": 23.28,
-    "fin": 23.58
-   }
-  ]
- },
- {
-  "debut": 24.6,
-  "fin": 28.26,
-  "texte": "Puis en juillet 2022, Roblox le retire pour un souci de licence.",
-  "mots": [
-   {
-    "mot": "Puis",
-    "debut": 24.6,
-    "fin": 24.96
-   },
-   {
-    "mot": "en",
-    "debut": 24.96,
-    "fin": 25.14
-   },
-   {
-    "mot": "juillet",
-    "debut": 25.14,
-    "fin": 25.38
-   },
-   {
-    "mot": "2022,",
-    "debut": 25.38,
-    "fin": 25.94
-   },
-   {
-    "mot": "Roblox",
-    "debut": 26.34,
-    "fin": 26.64
-   },
-   {
-    "mot": "le",
-    "debut": 26.64,
-    "fin": 26.78
-   },
-   {
-    "mot": "retire",
-    "debut": 26.78,
-    "fin": 27.12
-   },
-   {
-    "mot": "pour",
-    "debut": 27.12,
-    "fin": 27.56
+    "debut": 24.84,
+    "fin": 25.1
    },
    {
     "mot": "un",
-    "debut": 27.56,
-    "fin": 27.7
+    "debut": 25.1,
+    "fin": 25.24
    },
    {
-    "mot": "souci",
-    "debut": 27.7,
-    "fin": 27.94
+    "mot": "objet",
+    "debut": 25.24,
+    "fin": 25.42
    },
    {
-    "mot": "de",
-    "debut": 27.94,
-    "fin": 28.04
+    "mot": "payant,",
+    "debut": 25.42,
+    "fin": 25.8
    },
    {
-    "mot": "licence.",
-    "debut": 28.04,
-    "fin": 28.26
+    "mot": "sans",
+    "debut": 26.0,
+    "fin": 26.12
+   },
+   {
+    "mot": "Robux.",
+    "debut": 26.12,
+    "fin": 26.42
    }
   ]
  },
  {
-  "debut": 29.240000000000002,
-  "fin": 31.02,
-  "texte": "Un tout nouveau son prend sa place.",
+  "debut": 27.339999999999996,
+  "fin": 30.62,
+  "texte": "Fin juillet 2022, il est retiré pour un problème de licence.",
   "mots": [
    {
-    "mot": "Un",
-    "debut": 29.240000000000002,
-    "fin": 29.8
-   },
-   {
-    "mot": "tout",
-    "debut": 29.8,
-    "fin": 29.94
-   },
-   {
-    "mot": "nouveau",
-    "debut": 29.94,
-    "fin": 30.14
-   },
-   {
-    "mot": "son",
-    "debut": 30.14,
-    "fin": 30.36
-   },
-   {
-    "mot": "prend",
-    "debut": 30.36,
-    "fin": 30.52
-   },
-   {
-    "mot": "sa",
-    "debut": 30.52,
-    "fin": 30.68
-   },
-   {
-    "mot": "place.",
-    "debut": 30.68,
-    "fin": 31.02
-   }
-  ]
- },
- {
-  "debut": 31.820000000000004,
-  "fin": 34.62,
-  "texte": "Mais en juillet 2025, l'original revient.",
-  "mots": [
-   {
-    "mot": "Mais",
-    "debut": 31.820000000000004,
-    "fin": 32.38
-   },
-   {
-    "mot": "en",
-    "debut": 32.38,
-    "fin": 32.52
+    "mot": "Fin",
+    "debut": 27.339999999999996,
+    "fin": 27.86
    },
    {
     "mot": "juillet",
-    "debut": 32.52,
-    "fin": 32.8
+    "debut": 27.86,
+    "fin": 28.16
    },
    {
-    "mot": "2025,",
-    "debut": 32.8,
-    "fin": 33.36
+    "mot": "2022,",
+    "debut": 28.16,
+    "fin": 28.72
    },
    {
-    "mot": "l",
-    "debut": 33.82,
-    "fin": 33.88
+    "mot": "il",
+    "debut": 29.1,
+    "fin": 29.22
    },
    {
-    "mot": "'original",
-    "debut": 33.88,
-    "fin": 34.2
+    "mot": "est",
+    "debut": 29.22,
+    "fin": 29.3
    },
    {
-    "mot": "revient.",
-    "debut": 34.2,
+    "mot": "retiré",
+    "debut": 29.3,
+    "fin": 29.68
+   },
+   {
+    "mot": "pour",
+    "debut": 29.68,
+    "fin": 29.82
+   },
+   {
+    "mot": "un",
+    "debut": 29.82,
+    "fin": 29.92
+   },
+   {
+    "mot": "problème",
+    "debut": 29.92,
+    "fin": 30.2
+   },
+   {
+    "mot": "de",
+    "debut": 30.2,
+    "fin": 30.34
+   },
+   {
+    "mot": "licence.",
+    "debut": 30.34,
+    "fin": 30.62
+   }
+  ]
+ },
+ {
+  "debut": 31.62,
+  "fin": 34.62,
+  "texte": "Le vieux, ouf, est revenu le 18 juillet 2025.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 31.62,
+    "fin": 32.14
+   },
+   {
+    "mot": "vieux,",
+    "debut": 32.14,
+    "fin": 32.4
+   },
+   {
+    "mot": "ouf,",
+    "debut": 32.66,
+    "fin": 32.9
+   },
+   {
+    "mot": "est",
+    "debut": 33.04,
+    "fin": 33.1
+   },
+   {
+    "mot": "revenu",
+    "debut": 33.1,
+    "fin": 33.42
+   },
+   {
+    "mot": "le",
+    "debut": 33.42,
+    "fin": 33.52
+   },
+   {
+    "mot": "18",
+    "debut": 33.52,
+    "fin": 33.72
+   },
+   {
+    "mot": "juillet",
+    "debut": 33.72,
+    "fin": 34.1
+   },
+   {
+    "mot": "2025.",
+    "debut": 34.1,
     "fin": 34.62
    }
   ]
  },
  {
-  "debut": 35.36,
-  "fin": 37.62,
+  "debut": 35.6,
+  "fin": 37.84,
   "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
   "mots": [
    {
     "mot": "Abonne",
-    "debut": 35.36,
-    "fin": 35.92
+    "debut": 35.6,
+    "fin": 36.12
    },
    {
     "mot": "-toi",
-    "debut": 35.92,
-    "fin": 36.08
+    "debut": 36.12,
+    "fin": 36.32
    },
    {
     "mot": "à",
-    "debut": 36.08,
-    "fin": 36.2
+    "debut": 36.32,
+    "fin": 36.44
    },
    {
     "mot": "Pixel",
-    "debut": 36.2,
-    "fin": 36.42
+    "debut": 36.44,
+    "fin": 36.62
    },
    {
     "mot": "Facts",
-    "debut": 36.42,
-    "fin": 36.82
+    "debut": 36.62,
+    "fin": 37.04
    },
    {
     "mot": "pour",
-    "debut": 36.82,
-    "fin": 37.0
+    "debut": 37.04,
+    "fin": 37.22
    },
    {
     "mot": "le",
-    "debut": 37.0,
-    "fin": 37.1
-   },
-   {
-    "mot": "prochain",
-    "debut": 37.1,
+    "debut": 37.22,
     "fin": 37.34
    },
    {
-    "mot": "fait.",
+    "mot": "prochain",
     "debut": 37.34,
-    "fin": 37.62
+    "fin": 37.56
+   },
+   {
+    "mot": "fait.",
+    "debut": 37.56,
+    "fin": 37.84
    }
   ]
  }
