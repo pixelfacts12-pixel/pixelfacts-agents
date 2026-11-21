@@ -1,5 +1,5 @@
 import numpy as np, wave
-sr=44100; dur=40; bpm=100; beat=60/bpm
+sr=44100; dur=47; bpm=100; beat=60/bpm
 t=np.arange(int(sr*dur))/sr; out=np.zeros_like(t)
 def env(n,a=0.01,r=0.4):
     x=np.arange(n)/sr; return np.minimum(1,x/a)*np.exp(-x/r)
@@ -28,7 +28,7 @@ out/=np.abs(out).max()*1.05
 w=wave.open('musique_brut.wav','wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((out*32767).astype(np.int16).tobytes()); w.close()
 # pop
 n=int(0.12*sr); x=np.arange(n)/sr; p=np.sin(2*np.pi*(900+1200*np.exp(-x*40))*x)*np.exp(-x*35)
-w=wave.open('pop.wav','wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((p*0.9*32767).astype(np.int16).tobytes()); w.close()
-for name,(f0,f1,dec) in {'pop2':(700,1500,30),'pop3':(1100,900,45)}.items():
-    p=np.sin(2*np.pi*(f0+f1*np.exp(-x*40))*x)*np.exp(-x*dec)
-    w=wave.open(name+'.wav','wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((p*0.9*32767).astype(np.int16).tobytes()); w.close()
+w=wave.open('pop1.wav','wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((p*0.9*32767).astype(np.int16).tobytes()); w.close()
+for k,(f0,f1,dd) in enumerate([(700,1500,30),(500,1900,45)]):
+    n=int(0.14*sr); x=np.arange(n)/sr; p=np.sin(2*np.pi*(f0+f1*np.exp(-x*dd))*x)*np.exp(-x*30)
+    w=wave.open(f'pop{k+2}.wav','wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((p*0.9*32767).astype(np.int16).tobytes()); w.close()
