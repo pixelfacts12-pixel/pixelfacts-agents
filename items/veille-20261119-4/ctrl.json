@@ -1,0 +1,609 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.52,
+  "texte": "Savais-tu qu'un seul jeu au bloc s'arréunit plus de 25 millions de joueurs en même temps ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "qu",
+    "debut": 0.54,
+    "fin": 0.66
+   },
+   {
+    "mot": "'un",
+    "debut": 0.66,
+    "fin": 0.74
+   },
+   {
+    "mot": "seul",
+    "debut": 0.74,
+    "fin": 0.9
+   },
+   {
+    "mot": "jeu",
+    "debut": 0.9,
+    "fin": 1.04
+   },
+   {
+    "mot": "au",
+    "debut": 1.04,
+    "fin": 1.18
+   },
+   {
+    "mot": "bloc",
+    "debut": 1.18,
+    "fin": 1.36
+   },
+   {
+    "mot": "s",
+    "debut": 1.36,
+    "fin": 1.44
+   },
+   {
+    "mot": "'arréunit",
+    "debut": 1.44,
+    "fin": 1.78
+   },
+   {
+    "mot": "plus",
+    "debut": 1.78,
+    "fin": 1.92
+   },
+   {
+    "mot": "de",
+    "debut": 1.92,
+    "fin": 2.04
+   },
+   {
+    "mot": "25",
+    "debut": 2.04,
+    "fin": 2.32
+   },
+   {
+    "mot": "millions",
+    "debut": 2.32,
+    "fin": 2.6
+   },
+   {
+    "mot": "de",
+    "debut": 2.6,
+    "fin": 2.78
+   },
+   {
+    "mot": "joueurs",
+    "debut": 2.78,
+    "fin": 3.02
+   },
+   {
+    "mot": "en",
+    "debut": 3.02,
+    "fin": 3.12
+   },
+   {
+    "mot": "même",
+    "debut": 3.12,
+    "fin": 3.26
+   },
+   {
+    "mot": "temps",
+    "debut": 3.26,
+    "fin": 3.46
+   },
+   {
+    "mot": "?",
+    "debut": 3.46,
+    "fin": 4.52
+   }
+  ]
+ },
+ {
+  "debut": 4.52,
+  "fin": 5.62,
+  "texte": "Il s'appelle Stila Brinro.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 4.52,
+    "fin": 4.66
+   },
+   {
+    "mot": "s",
+    "debut": 4.66,
+    "fin": 4.82
+   },
+   {
+    "mot": "'appelle",
+    "debut": 4.82,
+    "fin": 4.98
+   },
+   {
+    "mot": "Stila",
+    "debut": 4.98,
+    "fin": 5.3
+   },
+   {
+    "mot": "Brinro.",
+    "debut": 5.3,
+    "fin": 5.62
+   }
+  ]
+ },
+ {
+  "debut": 6.48,
+  "fin": 7.88,
+  "texte": "Il est créé en mai 2025.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 6.48,
+    "fin": 6.88
+   },
+   {
+    "mot": "est",
+    "debut": 6.88,
+    "fin": 6.98
+   },
+   {
+    "mot": "créé",
+    "debut": 6.98,
+    "fin": 7.22
+   },
+   {
+    "mot": "en",
+    "debut": 7.22,
+    "fin": 7.36
+   },
+   {
+    "mot": "mai",
+    "debut": 7.36,
+    "fin": 7.44
+   },
+   {
+    "mot": "2025.",
+    "debut": 7.44,
+    "fin": 7.88
+   }
+  ]
+ },
+ {
+  "debut": 9.28,
+  "fin": 10.96,
+  "texte": "En août, il dépasse déjà 20 millions.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 9.28,
+    "fin": 9.44
+   },
+   {
+    "mot": "août,",
+    "debut": 9.44,
+    "fin": 9.64
+   },
+   {
+    "mot": "il",
+    "debut": 9.9,
+    "fin": 10.0
+   },
+   {
+    "mot": "dépasse",
+    "debut": 10.0,
+    "fin": 10.32
+   },
+   {
+    "mot": "déjà",
+    "debut": 10.32,
+    "fin": 10.56
+   },
+   {
+    "mot": "20",
+    "debut": 10.56,
+    "fin": 10.76
+   },
+   {
+    "mot": "millions.",
+    "debut": 10.76,
+    "fin": 10.96
+   }
+  ]
+ },
+ {
+  "debut": 11.94,
+  "fin": 14.84,
+  "texte": "Et en octobre, il grimpe à plus de 25 millions, un record.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 11.94,
+    "fin": 12.26
+   },
+   {
+    "mot": "en",
+    "debut": 12.26,
+    "fin": 12.38
+   },
+   {
+    "mot": "octobre,",
+    "debut": 12.38,
+    "fin": 12.78
+   },
+   {
+    "mot": "il",
+    "debut": 13.04,
+    "fin": 13.1
+   },
+   {
+    "mot": "grimpe",
+    "debut": 13.1,
+    "fin": 13.36
+   },
+   {
+    "mot": "à",
+    "debut": 13.36,
+    "fin": 13.44
+   },
+   {
+    "mot": "plus",
+    "debut": 13.44,
+    "fin": 13.58
+   },
+   {
+    "mot": "de",
+    "debut": 13.58,
+    "fin": 13.68
+   },
+   {
+    "mot": "25",
+    "debut": 13.68,
+    "fin": 13.98
+   },
+   {
+    "mot": "millions,",
+    "debut": 13.98,
+    "fin": 14.32
+   },
+   {
+    "mot": "un",
+    "debut": 14.52,
+    "fin": 14.62
+   },
+   {
+    "mot": "record.",
+    "debut": 14.62,
+    "fin": 14.84
+   }
+  ]
+ },
+ {
+  "debut": 16.1,
+  "fin": 17.8,
+  "texte": "Mais une courbe, ça redescend aussi.",
+  "mots": [
+   {
+    "mot": "Mais",
+    "debut": 16.1,
+    "fin": 16.32
+   },
+   {
+    "mot": "une",
+    "debut": 16.32,
+    "fin": 16.44
+   },
+   {
+    "mot": "courbe,",
+    "debut": 16.44,
+    "fin": 16.82
+   },
+   {
+    "mot": "ça",
+    "debut": 17.04,
+    "fin": 17.14
+   },
+   {
+    "mot": "redescend",
+    "debut": 17.14,
+    "fin": 17.56
+   },
+   {
+    "mot": "aussi.",
+    "debut": 17.56,
+    "fin": 17.8
+   }
+  ]
+ },
+ {
+  "debut": 18.94,
+  "fin": 21.82,
+  "texte": "Aujourd'hui, il reste environ 69 000 joueurs en même temps.",
+  "mots": [
+   {
+    "mot": "Aujourd",
+    "debut": 18.94,
+    "fin": 19.12
+   },
+   {
+    "mot": "'hui,",
+    "debut": 19.12,
+    "fin": 19.44
+   },
+   {
+    "mot": "il",
+    "debut": 19.78,
+    "fin": 19.86
+   },
+   {
+    "mot": "reste",
+    "debut": 19.86,
+    "fin": 20.1
+   },
+   {
+    "mot": "environ",
+    "debut": 20.1,
+    "fin": 20.36
+   },
+   {
+    "mot": "69",
+    "debut": 20.36,
+    "fin": 20.78
+   },
+   {
+    "mot": "000",
+    "debut": 20.78,
+    "fin": 21.1
+   },
+   {
+    "mot": "joueurs",
+    "debut": 21.1,
+    "fin": 21.36
+   },
+   {
+    "mot": "en",
+    "debut": 21.36,
+    "fin": 21.46
+   },
+   {
+    "mot": "même",
+    "debut": 21.46,
+    "fin": 21.62
+   },
+   {
+    "mot": "temps.",
+    "debut": 21.62,
+    "fin": 21.82
+   }
+  ]
+ },
+ {
+  "debut": 22.72,
+  "fin": 24.5,
+  "texte": "C'est plus de 300 fois moins qu'au sommet.",
+  "mots": [
+   {
+    "mot": "C",
+    "debut": 22.72,
+    "fin": 23.06
+   },
+   {
+    "mot": "'est",
+    "debut": 23.06,
+    "fin": 23.1
+   },
+   {
+    "mot": "plus",
+    "debut": 23.1,
+    "fin": 23.24
+   },
+   {
+    "mot": "de",
+    "debut": 23.24,
+    "fin": 23.36
+   },
+   {
+    "mot": "300",
+    "debut": 23.36,
+    "fin": 23.62
+   },
+   {
+    "mot": "fois",
+    "debut": 23.62,
+    "fin": 23.88
+   },
+   {
+    "mot": "moins",
+    "debut": 23.88,
+    "fin": 24.04
+   },
+   {
+    "mot": "qu",
+    "debut": 24.04,
+    "fin": 24.22
+   },
+   {
+    "mot": "'au",
+    "debut": 24.22,
+    "fin": 24.24
+   },
+   {
+    "mot": "sommet.",
+    "debut": 24.24,
+    "fin": 24.5
+   }
+  ]
+ },
+ {
+  "debut": 25.4,
+  "fin": 28.36,
+  "texte": "Mais le jeu a quand même dépassé 74 milliards de visites.",
+  "mots": [
+   {
+    "mot": "Mais",
+    "debut": 25.4,
+    "fin": 25.8
+   },
+   {
+    "mot": "le",
+    "debut": 25.8,
+    "fin": 25.92
+   },
+   {
+    "mot": "jeu",
+    "debut": 25.92,
+    "fin": 26.06
+   },
+   {
+    "mot": "a",
+    "debut": 26.06,
+    "fin": 26.18
+   },
+   {
+    "mot": "quand",
+    "debut": 26.18,
+    "fin": 26.3
+   },
+   {
+    "mot": "même",
+    "debut": 26.3,
+    "fin": 26.5
+   },
+   {
+    "mot": "dépassé",
+    "debut": 26.5,
+    "fin": 26.9
+   },
+   {
+    "mot": "74",
+    "debut": 26.9,
+    "fin": 27.32
+   },
+   {
+    "mot": "milliards",
+    "debut": 27.32,
+    "fin": 27.78
+   },
+   {
+    "mot": "de",
+    "debut": 27.78,
+    "fin": 27.98
+   },
+   {
+    "mot": "visites.",
+    "debut": 27.98,
+    "fin": 28.36
+   }
+  ]
+ },
+ {
+  "debut": 29.16,
+  "fin": 32.02,
+  "texte": "Un vrai phénomène, il monte vite, il redescend vite.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 29.16,
+    "fin": 29.62
+   },
+   {
+    "mot": "vrai",
+    "debut": 29.62,
+    "fin": 29.8
+   },
+   {
+    "mot": "phénomène,",
+    "debut": 29.8,
+    "fin": 30.3
+   },
+   {
+    "mot": "il",
+    "debut": 30.5,
+    "fin": 30.58
+   },
+   {
+    "mot": "monte",
+    "debut": 30.58,
+    "fin": 30.74
+   },
+   {
+    "mot": "vite,",
+    "debut": 30.74,
+    "fin": 30.98
+   },
+   {
+    "mot": "il",
+    "debut": 31.3,
+    "fin": 31.38
+   },
+   {
+    "mot": "redescend",
+    "debut": 31.38,
+    "fin": 31.78
+   },
+   {
+    "mot": "vite.",
+    "debut": 31.78,
+    "fin": 32.02
+   }
+  ]
+ },
+ {
+  "debut": 33.0,
+  "fin": 35.18,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 33.0,
+    "fin": 33.46
+   },
+   {
+    "mot": "-toi",
+    "debut": 33.46,
+    "fin": 33.66
+   },
+   {
+    "mot": "à",
+    "debut": 33.66,
+    "fin": 33.78
+   },
+   {
+    "mot": "Pixel",
+    "debut": 33.78,
+    "fin": 33.98
+   },
+   {
+    "mot": "Facts",
+    "debut": 33.98,
+    "fin": 34.36
+   },
+   {
+    "mot": "pour",
+    "debut": 34.36,
+    "fin": 34.56
+   },
+   {
+    "mot": "le",
+    "debut": 34.56,
+    "fin": 34.68
+   },
+   {
+    "mot": "prochain",
+    "debut": 34.68,
+    "fin": 34.9
+   },
+   {
+    "mot": "fait.",
+    "debut": 34.9,
+    "fin": 35.18
+   }
+  ]
+ }
+]
