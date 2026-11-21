@@ -125,6 +125,8 @@ def choisir(st, voie):
     for statut, tache in (("valide", "publication"), ("a_reprendre", "reprise"),
                           ("a_analyser", "analyse"), ("en_cours", "production")):
         for it in (i for i in mes_items if i["status"] == statut):
+            if it.get("prochain_essai", 0) > time.time():
+                continue  # en attente (ex. file Buffer pleine) : on réessaiera plus tard
             if tache == "reprise" and it["reprises"] >= 3:
                 it["status"] = "ici"  # trois versions refusées : tu la finis toi-même avec Claude
                 continue
@@ -143,7 +145,8 @@ def choisir(st, voie):
             st["items"].append(it)
             return "roblox", it
         return None, None
-    if sum(i["status"] in ATTENTE for i in mes_items) < MAX_EN_ATTENTE:
+    buffer_plein = any(i["status"] == "valide" and i.get("attente_buffer") for i in mes_items)
+    if not buffer_plein and sum(i["status"] in ATTENTE for i in mes_items) < MAX_EN_ATTENTE:
         for i in mes_items:  # 10 min d'attente : le temps que ta note suive le lien
             if i["status"] == "a_faire" and time.time() - i.get("recu", 0) > 600:
                 i["status"] = "en_cours"  # coupure en route : le passage suivant reprend cet élément
@@ -257,6 +260,9 @@ def apres(tache, it, r):
         return
     if r.get("status") == "limite":
         return  # on retentera après la pause, sans compter d'échec
+    if tache == "publication" and "_pub" in r:
+        apres_publication(it, r)
+        return
     it["essais"], s = 0, r.get("status")
     if s == "pret":
         it["status"], it["reprises"] = "pret", it["reprises"] + (tache in ("reprise", "reprise_roblox"))
@@ -266,20 +272,36 @@ def apres(tache, it, r):
     elif s == "appris":
         it["status"] = "appris"
         message(it, r.get("telegram", "Analysée et rangée dans plan.md."))
-    elif tache == "publication" and "_pub" in r:
-        res = r["_pub"]
-        if res.get("ok"):
-            it["status"] = "programme"
-            quand = ", ".join(f"{k} : {heure_suisse(v.get('dueAt'))}" for k, v in res["buffer"].items())
-            message(it, r.get("telegram", "") + "\nProgrammée sur YouTube Shorts et Instagram Reels (" + quand + ", heure suisse).")
-        else:
-            it["essais"] += 1
-            it["status"] = "erreur" if it["essais"] >= 3 else "valide"
-            detail = json.dumps(res.get("buffer") or res.get("detail"), ensure_ascii=False)[:300]
-            message(it, f"📤 Publication ratée ({it['essais']}/3) : {detail}")
     else:
         it["status"] = s if s in ("programme", "deja_fait") else "erreur"
         message(it, r.get("telegram") or f"{s or 'erreur'} {r.get('dueAt', '')}".strip())
+
+
+def apres_publication(it, r):
+    """Publication d'une vidéo validée : programmée, file Buffer pleine (on attend), ou vraie erreur (3 essais)."""
+    res = r["_pub"]
+    it["legende_json"], it["titre_pub"] = r.get("legende"), r.get("telegram", "")
+    if res.get("ok"):
+        it["status"], it["essais"] = "programme", 0
+        it.pop("attente_buffer", None)
+        it.pop("prochain_essai", None)
+        quand = ", ".join(f"{k} : {heure_suisse(v.get('dueAt'))}" for k, v in res["buffer"].items())
+        message(it, r.get("telegram", "") + "\nProgrammée sur YouTube Shorts et Instagram Reels (" + quand + ", heure suisse).")
+        return
+    detail = json.dumps(res.get("buffer") or res.get("detail"), ensure_ascii=False)
+    if "limit reached" in detail.lower():
+        # Buffer gratuit = 10 publications programmées par réseau : on attend qu'une place se libère, sans erreur
+        it["status"], it["attente_buffer"] = "valide", True
+        it["prochain_essai"] = time.time() + 3 * 3600
+        if not it.get("averti_buffer"):
+            it["averti_buffer"] = True
+            message(it, "📤 File Buffer pleine (10 publications programmées max par réseau en gratuit). "
+                        "La vidéo partira toute seule dès qu'une place se libère (je réessaie toutes les 3 h, sans t'envoyer d'autre message).")
+        return
+    it["essais"] = it.get("essais", 0) + 1
+    it["status"] = "erreur" if it["essais"] >= 3 else "valide"
+    it["prochain_essai"] = time.time() + 30 * 60
+    message(it, f"📤 Publication ratée ({it['essais']}/3) : {detail[:300]}")
 
 
 def apres_roblox_publie(it, res):
@@ -360,6 +382,9 @@ def passage(voie):
     # 2. Le travail long, SANS tenir l'état (l'autre voie continue pendant ce temps)
     if tache == "publication_roblox":
         r = script("roblox_publier.py", str(JEU_ROBLOX))
+    elif tache == "publication" and it.get("legende_json") and it.get("video_url") and Path(it["legende_json"]).is_file():
+        r = {"status": "programme", "video": it["video_url"], "legende": it["legende_json"], "telegram": it.get("titre_pub", "")}
+        r["_pub"] = script("publier_video.py", it["video_url"], it["legende_json"])
     else:
         r = lancer(tache, it)
         if r and r.get("status") == "pret" and tache in ("production", "reprise"):

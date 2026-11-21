@@ -200,10 +200,15 @@
    "note": "Raconter en 30 s : 1997, personnage rumeur, 29 ans de mystère, trouvé en 2026 ; ton enquête, aucun extrait de jeu copié, vérifier les détails sur Siliconera/Kotaku avant d'écrire.",
    "status": "valide",
    "recu": 1795211929.630042,
-   "essais": 1,
+   "essais": 0,
    "reprises": 0,
    "remarques": [],
-   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-184014-veille-20261120-1.mp4"
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-184014-veille-20261120-1.mp4",
+   "attente_buffer": true,
+   "averti_buffer": true,
+   "prochain_essai": 1795300313.4005246,
+   "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261120-1/legende.json",
+   "titre_pub": "📤 Titre choisi : 29 ans de mystère dans Tales of Destiny 🕵️ #shorts"
   },
   {
    "id": "roblox-20261120-2221",
