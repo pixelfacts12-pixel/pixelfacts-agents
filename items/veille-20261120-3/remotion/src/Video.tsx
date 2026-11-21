@@ -1,6 +1,7 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/Fredoka';
-import {BEATS, WORDS, Beat} from './beats';
+import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
+const MUSVOL = 0.063;
 
 const {fontFamily} = loadFont();
 const IMGS = ['a', 'b', 'c', 'd', 'e'];
@@ -64,7 +65,7 @@ const Chart: React.FC<{beat: Beat; p: number}> = ({beat, p}) => {
   const tx = reveal * W; const ty = H - curveY(reveal) * (H - 40) - 10;
   const val = Math.round((beat.v0 ?? 0) + ((beat.v1 ?? 0) - (beat.v0 ?? 0)) * p);
   return <div style={{width: 1010, borderRadius: 70, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.78)', padding: '30px 0 30px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: `0 0 90px ${beat.accent}88`}}>
-    <div style={big(val > 999999 ? 190 : 230, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{fmt(val)}</div>
+    <div style={big(val > 99999 ? 190 : 230, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{fmt(val)}</div>
     <svg width={W} height={H} style={{marginTop: 10, overflow: 'visible'}}>
       {[0.25, 0.5, 0.75].map((g) => <line key={g} x1={0} x2={W} y1={H * g} y2={H * g} stroke="#ffffff22" strokeWidth={4} />)}
       <polyline points={pts.join(' ')} fill="none" stroke={OUT} strokeWidth={34} strokeLinejoin="round" strokeLinecap="round" />
@@ -85,7 +86,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   if (beat.kind === 'counter') {
     const dec = beat.dec ?? 0; const v = (beat.to ?? 0) * p;
     const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : fmt(Math.round(v));
-    const size = (beat.to ?? 0) > 1000000 ? 190 : 300;
+    const size = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : 300;
     return <div style={{width: 1000, height: 820, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
       <div style={big(size, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{beat.prefix ?? ''}{txt}{beat.suffix ?? ''}</div>
@@ -143,5 +144,4 @@ export const Video: React.FC = () => {
     </AbsoluteFill>
   );
 };
-const MUSVOL = 0.064;
-const TOTAL_S = 38.6;
+

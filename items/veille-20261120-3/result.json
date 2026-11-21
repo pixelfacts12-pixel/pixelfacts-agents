@@ -1,8 +1,8 @@
 {
  "status": "pret",
- "titre": "506 000 joueurs… puis 208 📉",
+ "titre": "506 000 joueurs… puis 200 📉",
  "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261120-3",
  "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261120-3/envoi.mp4",
- "telegram": "The Hollow : de 506 000 joueurs à 208, courbe animée prête.",
- "resume": "Sujet : The Hollow (Roblox Presents), courbe de pic puis retombée, chiffres seulement, aucune scène effrayante.\nVérifié : 208 joueurs, 196,8 M de visites, création 13/10/2026 (API Roblox du 21/11) ; pic ~506 000 d'après RoWatcher seul (non vérifiable officiellement, dit « environ » dans la voix).\nPrudent : aucun visuel ni texte du jeu, images cartoon génériques, mention IA à cocher ; pas pour enfants.\nÀ voir : mix -21,6 LUFS (= voix seule), true peak -6,2 dBTP ; compteur 500 000 un peu large à l'écran."
+ "telegram": "The Hollow : 506 000 joueurs au pic, environ 200 aujourd'hui, courbe animée prête.",
+ "resume": "Sujet : The Hollow (Roblox Presents), courbe de pic 506 000 puis retombée à ~200 joueurs, 37 s, chiffres et graphique seulement, aucune scène ni texte effrayant.\nVérifié : API Roblox (créé 13/10/2026, ~209 joueurs, 196,8 M de visites le 21/11) et RoWatcher (pic 506K en octobre 2026, 85 % d'avis positifs). Le pic ne vient que de RoWatcher, sa date exacte n'est pas visible.\nPrudent : « environ 200 », « presque 100 % de moins », « octobre 2026 » sans jour ; Whisper a mal entendu quelques mots (Pourtant, Roblox Presents), voix correcte ; musique −21,8 LUFS mix vs −21,7 voix, true peak −6 dB.\nÀ voir : un plan de 2,9 s (chute du graphique), pas de case « conçu pour les enfants » (public ados, non coché)."
 }
