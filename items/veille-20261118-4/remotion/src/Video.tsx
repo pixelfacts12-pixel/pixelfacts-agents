@@ -4,7 +4,7 @@ import {BEATS, WORDS, Beat, TOTAL} from './beats';
 
 const {fontFamily} = loadFont();
 const IMGS = ['a','b','c','d','e','f','g'];
-const fmtYear = (n: number) => String(n);
+const fmtYear = (n: number) => (n > 9999 ? n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ') : String(n));
 const OUT = '#281450';
 const fmt = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 const stroke = (w = 10) => ({WebkitTextStroke: `${w}px ${OUT}`, paintOrder: 'stroke fill' as const, textShadow: `0 10px 0 ${OUT}`});
@@ -49,14 +49,14 @@ const Caption: React.FC<{t: number; frame: number; fps: number; accent: string}>
 
 const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; fps: number}> = ({beat, localT, dur, frame, fps}) => {
   const enter = 0.55 + 0.45 * spring({frame, fps, config: {damping: 9, stiffness: 130}, durationInFrames: 16});
-  const slow = 1 + 0.064 * Math.min(1, localT / dur);
+  const slow = 1 + 0.067 * Math.min(1, localT / dur);
   const sc = enter * slow;
   if (beat.kind === 'num') {
     const p = Easing.out(Easing.cubic)(Math.min(1, localT / Math.max(0.5, dur * 0.7)));
     const v = Math.round(beat.from + (beat.to - beat.from) * p);
     return <div style={{width: 1010, display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.68)', padding: '50px 0', boxShadow: `0 0 100px ${beat.accent}99`}}>
-      <div style={big(beat.label.length > 12 ? 110 : 140, '#fff')}>{beat.label}</div>
-      <div style={big(beat.to > 999 ? 400 : beat.sub.length > 2 ? 330 : 440, beat.accent, {textShadow: `0 0 80px ${beat.accent}, 0 16px 0 ${OUT}`, padding: 0, whiteSpace: 'nowrap'})}>{fmtYear(v)}{beat.sub}</div>
+      <div style={big(beat.label.length > 18 ? 84 : beat.label.length > 12 ? 100 : 140, '#fff')}>{beat.label}</div>
+      <div style={big(Math.min(beat.to > 999 && beat.to < 9999 ? 400 : 440, Math.floor(930 / (0.6 * Math.max(4, fmtYear(beat.to).length + beat.sub.length)))), beat.accent, {textShadow: `0 0 80px ${beat.accent}, 0 16px 0 ${OUT}`, padding: 0, whiteSpace: 'nowrap'})}>{fmtYear(v)}{beat.sub}</div>
       <div style={{fontSize: 260, lineHeight: 1.1, transform: `translateY(${Math.sin(frame / 7) * 14}px) rotate(${Math.sin(frame / 11) * 6}deg)`}}>{beat.icon}</div>
     </div>;
   }
@@ -74,19 +74,20 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
     </div>;
   }
   if (beat.kind === 'chart') {
-    const p = Math.min(1, localT / Math.max(0.5, dur * 0.85));
-    const pts: [number, number, string][] = [[0, 520, '2016'], [0.2, 300, ''], [0.3, 640, '2018'], [0.55, 420, '2021'], [0.75, 260, '2023'], [1, 80, '2026']];
-    const X = (u: number) => 70 + u * 860;
-    const path = pts.map((q, i) => `${i ? 'L' : 'M'}${X(q[0])} ${q[1]}`).join(' ');
-    return <div style={{width: 1010, height: 900, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-      <div style={big(120, '#fff', {marginTop: 30})}>{beat.label}</div>
-      <svg width={1000} height={700} viewBox="0 0 1000 720" style={{marginTop: 10}}>
-        <path d={path} fill="none" stroke={beat.accent} strokeWidth={26} strokeLinecap="round" strokeLinejoin="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - p} />
-        {pts.filter((q) => q[2]).map((q, i) => (p >= q[0] ? <g key={i}>
-          <circle cx={X(q[0])} cy={q[1]} r={30} fill="#fff" stroke={OUT} strokeWidth={10} />
-          <text x={Math.min(880, Math.max(120, X(q[0])))} y={q[1] + 105} textAnchor="middle" fontFamily={fontFamily} fontWeight={700} fontSize={84} fill="#fff" stroke={OUT} strokeWidth={14} paintOrder="stroke">{q[2]}</text>
-        </g> : null))}
-      </svg>
+    const p = Easing.out(Easing.cubic)(Math.min(1, localT / Math.max(0.5, dur * 0.7)));
+    const bars = [{v: beat.from, c: '#5ECBFF', l: 'JOUR J'}, {v: beat.to, c: '#FFD628', l: 'WEEK-END'}];
+    return <div style={{width: 1010, height: 1000, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '30px 0', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
+      <div style={big(110, '#fff')}>{beat.label}</div>
+      <div style={{display: 'flex', alignItems: 'flex-end', columnGap: 70, height: 680, marginTop: 10}}>
+        {bars.map((b, i) => {
+          const h = 560 * (b.v / beat.to) * p;
+          return <div key={i} style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: 380}}>
+            <div style={big(78, '#fff', {padding: 0, whiteSpace: 'nowrap'})}>{fmtYear(Math.round(b.v * p))}</div>
+            <div style={{width: 340, height: h, borderRadius: '30px 30px 0 0', background: b.c, border: `8px solid ${OUT}`, boxShadow: `0 0 50px ${b.c}`}} />
+          </div>;
+        })}
+      </div>
+      <div style={{display: 'flex', columnGap: 70}}>{bars.map((b, i) => <div key={i} style={{...big(76, b.c, {padding: 0}), width: 380}}>{b.l}</div>)}</div>
     </div>;
   }
   if (beat.kind === 'cta') {
@@ -122,7 +123,7 @@ export const Video: React.FC = () => {
       <AbsoluteFill style={{background: `linear-gradient(180deg, ${OUT}00 25%, ${OUT}99 100%)`}} />
       <Cubes frame={frame} accent={beat.accent} />
       <Audio src={staticFile('voix.mp3')} />
-      <Audio src={staticFile('musique_brut.mp3')} volume={(f) => 0.135 * Math.min(1, f / 30) * Math.min(1, (Math.ceil(TOTAL * 30) - f) / 45)} />
+      <Audio src={staticFile('musique_brut.mp3')} volume={(f) => 0.067 * Math.min(1, f / 30) * Math.min(1, (Math.ceil(TOTAL * 30) - f) / 45)} />
       {BEATS.map((b, i) => {
         const s = SFX[i % SFX.length];
         return <Sequence key={`w${i}`} from={Math.round(b.start * fps)} durationInFrames={24}>
