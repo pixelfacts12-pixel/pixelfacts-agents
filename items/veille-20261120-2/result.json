@@ -1,8 +1,2 @@
-{
- "status": "pret",
- "titre": "105 millions de visites sans la marque 🛴",
- "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261120-2",
- "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261120-2/envoi.mp4",
- "telegram": "Kukirin Life : un jeu Roblox de fans, sans la marque, à 105 millions de visites.",
- "resume": "Sujet : Kukirin Life, jeu Roblox fait par des fans autour d'une marque réelle de trottinettes, sans affiliation (angle « une marque devient un jeu »).\nVérifié : article GGRecon du 2/11/2026 (top 10, fan-made) et API Roblox du 21/11/2026 : 105 798 768 visites, 11 305 joueurs, créé le 19/09/2026 ; mixage voix -21,9 LUFS, musique ~-41,7, true peak -5,7 dBTP ; Whisper conforme au script.\nPrudence : aucun logo ni image de la marque (images IA génériques), mention « sans lien avec elle » ; je ne dis pas que la marque ignore le jeu, seulement qu'elle n'est pas affiliée ; jeu encore en test.\nÀ voir : la page d'origine n'a pas de vidéo, donc pas de durée ni de vues relevées ; mention IA à cocher, pas « conçu pour les enfants » (public ados)."
-}
+{"status": "programme", "video": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-165747-veille-20261120-2.mp4", "legende": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261120-2/legende.json",
+ "telegram": "📤 Titre choisi : 105 millions de visites pour une trottinette ? 🛴 #shorts"}
