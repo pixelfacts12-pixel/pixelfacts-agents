@@ -1,474 +1,499 @@
 [
  {
   "debut": 0.0,
-  "fin": 2.42,
-  "texte": "savait-tu que ce cubatant j'étais à 6 depuis 13 ans.",
+  "fin": 4.3,
+  "texte": "savais-tu que ce personnage attend GTA 6 sur ce banc depuis 2013 ?",
   "mots": [
    {
-    "mot": "savait",
+    "mot": "savais",
     "debut": 0.0,
     "fin": 0.46
    },
    {
     "mot": "-tu",
     "debut": 0.46,
-    "fin": 0.56
+    "fin": 0.52
    },
    {
     "mot": "que",
-    "debut": 0.56,
-    "fin": 0.68
+    "debut": 0.52,
+    "fin": 0.66
    },
    {
     "mot": "ce",
-    "debut": 0.68,
+    "debut": 0.66,
     "fin": 0.8
    },
    {
-    "mot": "cubatant",
+    "mot": "personnage",
     "debut": 0.8,
-    "fin": 1.2
+    "fin": 1.18
    },
    {
-    "mot": "j",
-    "debut": 1.2,
-    "fin": 1.32
-   },
-   {
-    "mot": "'étais",
-    "debut": 1.32,
+    "mot": "attend",
+    "debut": 1.18,
     "fin": 1.44
    },
    {
-    "mot": "à",
+    "mot": "GTA",
     "debut": 1.44,
-    "fin": 1.62
+    "fin": 1.66
    },
    {
     "mot": "6",
-    "debut": 1.62,
-    "fin": 1.76
-   },
-   {
-    "mot": "depuis",
-    "debut": 1.76,
+    "debut": 1.66,
     "fin": 1.98
    },
    {
-    "mot": "13",
-    "debut": 1.98,
-    "fin": 2.26
-   },
-   {
-    "mot": "ans.",
-    "debut": 2.26,
-    "fin": 2.42
-   }
-  ]
- },
- {
-  "debut": 3.460000000000004,
-  "fin": 6.86,
-  "texte": "Septembre 2013, j'étais à 5 sortes et il s'assoit sur ce banc.",
-  "mots": [
-   {
-    "mot": "Septembre",
-    "debut": 3.460000000000004,
-    "fin": 3.98
-   },
-   {
-    "mot": "2013,",
-    "debut": 3.98,
-    "fin": 4.44
-   },
-   {
-    "mot": "j",
-    "debut": 4.86,
-    "fin": 4.92
-   },
-   {
-    "mot": "'étais",
-    "debut": 4.92,
-    "fin": 5.02
-   },
-   {
-    "mot": "à",
-    "debut": 5.02,
-    "fin": 5.18
-   },
-   {
-    "mot": "5",
-    "debut": 5.18,
-    "fin": 5.36
-   },
-   {
-    "mot": "sortes",
-    "debut": 5.36,
-    "fin": 5.92
-   },
-   {
-    "mot": "et",
-    "debut": 5.92,
-    "fin": 6.02
-   },
-   {
-    "mot": "il",
-    "debut": 6.02,
-    "fin": 6.12
-   },
-   {
-    "mot": "s",
-    "debut": 6.12,
-    "fin": 6.26
-   },
-   {
-    "mot": "'assoit",
-    "debut": 6.26,
-    "fin": 6.44
-   },
-   {
     "mot": "sur",
-    "debut": 6.44,
-    "fin": 6.6
+    "debut": 1.98,
+    "fin": 2.16
    },
    {
     "mot": "ce",
-    "debut": 6.6,
-    "fin": 6.72
-   },
-   {
-    "mot": "banc.",
-    "debut": 6.72,
-    "fin": 6.86
-   }
-  ]
- },
- {
-  "debut": 7.940000000000008,
-  "fin": 10.98,
-  "texte": "Décembre 2023, enfin, une première bande annonce.",
-  "mots": [
-   {
-    "mot": "Décembre",
-    "debut": 7.940000000000008,
-    "fin": 8.460000000000004
-   },
-   {
-    "mot": "2023,",
-    "debut": 8.460000000000004,
-    "fin": 8.98
-   },
-   {
-    "mot": "enfin,",
-    "debut": 9.3,
-    "fin": 9.56
-   },
-   {
-    "mot": "une",
-    "debut": 9.96,
-    "fin": 10.08
-   },
-   {
-    "mot": "première",
-    "debut": 10.08,
-    "fin": 10.38
-   },
-   {
-    "mot": "bande",
-    "debut": 10.38,
-    "fin": 10.52
-   },
-   {
-    "mot": "annonce.",
-    "debut": 10.52,
-    "fin": 10.98
-   }
-  ]
- },
- {
-  "debut": 12.1,
-  "fin": 13.52,
-  "texte": "Mais 2025, la deuxième.",
-  "mots": [
-   {
-    "mot": "Mais",
-    "debut": 12.1,
-    "fin": 12.3
-   },
-   {
-    "mot": "2025,",
-    "debut": 12.3,
-    "fin": 12.76
-   },
-   {
-    "mot": "la",
-    "debut": 13.24,
-    "fin": 13.3
-   },
-   {
-    "mot": "deuxième.",
-    "debut": 13.3,
-    "fin": 13.52
-   }
-  ]
- },
- {
-  "debut": 14.6,
-  "fin": 19.28,
-  "texte": "Mais la date bouge automne 2025, mais 2026, puis novembre 2026.",
-  "mots": [
-   {
-    "mot": "Mais",
-    "debut": 14.6,
-    "fin": 14.98
-   },
-   {
-    "mot": "la",
-    "debut": 14.98,
-    "fin": 15.08
-   },
-   {
-    "mot": "date",
-    "debut": 15.08,
-    "fin": 15.2
-   },
-   {
-    "mot": "bouge",
-    "debut": 15.2,
-    "fin": 15.56
-   },
-   {
-    "mot": "automne",
-    "debut": 15.56,
-    "fin": 15.98
-   },
-   {
-    "mot": "2025,",
-    "debut": 15.98,
-    "fin": 16.4
-   },
-   {
-    "mot": "mais",
-    "debut": 16.92,
-    "fin": 17.14
-   },
-   {
-    "mot": "2026,",
-    "debut": 17.14,
-    "fin": 17.78
-   },
-   {
-    "mot": "puis",
-    "debut": 18.16,
-    "fin": 18.26
-   },
-   {
-    "mot": "novembre",
-    "debut": 18.26,
-    "fin": 18.64
-   },
-   {
-    "mot": "2026.",
-    "debut": 18.64,
-    "fin": 19.28
-   }
-  ]
- },
- {
-  "debut": 20.48,
-  "fin": 23.24,
-  "texte": "Le 19 novembre, Rockstar l'affiche disponible.",
-  "mots": [
-   {
-    "mot": "Le",
-    "debut": 20.48,
-    "fin": 20.72
-   },
-   {
-    "mot": "19",
-    "debut": 20.72,
-    "fin": 20.96
-   },
-   {
-    "mot": "novembre,",
-    "debut": 20.96,
-    "fin": 21.48
-   },
-   {
-    "mot": "Rockstar",
-    "debut": 21.78,
-    "fin": 22.06
-   },
-   {
-    "mot": "l",
-    "debut": 22.06,
-    "fin": 22.2
-   },
-   {
-    "mot": "'affiche",
-    "debut": 22.2,
-    "fin": 22.44
-   },
-   {
-    "mot": "disponible.",
-    "debut": 22.44,
-    "fin": 23.24
-   }
-  ]
- },
- {
-  "debut": 24.24,
-  "fin": 26.26,
-  "texte": "13 ans plus tard, le banc se libère enfin.",
-  "mots": [
-   {
-    "mot": "13",
-    "debut": 24.24,
-    "fin": 24.54
-   },
-   {
-    "mot": "ans",
-    "debut": 24.54,
-    "fin": 24.68
-   },
-   {
-    "mot": "plus",
-    "debut": 24.68,
-    "fin": 24.78
-   },
-   {
-    "mot": "tard,",
-    "debut": 24.78,
-    "fin": 25.04
-   },
-   {
-    "mot": "le",
-    "debut": 25.38,
-    "fin": 25.48
+    "debut": 2.16,
+    "fin": 2.28
    },
    {
     "mot": "banc",
-    "debut": 25.48,
-    "fin": 25.6
+    "debut": 2.28,
+    "fin": 2.42
    },
    {
-    "mot": "se",
-    "debut": 25.6,
-    "fin": 25.76
+    "mot": "depuis",
+    "debut": 2.42,
+    "fin": 2.56
    },
    {
-    "mot": "libère",
-    "debut": 25.76,
-    "fin": 25.98
-   },
-   {
-    "mot": "enfin.",
-    "debut": 25.98,
-    "fin": 26.26
-   }
-  ]
- },
- {
-  "debut": 27.06,
-  "fin": 29.26,
-  "texte": "Et toi, tu as attendu combien de temps ?",
-  "mots": [
-   {
-    "mot": "Et",
-    "debut": 27.06,
-    "fin": 27.5
-   },
-   {
-    "mot": "toi,",
-    "debut": 27.5,
-    "fin": 27.68
-   },
-   {
-    "mot": "tu",
-    "debut": 28.02,
-    "fin": 28.14
-   },
-   {
-    "mot": "as",
-    "debut": 28.14,
-    "fin": 28.24
-   },
-   {
-    "mot": "attendu",
-    "debut": 28.24,
-    "fin": 28.58
-   },
-   {
-    "mot": "combien",
-    "debut": 28.58,
-    "fin": 28.82
-   },
-   {
-    "mot": "de",
-    "debut": 28.82,
-    "fin": 28.96
-   },
-   {
-    "mot": "temps",
-    "debut": 28.96,
-    "fin": 29.14
+    "mot": "2013",
+    "debut": 2.56,
+    "fin": 3.12
    },
    {
     "mot": "?",
-    "debut": 29.14,
-    "fin": 29.36
+    "debut": 3.12,
+    "fin": 4.3
    }
   ]
  },
  {
-  "debut": 30.16,
-  "fin": 32.22,
+  "debut": 4.3,
+  "fin": 7.42,
+  "texte": "Cette année-là, en septembre 2013, sort GTA 5.",
+  "mots": [
+   {
+    "mot": "Cette",
+    "debut": 4.3,
+    "fin": 4.58
+   },
+   {
+    "mot": "année",
+    "debut": 4.58,
+    "fin": 4.76
+   },
+   {
+    "mot": "-là,",
+    "debut": 4.76,
+    "fin": 4.96
+   },
+   {
+    "mot": "en",
+    "debut": 5.18,
+    "fin": 5.24
+   },
+   {
+    "mot": "septembre",
+    "debut": 5.24,
+    "fin": 5.62
+   },
+   {
+    "mot": "2013,",
+    "debut": 5.62,
+    "fin": 6.2
+   },
+   {
+    "mot": "sort",
+    "debut": 6.6,
+    "fin": 6.7
+   },
+   {
+    "mot": "GTA",
+    "debut": 6.7,
+    "fin": 7.0
+   },
+   {
+    "mot": "5.",
+    "debut": 7.0,
+    "fin": 7.42
+   }
+  ]
+ },
+ {
+  "debut": 8.34,
+  "fin": 11.28,
+  "texte": "Première bande annonce de GTA 6, décembre 2023.",
+  "mots": [
+   {
+    "mot": "Première",
+    "debut": 8.34,
+    "fin": 8.86
+   },
+   {
+    "mot": "bande",
+    "debut": 8.86,
+    "fin": 9.0
+   },
+   {
+    "mot": "annonce",
+    "debut": 9.0,
+    "fin": 9.28
+   },
+   {
+    "mot": "de",
+    "debut": 9.28,
+    "fin": 9.4
+   },
+   {
+    "mot": "GTA",
+    "debut": 9.4,
+    "fin": 9.72
+   },
+   {
+    "mot": "6,",
+    "debut": 9.72,
+    "fin": 10.04
+   },
+   {
+    "mot": "décembre",
+    "debut": 10.32,
+    "fin": 10.62
+   },
+   {
+    "mot": "2023.",
+    "debut": 10.62,
+    "fin": 11.28
+   }
+  ]
+ },
+ {
+  "debut": 12.46,
+  "fin": 13.94,
+  "texte": "La deuxième, mai 2025.",
+  "mots": [
+   {
+    "mot": "La",
+    "debut": 12.46,
+    "fin": 12.64
+   },
+   {
+    "mot": "deuxième,",
+    "debut": 12.64,
+    "fin": 12.9
+   },
+   {
+    "mot": "mai",
+    "debut": 13.32,
+    "fin": 13.4
+   },
+   {
+    "mot": "2025.",
+    "debut": 13.4,
+    "fin": 13.94
+   }
+  ]
+ },
+ {
+  "debut": 15.12,
+  "fin": 18.36,
+  "texte": "Puis deux reports, mai 2026, puis novembre 2026.",
+  "mots": [
+   {
+    "mot": "Puis",
+    "debut": 15.12,
+    "fin": 15.4
+   },
+   {
+    "mot": "deux",
+    "debut": 15.4,
+    "fin": 15.56
+   },
+   {
+    "mot": "reports,",
+    "debut": 15.56,
+    "fin": 15.82
+   },
+   {
+    "mot": "mai",
+    "debut": 16.16,
+    "fin": 16.24
+   },
+   {
+    "mot": "2026,",
+    "debut": 16.24,
+    "fin": 16.9
+   },
+   {
+    "mot": "puis",
+    "debut": 17.28,
+    "fin": 17.38
+   },
+   {
+    "mot": "novembre",
+    "debut": 17.38,
+    "fin": 17.78
+   },
+   {
+    "mot": "2026.",
+    "debut": 17.78,
+    "fin": 18.36
+   }
+  ]
+ },
+ {
+  "debut": 19.56,
+  "fin": 24.2,
+  "texte": "Et le jeu est sorti le 19 novembre 2026, sur PS5 et Xbox Series X et S.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 19.56,
+    "fin": 19.8
+   },
+   {
+    "mot": "le",
+    "debut": 19.8,
+    "fin": 19.92
+   },
+   {
+    "mot": "jeu",
+    "debut": 19.92,
+    "fin": 20.06
+   },
+   {
+    "mot": "est",
+    "debut": 20.06,
+    "fin": 20.2
+   },
+   {
+    "mot": "sorti",
+    "debut": 20.2,
+    "fin": 20.48
+   },
+   {
+    "mot": "le",
+    "debut": 20.48,
+    "fin": 20.56
+   },
+   {
+    "mot": "19",
+    "debut": 20.56,
+    "fin": 20.82
+   },
+   {
+    "mot": "novembre",
+    "debut": 20.82,
+    "fin": 21.3
+   },
+   {
+    "mot": "2026,",
+    "debut": 21.3,
+    "fin": 22.04
+   },
+   {
+    "mot": "sur",
+    "debut": 22.32,
+    "fin": 22.52
+   },
+   {
+    "mot": "PS5",
+    "debut": 22.52,
+    "fin": 22.96
+   },
+   {
+    "mot": "et",
+    "debut": 22.96,
+    "fin": 23.08
+   },
+   {
+    "mot": "Xbox",
+    "debut": 23.08,
+    "fin": 23.34
+   },
+   {
+    "mot": "Series",
+    "debut": 23.34,
+    "fin": 23.64
+   },
+   {
+    "mot": "X",
+    "debut": 23.64,
+    "fin": 23.86
+   },
+   {
+    "mot": "et",
+    "debut": 23.86,
+    "fin": 23.96
+   },
+   {
+    "mot": "S.",
+    "debut": 23.96,
+    "fin": 24.2
+   }
+  ]
+ },
+ {
+  "debut": 25.32,
+  "fin": 28.44,
+  "texte": "Et toi, tu attends quel jeu depuis le plus longtemps ?",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 25.32,
+    "fin": 25.5
+   },
+   {
+    "mot": "toi,",
+    "debut": 25.5,
+    "fin": 25.66
+   },
+   {
+    "mot": "tu",
+    "debut": 26.02,
+    "fin": 26.12
+   },
+   {
+    "mot": "attends",
+    "debut": 26.12,
+    "fin": 26.28
+   },
+   {
+    "mot": "quel",
+    "debut": 26.28,
+    "fin": 26.5
+   },
+   {
+    "mot": "jeu",
+    "debut": 26.5,
+    "fin": 26.7
+   },
+   {
+    "mot": "depuis",
+    "debut": 26.7,
+    "fin": 26.9
+   },
+   {
+    "mot": "le",
+    "debut": 26.9,
+    "fin": 27.04
+   },
+   {
+    "mot": "plus",
+    "debut": 27.04,
+    "fin": 27.2
+   },
+   {
+    "mot": "longtemps",
+    "debut": 27.2,
+    "fin": 27.44
+   },
+   {
+    "mot": "?",
+    "debut": 27.44,
+    "fin": 28.44
+   }
+  ]
+ },
+ {
+  "debut": 28.44,
+  "fin": 30.96,
+  "texte": "Animations non officielles, non affiliées à Rockstar.",
+  "mots": [
+   {
+    "mot": "Animations",
+    "debut": 28.44,
+    "fin": 29.08
+   },
+   {
+    "mot": "non",
+    "debut": 29.08,
+    "fin": 29.2
+   },
+   {
+    "mot": "officielles,",
+    "debut": 29.2,
+    "fin": 29.76
+   },
+   {
+    "mot": "non",
+    "debut": 29.98,
+    "fin": 30.14
+   },
+   {
+    "mot": "affiliées",
+    "debut": 30.14,
+    "fin": 30.54
+   },
+   {
+    "mot": "à",
+    "debut": 30.54,
+    "fin": 30.62
+   },
+   {
+    "mot": "Rockstar.",
+    "debut": 30.62,
+    "fin": 30.96
+   }
+  ]
+ },
+ {
+  "debut": 32.04,
+  "fin": 34.2,
   "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
   "mots": [
    {
     "mot": "Abonne",
-    "debut": 30.16,
-    "fin": 30.5
+    "debut": 32.04,
+    "fin": 32.48
    },
    {
     "mot": "-toi",
-    "debut": 30.5,
-    "fin": 30.68
+    "debut": 32.48,
+    "fin": 32.66
    },
    {
     "mot": "à",
-    "debut": 30.68,
-    "fin": 30.8
+    "debut": 32.66,
+    "fin": 32.78
    },
    {
     "mot": "Pixel",
-    "debut": 30.8,
-    "fin": 31.0
+    "debut": 32.78,
+    "fin": 32.98
    },
    {
     "mot": "Facts",
-    "debut": 31.0,
-    "fin": 31.42
+    "debut": 32.98,
+    "fin": 33.4
    },
    {
     "mot": "pour",
-    "debut": 31.42,
-    "fin": 31.6
+    "debut": 33.4,
+    "fin": 33.56
    },
    {
     "mot": "le",
-    "debut": 31.6,
-    "fin": 31.7
+    "debut": 33.56,
+    "fin": 33.68
    },
    {
     "mot": "prochain",
-    "debut": 31.7,
-    "fin": 31.96
+    "debut": 33.68,
+    "fin": 33.9
    },
    {
     "mot": "fait.",
-    "debut": 31.96,
-    "fin": 32.22
+    "debut": 33.9,
+    "fin": 34.2
    }
   ]
  }

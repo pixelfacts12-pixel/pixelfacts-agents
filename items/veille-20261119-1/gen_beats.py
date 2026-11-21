@@ -12,32 +12,34 @@ for li,(s,d,l) in enumerate(zip(starts,durs,lines)):
 Y,B,P,G='#FFD628','#5ECBFF','#FF5FA2','#7CFF8A'
 # (ligne,mot,kind,accent,bg,label,sub,icon,mascot,from,to)
 B_=[
-(1,0,'bench',Y,0,'IL ATTEND','','','',0,0),
-(1,5,'words',P,1,'GTA 6','DEPUIS','🔥','',0,0),
-(1,7,'num',P,0,'ANS SUR CE BANC','','🪑','',0,13),
-(2,0,'words',B,2,'SEPTEMBRE','','🎮','',0,0),
-(2,2,'num',Y,2,'SORTIE DE GTA 5','','🎮','',2000,2013),
-(2,7,'bench',B,0,"IL S'ASSIT",'','','',0,0),
-(3,0,'words',P,3,'DÉCEMBRE','','🎬','',0,0),
-(3,2,'num',Y,3,'BANDE-ANNONCE 1','','🎥','',2013,2023),
-(3,4,'words',G,3,'ENFIN !','','🙌','',0,0),
-(4,0,'num',B,3,'BANDE-ANNONCE 2','','🎥','montre',2023,2025),
-(4,2,'words',Y,1,'LA DEUXIÈME !','','🎬','',0,0),
-(5,0,'words',P,4,'LA DATE BOUGE','','⏳','',0,0),
-(5,4,'words',B,4,'AUTOMNE 2025','','🍂','',0,0),
-(5,6,'words',Y,4,'MAI 2026','','🔔','',0,0),
-(5,8,'words',G,4,'NOVEMBRE 2026','','🗓️','',0,0),
-(6,0,'num',Y,5,'NOVEMBRE','','🗓️','',0,19),
-(6,4,'words',G,5,'ROCKSTAR CONFIRME','','✅','',0,0),
-(6,6,'words',P,5,'DISPONIBLE !','','🎉','montre',0,0),
-(7,0,'num',Y,6,"D'ATTENTE",'','⏳','',0,13),
-(7,4,'bench',G,6,'LE BANC SE LIBÈRE','','','',1,0),
-(8,0,'words',B,0,'TOI AUSSI ?','','🤔','reflechit',0,0),
-(8,4,'words',Y,1,'COMBIEN DE TEMPS ?','','⏱️','',0,0),
-(9,0,'cta',Y,6,'','','','coucou',0,0),
+(1,0,'words',Y,0,'SAVAIS-TU ?','','🤔','banc',0,0),
+(1,2,'words',P,0,'CE PERSONNAGE','','🪑','banc',0,0),
+(1,4,'words',G,2,'ATTEND GTA 6','','⏳','banc',0,0),
+(1,10,'num',Y,1,'DEPUIS','','🗓️','',2009,2013),
+(2,0,'words',B,1,'CETTE ANNÉE-LÀ','','📅','',0,0),
+(2,3,'words',P,5,'SEPTEMBRE','2013','🍂','',0,0),
+(2,5,'words',G,3,'GTA 5 SORT','','🎮','reflechit',0,0),
+(3,0,'words',B,4,'PREMIER TRAILER','','🎬','',0,0),
+(3,3,'words',G,3,'GTA 6','','🌴','',0,0),
+(3,6,'num',P,4,'DÉCEMBRE','','🎞️','',2019,2023),
+(4,0,'words',Y,4,'DEUXIÈME TRAILER','','🎬','',0,0),
+(4,3,'num',G,4,'MAI','','🔥','',2021,2025),
+(5,0,'words',P,6,'2 REPORTS','','😬','surpris',0,0),
+(5,4,'words',B,6,'MAI 2026','','🗓️','',0,0),
+(5,7,'words',Y,6,'NOVEMBRE 2026','','⏳','',0,0),
+(6,0,'words',G,7,'ENFIN SORTI !','','🎉','',0,0),
+(6,5,'num',Y,7,'NOVEMBRE','','🚀','',12,19),
+(6,9,'words',B,8,'SUR PS5','','🎮','',0,0),
+(6,12,'words',G,8,'XBOX SERIES X|S','','🟢','',0,0),
+(7,0,'words',P,9,'ET TOI ?','','🤔','reflechit',0,0),
+(7,3,'words',Y,9,'TU ATTENDS QUOI ?','','🎮','',0,0),
+(7,6,'words',B,5,'DEPUIS QUAND ?','','⏳','',0,0),
+(8,0,'words',B,2,'ANIMATION NON OFFICIELLE','','ℹ️','',0,0),
+(8,3,'words',Y,2,'NON AFFILIÉE À ROCKSTAR','','ℹ️','',0,0),
+(9,0,'cta',Y,0,'','','','coucou',0,0),
 ]
 total=round(t-0.12+0.3,2)
-out=['export type Beat = {start:number;end:number;kind:"words"|"bench"|"counter"|"cta"|"num";accent:string;bg:number;label:string;sub:string;icon:string;from:number;to:number;mascot:string;};','export const TOTAL = %s;'%total,'export const BEATS: Beat[] = ['];
+out=['export type Beat = {start:number;end:number;kind:"words"|"counter"|"cta"|"num";accent:string;bg:number;label:string;sub:string;icon:string;from:number;to:number;mascot:string;};','export const TOTAL = %s;'%total,'export const BEATS: Beat[] = ['];
 st=[widx[(b[0],b[1])] for b in B_]; st[0]=0
 for i,b in enumerate(B_):
     end=st[i+1] if i+1<len(B_) else total

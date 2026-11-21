@@ -1,5 +1,5 @@
 import numpy as np, wave
-sr=44100; dur=34; bpm=92; beat=60/bpm
+sr=44100; dur=38; bpm=92; beat=60/bpm
 t=np.arange(int(sr*dur))/sr; out=np.zeros_like(t)
 def env(n,a=0.01,r=0.4):
     x=np.arange(n)/sr; return np.minimum(1,x/a)*np.exp(-x/r)
@@ -29,3 +29,6 @@ w=wave.open('musique_brut.wav','wb'); w.setnchannels(1); w.setsampwidth(2); w.se
 # pop
 n=int(0.12*sr); x=np.arange(n)/sr; p=np.sin(2*np.pi*(900+1200*np.exp(-x*40))*x)*np.exp(-x*35)
 w=wave.open('pop.wav','wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((p*0.9*32767).astype(np.int16).tobytes()); w.close()
+for nm,f0 in (('pop2',700),('pop3',1100)):
+    n=int(0.14*sr); x=np.arange(n)/sr; p=np.sin(2*np.pi*(f0+900*np.exp(-x*30))*x)*np.exp(-x*28)
+    w=wave.open(nm+'.wav','wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((p*0.9*32767).astype(np.int16).tobytes()); w.close()

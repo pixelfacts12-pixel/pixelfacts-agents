@@ -3,9 +3,9 @@ import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL} from './beats';
 
 const {fontFamily} = loadFont();
-const IMGS = ['a','b','c','d','e','f','g'];
-const DISC = 'Animation non officielle, non affiliée à Rockstar';
-const fmtYear = (n: number) => (n > 9999 ? n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ') : String(n));
+const IMGS = ['a','b','c','d','e','f','g','h','i','j'];
+const fmtYear = (n: number) => String(n);
+const MUSVOL = 0.066;
 const OUT = '#281450';
 const fmt = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 const stroke = (w = 10) => ({WebkitTextStroke: `${w}px ${OUT}`, paintOrder: 'stroke fill' as const, textShadow: `0 10px 0 ${OUT}`});
@@ -34,12 +34,27 @@ const Mascot: React.FC<{pose: string; corner: boolean; frame: number; fps: numbe
   </div>;
 };
 
+
+const Bench: React.FC<{frame: number; fps: number}> = ({frame, fps}) => {
+  const enter = spring({frame, fps, config: {damping: 9, stiffness: 120}, durationInFrames: 20});
+  const wood = '#B8763A'; const dark = '#6B3E1A';
+  return <div style={{position: 'absolute', left: 0, right: 0, bottom: 300, height: 640, zIndex: 5, transform: `translateY(${(1 - enter) * 500}px)`}}>
+    <div style={{position: 'absolute', left: 170, width: 740, top: 190, height: 26, background: wood, border: `8px solid ${OUT}`, borderRadius: 14}} />
+    <div style={{position: 'absolute', left: 170, width: 740, top: 250, height: 26, background: wood, border: `8px solid ${OUT}`, borderRadius: 14}} />
+    <div style={{position: 'absolute', left: 150, width: 780, top: 400, height: 40, background: wood, border: `8px solid ${OUT}`, borderRadius: 16}} />
+    <div style={{position: 'absolute', left: 190, width: 36, top: 440, height: 170, background: dark, border: `8px solid ${OUT}`, borderRadius: 10}} />
+    <div style={{position: 'absolute', left: 854, width: 36, top: 440, height: 170, background: dark, border: `8px solid ${OUT}`, borderRadius: 10}} />
+    <Img src={staticFile('mascotte_reflechit_transparent.png')} style={{position: 'absolute', left: 270, top: 20, width: 540, transformOrigin: '50% 100%', transform: `rotate(${Math.sin(frame / 14) * 3}deg) scale(${enter})`, filter: 'drop-shadow(0 16px 30px rgba(0,0,0,0.5))'}} />
+    <div style={{position: 'absolute', left: 760, top: 0, ...big(110, '#fff', {padding: 0}), opacity: 0.5 + 0.5 * Math.sin(frame / 6), transform: `translateY(${-((frame * 3) % 60)}px)`}}>Zzz</div>
+  </div>;
+};
+
 const Caption: React.FC<{t: number; frame: number; fps: number; accent: string}> = ({t, frame, fps, accent}) => {
   let idx = WORDS.findIndex((w) => t >= w.start && t < w.end);
   if (idx === -1) { for (let i = 0; i < WORDS.length; i++) if (WORDS[i].start <= t) idx = i; }
   if (idx === -1) return null;
   const from = Math.max(0, idx - 1); const slice = WORDS.slice(from, Math.min(WORDS.length, idx + 2));
-  return <div style={{position: 'absolute', bottom: 150, left: 20, right: 20, display: 'flex', justifyContent: 'center', columnGap: 30, flexWrap: 'wrap', zIndex: 8}}>
+  return <div style={{position: 'absolute', bottom: 130, left: 20, right: 20, display: 'flex', justifyContent: 'center', columnGap: 30, flexWrap: 'wrap', zIndex: 8}}>
     {slice.map((w, i) => {
       const active = from + i === idx;
       const pop = active ? spring({frame: frame - Math.round(w.start * fps), fps, config: {damping: 10}, durationInFrames: 10}) : 1;
@@ -50,36 +65,15 @@ const Caption: React.FC<{t: number; frame: number; fps: number; accent: string}>
 
 const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; fps: number}> = ({beat, localT, dur, frame, fps}) => {
   const enter = 0.55 + 0.45 * spring({frame, fps, config: {damping: 9, stiffness: 130}, durationInFrames: 16});
-  const slow = 1 + 0.065 * Math.min(1, localT / dur);
+  const slow = 1 + 0.064 * Math.min(1, localT / dur);
   const sc = enter * slow;
   if (beat.kind === 'num') {
     const p = Easing.out(Easing.cubic)(Math.min(1, localT / Math.max(0.5, dur * 0.7)));
     const v = Math.round(beat.from + (beat.to - beat.from) * p);
     return <div style={{width: 1010, display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.68)', padding: '50px 0', boxShadow: `0 0 100px ${beat.accent}99`}}>
-      <div style={big(beat.label.length > 18 ? 84 : beat.label.length > 12 ? 100 : 140, '#fff')}>{beat.label}</div>
-      <div style={big(Math.min(460, Math.floor(930 / (0.6 * Math.max(2.5, fmtYear(beat.to).length + beat.sub.length)))), beat.accent, {textShadow: `0 0 80px ${beat.accent}, 0 16px 0 ${OUT}`, padding: 0, whiteSpace: 'nowrap'})}>{fmtYear(v)}{beat.sub}</div>
+      <div style={big(beat.label.length > 12 ? 110 : 140, '#fff')}>{beat.label}</div>
+      <div style={big(beat.to > 999 ? 400 : 440, beat.accent, {textShadow: `0 0 80px ${beat.accent}, 0 16px 0 ${OUT}`, padding: 0, whiteSpace: 'nowrap'})}>{fmtYear(v)}{beat.sub}</div>
       <div style={{fontSize: 260, lineHeight: 1.1, transform: `translateY(${Math.sin(frame / 7) * 14}px) rotate(${Math.sin(frame / 11) * 6}deg)`}}>{beat.icon}</div>
-    </div>;
-  }
-  if (beat.kind === 'bench') {
-    const freed = beat.from === 1;
-    const jump = freed ? Math.abs(Math.sin(frame / 6)) * 150 : Math.sin(frame / 14) * 10;
-    const pose = freed ? 'montre' : 'reflechit';
-    return <div style={{width: 1040, display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`}}>
-      <div style={big(beat.label.length > 12 ? 130 : 190, beat.accent, {marginBottom: 20})}>{beat.label}</div>
-      <div style={{position: 'relative', width: 1000, height: 800}}>
-        {Array.from({length: 8}).map((_, i) => <div key={i} style={{position: 'absolute', left: (i * 131) % 950, top: ((frame * (5 + i % 4) + i * 170) % 900) - 100, fontSize: 90 + (i % 3) * 20, transform: `rotate(${frame * 3 + i * 40}deg)`}}>{freed ? '🎉' : '🍂'}</div>)}
-        <Img src={staticFile(`mascotte_${pose}_transparent.png`)} style={{position: 'absolute', left: 250, top: 40 - jump, width: 520, filter: 'drop-shadow(0 16px 30px rgba(0,0,0,0.5))', transform: `rotate(${Math.sin(frame / 9) * 4}deg)`}} />
-        <svg viewBox="0 0 1000 400" style={{position: 'absolute', left: 0, top: 440, width: 1000, height: 400}}>
-          <g stroke={OUT} strokeWidth="14" strokeLinejoin="round">
-            <rect x="90" y="30" width="820" height="70" rx="22" fill="#C97B3A" />
-            <rect x="90" y="120" width="820" height="70" rx="22" fill="#E39A52" />
-            <rect x="60" y="215" width="880" height="80" rx="24" fill="#FFB35E" />
-            <rect x="130" y="290" width="70" height="100" rx="14" fill="#6B4A8F" />
-            <rect x="800" y="290" width="70" height="100" rx="14" fill="#6B4A8F" />
-          </g>
-        </svg>
-      </div>
     </div>;
   }
   if (beat.kind === 'counter') {
@@ -93,23 +87,6 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
         <div style={{width: `${p * 100}%`, height: '100%', background: beat.accent}} />
       </div>
       <div style={big(beat.label.length > 12 ? 84 : 110, beat.accent, {marginTop: 36})}>{beat.label}</div>
-    </div>;
-  }
-  if (beat.kind === 'chart') {
-    const p = Easing.out(Easing.cubic)(Math.min(1, localT / Math.max(0.5, dur * 0.7)));
-    const bars = [{v: beat.from, c: '#5ECBFF', l: 'JOUR J'}, {v: beat.to, c: '#FFD628', l: 'WEEK-END'}];
-    return <div style={{width: 1010, height: 1000, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '30px 0', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
-      <div style={big(110, '#fff')}>{beat.label}</div>
-      <div style={{display: 'flex', alignItems: 'flex-end', columnGap: 70, height: 680, marginTop: 10}}>
-        {bars.map((b, i) => {
-          const h = 560 * (b.v / beat.to) * p;
-          return <div key={i} style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: 380}}>
-            <div style={big(78, '#fff', {padding: 0, whiteSpace: 'nowrap'})}>{fmtYear(Math.round(b.v * p))}</div>
-            <div style={{width: 340, height: h, borderRadius: '30px 30px 0 0', background: b.c, border: `8px solid ${OUT}`, boxShadow: `0 0 50px ${b.c}`}} />
-          </div>;
-        })}
-      </div>
-      <div style={{display: 'flex', columnGap: 70}}>{bars.map((b, i) => <div key={i} style={{...big(76, b.c, {padding: 0}), width: 380}}>{b.l}</div>)}</div>
     </div>;
   }
   if (beat.kind === 'cta') {
@@ -145,7 +122,7 @@ export const Video: React.FC = () => {
       <AbsoluteFill style={{background: `linear-gradient(180deg, ${OUT}00 25%, ${OUT}99 100%)`}} />
       <Cubes frame={frame} accent={beat.accent} />
       <Audio src={staticFile('voix.mp3')} />
-      <Audio src={staticFile('musique_brut.mp3')} volume={(f) => 0.065 * Math.min(1, f / 30) * Math.min(1, (Math.ceil(TOTAL * 30) - f) / 45)} />
+      <Audio src={staticFile('musique_brut.mp3')} volume={(f) => MUSVOL * Math.min(1, f / 30) * Math.min(1, (Math.ceil(TOTAL * 30) - f) / 45)} />
       {BEATS.map((b, i) => {
         const s = SFX[i % SFX.length];
         return <Sequence key={`w${i}`} from={Math.round(b.start * fps)} durationInFrames={24}>
@@ -153,10 +130,11 @@ export const Video: React.FC = () => {
         </Sequence>;
       })}
       <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', paddingBottom: 140}}>
-        <Stage beat={beat} localT={localT} dur={dur} frame={bf} fps={fps} />
+        <div style={{transform: beat.mascot === 'banc' ? 'translateY(-330px)' : undefined}}><Stage beat={beat} localT={localT} dur={dur} frame={bf} fps={fps} /></div>
       </AbsoluteFill>
-      {beat.mascot && <Mascot pose={beat.mascot} corner={idx !== 0 && beat.kind !== 'cta'} frame={bf} fps={fps} />}
-      <div style={{position: 'absolute', bottom: 38, left: 30, right: 30, zIndex: 9, ...big(46, '#fff', {fontWeight: 600, padding: 0, ...stroke(7), textShadow: 'none'})}}>{DISC}</div>
+      {beat.mascot === 'banc' && <Bench frame={bf} fps={fps} />}
+      {beat.mascot && beat.mascot !== 'banc' && <Mascot pose={beat.mascot} corner={idx !== 0 && beat.kind !== 'cta'} frame={bf} fps={fps} />}
+      <div style={{position: 'absolute', top: 24, left: 0, right: 0, textAlign: 'center', zIndex: 9, fontFamily, fontWeight: 600, fontSize: 40, color: '#fff', ...stroke(6), textShadow: 'none'}}>Animation non officielle · non affiliée à Rockstar</div>
       <Caption t={t} frame={frame} fps={fps} accent={beat.accent} />
       {isLast && <AbsoluteFill style={{background: '#fff', opacity: interpolate(localT, [0, 0.15, 0.4], [0.5, 0.3, 0], {extrapolateRight: 'clamp'}), pointerEvents: 'none'}} />}
     </AbsoluteFill>
