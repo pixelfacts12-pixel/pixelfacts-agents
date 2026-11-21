@@ -85,7 +85,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   if (beat.kind === 'counter') {
     const dec = beat.dec ?? 0; const v = (beat.to ?? 0) * p;
     const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : fmt(Math.round(v));
-    const size = txt.length > 9 ? 150 : txt.length > 7 ? 190 : txt.length > 4 ? 250 : 300;
+    const size = (beat.to ?? 0) > 1000000 ? 190 : 300;
     return <div style={{width: 1000, height: 820, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
       <div style={big(size, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{beat.prefix ?? ''}{txt}{beat.suffix ?? ''}</div>
@@ -106,7 +106,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`}}>
     <div style={{fontSize: 420, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
     {beat.sub && <div style={big(100, '#fff', {marginTop: 10})}>{beat.sub}</div>}
-    <div style={big(L > 17 ? 118 : L > 12 ? 140 : 170, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
+    <div style={big(L > 17 ? 118 : L > 12 ? 104 : L > 10 ? 130 : 170, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
   </div>;
 };
 
@@ -143,5 +143,5 @@ export const Video: React.FC = () => {
     </AbsoluteFill>
   );
 };
-const MUSVOL = 0.1;
-const TOTAL_S = 32.2;
+const MUSVOL = 0.063;
+const TOTAL_S = 42.25;

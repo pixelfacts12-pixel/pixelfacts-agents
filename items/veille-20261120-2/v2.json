@@ -1,0 +1,734 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.56,
+  "texte": "Savais-tu qu'une marque de trottinettes est devenue un jeu Roblox, créé par des fans ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.56
+   },
+   {
+    "mot": "qu",
+    "debut": 0.56,
+    "fin": 0.68
+   },
+   {
+    "mot": "'une",
+    "debut": 0.68,
+    "fin": 0.76
+   },
+   {
+    "mot": "marque",
+    "debut": 0.76,
+    "fin": 0.9
+   },
+   {
+    "mot": "de",
+    "debut": 0.9,
+    "fin": 1.04
+   },
+   {
+    "mot": "trottinettes",
+    "debut": 1.04,
+    "fin": 1.42
+   },
+   {
+    "mot": "est",
+    "debut": 1.42,
+    "fin": 1.56
+   },
+   {
+    "mot": "devenue",
+    "debut": 1.56,
+    "fin": 1.78
+   },
+   {
+    "mot": "un",
+    "debut": 1.78,
+    "fin": 1.94
+   },
+   {
+    "mot": "jeu",
+    "debut": 1.94,
+    "fin": 2.06
+   },
+   {
+    "mot": "Roblox,",
+    "debut": 2.06,
+    "fin": 2.44
+   },
+   {
+    "mot": "créé",
+    "debut": 2.72,
+    "fin": 2.94
+   },
+   {
+    "mot": "par",
+    "debut": 2.94,
+    "fin": 3.08
+   },
+   {
+    "mot": "des",
+    "debut": 3.08,
+    "fin": 3.24
+   },
+   {
+    "mot": "fans",
+    "debut": 3.24,
+    "fin": 3.42
+   },
+   {
+    "mot": "?",
+    "debut": 3.42,
+    "fin": 4.56
+   }
+  ]
+ },
+ {
+  "debut": 4.56,
+  "fin": 8.44,
+  "texte": "La marque s'appelle Kukirin, et le jeu, Kukirin Life, n'a aucun lien avec elle.",
+  "mots": [
+   {
+    "mot": "La",
+    "debut": 4.56,
+    "fin": 4.74
+   },
+   {
+    "mot": "marque",
+    "debut": 4.74,
+    "fin": 4.9
+   },
+   {
+    "mot": "s",
+    "debut": 4.9,
+    "fin": 5.06
+   },
+   {
+    "mot": "'appelle",
+    "debut": 5.06,
+    "fin": 5.2
+   },
+   {
+    "mot": "Kukirin,",
+    "debut": 5.2,
+    "fin": 5.66
+   },
+   {
+    "mot": "et",
+    "debut": 5.92,
+    "fin": 6.04
+   },
+   {
+    "mot": "le",
+    "debut": 6.04,
+    "fin": 6.14
+   },
+   {
+    "mot": "jeu,",
+    "debut": 6.14,
+    "fin": 6.32
+   },
+   {
+    "mot": "Kukirin",
+    "debut": 6.64,
+    "fin": 7.0
+   },
+   {
+    "mot": "Life,",
+    "debut": 7.0,
+    "fin": 7.14
+   },
+   {
+    "mot": "n",
+    "debut": 7.52,
+    "fin": 7.66
+   },
+   {
+    "mot": "'a",
+    "debut": 7.66,
+    "fin": 7.66
+   },
+   {
+    "mot": "aucun",
+    "debut": 7.66,
+    "fin": 7.86
+   },
+   {
+    "mot": "lien",
+    "debut": 7.86,
+    "fin": 8.04
+   },
+   {
+    "mot": "avec",
+    "debut": 8.04,
+    "fin": 8.22
+   },
+   {
+    "mot": "elle.",
+    "debut": 8.22,
+    "fin": 8.44
+   }
+  ]
+ },
+ {
+  "debut": 9.56,
+  "fin": 12.9,
+  "texte": "Il est sorti en septembre 2026, et il est encore en phase de test.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 9.56,
+    "fin": 9.7
+   },
+   {
+    "mot": "est",
+    "debut": 9.7,
+    "fin": 9.82
+   },
+   {
+    "mot": "sorti",
+    "debut": 9.82,
+    "fin": 10.1
+   },
+   {
+    "mot": "en",
+    "debut": 10.1,
+    "fin": 10.2
+   },
+   {
+    "mot": "septembre",
+    "debut": 10.2,
+    "fin": 10.64
+   },
+   {
+    "mot": "2026,",
+    "debut": 10.64,
+    "fin": 11.32
+   },
+   {
+    "mot": "et",
+    "debut": 11.64,
+    "fin": 11.8
+   },
+   {
+    "mot": "il",
+    "debut": 11.8,
+    "fin": 11.88
+   },
+   {
+    "mot": "est",
+    "debut": 11.88,
+    "fin": 11.98
+   },
+   {
+    "mot": "encore",
+    "debut": 11.98,
+    "fin": 12.16
+   },
+   {
+    "mot": "en",
+    "debut": 12.16,
+    "fin": 12.34
+   },
+   {
+    "mot": "phase",
+    "debut": 12.34,
+    "fin": 12.5
+   },
+   {
+    "mot": "de",
+    "debut": 12.5,
+    "fin": 12.66
+   },
+   {
+    "mot": "test.",
+    "debut": 12.66,
+    "fin": 12.9
+   }
+  ]
+ },
+ {
+  "debut": 14.059999999999999,
+  "fin": 16.6,
+  "texte": "Pourtant, il dépasse déjà 105 millions de visites.",
+  "mots": [
+   {
+    "mot": "Pourtant,",
+    "debut": 14.059999999999999,
+    "fin": 14.42
+   },
+   {
+    "mot": "il",
+    "debut": 14.72,
+    "fin": 14.84
+   },
+   {
+    "mot": "dépasse",
+    "debut": 14.84,
+    "fin": 15.16
+   },
+   {
+    "mot": "déjà",
+    "debut": 15.16,
+    "fin": 15.4
+   },
+   {
+    "mot": "105",
+    "debut": 15.4,
+    "fin": 15.74
+   },
+   {
+    "mot": "millions",
+    "debut": 15.74,
+    "fin": 16.06
+   },
+   {
+    "mot": "de",
+    "debut": 16.06,
+    "fin": 16.22
+   },
+   {
+    "mot": "visites.",
+    "debut": 16.22,
+    "fin": 16.6
+   }
+  ]
+ },
+ {
+  "debut": 17.7,
+  "fin": 19.44,
+  "texte": "Et plus de 11 000 joueurs roulent en même temps.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 17.7,
+    "fin": 17.88
+   },
+   {
+    "mot": "plus",
+    "debut": 17.88,
+    "fin": 18.04
+   },
+   {
+    "mot": "de",
+    "debut": 18.04,
+    "fin": 18.22
+   },
+   {
+    "mot": "11",
+    "debut": 18.22,
+    "fin": 18.4
+   },
+   {
+    "mot": "000",
+    "debut": 18.4,
+    "fin": 18.52
+   },
+   {
+    "mot": "joueurs",
+    "debut": 18.52,
+    "fin": 18.82
+   },
+   {
+    "mot": "roulent",
+    "debut": 18.82,
+    "fin": 18.96
+   },
+   {
+    "mot": "en",
+    "debut": 18.96,
+    "fin": 19.08
+   },
+   {
+    "mot": "même",
+    "debut": 19.08,
+    "fin": 19.22
+   },
+   {
+    "mot": "temps.",
+    "debut": 19.22,
+    "fin": 19.44
+   }
+  ]
+ },
+ {
+  "debut": 20.36,
+  "fin": 24.12,
+  "texte": "Au programme, une grande carte, des courses, et des trottinettes à personnaliser.",
+  "mots": [
+   {
+    "mot": "Au",
+    "debut": 20.36,
+    "fin": 20.66
+   },
+   {
+    "mot": "programme,",
+    "debut": 20.66,
+    "fin": 20.96
+   },
+   {
+    "mot": "une",
+    "debut": 21.22,
+    "fin": 21.3
+   },
+   {
+    "mot": "grande",
+    "debut": 21.3,
+    "fin": 21.5
+   },
+   {
+    "mot": "carte,",
+    "debut": 21.5,
+    "fin": 21.78
+   },
+   {
+    "mot": "des",
+    "debut": 22.1,
+    "fin": 22.22
+   },
+   {
+    "mot": "courses,",
+    "debut": 22.22,
+    "fin": 22.44
+   },
+   {
+    "mot": "et",
+    "debut": 22.8,
+    "fin": 22.9
+   },
+   {
+    "mot": "des",
+    "debut": 22.9,
+    "fin": 23.0
+   },
+   {
+    "mot": "trottinettes",
+    "debut": 23.0,
+    "fin": 23.4
+   },
+   {
+    "mot": "à",
+    "debut": 23.4,
+    "fin": 23.54
+   },
+   {
+    "mot": "personnaliser.",
+    "debut": 23.54,
+    "fin": 24.12
+   }
+  ]
+ },
+ {
+  "debut": 24.939999999999998,
+  "fin": 29.1,
+  "texte": "Il figurait même dans le top 10 des nouveaux jeux Roblox qui montent le plus vite, début novembre.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 24.939999999999998,
+    "fin": 25.38
+   },
+   {
+    "mot": "figurait",
+    "debut": 25.38,
+    "fin": 25.76
+   },
+   {
+    "mot": "même",
+    "debut": 25.76,
+    "fin": 25.9
+   },
+   {
+    "mot": "dans",
+    "debut": 25.9,
+    "fin": 26.06
+   },
+   {
+    "mot": "le",
+    "debut": 26.06,
+    "fin": 26.16
+   },
+   {
+    "mot": "top",
+    "debut": 26.16,
+    "fin": 26.3
+   },
+   {
+    "mot": "10",
+    "debut": 26.3,
+    "fin": 26.52
+   },
+   {
+    "mot": "des",
+    "debut": 26.52,
+    "fin": 26.66
+   },
+   {
+    "mot": "nouveaux",
+    "debut": 26.66,
+    "fin": 26.82
+   },
+   {
+    "mot": "jeux",
+    "debut": 26.82,
+    "fin": 27.04
+   },
+   {
+    "mot": "Roblox",
+    "debut": 27.04,
+    "fin": 27.38
+   },
+   {
+    "mot": "qui",
+    "debut": 27.38,
+    "fin": 27.5
+   },
+   {
+    "mot": "montent",
+    "debut": 27.5,
+    "fin": 27.74
+   },
+   {
+    "mot": "le",
+    "debut": 27.74,
+    "fin": 27.82
+   },
+   {
+    "mot": "plus",
+    "debut": 27.82,
+    "fin": 27.98
+   },
+   {
+    "mot": "vite,",
+    "debut": 27.98,
+    "fin": 28.26
+   },
+   {
+    "mot": "début",
+    "debut": 28.52,
+    "fin": 28.68
+   },
+   {
+    "mot": "novembre.",
+    "debut": 28.68,
+    "fin": 29.1
+   }
+  ]
+ },
+ {
+  "debut": 30.14,
+  "fin": 33.32,
+  "texte": "Un jeu de fans, sans accord de la marque, qui rassemble des foules.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 30.14,
+    "fin": 30.42
+   },
+   {
+    "mot": "jeu",
+    "debut": 30.42,
+    "fin": 30.56
+   },
+   {
+    "mot": "de",
+    "debut": 30.56,
+    "fin": 30.66
+   },
+   {
+    "mot": "fans,",
+    "debut": 30.66,
+    "fin": 30.92
+   },
+   {
+    "mot": "sans",
+    "debut": 31.28,
+    "fin": 31.38
+   },
+   {
+    "mot": "accord",
+    "debut": 31.38,
+    "fin": 31.66
+   },
+   {
+    "mot": "de",
+    "debut": 31.66,
+    "fin": 31.78
+   },
+   {
+    "mot": "la",
+    "debut": 31.78,
+    "fin": 31.88
+   },
+   {
+    "mot": "marque,",
+    "debut": 31.88,
+    "fin": 32.08
+   },
+   {
+    "mot": "qui",
+    "debut": 32.42,
+    "fin": 32.5
+   },
+   {
+    "mot": "rassemble",
+    "debut": 32.5,
+    "fin": 32.8
+   },
+   {
+    "mot": "des",
+    "debut": 32.8,
+    "fin": 33.02
+   },
+   {
+    "mot": "foules.",
+    "debut": 33.02,
+    "fin": 33.32
+   }
+  ]
+ },
+ {
+  "debut": 34.42,
+  "fin": 36.62,
+  "texte": "Une marque réelle devient un jeu, sans l'avoir demandé.",
+  "mots": [
+   {
+    "mot": "Une",
+    "debut": 34.42,
+    "fin": 34.58
+   },
+   {
+    "mot": "marque",
+    "debut": 34.58,
+    "fin": 34.78
+   },
+   {
+    "mot": "réelle",
+    "debut": 34.78,
+    "fin": 35.06
+   },
+   {
+    "mot": "devient",
+    "debut": 35.06,
+    "fin": 35.28
+   },
+   {
+    "mot": "un",
+    "debut": 35.28,
+    "fin": 35.5
+   },
+   {
+    "mot": "jeu,",
+    "debut": 35.5,
+    "fin": 35.66
+   },
+   {
+    "mot": "sans",
+    "debut": 35.92,
+    "fin": 36.04
+   },
+   {
+    "mot": "l",
+    "debut": 36.04,
+    "fin": 36.14
+   },
+   {
+    "mot": "'avoir",
+    "debut": 36.14,
+    "fin": 36.22
+   },
+   {
+    "mot": "demandé.",
+    "debut": 36.22,
+    "fin": 36.62
+   }
+  ]
+ },
+ {
+  "debut": 37.4,
+  "fin": 38.96,
+  "texte": "Tu y jouerais ?",
+  "mots": [
+   {
+    "mot": "Tu",
+    "debut": 37.4,
+    "fin": 37.68
+   },
+   {
+    "mot": "y",
+    "debut": 37.68,
+    "fin": 37.78
+   },
+   {
+    "mot": "jouerais",
+    "debut": 37.78,
+    "fin": 38.04
+   },
+   {
+    "mot": "?",
+    "debut": 38.04,
+    "fin": 38.96
+   }
+  ]
+ },
+ {
+  "debut": 38.96,
+  "fin": 41.1,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 38.96,
+    "fin": 39.38
+   },
+   {
+    "mot": "-toi",
+    "debut": 39.38,
+    "fin": 39.58
+   },
+   {
+    "mot": "à",
+    "debut": 39.58,
+    "fin": 39.68
+   },
+   {
+    "mot": "Pixel",
+    "debut": 39.68,
+    "fin": 39.88
+   },
+   {
+    "mot": "Facts",
+    "debut": 39.88,
+    "fin": 40.28
+   },
+   {
+    "mot": "pour",
+    "debut": 40.28,
+    "fin": 40.48
+   },
+   {
+    "mot": "le",
+    "debut": 40.48,
+    "fin": 40.58
+   },
+   {
+    "mot": "prochain",
+    "debut": 40.58,
+    "fin": 40.82
+   },
+   {
+    "mot": "fait.",
+    "debut": 40.82,
+    "fin": 41.1
+   }
+  ]
+ }
+]
