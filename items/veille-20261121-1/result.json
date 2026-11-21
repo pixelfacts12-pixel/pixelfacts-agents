@@ -1,8 +1,6 @@
 {
- "status": "pret",
- "titre": "D'où vient vraiment le « oof » de Roblox ? 🔊",
- "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-1",
- "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-1/envoi.mp4",
- "telegram": "Enquête sur l'origine du « oof » Roblox : prête, 39 s, son synthétisé.",
- "resume": "Sujet : origine du « oof » (jeu Messiah 2000, litige Tallarico, retrait en juillet 2022, retour en 2025), format enquête, bruitage synthétisé, sans visage.\nVérifié : Wikipédia « Roblox oof » et presse (Kotaku, PC Gamer, Windows Central, GamesRadar) ; la page officielle du forum Roblox n'a pas pu être lue (page vide), donc date du 18/07/2025 et 100 Robux fin 2020 à revérifier si possible.\nChoix prudents : origine attribuée au fichier (Joey Kuras crédité), version de Roblox (CD d'effets) opposée à celle de Tallarico sans trancher ; voix dit « ouf » (le TTS lisait « O.F. ») ; sous-titres affichent « oof » ; aucun son original.\nÀ voir : Whisper transcrit « sans Robux » pour « 100 Robux » (erreur de transcription probable, à l'écoute) ; envoi.mp4 = 8,9 Mo ; mention IA à cocher ; musique -24 LUFS relatifs, voix -21,9 inchangée, true peak -6,4 dBTP."
+ "status": "programme",
+ "video": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-230237-veille-20261121-1.mp4",
+ "legende": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-1/legende.json",
+ "telegram": "📤 Titre choisi : Le « oof » de Roblox n'est pas né dans Roblox 🔊 #shorts"
 }
