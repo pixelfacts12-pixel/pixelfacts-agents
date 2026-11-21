@@ -1,0 +1,771 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.42,
+  "texte": "Savais-tu qu'un jeu a mis dix ans à sortir avant de battre tous les records ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "qu",
+    "debut": 0.54,
+    "fin": 0.68
+   },
+   {
+    "mot": "'un",
+    "debut": 0.68,
+    "fin": 0.74
+   },
+   {
+    "mot": "jeu",
+    "debut": 0.74,
+    "fin": 0.86
+   },
+   {
+    "mot": "a",
+    "debut": 0.86,
+    "fin": 1.0
+   },
+   {
+    "mot": "mis",
+    "debut": 1.0,
+    "fin": 1.08
+   },
+   {
+    "mot": "dix",
+    "debut": 1.08,
+    "fin": 1.22
+   },
+   {
+    "mot": "ans",
+    "debut": 1.22,
+    "fin": 1.32
+   },
+   {
+    "mot": "à",
+    "debut": 1.32,
+    "fin": 1.44
+   },
+   {
+    "mot": "sortir",
+    "debut": 1.44,
+    "fin": 1.74
+   },
+   {
+    "mot": "avant",
+    "debut": 1.74,
+    "fin": 2.3
+   },
+   {
+    "mot": "de",
+    "debut": 2.3,
+    "fin": 2.46
+   },
+   {
+    "mot": "battre",
+    "debut": 2.46,
+    "fin": 2.68
+   },
+   {
+    "mot": "tous",
+    "debut": 2.68,
+    "fin": 2.88
+   },
+   {
+    "mot": "les",
+    "debut": 2.88,
+    "fin": 2.98
+   },
+   {
+    "mot": "records",
+    "debut": 2.98,
+    "fin": 3.22
+   },
+   {
+    "mot": "?",
+    "debut": 3.22,
+    "fin": 4.42
+   }
+  ]
+ },
+ {
+  "debut": 4.42,
+  "fin": 10.28,
+  "texte": "Tout commence en 2016, Phantom Blade Zero est annoncé. Mais en 2018, le projet est mis en pause.",
+  "mots": [
+   {
+    "mot": "Tout",
+    "debut": 4.42,
+    "fin": 4.56
+   },
+   {
+    "mot": "commence",
+    "debut": 4.56,
+    "fin": 4.84
+   },
+   {
+    "mot": "en",
+    "debut": 4.84,
+    "fin": 4.98
+   },
+   {
+    "mot": "2016,",
+    "debut": 4.98,
+    "fin": 5.42
+   },
+   {
+    "mot": "Phantom",
+    "debut": 5.84,
+    "fin": 6.0
+   },
+   {
+    "mot": "Blade",
+    "debut": 6.0,
+    "fin": 6.3
+   },
+   {
+    "mot": "Zero",
+    "debut": 6.3,
+    "fin": 6.56
+   },
+   {
+    "mot": "est",
+    "debut": 6.56,
+    "fin": 6.74
+   },
+   {
+    "mot": "annoncé.",
+    "debut": 6.74,
+    "fin": 7.1
+   },
+   {
+    "mot": "Mais",
+    "debut": 7.84,
+    "fin": 8.2
+   },
+   {
+    "mot": "en",
+    "debut": 8.2,
+    "fin": 8.32
+   },
+   {
+    "mot": "2018,",
+    "debut": 8.32,
+    "fin": 8.78
+   },
+   {
+    "mot": "le",
+    "debut": 9.28,
+    "fin": 9.38
+   },
+   {
+    "mot": "projet",
+    "debut": 9.38,
+    "fin": 9.64
+   },
+   {
+    "mot": "est",
+    "debut": 9.64,
+    "fin": 9.8
+   },
+   {
+    "mot": "mis",
+    "debut": 9.8,
+    "fin": 9.88
+   },
+   {
+    "mot": "en",
+    "debut": 9.88,
+    "fin": 10.02
+   },
+   {
+    "mot": "pause.",
+    "debut": 10.02,
+    "fin": 10.28
+   }
+  ]
+ },
+ {
+  "debut": 11.42,
+  "fin": 15.58,
+  "texte": "En 2021, le studio chinois S Game le relance avec le soutien de Tencent.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 11.42,
+    "fin": 11.56
+   },
+   {
+    "mot": "2021,",
+    "debut": 11.56,
+    "fin": 11.98
+   },
+   {
+    "mot": "le",
+    "debut": 12.64,
+    "fin": 12.7
+   },
+   {
+    "mot": "studio",
+    "debut": 12.7,
+    "fin": 12.92
+   },
+   {
+    "mot": "chinois",
+    "debut": 12.92,
+    "fin": 13.26
+   },
+   {
+    "mot": "S",
+    "debut": 13.26,
+    "fin": 13.46
+   },
+   {
+    "mot": "Game",
+    "debut": 13.46,
+    "fin": 13.58
+   },
+   {
+    "mot": "le",
+    "debut": 13.58,
+    "fin": 13.78
+   },
+   {
+    "mot": "relance",
+    "debut": 13.78,
+    "fin": 14.16
+   },
+   {
+    "mot": "avec",
+    "debut": 14.16,
+    "fin": 14.64
+   },
+   {
+    "mot": "le",
+    "debut": 14.64,
+    "fin": 14.84
+   },
+   {
+    "mot": "soutien",
+    "debut": 14.84,
+    "fin": 15.12
+   },
+   {
+    "mot": "de",
+    "debut": 15.12,
+    "fin": 15.22
+   },
+   {
+    "mot": "Tencent.",
+    "debut": 15.22,
+    "fin": 15.58
+   }
+  ]
+ },
+ {
+  "debut": 16.56,
+  "fin": 20.48,
+  "texte": "En mai 2023, il se présente enfin au grand public chez PlayStation.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 16.56,
+    "fin": 17.02
+   },
+   {
+    "mot": "mai",
+    "debut": 17.02,
+    "fin": 17.12
+   },
+   {
+    "mot": "2023,",
+    "debut": 17.12,
+    "fin": 17.6
+   },
+   {
+    "mot": "il",
+    "debut": 18.1,
+    "fin": 18.2
+   },
+   {
+    "mot": "se",
+    "debut": 18.2,
+    "fin": 18.36
+   },
+   {
+    "mot": "présente",
+    "debut": 18.36,
+    "fin": 18.68
+   },
+   {
+    "mot": "enfin",
+    "debut": 18.68,
+    "fin": 18.96
+   },
+   {
+    "mot": "au",
+    "debut": 18.96,
+    "fin": 19.1
+   },
+   {
+    "mot": "grand",
+    "debut": 19.1,
+    "fin": 19.24
+   },
+   {
+    "mot": "public",
+    "debut": 19.24,
+    "fin": 19.6
+   },
+   {
+    "mot": "chez",
+    "debut": 19.6,
+    "fin": 20.08
+   },
+   {
+    "mot": "PlayStation.",
+    "debut": 20.08,
+    "fin": 20.48
+   }
+  ]
+ },
+ {
+  "debut": 21.84,
+  "fin": 23.92,
+  "texte": "Plus de 3 millions de joueurs le mettent en liste de souhait.",
+  "mots": [
+   {
+    "mot": "Plus",
+    "debut": 21.84,
+    "fin": 21.94
+   },
+   {
+    "mot": "de",
+    "debut": 21.94,
+    "fin": 22.06
+   },
+   {
+    "mot": "3",
+    "debut": 22.06,
+    "fin": 22.28
+   },
+   {
+    "mot": "millions",
+    "debut": 22.28,
+    "fin": 22.44
+   },
+   {
+    "mot": "de",
+    "debut": 22.44,
+    "fin": 22.64
+   },
+   {
+    "mot": "joueurs",
+    "debut": 22.64,
+    "fin": 22.9
+   },
+   {
+    "mot": "le",
+    "debut": 22.9,
+    "fin": 23.04
+   },
+   {
+    "mot": "mettent",
+    "debut": 23.04,
+    "fin": 23.2
+   },
+   {
+    "mot": "en",
+    "debut": 23.2,
+    "fin": 23.3
+   },
+   {
+    "mot": "liste",
+    "debut": 23.3,
+    "fin": 23.56
+   },
+   {
+    "mot": "de",
+    "debut": 23.56,
+    "fin": 23.68
+   },
+   {
+    "mot": "souhait.",
+    "debut": 23.68,
+    "fin": 23.92
+   }
+  ]
+ },
+ {
+  "debut": 24.92,
+  "fin": 27.54,
+  "texte": "La sortie est repoussée au 29 octobre 2026.",
+  "mots": [
+   {
+    "mot": "La",
+    "debut": 24.92,
+    "fin": 25.2
+   },
+   {
+    "mot": "sortie",
+    "debut": 25.2,
+    "fin": 25.44
+   },
+   {
+    "mot": "est",
+    "debut": 25.44,
+    "fin": 25.66
+   },
+   {
+    "mot": "repoussée",
+    "debut": 25.66,
+    "fin": 26.04
+   },
+   {
+    "mot": "au",
+    "debut": 26.04,
+    "fin": 26.16
+   },
+   {
+    "mot": "29",
+    "debut": 26.16,
+    "fin": 26.4
+   },
+   {
+    "mot": "octobre",
+    "debut": 26.4,
+    "fin": 26.92
+   },
+   {
+    "mot": "2026.",
+    "debut": 26.92,
+    "fin": 27.54
+   }
+  ]
+ },
+ {
+  "debut": 28.54,
+  "fin": 32.0,
+  "texte": "Le jour J, plus de 833 000 joueurs jouent en même temps sur Steam.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 28.54,
+    "fin": 28.98
+   },
+   {
+    "mot": "jour",
+    "debut": 28.98,
+    "fin": 29.16
+   },
+   {
+    "mot": "J,",
+    "debut": 29.16,
+    "fin": 29.38
+   },
+   {
+    "mot": "plus",
+    "debut": 29.72,
+    "fin": 29.84
+   },
+   {
+    "mot": "de",
+    "debut": 29.84,
+    "fin": 29.94
+   },
+   {
+    "mot": "833",
+    "debut": 29.94,
+    "fin": 30.4
+   },
+   {
+    "mot": "000",
+    "debut": 30.4,
+    "fin": 30.68
+   },
+   {
+    "mot": "joueurs",
+    "debut": 30.68,
+    "fin": 30.96
+   },
+   {
+    "mot": "jouent",
+    "debut": 30.96,
+    "fin": 31.14
+   },
+   {
+    "mot": "en",
+    "debut": 31.14,
+    "fin": 31.24
+   },
+   {
+    "mot": "même",
+    "debut": 31.24,
+    "fin": 31.4
+   },
+   {
+    "mot": "temps",
+    "debut": 31.4,
+    "fin": 31.58
+   },
+   {
+    "mot": "sur",
+    "debut": 31.58,
+    "fin": 31.74
+   },
+   {
+    "mot": "Steam.",
+    "debut": 31.74,
+    "fin": 32.0
+   }
+  ]
+ },
+ {
+  "debut": 32.98,
+  "fin": 35.46,
+  "texte": "Et 4 millions d'exemplaires vendus en 72 heures.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 32.98,
+    "fin": 33.36
+   },
+   {
+    "mot": "4",
+    "debut": 33.36,
+    "fin": 33.58
+   },
+   {
+    "mot": "millions",
+    "debut": 33.58,
+    "fin": 33.8
+   },
+   {
+    "mot": "d",
+    "debut": 33.8,
+    "fin": 33.96
+   },
+   {
+    "mot": "'exemplaires",
+    "debut": 33.96,
+    "fin": 34.36
+   },
+   {
+    "mot": "vendus",
+    "debut": 34.36,
+    "fin": 34.66
+   },
+   {
+    "mot": "en",
+    "debut": 34.66,
+    "fin": 34.76
+   },
+   {
+    "mot": "72",
+    "debut": 34.76,
+    "fin": 35.16
+   },
+   {
+    "mot": "heures.",
+    "debut": 35.16,
+    "fin": 35.46
+   }
+  ]
+ },
+ {
+  "debut": 36.56,
+  "fin": 39.12,
+  "texte": "Un studio venu de Chine, face au géant du jeu vidéo.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 36.56,
+    "fin": 36.76
+   },
+   {
+    "mot": "studio",
+    "debut": 36.76,
+    "fin": 37.0
+   },
+   {
+    "mot": "venu",
+    "debut": 37.0,
+    "fin": 37.32
+   },
+   {
+    "mot": "de",
+    "debut": 37.32,
+    "fin": 37.42
+   },
+   {
+    "mot": "Chine,",
+    "debut": 37.42,
+    "fin": 37.7
+   },
+   {
+    "mot": "face",
+    "debut": 38.0,
+    "fin": 38.14
+   },
+   {
+    "mot": "au",
+    "debut": 38.14,
+    "fin": 38.32
+   },
+   {
+    "mot": "géant",
+    "debut": 38.32,
+    "fin": 38.54
+   },
+   {
+    "mot": "du",
+    "debut": 38.54,
+    "fin": 38.66
+   },
+   {
+    "mot": "jeu",
+    "debut": 38.66,
+    "fin": 38.8
+   },
+   {
+    "mot": "vidéo.",
+    "debut": 38.8,
+    "fin": 39.12
+   }
+  ]
+ },
+ {
+  "debut": 40.08,
+  "fin": 41.34,
+  "texte": "Un vrai David contre Goliath.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 40.08,
+    "fin": 40.18
+   },
+   {
+    "mot": "vrai",
+    "debut": 40.18,
+    "fin": 40.34
+   },
+   {
+    "mot": "David",
+    "debut": 40.34,
+    "fin": 40.52
+   },
+   {
+    "mot": "contre",
+    "debut": 40.52,
+    "fin": 40.86
+   },
+   {
+    "mot": "Goliath.",
+    "debut": 40.86,
+    "fin": 41.34
+   }
+  ]
+ },
+ {
+  "debut": 42.2,
+  "fin": 44.42,
+  "texte": "Et toi, tu y as joué ?",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 42.2,
+    "fin": 42.64
+   },
+   {
+    "mot": "toi,",
+    "debut": 42.64,
+    "fin": 42.82
+   },
+   {
+    "mot": "tu",
+    "debut": 43.14,
+    "fin": 43.24
+   },
+   {
+    "mot": "y",
+    "debut": 43.24,
+    "fin": 43.34
+   },
+   {
+    "mot": "as",
+    "debut": 43.34,
+    "fin": 43.42
+   },
+   {
+    "mot": "joué",
+    "debut": 43.42,
+    "fin": 43.64
+   },
+   {
+    "mot": "?",
+    "debut": 43.64,
+    "fin": 44.42
+   }
+  ]
+ },
+ {
+  "debut": 44.42,
+  "fin": 46.48,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 44.42,
+    "fin": 44.78
+   },
+   {
+    "mot": "-toi",
+    "debut": 44.78,
+    "fin": 44.96
+   },
+   {
+    "mot": "à",
+    "debut": 44.96,
+    "fin": 45.08
+   },
+   {
+    "mot": "Pixel",
+    "debut": 45.08,
+    "fin": 45.3
+   },
+   {
+    "mot": "Facts",
+    "debut": 45.3,
+    "fin": 45.7
+   },
+   {
+    "mot": "pour",
+    "debut": 45.7,
+    "fin": 45.88
+   },
+   {
+    "mot": "le",
+    "debut": 45.88,
+    "fin": 45.98
+   },
+   {
+    "mot": "prochain",
+    "debut": 45.98,
+    "fin": 46.22
+   },
+   {
+    "mot": "fait.",
+    "debut": 46.22,
+    "fin": 46.48
+   }
+  ]
+ }
+]
