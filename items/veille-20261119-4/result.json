@@ -1,8 +1,1 @@
-{
- "status": "pret",
- "titre": "Steal a Brainrot : 25 millions puis 73 000 📉",
- "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261119-4",
- "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261119-4/envoi.mp4",
- "telegram": "Steal a Brainrot : de 25 millions de joueurs à 73 000, la courbe animée.",
- "resume": "Sujet : courbe de Steal a Brainrot (record >25 M simultanés en oct. 2025, ~73 000 aujourd'hui, -99,7 %, 74 milliards de visites), ton phénomène factuel, sans image du jeu.\nVérifié : joueurs/visites/date de création sur l'API publique Roblox le 21/11/2026 ; record 25,4 M du 7/10/2025 et ancien record Grow a Garden (~22 M) sur PocketGamer.biz ; la page Short n'a livré que son titre (vues/durée non visibles).\nChoix prudents : « plus de 25 millions » (sources 25,4 M vs 25,87 M Guinness), « environ 73 000 » (chiffre mouvant), -99,7 % calculé sur 25,4 M ; musique 24 dB sous la voix (mix -21,8 LUFS, crête -6 dBTP). Pas de contenu enfant spécifique.\nÀ voir : la voix TTS prononce mal « Steal a Brainrot » et « Grow a Garden » (Whisper entend « Stila Brunro », « Gros à Garden ») ; sous-titres corrects à l'écran. Écouter avant publication."
-}
+{"status":"programme","video":"https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-161600-veille-20261119-4.mp4","legende":"/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261119-4/legende.json","telegram":"📤 Titre choisi : 25 millions de joueurs… puis 69 000 📉 #shorts"}
