@@ -1,0 +1,612 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 3.14,
+  "texte": "Imagine, Pixel fait un vœu et le voit la PNG dans un jeu.",
+  "mots": [
+   {
+    "mot": "Imagine,",
+    "debut": 0.0,
+    "fin": 0.52
+   },
+   {
+    "mot": "Pixel",
+    "debut": 0.86,
+    "fin": 1.08
+   },
+   {
+    "mot": "fait",
+    "debut": 1.08,
+    "fin": 1.34
+   },
+   {
+    "mot": "un",
+    "debut": 1.34,
+    "fin": 1.5
+   },
+   {
+    "mot": "vœu",
+    "debut": 1.5,
+    "fin": 1.66
+   },
+   {
+    "mot": "et",
+    "debut": 1.66,
+    "fin": 2.0
+   },
+   {
+    "mot": "le",
+    "debut": 2.0,
+    "fin": 2.1
+   },
+   {
+    "mot": "voit",
+    "debut": 2.1,
+    "fin": 2.2
+   },
+   {
+    "mot": "la",
+    "debut": 2.2,
+    "fin": 2.34
+   },
+   {
+    "mot": "PNG",
+    "debut": 2.34,
+    "fin": 2.58
+   },
+   {
+    "mot": "dans",
+    "debut": 2.58,
+    "fin": 2.8
+   },
+   {
+    "mot": "un",
+    "debut": 2.8,
+    "fin": 2.98
+   },
+   {
+    "mot": "jeu.",
+    "debut": 2.98,
+    "fin": 3.14
+   }
+  ]
+ },
+ {
+  "debut": 4.099999999999998,
+  "fin": 6.32,
+  "texte": "PNG, ça veut dire personnage non-joueur.",
+  "mots": [
+   {
+    "mot": "PNG,",
+    "debut": 4.099999999999998,
+    "fin": 4.58
+   },
+   {
+    "mot": "ça",
+    "debut": 4.88,
+    "fin": 5.08
+   },
+   {
+    "mot": "veut",
+    "debut": 5.08,
+    "fin": 5.2
+   },
+   {
+    "mot": "dire",
+    "debut": 5.2,
+    "fin": 5.38
+   },
+   {
+    "mot": "personnage",
+    "debut": 5.38,
+    "fin": 5.72
+   },
+   {
+    "mot": "non",
+    "debut": 5.72,
+    "fin": 5.96
+   },
+   {
+    "mot": "-joueur.",
+    "debut": 5.96,
+    "fin": 6.32
+   }
+  ]
+ },
+ {
+  "debut": 7.3,
+  "fin": 9.9,
+  "texte": "Problème numéro 1, répétez la même phrase toute la journée.",
+  "mots": [
+   {
+    "mot": "Problème",
+    "debut": 7.3,
+    "fin": 7.78
+   },
+   {
+    "mot": "numéro",
+    "debut": 7.78,
+    "fin": 7.96
+   },
+   {
+    "mot": "1,",
+    "debut": 7.96,
+    "fin": 8.24
+   },
+   {
+    "mot": "répétez",
+    "debut": 8.48,
+    "fin": 8.78
+   },
+   {
+    "mot": "la",
+    "debut": 8.78,
+    "fin": 8.9
+   },
+   {
+    "mot": "même",
+    "debut": 8.9,
+    "fin": 9.06
+   },
+   {
+    "mot": "phrase",
+    "debut": 9.06,
+    "fin": 9.3
+   },
+   {
+    "mot": "toute",
+    "debut": 9.3,
+    "fin": 9.5
+   },
+   {
+    "mot": "la",
+    "debut": 9.5,
+    "fin": 9.68
+   },
+   {
+    "mot": "journée.",
+    "debut": 9.68,
+    "fin": 9.9
+   }
+  ]
+ },
+ {
+  "debut": 11.299999999999995,
+  "fin": 12.26,
+  "texte": "Bienvenue, voyageur.",
+  "mots": [
+   {
+    "mot": "Bienvenue,",
+    "debut": 11.299999999999995,
+    "fin": 11.779999999999998
+   },
+   {
+    "mot": "voyageur.",
+    "debut": 11.779999999999998,
+    "fin": 12.26
+   }
+  ]
+ },
+ {
+  "debut": 13.1,
+  "fin": 14.02,
+  "texte": "Pour la 2000e fois.",
+  "mots": [
+   {
+    "mot": "Pour",
+    "debut": 13.1,
+    "fin": 13.28
+   },
+   {
+    "mot": "la",
+    "debut": 13.28,
+    "fin": 13.4
+   },
+   {
+    "mot": "2000e",
+    "debut": 13.4,
+    "fin": 13.78
+   },
+   {
+    "mot": "fois.",
+    "debut": 13.78,
+    "fin": 14.02
+   }
+  ]
+ },
+ {
+  "debut": 15.04,
+  "fin": 17.64,
+  "texte": "Problème numéro 2, marchez en rond autour du même arbre.",
+  "mots": [
+   {
+    "mot": "Problème",
+    "debut": 15.04,
+    "fin": 15.52
+   },
+   {
+    "mot": "numéro",
+    "debut": 15.52,
+    "fin": 15.72
+   },
+   {
+    "mot": "2,",
+    "debut": 15.72,
+    "fin": 16.08
+   },
+   {
+    "mot": "marchez",
+    "debut": 16.36,
+    "fin": 16.6
+   },
+   {
+    "mot": "en",
+    "debut": 16.6,
+    "fin": 16.74
+   },
+   {
+    "mot": "rond",
+    "debut": 16.74,
+    "fin": 16.84
+   },
+   {
+    "mot": "autour",
+    "debut": 16.84,
+    "fin": 17.08
+   },
+   {
+    "mot": "du",
+    "debut": 17.08,
+    "fin": 17.26
+   },
+   {
+    "mot": "même",
+    "debut": 17.26,
+    "fin": 17.36
+   },
+   {
+    "mot": "arbre.",
+    "debut": 17.36,
+    "fin": 17.64
+   }
+  ]
+ },
+ {
+  "debut": 18.6,
+  "fin": 20.36,
+  "texte": "Problème numéro 3, ça quête.",
+  "mots": [
+   {
+    "mot": "Problème",
+    "debut": 18.6,
+    "fin": 19.08
+   },
+   {
+    "mot": "numéro",
+    "debut": 19.08,
+    "fin": 19.3
+   },
+   {
+    "mot": "3,",
+    "debut": 19.3,
+    "fin": 19.7
+   },
+   {
+    "mot": "ça",
+    "debut": 19.98,
+    "fin": 20.06
+   },
+   {
+    "mot": "quête.",
+    "debut": 20.06,
+    "fin": 20.36
+   }
+  ]
+ },
+ {
+  "debut": 21.3,
+  "fin": 22.5,
+  "texte": "Retrouvez trois poules perdues.",
+  "mots": [
+   {
+    "mot": "Retrouvez",
+    "debut": 21.3,
+    "fin": 21.78
+   },
+   {
+    "mot": "trois",
+    "debut": 21.78,
+    "fin": 21.96
+   },
+   {
+    "mot": "poules",
+    "debut": 21.96,
+    "fin": 22.16
+   },
+   {
+    "mot": "perdues.",
+    "debut": 22.16,
+    "fin": 22.5
+   }
+  ]
+ },
+ {
+  "debut": 23.48,
+  "fin": 25.48,
+  "texte": "Ils les trouvent enfin et la quête recommence.",
+  "mots": [
+   {
+    "mot": "Ils",
+    "debut": 23.48,
+    "fin": 23.74
+   },
+   {
+    "mot": "les",
+    "debut": 23.74,
+    "fin": 23.84
+   },
+   {
+    "mot": "trouvent",
+    "debut": 23.84,
+    "fin": 24.08
+   },
+   {
+    "mot": "enfin",
+    "debut": 24.08,
+    "fin": 24.36
+   },
+   {
+    "mot": "et",
+    "debut": 24.36,
+    "fin": 24.64
+   },
+   {
+    "mot": "la",
+    "debut": 24.64,
+    "fin": 24.76
+   },
+   {
+    "mot": "quête",
+    "debut": 24.76,
+    "fin": 24.9
+   },
+   {
+    "mot": "recommence.",
+    "debut": 24.9,
+    "fin": 25.48
+   }
+  ]
+ },
+ {
+  "debut": 26.3,
+  "fin": 29.14,
+  "texte": "Alors Pixel refait un vœu, redevenir un cube jaune.",
+  "mots": [
+   {
+    "mot": "Alors",
+    "debut": 26.3,
+    "fin": 26.82
+   },
+   {
+    "mot": "Pixel",
+    "debut": 26.82,
+    "fin": 27.16
+   },
+   {
+    "mot": "refait",
+    "debut": 27.16,
+    "fin": 27.58
+   },
+   {
+    "mot": "un",
+    "debut": 27.58,
+    "fin": 27.72
+   },
+   {
+    "mot": "vœu,",
+    "debut": 27.72,
+    "fin": 27.92
+   },
+   {
+    "mot": "redevenir",
+    "debut": 28.1,
+    "fin": 28.48
+   },
+   {
+    "mot": "un",
+    "debut": 28.48,
+    "fin": 28.68
+   },
+   {
+    "mot": "cube",
+    "debut": 28.68,
+    "fin": 28.8
+   },
+   {
+    "mot": "jaune.",
+    "debut": 28.8,
+    "fin": 29.14
+   }
+  ]
+ },
+ {
+  "debut": 29.9,
+  "fin": 30.56,
+  "texte": "Et ça marche.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 29.9,
+    "fin": 30.14
+   },
+   {
+    "mot": "ça",
+    "debut": 30.14,
+    "fin": 30.28
+   },
+   {
+    "mot": "marche.",
+    "debut": 30.28,
+    "fin": 30.56
+   }
+  ]
+ },
+ {
+  "debut": 31.820000000000004,
+  "fin": 34.02,
+  "texte": "Moralité, un PNG, ça travaille dur.",
+  "mots": [
+   {
+    "mot": "Moralité,",
+    "debut": 31.820000000000004,
+    "fin": 32.34
+   },
+   {
+    "mot": "un",
+    "debut": 32.62,
+    "fin": 32.7
+   },
+   {
+    "mot": "PNG,",
+    "debut": 32.7,
+    "fin": 33.0
+   },
+   {
+    "mot": "ça",
+    "debut": 33.42,
+    "fin": 33.52
+   },
+   {
+    "mot": "travaille",
+    "debut": 33.52,
+    "fin": 33.76
+   },
+   {
+    "mot": "dur.",
+    "debut": 33.76,
+    "fin": 34.02
+   }
+  ]
+ },
+ {
+  "debut": 34.92,
+  "fin": 35.6,
+  "texte": "Dis-lui merci.",
+  "mots": [
+   {
+    "mot": "Dis",
+    "debut": 34.92,
+    "fin": 35.18
+   },
+   {
+    "mot": "-lui",
+    "debut": 35.18,
+    "fin": 35.34
+   },
+   {
+    "mot": "merci.",
+    "debut": 35.34,
+    "fin": 35.6
+   }
+  ]
+ },
+ {
+  "debut": 36.68,
+  "fin": 39.02,
+  "texte": "Histoire inventée, sans lien avec un jeu officiel.",
+  "mots": [
+   {
+    "mot": "Histoire",
+    "debut": 36.68,
+    "fin": 37.14
+   },
+   {
+    "mot": "inventée,",
+    "debut": 37.14,
+    "fin": 37.54
+   },
+   {
+    "mot": "sans",
+    "debut": 37.84,
+    "fin": 37.94
+   },
+   {
+    "mot": "lien",
+    "debut": 37.94,
+    "fin": 38.12
+   },
+   {
+    "mot": "avec",
+    "debut": 38.12,
+    "fin": 38.28
+   },
+   {
+    "mot": "un",
+    "debut": 38.28,
+    "fin": 38.44
+   },
+   {
+    "mot": "jeu",
+    "debut": 38.44,
+    "fin": 38.58
+   },
+   {
+    "mot": "officiel.",
+    "debut": 38.58,
+    "fin": 39.02
+   }
+  ]
+ },
+ {
+  "debut": 40.06,
+  "fin": 42.14,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 40.06,
+    "fin": 40.42
+   },
+   {
+    "mot": "-toi",
+    "debut": 40.42,
+    "fin": 40.6
+   },
+   {
+    "mot": "à",
+    "debut": 40.6,
+    "fin": 40.72
+   },
+   {
+    "mot": "Pixel",
+    "debut": 40.72,
+    "fin": 40.92
+   },
+   {
+    "mot": "Facts",
+    "debut": 40.92,
+    "fin": 41.32
+   },
+   {
+    "mot": "pour",
+    "debut": 41.32,
+    "fin": 41.5
+   },
+   {
+    "mot": "le",
+    "debut": 41.5,
+    "fin": 41.62
+   },
+   {
+    "mot": "prochain",
+    "debut": 41.62,
+    "fin": 41.86
+   },
+   {
+    "mot": "fait.",
+    "debut": 41.86,
+    "fin": 42.14
+   }
+  ]
+ }
+]

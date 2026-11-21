@@ -1,0 +1,8 @@
+{
+ "status": "pret",
+ "titre": "Pixel coincé PNJ : 2000 fois « Bienvenue » 😅",
+ "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261119-3",
+ "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261119-3/envoi.mp4",
+ "telegram": "Pixel devient PNJ et répète 2000 fois « Bienvenue » : fiction absurde, vidéo prête.",
+ "resume": "Sujet : fiction comique, Pixel devient PNJ d'un jeu (phrase répétée, arbre, quête des poules), format inspiré du Short de référence (seule la page titre était lisible : aucune vue/durée/date relevée).\nVérifié : sujet absent de plan.md ; aucun fait externe, seule définition PNJ = personnage non joueur ; voix transcrite par Whisper conforme (PNJ entendu « PNG »), mix -21,8 LUFS vs voix -21,7, true peak -5,9 dBTP.\nChoix prudents : aucun nom de jeu ni de marque (pas de GTA), mention « histoire inventée » à l'écran, pas de violence ; public ado. Si jugé destiné aux enfants : cocher « conçu pour les enfants » sur YouTube ; mention IA à cocher.\nÀ voir : image du ballon rose contient des faux caractères IA flous (plans 'Bienvenue/phrase') ; planches regardées seulement pour la 1re moitié (0-24 s)."
+}
