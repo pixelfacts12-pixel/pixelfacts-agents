@@ -1,8 +1,2 @@
-{
- "status": "pret",
- "titre": "Xbox a 25 ans : la timeline 🎮",
- "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261118-3",
- "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261118-3/envoi.mp4",
- "telegram": "Xbox fête ses 25 ans : la timeline 2001-2020 en 37 secondes, prête à valider.",
- "resume": "Sujet : les 25 ans de Xbox en timeline (15/11/2001, 299 $, Halo Combat Evolved/Bungie, Xbox 360 le 22/11/2005, One 2013, Series X|S 2020).\nVérifié : dates, prix, jeu de lancement et studio sur Wikipédia (pas de page Xbox Wire officielle trouvée pour les annonces d'anniversaire, donc aucun détail d'annonce, de console ou de date de sortie 2026 cité) ; voix recontrôlée par Whisper ; mix -22 LUFS, pic -4,8 dBTP, musique réglée ~-20 dB sous la voix.\nChoix prudents : pas de logos de marque (règle OUTILS, remplacés par icônes/chiffres), pas de scène de jeu, images IA floues en fond (pollinations 576x1024 agrandies), pas de vues/durée du Short de référence (non visibles sans compte), mention IA à cocher, logo final 1 s non ajouté.\nÀ voir : images de fond un peu floues, mot « Xbox » sans logo officiel ; Alex peut ajouter les annonces du 25e anniversaire une fois confirmées sur Xbox Wire. Légende : 2 lignes + #pixelfacts #gaming #xbox #halo #retrogaming."
-}
+{"status": "programme", "video": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-001000-veille-20261118-3.mp4", "legende": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261118-3/legende.json",
+ "telegram": "📤 Titre choisi : Xbox a 25 ans : la timeline 🎮 #shorts"}
