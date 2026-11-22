@@ -1,0 +1,453 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.32,
+  "texte": "Savais-tu que ta Xbox 360 pouvait afficher trois voyants rouges ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "que",
+    "debut": 0.54,
+    "fin": 0.68
+   },
+   {
+    "mot": "ta",
+    "debut": 0.68,
+    "fin": 0.78
+   },
+   {
+    "mot": "Xbox",
+    "debut": 0.78,
+    "fin": 0.98
+   },
+   {
+    "mot": "360",
+    "debut": 0.98,
+    "fin": 1.52
+   },
+   {
+    "mot": "pouvait",
+    "debut": 1.52,
+    "fin": 1.98
+   },
+   {
+    "mot": "afficher",
+    "debut": 1.98,
+    "fin": 2.32
+   },
+   {
+    "mot": "trois",
+    "debut": 2.32,
+    "fin": 2.58
+   },
+   {
+    "mot": "voyants",
+    "debut": 2.58,
+    "fin": 2.8
+   },
+   {
+    "mot": "rouges",
+    "debut": 2.8,
+    "fin": 3.14
+   },
+   {
+    "mot": "?",
+    "debut": 3.14,
+    "fin": 4.32
+   }
+  ]
+ },
+ {
+  "debut": 4.32,
+  "fin": 7.5,
+  "texte": "Le 5 juillet 2007, Microsoft a annoncé trois ans de garantie.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 4.32,
+    "fin": 4.36
+   },
+   {
+    "mot": "5",
+    "debut": 4.36,
+    "fin": 4.54
+   },
+   {
+    "mot": "juillet",
+    "debut": 4.54,
+    "fin": 4.82
+   },
+   {
+    "mot": "2007,",
+    "debut": 4.82,
+    "fin": 5.28
+   },
+   {
+    "mot": "Microsoft",
+    "debut": 5.74,
+    "fin": 6.1
+   },
+   {
+    "mot": "a",
+    "debut": 6.1,
+    "fin": 6.3
+   },
+   {
+    "mot": "annoncé",
+    "debut": 6.3,
+    "fin": 6.58
+   },
+   {
+    "mot": "trois",
+    "debut": 6.58,
+    "fin": 6.82
+   },
+   {
+    "mot": "ans",
+    "debut": 6.82,
+    "fin": 6.98
+   },
+   {
+    "mot": "de",
+    "debut": 6.98,
+    "fin": 7.06
+   },
+   {
+    "mot": "garantie.",
+    "debut": 7.06,
+    "fin": 7.5
+   }
+  ]
+ },
+ {
+  "debut": 8.420000000000003,
+  "fin": 11.94,
+  "texte": "Facture annoncée, entre 1,05 et 1,15 milliards de dollars.",
+  "mots": [
+   {
+    "mot": "Facture",
+    "debut": 8.420000000000003,
+    "fin": 8.98
+   },
+   {
+    "mot": "annoncée,",
+    "debut": 8.98,
+    "fin": 9.4
+   },
+   {
+    "mot": "entre",
+    "debut": 9.62,
+    "fin": 9.8
+   },
+   {
+    "mot": "1",
+    "debut": 9.8,
+    "fin": 9.9
+   },
+   {
+    "mot": ",05",
+    "debut": 9.9,
+    "fin": 10.34
+   },
+   {
+    "mot": "et",
+    "debut": 10.34,
+    "fin": 10.72
+   },
+   {
+    "mot": "1",
+    "debut": 10.72,
+    "fin": 10.82
+   },
+   {
+    "mot": ",15",
+    "debut": 10.82,
+    "fin": 11.3
+   },
+   {
+    "mot": "milliards",
+    "debut": 11.3,
+    "fin": 11.54
+   },
+   {
+    "mot": "de",
+    "debut": 11.54,
+    "fin": 11.7
+   },
+   {
+    "mot": "dollars.",
+    "debut": 11.7,
+    "fin": 11.94
+   }
+  ]
+ },
+ {
+  "debut": 12.9,
+  "fin": 16.28,
+  "texte": "Le communiqué ne parle pas de surchauffe, mais de plusieurs facteurs.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 12.9,
+    "fin": 13.36
+   },
+   {
+    "mot": "communiqué",
+    "debut": 13.36,
+    "fin": 13.82
+   },
+   {
+    "mot": "ne",
+    "debut": 13.82,
+    "fin": 13.94
+   },
+   {
+    "mot": "parle",
+    "debut": 13.94,
+    "fin": 14.1
+   },
+   {
+    "mot": "pas",
+    "debut": 14.1,
+    "fin": 14.28
+   },
+   {
+    "mot": "de",
+    "debut": 14.28,
+    "fin": 14.42
+   },
+   {
+    "mot": "surchauffe,",
+    "debut": 14.42,
+    "fin": 15.0
+   },
+   {
+    "mot": "mais",
+    "debut": 15.24,
+    "fin": 15.36
+   },
+   {
+    "mot": "de",
+    "debut": 15.36,
+    "fin": 15.5
+   },
+   {
+    "mot": "plusieurs",
+    "debut": 15.5,
+    "fin": 15.78
+   },
+   {
+    "mot": "facteurs.",
+    "debut": 15.78,
+    "fin": 16.28
+   }
+  ]
+ },
+ {
+  "debut": 17.48,
+  "fin": 19.46,
+  "texte": "Les réparations déjà payées étaient même remboursées.",
+  "mots": [
+   {
+    "mot": "Les",
+    "debut": 17.48,
+    "fin": 17.58
+   },
+   {
+    "mot": "réparations",
+    "debut": 17.58,
+    "fin": 18.0
+   },
+   {
+    "mot": "déjà",
+    "debut": 18.0,
+    "fin": 18.26
+   },
+   {
+    "mot": "payées",
+    "debut": 18.26,
+    "fin": 18.6
+   },
+   {
+    "mot": "étaient",
+    "debut": 18.6,
+    "fin": 18.76
+   },
+   {
+    "mot": "même",
+    "debut": 18.76,
+    "fin": 18.98
+   },
+   {
+    "mot": "remboursées.",
+    "debut": 18.98,
+    "fin": 19.46
+   }
+  ]
+ },
+ {
+  "debut": 20.54,
+  "fin": 23.64,
+  "texte": "Une console de novembre 2005 était couverte jusqu'en novembre 2008.",
+  "mots": [
+   {
+    "mot": "Une",
+    "debut": 20.54,
+    "fin": 20.7
+   },
+   {
+    "mot": "console",
+    "debut": 20.7,
+    "fin": 21.0
+   },
+   {
+    "mot": "de",
+    "debut": 21.0,
+    "fin": 21.18
+   },
+   {
+    "mot": "novembre",
+    "debut": 21.18,
+    "fin": 21.52
+   },
+   {
+    "mot": "2005",
+    "debut": 21.52,
+    "fin": 21.96
+   },
+   {
+    "mot": "était",
+    "debut": 21.96,
+    "fin": 22.18
+   },
+   {
+    "mot": "couverte",
+    "debut": 22.18,
+    "fin": 22.58
+   },
+   {
+    "mot": "jusqu",
+    "debut": 22.58,
+    "fin": 22.74
+   },
+   {
+    "mot": "'en",
+    "debut": 22.74,
+    "fin": 22.9
+   },
+   {
+    "mot": "novembre",
+    "debut": 22.9,
+    "fin": 23.28
+   },
+   {
+    "mot": "2008.",
+    "debut": 23.28,
+    "fin": 23.64
+   }
+  ]
+ },
+ {
+  "debut": 24.68,
+  "fin": 26.86,
+  "texte": "Un petit voyant rouge, un énorme souvenir.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 24.68,
+    "fin": 25.1
+   },
+   {
+    "mot": "petit",
+    "debut": 25.1,
+    "fin": 25.28
+   },
+   {
+    "mot": "voyant",
+    "debut": 25.28,
+    "fin": 25.6
+   },
+   {
+    "mot": "rouge,",
+    "debut": 25.6,
+    "fin": 25.88
+   },
+   {
+    "mot": "un",
+    "debut": 26.14,
+    "fin": 26.26
+   },
+   {
+    "mot": "énorme",
+    "debut": 26.26,
+    "fin": 26.54
+   },
+   {
+    "mot": "souvenir.",
+    "debut": 26.54,
+    "fin": 26.86
+   }
+  ]
+ },
+ {
+  "debut": 27.88,
+  "fin": 30.0,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 27.88,
+    "fin": 28.34
+   },
+   {
+    "mot": "-toi",
+    "debut": 28.34,
+    "fin": 28.52
+   },
+   {
+    "mot": "à",
+    "debut": 28.52,
+    "fin": 28.62
+   },
+   {
+    "mot": "Pixel",
+    "debut": 28.62,
+    "fin": 28.86
+   },
+   {
+    "mot": "Facts",
+    "debut": 28.86,
+    "fin": 29.24
+   },
+   {
+    "mot": "pour",
+    "debut": 29.24,
+    "fin": 29.4
+   },
+   {
+    "mot": "le",
+    "debut": 29.4,
+    "fin": 29.5
+   },
+   {
+    "mot": "prochain",
+    "debut": 29.5,
+    "fin": 29.72
+   },
+   {
+    "mot": "fait.",
+    "debut": 29.72,
+    "fin": 30.0
+   }
+  ]
+ }
+]
