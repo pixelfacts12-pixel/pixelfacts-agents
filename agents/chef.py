@@ -34,6 +34,11 @@ def main():
         if h:
             r = h[-1]
             lignes.append(f"📊 Ton jeu : {r['visites']} visites, {r['favoris']} favoris, {r['pour']}👍 / {r['contre']}👎.")
+    controle = BASE / "donnees" / "controle.json"
+    if controle.exists():
+        c = json.loads(controle.read_text(encoding="utf-8"))
+        lignes.append("🛡️ Contrôle des publications : " + ("tout va bien ✅" if not c.get("problemes")
+                                                             else f"{len(c['problemes'])} souci(s), je m'en occupe"))
     erreurs = [i for i in items if i["status"] == "erreur"]
     if erreurs:
         lignes.append("⚠️ En erreur : " + ", ".join(i["id"] for i in erreurs) + " (je les regarde à ta prochaine session).")

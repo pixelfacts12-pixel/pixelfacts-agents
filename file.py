@@ -35,7 +35,7 @@ REGLES = {("valider", "pret"): "valide", ("valider", "revoir"): "valide", ("vali
           ("valider", "erreur"): "valide", ("revoir", "pret"): "revoir",
           "rejeter": "rejete", "remarque": "a_reprendre"}
 MOTS_ANALYSE = ("analyse", "pour info", "référence", "reference", "retiens")
-AGENTS_SANS_IA = {"roblox_tendances": 20 * 3600, "roblox_stats": 20 * 3600, "chef": 24 * 3600}  # agents/<nom>.py
+AGENTS_SANS_IA = {"roblox_tendances": 20 * 3600, "roblox_stats": 20 * 3600, "chef": 24 * 3600, "controleur": 3 * 3600}  # agents/<nom>.py
 
 
 def lire(p):
@@ -352,6 +352,17 @@ def agents_sans_ia(st):
                                creationflags=FLAGS)
             except Exception as e:
                 log.write(f"erreur : {e!r}\n")
+    # réparations demandées par le Contrôleur (ex. publication Buffer en erreur -> on reprogramme une fois)
+    controle = BASE / "donnees" / "controle.json"
+    if controle.exists():
+        c = json.loads(controle.read_text(encoding="utf-8"))
+        for i in st["items"]:
+            if i["id"] in c.get("a_relancer", []) and not i.get("relance_buffer"):
+                i["status"], i["relance_buffer"] = "valide", True
+                i.pop("prochain_essai", None)
+        if c.get("a_relancer"):
+            c["a_relancer"] = []
+            controle.write_text(json.dumps(c, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def main(voie):
