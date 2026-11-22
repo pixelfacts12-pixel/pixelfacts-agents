@@ -1,8 +1,9 @@
-1|+14%|Savais-tu que ta Xbox 360 pouvait t'afficher trois voyants rouges ?
-2|+12%|Le 5 juillet 2007, Microsoft a annoncé trois ans de garantie !
-3|+13%|Facture annoncée : entre 1,05 et 1,15 milliard de dollars.
-4|+11%|Le communiqué ne parle pas de surchauffe, mais de plusieurs facteurs.
-5|+14%|Les réparations déjà payées étaient même remboursées !
-6|+12%|Une console de novembre 2005 était couverte jusqu'en novembre 2008.
-7|+13%|Un petit voyant rouge, un énorme souvenir !
-8|+13%|Abonne-toi à Pixel Facts pour le prochain fait !
+1|+14%|Savais-tu que trois petites lumières rouges ont coûté plus d'un milliard de dollars ?
+2|+12%|Fin 2005, la Xbox 360 débarque, et elle chauffe, chauffe, chauffe !
+3|+13%|Puis trois voyants rouges clignotent. Partie terminée !
+4|+11%|La cause : la chaleur. À force de monter et descendre en température, les soudures de la puce graphique se fissurent.
+5|+13%|Le 5 juillet 2007, Microsoft s'excuse officiellement.
+6|+14%|Garantie prolongée à trois ans pour cette panne !
+7|+12%|Facture : entre 1,05 et 1,15 milliard de dollars.
+8|+12%|Et toi, tu l'as déjà vue, cette lumière rouge ?
+9|+13%|Abonne-toi à Pixel Facts pour le prochain fait !

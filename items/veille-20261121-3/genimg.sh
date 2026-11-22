@@ -3,14 +3,14 @@ cd /home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-3
 P="3D glossy cartoon style, bright cyan blue yellow and pink colors, no text, no logo, no real person"
 while IFS='|' read -r name seed prompt; do
   for try in 1 2 3 4 5 6; do
-    curl -sL -m 120 -o /home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-3/img/$name.jpg "https://image.pollinations.ai/prompt/$(python3 -I -c 'import sys,urllib.parse;print(urllib.parse.quote(sys.argv[1]))' "$prompt, $P")?width=1080&height=1920&nologo=true&seed=$seed"
-    if file /home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-3/img/$name.jpg | grep -q JPEG; then echo ok $name; sleep 20; break; else sleep 20; fi
+    curl -sL -m 120 -o img/$name.jpg "https://image.pollinations.ai/prompt/$(python3 -I -c 'import sys,urllib.parse;print(urllib.parse.quote(sys.argv[1]))' "$prompt, $P")?width=1080&height=1920&nologo=true&seed=$seed"
+    if file img/$name.jpg | grep -q JPEG; then echo ok $name; sleep 15; break; else sleep 20; fi
   done
 done <<'L'
-a|91|glowing game console with three blinking red lights on its front, cute cartoon cubes around, nostalgic
-b|92|calendar page July with a big shield and the number 3 years, sparkles, cartoon
-c|93|giant pile of shiny gold coins and money bag, billion dollars feeling, cartoon
-d|94|thermometer and gears with a question mark, a mystery magnifying glass, cartoon
-e|95|happy cartoon cubes giving back coins and a receipt refund, nostalgic warm light
+a|91|generic white game console box glowing three red lights in a ring, dark cozy room, cartoon
+b|92|hot glowing computer chip with heat waves and flames, cartoon thermometer rising
+c|93|warranty shield with a big 3 years ribbon and a shining checkmark, cartoon
+d|94|pile of golden coins and dollar bills tower, sparkling, cartoon
+e|95|nostalgic living room with old tv and a gamepad on the floor, warm evening light, cartoon
 L
 echo done

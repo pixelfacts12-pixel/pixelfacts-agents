@@ -1,7 +1,7 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
-const MUSVOL = 0.065;
+const MUSVOL = 0.063;
 
 const {fontFamily} = loadFont();
 const IMGS = ['a', 'b', 'c', 'd', 'e'];
