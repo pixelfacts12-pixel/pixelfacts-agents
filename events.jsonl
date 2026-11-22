@@ -60,3 +60,7 @@
 {"type": "valider", "item": "veille-20261121-5", "ts": 1795286923.3716714}
 {"type": "valider", "item": "veille-20261121-6", "ts": 1795286924.0192313}
 {"type": "valider", "item": "veille-20261121-1", "ts": 1795302389.4807196}
+{"type": "valider", "item": "veille-20261122-1", "ts": 1795368156.0485287}
+{"type": "valider", "item": "veille-20261122-2", "ts": 1795368156.550746}
+{"type": "rejeter", "item": "veille-20261122-4", "ts": 1795368162.438531}
+{"type": "rejeter", "item": "veille-20261122-5", "ts": 1795368166.8927565}
