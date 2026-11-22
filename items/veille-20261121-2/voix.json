@@ -1,0 +1,398 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 3.18,
+  "texte": "savais-tu que ta vieille PS2 cachait une baie d'extension ?",
+  "mots": [
+   {
+    "mot": "savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "que",
+    "debut": 0.54,
+    "fin": 0.66
+   },
+   {
+    "mot": "ta",
+    "debut": 0.66,
+    "fin": 0.8
+   },
+   {
+    "mot": "vieille",
+    "debut": 0.8,
+    "fin": 1.02
+   },
+   {
+    "mot": "PS2",
+    "debut": 1.02,
+    "fin": 1.38
+   },
+   {
+    "mot": "cachait",
+    "debut": 1.38,
+    "fin": 1.68
+   },
+   {
+    "mot": "une",
+    "debut": 1.68,
+    "fin": 1.78
+   },
+   {
+    "mot": "baie",
+    "debut": 1.78,
+    "fin": 1.9
+   },
+   {
+    "mot": "d",
+    "debut": 1.9,
+    "fin": 2.0
+   },
+   {
+    "mot": "'extension",
+    "debut": 2.0,
+    "fin": 2.38
+   },
+   {
+    "mot": "?",
+    "debut": 2.38,
+    "fin": 3.18
+   }
+  ]
+ },
+ {
+  "debut": 3.18,
+  "fin": 6.44,
+  "texte": "Sur les modèles, FAT, elle accueillait un disque dur de 40 GB.",
+  "mots": [
+   {
+    "mot": "Sur",
+    "debut": 3.18,
+    "fin": 3.66
+   },
+   {
+    "mot": "les",
+    "debut": 3.66,
+    "fin": 3.78
+   },
+   {
+    "mot": "modèles,",
+    "debut": 3.78,
+    "fin": 4.1
+   },
+   {
+    "mot": "FAT,",
+    "debut": 4.36,
+    "fin": 4.6
+   },
+   {
+    "mot": "elle",
+    "debut": 4.88,
+    "fin": 5.02
+   },
+   {
+    "mot": "accueillait",
+    "debut": 5.02,
+    "fin": 5.32
+   },
+   {
+    "mot": "un",
+    "debut": 5.32,
+    "fin": 5.42
+   },
+   {
+    "mot": "disque",
+    "debut": 5.42,
+    "fin": 5.7
+   },
+   {
+    "mot": "dur",
+    "debut": 5.7,
+    "fin": 5.86
+   },
+   {
+    "mot": "de",
+    "debut": 5.86,
+    "fin": 5.98
+   },
+   {
+    "mot": "40",
+    "debut": 5.98,
+    "fin": 6.22
+   },
+   {
+    "mot": "GB.",
+    "debut": 6.22,
+    "fin": 6.44
+   }
+  ]
+ },
+ {
+  "debut": 7.54,
+  "fin": 9.74,
+  "texte": "Mais il fallait d'abord brancher l'adaptateur réseau.",
+  "mots": [
+   {
+    "mot": "Mais",
+    "debut": 7.54,
+    "fin": 7.8
+   },
+   {
+    "mot": "il",
+    "debut": 7.8,
+    "fin": 7.94
+   },
+   {
+    "mot": "fallait",
+    "debut": 7.94,
+    "fin": 8.12
+   },
+   {
+    "mot": "d",
+    "debut": 8.12,
+    "fin": 8.3
+   },
+   {
+    "mot": "'abord",
+    "debut": 8.3,
+    "fin": 8.44
+   },
+   {
+    "mot": "brancher",
+    "debut": 8.44,
+    "fin": 8.82
+   },
+   {
+    "mot": "l",
+    "debut": 8.82,
+    "fin": 8.92
+   },
+   {
+    "mot": "'adaptateur",
+    "debut": 8.92,
+    "fin": 9.36
+   },
+   {
+    "mot": "réseau.",
+    "debut": 9.36,
+    "fin": 9.74
+   }
+  ]
+ },
+ {
+  "debut": 10.46,
+  "fin": 12.98,
+  "texte": "Aux États-Unis, 35 jeux savaient sans servir.",
+  "mots": [
+   {
+    "mot": "Aux",
+    "debut": 10.46,
+    "fin": 10.96
+   },
+   {
+    "mot": "États",
+    "debut": 10.96,
+    "fin": 11.08
+   },
+   {
+    "mot": "-Unis,",
+    "debut": 11.08,
+    "fin": 11.38
+   },
+   {
+    "mot": "35",
+    "debut": 11.74,
+    "fin": 12.0
+   },
+   {
+    "mot": "jeux",
+    "debut": 12.0,
+    "fin": 12.26
+   },
+   {
+    "mot": "savaient",
+    "debut": 12.26,
+    "fin": 12.56
+   },
+   {
+    "mot": "sans",
+    "debut": 12.56,
+    "fin": 12.64
+   },
+   {
+    "mot": "servir.",
+    "debut": 12.64,
+    "fin": 12.98
+   }
+  ]
+ },
+ {
+  "debut": 14.06,
+  "fin": 16.6,
+  "texte": "Final Fantasy XI l'exigait en mars 2004.",
+  "mots": [
+   {
+    "mot": "Final",
+    "debut": 14.06,
+    "fin": 14.54
+   },
+   {
+    "mot": "Fantasy",
+    "debut": 14.54,
+    "fin": 14.76
+   },
+   {
+    "mot": "XI",
+    "debut": 14.76,
+    "fin": 15.06
+   },
+   {
+    "mot": "l",
+    "debut": 15.06,
+    "fin": 15.22
+   },
+   {
+    "mot": "'exigait",
+    "debut": 15.22,
+    "fin": 15.6
+   },
+   {
+    "mot": "en",
+    "debut": 15.6,
+    "fin": 15.9
+   },
+   {
+    "mot": "mars",
+    "debut": 15.9,
+    "fin": 16.08
+   },
+   {
+    "mot": "2004.",
+    "debut": 16.08,
+    "fin": 16.6
+   }
+  ]
+ },
+ {
+  "debut": 17.34,
+  "fin": 19.4,
+  "texte": "Et la PS2 Slim ?",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 17.34,
+    "fin": 17.86
+   },
+   {
+    "mot": "la",
+    "debut": 17.86,
+    "fin": 17.96
+   },
+   {
+    "mot": "PS2",
+    "debut": 17.96,
+    "fin": 18.34
+   },
+   {
+    "mot": "Slim",
+    "debut": 18.34,
+    "fin": 18.62
+   },
+   {
+    "mot": "?",
+    "debut": 18.62,
+    "fin": 19.4
+   }
+  ]
+ },
+ {
+  "debut": 19.4,
+  "fin": 20.46,
+  "texte": "Plus de bail du tout.",
+  "mots": [
+   {
+    "mot": "Plus",
+    "debut": 19.4,
+    "fin": 19.74
+   },
+   {
+    "mot": "de",
+    "debut": 19.74,
+    "fin": 19.92
+   },
+   {
+    "mot": "bail",
+    "debut": 19.92,
+    "fin": 20.08
+   },
+   {
+    "mot": "du",
+    "debut": 20.08,
+    "fin": 20.24
+   },
+   {
+    "mot": "tout.",
+    "debut": 20.24,
+    "fin": 20.46
+   }
+  ]
+ },
+ {
+  "debut": 21.28,
+  "fin": 23.48,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 21.28,
+    "fin": 21.78
+   },
+   {
+    "mot": "-toi",
+    "debut": 21.78,
+    "fin": 21.98
+   },
+   {
+    "mot": "à",
+    "debut": 21.98,
+    "fin": 22.1
+   },
+   {
+    "mot": "Pixel",
+    "debut": 22.1,
+    "fin": 22.3
+   },
+   {
+    "mot": "Facts",
+    "debut": 22.3,
+    "fin": 22.7
+   },
+   {
+    "mot": "pour",
+    "debut": 22.7,
+    "fin": 22.88
+   },
+   {
+    "mot": "le",
+    "debut": 22.88,
+    "fin": 22.98
+   },
+   {
+    "mot": "prochain",
+    "debut": 22.98,
+    "fin": 23.22
+   },
+   {
+    "mot": "fait.",
+    "debut": 23.22,
+    "fin": 23.48
+   }
+  ]
+ }
+]
