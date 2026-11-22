@@ -268,10 +268,36 @@
  ],
  "ev_lus": 62,
  "veille": {
-  "derniere": 1795286776.3864515,
+  "derniere": 1795366331.2547603,
   "essais": 0
  },
- "propositions": {},
+ "propositions": {
+  "veille-20261122-1": {
+   "type": "video",
+   "url": "https://insider-gaming.com/playstation-5-officially-sold-more-than-100-million-units/",
+   "note": "Angle courbe de ventes animée par année et compteur jusqu'à 100 M, ton enthousiaste, sans logo ni image officielle."
+  },
+  "veille-20261122-2": {
+   "type": "video",
+   "url": "https://www.aljazeera.com/features/longform/2026/11/12/from-pong-to-gta-vi-play-your-way-through-50-years-of-video-games",
+   "note": "Format enquête courte « le jour où le jeu vidéo a failli mourir », ton intrigant mais léger, Pixel en archéologue, aucune image d'Atari."
+  },
+  "veille-20261122-3": {
+   "type": "video",
+   "url": "https://www.aljazeera.com/features/longform/2026/11/12/from-pong-to-gta-vi-play-your-way-through-50-years-of-video-games",
+   "note": "Court (30 s), pièces qui s'empilent en animation, angle « un bar a lancé une industrie », ton amusé, public grand public."
+  },
+  "veille-20261122-4": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/128749725449995",
+   "note": "Simulateur simple : tir à l'arc avec force qui s'entraîne, zones d'animaux plus rares, arcs à améliorer ; thème et assets originaux, ton familial."
+  },
+  "veille-20261122-5": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/101277003916102",
+   "note": "Version réduite : mannequins ragdoll à lancer et faire tomber, quelques catastrophes simples, aucun sang ni arme, thème familial et humoristique, assets originaux."
+  }
+ },
  "agents": {
   "roblox_tendances": 1795331434.4746635,
   "roblox_stats": 1795332031.045853,
