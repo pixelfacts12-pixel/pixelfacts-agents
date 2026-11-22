@@ -237,12 +237,14 @@
    "id": "veille-20261121-2",
    "url": "https://www.youtube.com/shorts/btw0lhys_aw",
    "note": "Fait rapide et nostalgique sur la baie d'extension de la PS2 (disque dur, adaptateur réseau) ; 20 à 25 s, compteurs/années animés, aucune image de console copiée, vérifier le fait avant de le dire.",
-   "status": "pret",
+   "status": "programme",
    "recu": 1795286433.2226899,
    "essais": 0,
    "reprises": 0,
    "remarques": [],
-   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261122-214106-veille-20261121-2.mp4"
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261122-214106-veille-20261121-2.mp4",
+   "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-2/legende.json",
+   "titre_pub": "📤 Titre choisi : Ta PS2 cachait une baie secrète 💾 #shorts"
   },
   {
    "id": "veille-20261121-3",
@@ -285,7 +287,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 67,
+ "ev_lus": 68,
  "veille": {
   "derniere": 1795366331.2547603,
   "essais": 0
