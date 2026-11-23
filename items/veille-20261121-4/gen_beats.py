@@ -11,20 +11,19 @@ for s,d,l in zip(starts,durs,lines):
 S=starts
 Y,B,P,G='#FFD628','#5ECBFF','#FF5FA2','#7CFF8A'
 B_=[
-(0,'words',Y,0,'BACON ?','','🥓','surpris',{}),
-(S[0]+1.9,'words',P,0,'PAS À MANGER','','🚫','',{}),
-(S[1],'words',B,1,'COMPTE TOUT NEUF','','🆕','',{}),
-(S[1]+2.1,'words',G,1,'PAS PERSONNALISÉ','','🎨','',{}),
-(S[2],'words',Y,2,'COIFFURE PAR DÉFAUT','','💇','',{}),
-(S[2]+2.2,'words',P,2,'« PAL HAIR »','','✨','reflechit',{'corner':1}),
-(S[3],'words',B,2,'MÈCHES EN COUCHES','','🥓','',{}),
-(S[3]+1.8,'words',Y,0,'SURNOM : BACON','','😄','',{}),
-(S[4],'counter',Y,3,'REFONTE DES AVATARS','',0,'',{'to':2014,'nofmt':1}),
-(S[4]+1.9,'words',G,3,'TOUT CHANGE','','🔄','',{}),
-(S[5],'words',Y,4,'AVANT : JAUNE','','🟨','',{}),
-(S[5]+1.8,'words',B,4,'TOUT CARRÉ','','⬜','surpris',{'corner':1}),
-(S[6],'words',P,1,'TOI AUSSI ?','','👀','reflechit',{'corner':1}),
-(S[6]+1.4,'words',Y,0,'UN BACON ?','','🥓','',{}),
+(0,'words',Y,0,'BACON SUR ROBLOX','','🥓','surpris',{}),
+(S[0]+2.2,'words',P,1,'PAS UN PLAT !','','🚫','',{}),
+(S[1],'words',B,0,'AVATAR PAR DÉFAUT','','🧍','',{}),
+(S[1]+1.9,'words',G,3,'LE JOUEUR DÉBUTANT','','🆕','reflechit',{'corner':1}),
+(S[2],'words',Y,1,'LA PAL HAIR','','💇','',{}),
+(S[2]+1.8,'words',P,1,'COIFFURE MARRON','','🟤','',{}),
+(S[3],'words',B,1,'COMME DU BACON !','','🥓','',{}),
+(S[3]+1.9,'words',Y,3,'TRANCHES ONDULÉES','','〰️','surpris',{'corner':1}),
+(S[4],'counter',Y,2,'REFONTE DES AVATARS','',0,'',{'to':2014,'nofmt':1}),
+(S[4]+2.4,'words',G,2,'PRESSE SPÉCIALISÉE','','📰','',{}),
+(S[5],'words',P,3,'TOUJOURS LÀ !','','✅','',{}),
+(S[5]+1.8,'words',B,3,'NOUVEAUX COMPTES','','🆕','',{}),
+(S[6],'words',Y,4,'TU EN AS CROISÉ ?','','👀','reflechit',{'corner':1}),
 (S[7],'cta',Y,0,'','','','coucou',{}),
 ]
 total=round(t-0.12+0.3,2)

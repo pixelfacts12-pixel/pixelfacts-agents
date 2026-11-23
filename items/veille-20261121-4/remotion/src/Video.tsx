@@ -1,7 +1,7 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
-const MUSVOL = 0.065;
+const MUSVOL = 0.063;
 
 const {fontFamily} = loadFont();
 const IMGS = ['a', 'b', 'c', 'd', 'e'];
@@ -107,7 +107,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`}}>
     <div style={{fontSize: 560, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
     {beat.sub && <div style={big(100, '#fff', {marginTop: 10})}>{beat.sub}</div>}
-    <div style={big(Math.max(...beat.label.split(' ').map((w) => w.length)) > 11 ? 112 : L > 17 ? 132 : L > 12 ? 160 : 200, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
+    <div style={big(L > 17 ? 132 : L > 12 ? 160 : 200, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
   </div>;
 };
 
@@ -118,13 +118,13 @@ export const Video: React.FC = () => {
   if (idx === -1) { idx = 0; for (let i = 0; i < BEATS.length; i++) if (BEATS[i].start <= t) idx = i; }
   const beat = BEATS[idx];
   const dur = beat.end - beat.start; const localT = Math.max(0, t - beat.start); const bf = Math.max(0, frame - Math.round(beat.start * fps));
-  const bgZoom = 1.08 + 0.2 * Math.min(1, localT / dur);
+  const bgZoom = 1.16 + 0.2 * Math.min(1, localT / dur);
   const pan = (idx % 2 ? -1 : 1) * 30 * Math.min(1, localT / dur);
   const isLast = idx === BEATS.length - 1;
   return (
     <AbsoluteFill style={{background: OUT}}>
       <Img src={staticFile('fond_banniere.png')} style={{position: 'absolute', width: '100%', height: '100%', objectFit: 'cover'}} />
-      <Img src={staticFile(`img/${IMGS[beat.bg % IMGS.length]}.jpg`)} style={{position: 'absolute', width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${bgZoom}) translateX(${pan}px)`, opacity: 0.85, filter: 'saturate(1.15)'}} />
+      <Img src={staticFile(`img/${IMGS[beat.bg % IMGS.length]}.jpg`)} style={{position: 'absolute', width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${bgZoom}) translateX(${pan}px) translateY(-45px)`, opacity: 0.85, filter: 'saturate(1.15)'}} />
       <AbsoluteFill style={{background: `linear-gradient(180deg, ${OUT}00 25%, ${OUT}99 100%)`}} />
       <Cubes frame={frame} accent={beat.accent} />
       <Audio src={staticFile('voix.mp3')} />
