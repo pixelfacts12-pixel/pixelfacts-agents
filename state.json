@@ -253,7 +253,7 @@
    "id": "veille-20261121-3",
    "url": "https://www.youtube.com/shorts/8tdA1iNiR8k",
    "note": "Mini-histoire de la panne (surchauffe, garantie prolongée de 2007) en animation code, ton léger et nostalgique, chiffres sourcés uniquement, sans logo ni visuel officiel.",
-   "status": "valide",
+   "status": "programme",
    "recu": 1795286433.2226915,
    "essais": 0,
    "reprises": 0,
@@ -261,8 +261,6 @@
    "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261122-222223-veille-20261121-3.mp4",
    "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-3/legende.json",
    "titre_pub": "📤 Titre choisi : 3 voyants rouges : la garantie à 1 milliard 🔴 #shorts",
-   "attente_buffer": true,
-   "prochain_essai": 1795467070.8920333,
    "averti_buffer": true
   },
   {
