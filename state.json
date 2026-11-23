@@ -294,45 +294,54 @@
    "essais": 0,
    "reprises": 0,
    "remarques": []
+  },
+  {
+   "id": "veille-20261123-1",
+   "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
+   "note": "Short nostalgique de 30 s, Pixel qui s'occupe d'un petit animal pixel qui grandit, compteur 1996 → 2026, ton tendre et amusé, aucun visuel officiel ni logo.",
+   "status": "a_faire",
+   "recu": 1795459234.3153234,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261123-2",
+   "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
+   "note": "Angle « le jeu que tout le monde a eu en premier », frise 2006 → 2026, manette qui bouge en animation simple, ton joyeux, aucune image Nintendo.",
+   "status": "a_faire",
+   "recu": 1795459234.3153276,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261123-3",
+   "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
+   "note": "Format liste « 3 faits sur Skyrim » sans scène du jeu, graphique animé 2011 → 2026, ton humoristique, vérifier chaque chiffre avant de l'écrire.",
+   "status": "a_faire",
+   "recu": 1795459234.3153293,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261123-4",
+   "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/",
+   "note": "Angle chiffres et graphique animé uniquement, ton neutre, aucune image du jeu ; vérifier les chiffres actuels sur l'API Roblox avant le script.",
+   "status": "a_faire",
+   "recu": 1795459234.3153303,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
   }
  ],
- "ev_lus": 69,
+ "ev_lus": 75,
  "veille": {
   "derniere": 1795446258.707919,
   "essais": 0
  },
- "propositions": {
-  "veille-20261123-1": {
-   "type": "video",
-   "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
-   "note": "Short nostalgique de 30 s, Pixel qui s'occupe d'un petit animal pixel qui grandit, compteur 1996 → 2026, ton tendre et amusé, aucun visuel officiel ni logo."
-  },
-  "veille-20261123-2": {
-   "type": "video",
-   "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
-   "note": "Angle « le jeu que tout le monde a eu en premier », frise 2006 → 2026, manette qui bouge en animation simple, ton joyeux, aucune image Nintendo."
-  },
-  "veille-20261123-3": {
-   "type": "video",
-   "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
-   "note": "Format liste « 3 faits sur Skyrim » sans scène du jeu, graphique animé 2011 → 2026, ton humoristique, vérifier chaque chiffre avant de l'écrire."
-  },
-  "veille-20261123-4": {
-   "type": "video",
-   "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/",
-   "note": "Angle chiffres et graphique animé uniquement, ton neutre, aucune image du jeu ; vérifier les chiffres actuels sur l'API Roblox avant le script."
-  },
-  "veille-20261123-5": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/123969755970816",
-   "note": "Simulateur simple : manger pour grandir par paliers, 3 mutations, boss final, rebirth ; insectes et assets originaux, ton familial, sans copier."
-  },
-  "veille-20261123-6": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/98979169190595",
-   "note": "Arcade minimale : ballon à physique simple, minuteur d'explosion, dernier survivant gagne ; explosion en confettis, ton festif, assets originaux."
-  }
- },
+ "propositions": {},
  "agents": {
   "roblox_tendances": 1795403920.0709245,
   "roblox_stats": 1795404646.9276586,
