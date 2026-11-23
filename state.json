@@ -94,7 +94,10 @@
    "essais": 0,
    "reprises": 0,
    "remarques": [],
-   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-001000-veille-20261118-3.mp4"
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-001000-veille-20261118-3.mp4",
+   "relance_buffer": true,
+   "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261118-3/legende.json",
+   "titre_pub": "📤 Titre choisi : Xbox a 25 ans : la timeline 🎮 #shorts"
   },
   {
    "id": "veille-20261118-4",
@@ -303,7 +306,7 @@
   "roblox_tendances": 1795403920.0709245,
   "roblox_stats": 1795404646.9276586,
   "chef": 1795381355.0100365,
-  "controleur": 1795432832.4067154
+  "controleur": 1795443716.2480502
  },
  "roblox_derniere": 1795213300.7825432
 }
