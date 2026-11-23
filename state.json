@@ -267,11 +267,12 @@
    "id": "veille-20261121-4",
    "url": "https://www.youtube.com/shorts/-EXhzOSijKQ",
    "note": "Angle différent de v001 (pas de chronologie DynaBlocks) : seulement l'anecdote du compte Bacon, vérifiée sur une source écrite, en 25 à 30 s, ton complice ; ne pas copier le texte ni les images de la vidéo.",
-   "status": "a_faire",
+   "status": "pret",
    "recu": 1795286433.222693,
    "essais": 0,
    "reprises": 0,
-   "remarques": []
+   "remarques": [],
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261123-212315-veille-20261121-4.mp4"
   },
   {
    "id": "veille-20261122-1",
@@ -343,7 +344,7 @@
  "agents": {
   "roblox_tendances": 1795403920.0709245,
   "roblox_stats": 1795404646.9276586,
-  "chef": 1795381355.0100365,
+  "chef": 1795468318.9609864,
   "controleur": 1795465848.7585845
  },
  "roblox_derniere": 1795213300.7825432

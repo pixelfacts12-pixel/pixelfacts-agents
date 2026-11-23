@@ -1,0 +1,483 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.08,
+  "texte": "Savais-tu qu'un Bécon sur Roblox, ça ne se mange pas ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.44
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.44,
+    "fin": 0.54
+   },
+   {
+    "mot": "qu",
+    "debut": 0.54,
+    "fin": 0.7
+   },
+   {
+    "mot": "'un",
+    "debut": 0.7,
+    "fin": 0.78
+   },
+   {
+    "mot": "Bécon",
+    "debut": 0.78,
+    "fin": 1.26
+   },
+   {
+    "mot": "sur",
+    "debut": 1.26,
+    "fin": 1.74
+   },
+   {
+    "mot": "Roblox,",
+    "debut": 1.74,
+    "fin": 2.18
+   },
+   {
+    "mot": "ça",
+    "debut": 2.4,
+    "fin": 2.52
+   },
+   {
+    "mot": "ne",
+    "debut": 2.52,
+    "fin": 2.64
+   },
+   {
+    "mot": "se",
+    "debut": 2.64,
+    "fin": 2.74
+   },
+   {
+    "mot": "mange",
+    "debut": 2.74,
+    "fin": 2.88
+   },
+   {
+    "mot": "pas",
+    "debut": 2.88,
+    "fin": 3.08
+   },
+   {
+    "mot": "?",
+    "debut": 3.08,
+    "fin": 4.08
+   }
+  ]
+ },
+ {
+  "debut": 4.08,
+  "fin": 7.3,
+  "texte": "Un Bécon, c'est un compte tout neuf, pas encore personnalisé.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 4.08,
+    "fin": 4.32
+   },
+   {
+    "mot": "Bécon,",
+    "debut": 4.32,
+    "fin": 4.66
+   },
+   {
+    "mot": "c",
+    "debut": 4.96,
+    "fin": 5.14
+   },
+   {
+    "mot": "'est",
+    "debut": 5.14,
+    "fin": 5.16
+   },
+   {
+    "mot": "un",
+    "debut": 5.16,
+    "fin": 5.32
+   },
+   {
+    "mot": "compte",
+    "debut": 5.32,
+    "fin": 5.52
+   },
+   {
+    "mot": "tout",
+    "debut": 5.52,
+    "fin": 5.66
+   },
+   {
+    "mot": "neuf,",
+    "debut": 5.66,
+    "fin": 5.94
+   },
+   {
+    "mot": "pas",
+    "debut": 6.2,
+    "fin": 6.36
+   },
+   {
+    "mot": "encore",
+    "debut": 6.36,
+    "fin": 6.62
+   },
+   {
+    "mot": "personnalisé.",
+    "debut": 6.62,
+    "fin": 7.3
+   }
+  ]
+ },
+ {
+  "debut": 8.2,
+  "fin": 11.7,
+  "texte": "Il porte la coiffure par défaut, appelée, pas l'ahir, par les guides.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 8.2,
+    "fin": 8.54
+   },
+   {
+    "mot": "porte",
+    "debut": 8.54,
+    "fin": 8.74
+   },
+   {
+    "mot": "la",
+    "debut": 8.74,
+    "fin": 8.9
+   },
+   {
+    "mot": "coiffure",
+    "debut": 8.9,
+    "fin": 9.22
+   },
+   {
+    "mot": "par",
+    "debut": 9.22,
+    "fin": 9.4
+   },
+   {
+    "mot": "défaut,",
+    "debut": 9.4,
+    "fin": 9.78
+   },
+   {
+    "mot": "appelée,",
+    "debut": 10.1,
+    "fin": 10.42
+   },
+   {
+    "mot": "pas",
+    "debut": 10.68,
+    "fin": 10.78
+   },
+   {
+    "mot": "l",
+    "debut": 10.78,
+    "fin": 10.86
+   },
+   {
+    "mot": "'ahir,",
+    "debut": 10.86,
+    "fin": 11.04
+   },
+   {
+    "mot": "par",
+    "debut": 11.3,
+    "fin": 11.4
+   },
+   {
+    "mot": "les",
+    "debut": 11.4,
+    "fin": 11.5
+   },
+   {
+    "mot": "guides.",
+    "debut": 11.5,
+    "fin": 11.7
+   }
+  ]
+ },
+ {
+  "debut": 12.82,
+  "fin": 15.46,
+  "texte": "Ces mèches en couche font penser à du Bécon, voilà le surnom.",
+  "mots": [
+   {
+    "mot": "Ces",
+    "debut": 12.82,
+    "fin": 13.06
+   },
+   {
+    "mot": "mèches",
+    "debut": 13.06,
+    "fin": 13.26
+   },
+   {
+    "mot": "en",
+    "debut": 13.26,
+    "fin": 13.36
+   },
+   {
+    "mot": "couche",
+    "debut": 13.36,
+    "fin": 13.6
+   },
+   {
+    "mot": "font",
+    "debut": 13.6,
+    "fin": 13.74
+   },
+   {
+    "mot": "penser",
+    "debut": 13.74,
+    "fin": 14.02
+   },
+   {
+    "mot": "à",
+    "debut": 14.02,
+    "fin": 14.16
+   },
+   {
+    "mot": "du",
+    "debut": 14.16,
+    "fin": 14.26
+   },
+   {
+    "mot": "Bécon,",
+    "debut": 14.26,
+    "fin": 14.58
+   },
+   {
+    "mot": "voilà",
+    "debut": 14.92,
+    "fin": 15.04
+   },
+   {
+    "mot": "le",
+    "debut": 15.04,
+    "fin": 15.18
+   },
+   {
+    "mot": "surnom.",
+    "debut": 15.18,
+    "fin": 15.46
+   }
+  ]
+ },
+ {
+  "debut": 16.52,
+  "fin": 18.86,
+  "texte": "Elle date de la refonte des avatars en 2014.",
+  "mots": [
+   {
+    "mot": "Elle",
+    "debut": 16.52,
+    "fin": 16.72
+   },
+   {
+    "mot": "date",
+    "debut": 16.72,
+    "fin": 16.84
+   },
+   {
+    "mot": "de",
+    "debut": 16.84,
+    "fin": 17.0
+   },
+   {
+    "mot": "la",
+    "debut": 17.0,
+    "fin": 17.08
+   },
+   {
+    "mot": "refonte",
+    "debut": 17.08,
+    "fin": 17.38
+   },
+   {
+    "mot": "des",
+    "debut": 17.38,
+    "fin": 17.54
+   },
+   {
+    "mot": "avatars",
+    "debut": 17.54,
+    "fin": 18.0
+   },
+   {
+    "mot": "en",
+    "debut": 18.0,
+    "fin": 18.3
+   },
+   {
+    "mot": "2014.",
+    "debut": 18.3,
+    "fin": 18.86
+   }
+  ]
+ },
+ {
+  "debut": 20.08,
+  "fin": 22.76,
+  "texte": "Avant, le personnage était un petit bonhomme jaune tout carré.",
+  "mots": [
+   {
+    "mot": "Avant,",
+    "debut": 20.08,
+    "fin": 20.38
+   },
+   {
+    "mot": "le",
+    "debut": 20.72,
+    "fin": 20.82
+   },
+   {
+    "mot": "personnage",
+    "debut": 20.82,
+    "fin": 21.16
+   },
+   {
+    "mot": "était",
+    "debut": 21.16,
+    "fin": 21.4
+   },
+   {
+    "mot": "un",
+    "debut": 21.4,
+    "fin": 21.62
+   },
+   {
+    "mot": "petit",
+    "debut": 21.62,
+    "fin": 21.76
+   },
+   {
+    "mot": "bonhomme",
+    "debut": 21.76,
+    "fin": 22.1
+   },
+   {
+    "mot": "jaune",
+    "debut": 22.1,
+    "fin": 22.3
+   },
+   {
+    "mot": "tout",
+    "debut": 22.3,
+    "fin": 22.44
+   },
+   {
+    "mot": "carré.",
+    "debut": 22.44,
+    "fin": 22.76
+   }
+  ]
+ },
+ {
+  "debut": 23.68,
+  "fin": 25.6,
+  "texte": "Et toi, tu as commencé en Bécon ?",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 23.68,
+    "fin": 23.96
+   },
+   {
+    "mot": "toi,",
+    "debut": 23.96,
+    "fin": 24.14
+   },
+   {
+    "mot": "tu",
+    "debut": 24.5,
+    "fin": 24.56
+   },
+   {
+    "mot": "as",
+    "debut": 24.56,
+    "fin": 24.68
+   },
+   {
+    "mot": "commencé",
+    "debut": 24.68,
+    "fin": 25.0
+   },
+   {
+    "mot": "en",
+    "debut": 25.0,
+    "fin": 25.18
+   },
+   {
+    "mot": "Bécon",
+    "debut": 25.18,
+    "fin": 25.46
+   },
+   {
+    "mot": "?",
+    "debut": 25.46,
+    "fin": 25.69
+   }
+  ]
+ },
+ {
+  "debut": 26.46,
+  "fin": 28.62,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 26.46,
+    "fin": 26.92
+   },
+   {
+    "mot": "-toi",
+    "debut": 26.92,
+    "fin": 27.1
+   },
+   {
+    "mot": "à",
+    "debut": 27.1,
+    "fin": 27.24
+   },
+   {
+    "mot": "Pixel",
+    "debut": 27.24,
+    "fin": 27.46
+   },
+   {
+    "mot": "Facts",
+    "debut": 27.46,
+    "fin": 27.82
+   },
+   {
+    "mot": "pour",
+    "debut": 27.82,
+    "fin": 28.0
+   },
+   {
+    "mot": "le",
+    "debut": 28.0,
+    "fin": 28.12
+   },
+   {
+    "mot": "prochain",
+    "debut": 28.12,
+    "fin": 28.36
+   },
+   {
+    "mot": "fait.",
+    "debut": 28.36,
+    "fin": 28.62
+   }
+  ]
+ }
+]
