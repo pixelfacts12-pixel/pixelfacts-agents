@@ -1,11 +1,10 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
-const MUSVOL = 0.08;
-const PLACEHOLDER = 0;
+const MUSVOL = 0.061;
 
 const {fontFamily} = loadFont();
-const IMGS = ['a', 'b', 'c', 'd', 'e', 'f'];
+const IMGS = ['a', 'b', 'c', 'd', 'e'];
 const OUT = '#281450';
 const fmt = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 const stroke = (w = 10) => ({WebkitTextStroke: `${w}px ${OUT}`, paintOrder: 'stroke fill' as const, textShadow: `0 10px 0 ${OUT}`});
@@ -15,7 +14,7 @@ const big = (size: number, color: string, extra: React.CSSProperties = {}): Reac
 // rotation de sons différents (whoosh + pops), jamais le même deux fois de suite
 const SFX = ['whoosh_1', 'pop1', 'whoosh_5', 'whoosh_2', 'pop2', 'whoosh_7', 'whoosh_3', 'pop3', 'whoosh_8', 'whoosh_4', 'whoosh_6'];
 
-const KEYS: [number, number][] = [[0, 0.02], [0.15, 0.1], [0.35, 0.27], [0.55, 0.5], [0.78, 0.74], [1, 1]];
+const KEYS: [number, number][] = [[0, 0.01], [0.2, 0.1], [0.4, 0.27], [0.6, 0.5], [0.8, 0.76], [1, 1]];
 const curveY = (x: number) => {
   for (let i = 1; i < KEYS.length; i++) if (x <= KEYS[i][0]) {
     const [x0, y0] = KEYS[i - 1]; const [x1, y1] = KEYS[i]; const u = (x - x0) / (x1 - x0);
@@ -64,15 +63,18 @@ const Chart: React.FC<{beat: Beat; p: number}> = ({beat, p}) => {
   const N = 120;
   for (let i = 0; i <= N; i++) { const x = (i / N) * reveal; pts.push(`${(x * W).toFixed(1)},${(H - curveY(x) * (H - 40) - 10).toFixed(1)}`); }
   const tx = reveal * W; const ty = H - curveY(reveal) * (H - 40) - 10;
-  const val = Math.round((beat.v0 ?? 0) + ((beat.v1 ?? 0) - (beat.v0 ?? 0)) * p);
+  const val = Math.round(100 * curveY(reveal));
   return <div style={{width: 1010, borderRadius: 70, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.78)', padding: '30px 0 30px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: `0 0 90px ${beat.accent}88`}}>
-    <div style={big(val > 99999 ? 190 : 230, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{fmt(val)}{beat.suffix ?? ''}</div>
+    <div style={big(230, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>100 M</div>
     <svg width={W} height={H} style={{marginTop: 10, overflow: 'visible'}}>
       {[0.25, 0.5, 0.75].map((g) => <line key={g} x1={0} x2={W} y1={H * g} y2={H * g} stroke="#ffffff22" strokeWidth={4} />)}
       <polyline points={pts.join(' ')} fill="none" stroke={OUT} strokeWidth={34} strokeLinejoin="round" strokeLinecap="round" />
       <polyline points={pts.join(' ')} fill="none" stroke={beat.accent} strokeWidth={20} strokeLinejoin="round" strokeLinecap="round" />
       <circle cx={tx} cy={ty} r={30} fill="#fff" stroke={OUT} strokeWidth={10} />
     </svg>
+    <div style={{display: 'flex', justifyContent: 'space-between', width: W, marginTop: 6}}>
+      {[2020, 2021, 2022, 2023, 2024, 2025, 2026].map((y, i) => <span key={y} style={{...big(50, i / 6 <= reveal + 0.01 ? '#fff' : '#ffffff55', {padding: 0}), WebkitTextStroke: '5px ' + OUT}}>{y}</span>)}
+    </div>
     <div style={big(110, beat.accent, {marginTop: 10})}>{beat.label}</div>
     {beat.sub ? <div style={big(90, '#fff', {marginTop: 4})}>{beat.sub}</div> : null}
   </div>;
@@ -87,7 +89,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   if (beat.kind === 'counter') {
     const dec = beat.dec ?? 0; const v = (beat.to ?? 0) * p;
     const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : beat.nofmt ? String(Math.round(v)) : fmt(Math.round(v));
-    const size = beat.sz ?? (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : (beat.to ?? 0) < 1000 ? 460 : 340;
+    const size = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : (beat.to ?? 0) < 1000 ? (beat.suffix ? 360 : 460) : 340;
     return <div style={{width: 1000, height: 1250, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
       <div style={big(size, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{beat.prefix ?? ''}{txt}{beat.suffix ?? ''}</div>
@@ -108,7 +110,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`}}>
     <div style={{fontSize: 560, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
     {beat.sub && <div style={big(100, '#fff', {marginTop: 10})}>{beat.sub}</div>}
-    <div style={big(L > 17 ? 132 : L > 12 ? 160 : L > 8 ? 170 : 200, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
+    <div style={big(L > 17 ? 132 : L > 12 ? 160 : 200, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
   </div>;
 };
 
