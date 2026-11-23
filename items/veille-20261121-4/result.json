@@ -1,8 +1,2 @@
-{
- "status": "pret",
- "titre": "Pourquoi un « Bacon » sur Roblox ? 🥓",
- "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-4",
- "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-4/envoi.mp4",
- "telegram": "Short prêt : l'anecdote du « Bacon » Roblox, 30 s, Pal Hair et refonte 2014.",
- "resume": "Sujet : pourquoi on appelle « Bacon » un joueur Roblox à l'avatar par défaut (coiffure Pal Hair), 30 s, aucune chronologie DynaBlocks.\nVérifié : surnom des débutants, nom Pal Hair, refonte 2014 (Beebom ; Pocket Tactics pour Pal Hair/débutant). L'année 2014 vient d'une seule source, d'où « d'après la presse spécialisée ». L'idée « Roblox créé par Bacon » du titre de la vidéo n'est confirmée nulle part : non reprise. Texte et images refaits.\nChoix prudents : images IA sans personne (deux images avec une femme refaites), mascotte Pixel, pas de logo ni de compte réel.\nÀ voir : la voix dit « Pal Hère » (écrit ainsi pour la prononciation, sous-titres corrects, Whisper l'entend « pas l'air ») : l'écouter ; filigrane pollinations masqué par zoom/cadrage, à vérifier ; mention IA à cocher."
-}
+{"status": "programme", "video": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261123-212315-veille-20261121-4.mp4", "legende": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-4/legende.json",
+ "telegram": "📤 Titre choisi : Pourquoi on dit « bacon » sur Roblox ? 🥓 #shorts"}

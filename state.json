@@ -267,12 +267,14 @@
    "id": "veille-20261121-4",
    "url": "https://www.youtube.com/shorts/-EXhzOSijKQ",
    "note": "Angle différent de v001 (pas de chronologie DynaBlocks) : seulement l'anecdote du compte Bacon, vérifiée sur une source écrite, en 25 à 30 s, ton complice ; ne pas copier le texte ni les images de la vidéo.",
-   "status": "pret",
+   "status": "programme",
    "recu": 1795286433.222693,
    "essais": 0,
    "reprises": 0,
    "remarques": [],
-   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261123-213934-veille-20261121-4.mp4"
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261123-212315-veille-20261121-4.mp4",
+   "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-4/legende.json",
+   "titre_pub": "📤 Titre choisi : Pourquoi on dit « bacon » sur Roblox ? 🥓 #shorts"
   },
   {
    "id": "veille-20261122-1",
@@ -335,7 +337,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 75,
+ "ev_lus": 76,
  "veille": {
   "derniere": 1795446258.707919,
   "essais": 0
