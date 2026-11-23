@@ -1,0 +1,498 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 3.88,
+  "texte": "Savais-tu que la PS5 vient de dépasser les 100 millions de consoles ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.44
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.44,
+    "fin": 0.52
+   },
+   {
+    "mot": "que",
+    "debut": 0.52,
+    "fin": 0.66
+   },
+   {
+    "mot": "la",
+    "debut": 0.66,
+    "fin": 0.78
+   },
+   {
+    "mot": "PS5",
+    "debut": 0.78,
+    "fin": 1.2
+   },
+   {
+    "mot": "vient",
+    "debut": 1.2,
+    "fin": 1.34
+   },
+   {
+    "mot": "de",
+    "debut": 1.34,
+    "fin": 1.44
+   },
+   {
+    "mot": "dépasser",
+    "debut": 1.44,
+    "fin": 1.84
+   },
+   {
+    "mot": "les",
+    "debut": 1.84,
+    "fin": 1.92
+   },
+   {
+    "mot": "100",
+    "debut": 1.92,
+    "fin": 2.08
+   },
+   {
+    "mot": "millions",
+    "debut": 2.08,
+    "fin": 2.28
+   },
+   {
+    "mot": "de",
+    "debut": 2.28,
+    "fin": 2.4
+   },
+   {
+    "mot": "consoles",
+    "debut": 2.4,
+    "fin": 2.7
+   },
+   {
+    "mot": "?",
+    "debut": 2.7,
+    "fin": 3.88
+   }
+  ]
+ },
+ {
+  "debut": 3.88,
+  "fin": 7.48,
+  "texte": "Sony l'a confirmé au 10 novembre 2026, 6 ans après son lancement.",
+  "mots": [
+   {
+    "mot": "Sony",
+    "debut": 3.88,
+    "fin": 4.18
+   },
+   {
+    "mot": "l",
+    "debut": 4.18,
+    "fin": 4.3
+   },
+   {
+    "mot": "'a",
+    "debut": 4.3,
+    "fin": 4.32
+   },
+   {
+    "mot": "confirmé",
+    "debut": 4.32,
+    "fin": 4.72
+   },
+   {
+    "mot": "au",
+    "debut": 4.72,
+    "fin": 4.84
+   },
+   {
+    "mot": "10",
+    "debut": 4.84,
+    "fin": 4.94
+   },
+   {
+    "mot": "novembre",
+    "debut": 4.94,
+    "fin": 5.28
+   },
+   {
+    "mot": "2026,",
+    "debut": 5.28,
+    "fin": 5.96
+   },
+   {
+    "mot": "6",
+    "debut": 6.32,
+    "fin": 6.56
+   },
+   {
+    "mot": "ans",
+    "debut": 6.56,
+    "fin": 6.68
+   },
+   {
+    "mot": "après",
+    "debut": 6.68,
+    "fin": 6.88
+   },
+   {
+    "mot": "son",
+    "debut": 6.88,
+    "fin": 7.08
+   },
+   {
+    "mot": "lancement.",
+    "debut": 7.08,
+    "fin": 7.48
+   }
+  ]
+ },
+ {
+  "debut": 8.44,
+  "fin": 11.3,
+  "texte": "Depuis 2020, la courbe grimpe, année après année.",
+  "mots": [
+   {
+    "mot": "Depuis",
+    "debut": 8.44,
+    "fin": 8.88
+   },
+   {
+    "mot": "2020,",
+    "debut": 8.88,
+    "fin": 9.28
+   },
+   {
+    "mot": "la",
+    "debut": 9.72,
+    "fin": 9.84
+   },
+   {
+    "mot": "courbe",
+    "debut": 9.84,
+    "fin": 10.08
+   },
+   {
+    "mot": "grimpe,",
+    "debut": 10.08,
+    "fin": 10.44
+   },
+   {
+    "mot": "année",
+    "debut": 10.7,
+    "fin": 10.82
+   },
+   {
+    "mot": "après",
+    "debut": 10.82,
+    "fin": 11.04
+   },
+   {
+    "mot": "année.",
+    "debut": 11.04,
+    "fin": 11.3
+   }
+  ]
+ },
+ {
+  "debut": 12.44,
+  "fin": 15.58,
+  "texte": "Son record, 20,8 millions de consoles sur une seule année fiscale.",
+  "mots": [
+   {
+    "mot": "Son",
+    "debut": 12.44,
+    "fin": 12.6
+   },
+   {
+    "mot": "record,",
+    "debut": 12.6,
+    "fin": 12.84
+   },
+   {
+    "mot": "20",
+    "debut": 13.26,
+    "fin": 13.34
+   },
+   {
+    "mot": ",8",
+    "debut": 13.34,
+    "fin": 13.82
+   },
+   {
+    "mot": "millions",
+    "debut": 13.82,
+    "fin": 14.02
+   },
+   {
+    "mot": "de",
+    "debut": 14.02,
+    "fin": 14.14
+   },
+   {
+    "mot": "consoles",
+    "debut": 14.14,
+    "fin": 14.46
+   },
+   {
+    "mot": "sur",
+    "debut": 14.46,
+    "fin": 14.68
+   },
+   {
+    "mot": "une",
+    "debut": 14.68,
+    "fin": 14.8
+   },
+   {
+    "mot": "seule",
+    "debut": 14.8,
+    "fin": 14.94
+   },
+   {
+    "mot": "année",
+    "debut": 14.94,
+    "fin": 15.1
+   },
+   {
+    "mot": "fiscale.",
+    "debut": 15.1,
+    "fin": 15.58
+   }
+  ]
+ },
+ {
+  "debut": 16.54,
+  "fin": 20.16,
+  "texte": "Attention, ce sont des consoles livrées au magasin, pas forcément vendues.",
+  "mots": [
+   {
+    "mot": "Attention,",
+    "debut": 16.54,
+    "fin": 17.0
+   },
+   {
+    "mot": "ce",
+    "debut": 17.56,
+    "fin": 17.64
+   },
+   {
+    "mot": "sont",
+    "debut": 17.64,
+    "fin": 17.8
+   },
+   {
+    "mot": "des",
+    "debut": 17.8,
+    "fin": 17.92
+   },
+   {
+    "mot": "consoles",
+    "debut": 17.92,
+    "fin": 18.14
+   },
+   {
+    "mot": "livrées",
+    "debut": 18.14,
+    "fin": 18.5
+   },
+   {
+    "mot": "au",
+    "debut": 18.5,
+    "fin": 18.62
+   },
+   {
+    "mot": "magasin,",
+    "debut": 18.62,
+    "fin": 19.02
+   },
+   {
+    "mot": "pas",
+    "debut": 19.3,
+    "fin": 19.42
+   },
+   {
+    "mot": "forcément",
+    "debut": 19.42,
+    "fin": 19.74
+   },
+   {
+    "mot": "vendues.",
+    "debut": 19.74,
+    "fin": 20.16
+   }
+  ]
+ },
+ {
+  "debut": 21.14,
+  "fin": 24.56,
+  "texte": "Elle talonne même la toute première PlayStation, à 102,4 millions.",
+  "mots": [
+   {
+    "mot": "Elle",
+    "debut": 21.14,
+    "fin": 21.4
+   },
+   {
+    "mot": "talonne",
+    "debut": 21.4,
+    "fin": 21.64
+   },
+   {
+    "mot": "même",
+    "debut": 21.64,
+    "fin": 21.84
+   },
+   {
+    "mot": "la",
+    "debut": 21.84,
+    "fin": 22.0
+   },
+   {
+    "mot": "toute",
+    "debut": 22.0,
+    "fin": 22.12
+   },
+   {
+    "mot": "première",
+    "debut": 22.12,
+    "fin": 22.42
+   },
+   {
+    "mot": "PlayStation,",
+    "debut": 22.42,
+    "fin": 22.92
+   },
+   {
+    "mot": "à",
+    "debut": 23.38,
+    "fin": 23.5
+   },
+   {
+    "mot": "102",
+    "debut": 23.5,
+    "fin": 23.68
+   },
+   {
+    "mot": ",4",
+    "debut": 23.68,
+    "fin": 24.3
+   },
+   {
+    "mot": "millions.",
+    "debut": 24.3,
+    "fin": 24.56
+   }
+  ]
+ },
+ {
+  "debut": 25.42,
+  "fin": 28.06,
+  "texte": "Et toi, tu l'as eu à quel moment ?",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 25.42,
+    "fin": 25.88
+   },
+   {
+    "mot": "toi,",
+    "debut": 25.88,
+    "fin": 26.02
+   },
+   {
+    "mot": "tu",
+    "debut": 26.4,
+    "fin": 26.48
+   },
+   {
+    "mot": "l",
+    "debut": 26.48,
+    "fin": 26.58
+   },
+   {
+    "mot": "'as",
+    "debut": 26.58,
+    "fin": 26.6
+   },
+   {
+    "mot": "eu",
+    "debut": 26.6,
+    "fin": 26.68
+   },
+   {
+    "mot": "à",
+    "debut": 26.68,
+    "fin": 26.78
+   },
+   {
+    "mot": "quel",
+    "debut": 26.78,
+    "fin": 26.9
+   },
+   {
+    "mot": "moment",
+    "debut": 26.9,
+    "fin": 27.12
+   },
+   {
+    "mot": "?",
+    "debut": 27.12,
+    "fin": 28.06
+   }
+  ]
+ },
+ {
+  "debut": 28.06,
+  "fin": 30.22,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 28.06,
+    "fin": 28.56
+   },
+   {
+    "mot": "-toi",
+    "debut": 28.56,
+    "fin": 28.72
+   },
+   {
+    "mot": "à",
+    "debut": 28.72,
+    "fin": 28.84
+   },
+   {
+    "mot": "Pixel",
+    "debut": 28.84,
+    "fin": 29.04
+   },
+   {
+    "mot": "Facts",
+    "debut": 29.04,
+    "fin": 29.44
+   },
+   {
+    "mot": "pour",
+    "debut": 29.44,
+    "fin": 29.6
+   },
+   {
+    "mot": "le",
+    "debut": 29.6,
+    "fin": 29.72
+   },
+   {
+    "mot": "prochain",
+    "debut": 29.72,
+    "fin": 29.92
+   },
+   {
+    "mot": "fait.",
+    "debut": 29.92,
+    "fin": 30.22
+   }
+  ]
+ }
+]
