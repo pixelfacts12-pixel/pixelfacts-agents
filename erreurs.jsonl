@@ -1,1 +1,2 @@
 {"etape": "recevoir", "erreur": "URLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2427)'))", "ts": 1795034921.0422344}
+{"etape": "reactions", "erreur": "<HTTPError 503: 'Service Unavailable'>", "ts": 1795561944.5107508}
