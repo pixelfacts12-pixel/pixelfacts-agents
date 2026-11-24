@@ -1,0 +1,535 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.28,
+  "texte": "Savais-tu qu'hier, un tout petit animal pixel a fêté ses 30 ans ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.48
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.48,
+    "fin": 0.54
+   },
+   {
+    "mot": "qu",
+    "debut": 0.54,
+    "fin": 0.7
+   },
+   {
+    "mot": "'hier,",
+    "debut": 0.7,
+    "fin": 0.84
+   },
+   {
+    "mot": "un",
+    "debut": 1.2,
+    "fin": 1.28
+   },
+   {
+    "mot": "tout",
+    "debut": 1.28,
+    "fin": 1.4
+   },
+   {
+    "mot": "petit",
+    "debut": 1.4,
+    "fin": 1.64
+   },
+   {
+    "mot": "animal",
+    "debut": 1.64,
+    "fin": 1.94
+   },
+   {
+    "mot": "pixel",
+    "debut": 1.94,
+    "fin": 2.22
+   },
+   {
+    "mot": "a",
+    "debut": 2.22,
+    "fin": 2.48
+   },
+   {
+    "mot": "fêté",
+    "debut": 2.48,
+    "fin": 2.68
+   },
+   {
+    "mot": "ses",
+    "debut": 2.68,
+    "fin": 2.78
+   },
+   {
+    "mot": "30",
+    "debut": 2.78,
+    "fin": 3.0
+   },
+   {
+    "mot": "ans",
+    "debut": 3.0,
+    "fin": 3.16
+   },
+   {
+    "mot": "?",
+    "debut": 3.16,
+    "fin": 4.28
+   }
+  ]
+ },
+ {
+  "debut": 4.28,
+  "fin": 7.62,
+  "texte": "Le 23 novembre 1996, le Tamagotchi sort au Japon.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 4.28,
+    "fin": 4.38
+   },
+   {
+    "mot": "23",
+    "debut": 4.38,
+    "fin": 4.6
+   },
+   {
+    "mot": "novembre",
+    "debut": 4.6,
+    "fin": 5.08
+   },
+   {
+    "mot": "1996,",
+    "debut": 5.08,
+    "fin": 5.64
+   },
+   {
+    "mot": "le",
+    "debut": 6.46,
+    "fin": 6.56
+   },
+   {
+    "mot": "Tamagotchi",
+    "debut": 6.56,
+    "fin": 7.1
+   },
+   {
+    "mot": "sort",
+    "debut": 7.1,
+    "fin": 7.26
+   },
+   {
+    "mot": "au",
+    "debut": 7.26,
+    "fin": 7.38
+   },
+   {
+    "mot": "Japon.",
+    "debut": 7.38,
+    "fin": 7.62
+   }
+  ]
+ },
+ {
+  "debut": 8.66,
+  "fin": 12.28,
+  "texte": "Pixel l'adopte aujourd'hui, un câlin, un repas, et hop, il grandit.",
+  "mots": [
+   {
+    "mot": "Pixel",
+    "debut": 8.66,
+    "fin": 9.06
+   },
+   {
+    "mot": "l",
+    "debut": 9.06,
+    "fin": 9.24
+   },
+   {
+    "mot": "'adopte",
+    "debut": 9.24,
+    "fin": 9.44
+   },
+   {
+    "mot": "aujourd",
+    "debut": 9.44,
+    "fin": 9.56
+   },
+   {
+    "mot": "'hui,",
+    "debut": 9.56,
+    "fin": 9.88
+   },
+   {
+    "mot": "un",
+    "debut": 10.06,
+    "fin": 10.16
+   },
+   {
+    "mot": "câlin,",
+    "debut": 10.16,
+    "fin": 10.38
+   },
+   {
+    "mot": "un",
+    "debut": 10.66,
+    "fin": 10.76
+   },
+   {
+    "mot": "repas,",
+    "debut": 10.76,
+    "fin": 11.06
+   },
+   {
+    "mot": "et",
+    "debut": 11.32,
+    "fin": 11.42
+   },
+   {
+    "mot": "hop,",
+    "debut": 11.42,
+    "fin": 11.62
+   },
+   {
+    "mot": "il",
+    "debut": 11.86,
+    "fin": 11.92
+   },
+   {
+    "mot": "grandit.",
+    "debut": 11.92,
+    "fin": 12.28
+   }
+  ]
+ },
+ {
+  "debut": 13.32,
+  "fin": 13.74,
+  "texte": "Bip bip.",
+  "mots": [
+   {
+    "mot": "Bip",
+    "debut": 13.32,
+    "fin": 13.62
+   },
+   {
+    "mot": "bip.",
+    "debut": 13.62,
+    "fin": 13.74
+   }
+  ]
+ },
+ {
+  "debut": 14.66,
+  "fin": 17.24,
+  "texte": "Il réclame déjà de l'attention, même au milieu de la nuit.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 14.66,
+    "fin": 14.84
+   },
+   {
+    "mot": "réclame",
+    "debut": 14.84,
+    "fin": 15.24
+   },
+   {
+    "mot": "déjà",
+    "debut": 15.24,
+    "fin": 15.48
+   },
+   {
+    "mot": "de",
+    "debut": 15.48,
+    "fin": 15.62
+   },
+   {
+    "mot": "l",
+    "debut": 15.62,
+    "fin": 15.7
+   },
+   {
+    "mot": "'attention,",
+    "debut": 15.7,
+    "fin": 16.02
+   },
+   {
+    "mot": "même",
+    "debut": 16.42,
+    "fin": 16.56
+   },
+   {
+    "mot": "au",
+    "debut": 16.56,
+    "fin": 16.7
+   },
+   {
+    "mot": "milieu",
+    "debut": 16.7,
+    "fin": 16.86
+   },
+   {
+    "mot": "de",
+    "debut": 16.86,
+    "fin": 17.0
+   },
+   {
+    "mot": "la",
+    "debut": 17.0,
+    "fin": 17.1
+   },
+   {
+    "mot": "nuit.",
+    "debut": 17.1,
+    "fin": 17.24
+   }
+  ]
+ },
+ {
+  "debut": 18.34,
+  "fin": 22.02,
+  "texte": "Un an plus tard, en 1997, il part conquérir le monde entier.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 18.34,
+    "fin": 18.52
+   },
+   {
+    "mot": "an",
+    "debut": 18.52,
+    "fin": 18.66
+   },
+   {
+    "mot": "plus",
+    "debut": 18.66,
+    "fin": 18.76
+   },
+   {
+    "mot": "tard,",
+    "debut": 18.76,
+    "fin": 19.04
+   },
+   {
+    "mot": "en",
+    "debut": 19.32,
+    "fin": 19.4
+   },
+   {
+    "mot": "1997,",
+    "debut": 19.4,
+    "fin": 20.14
+   },
+   {
+    "mot": "il",
+    "debut": 20.76,
+    "fin": 20.84
+   },
+   {
+    "mot": "part",
+    "debut": 20.84,
+    "fin": 20.98
+   },
+   {
+    "mot": "conquérir",
+    "debut": 20.98,
+    "fin": 21.44
+   },
+   {
+    "mot": "le",
+    "debut": 21.44,
+    "fin": 21.56
+   },
+   {
+    "mot": "monde",
+    "debut": 21.56,
+    "fin": 21.7
+   },
+   {
+    "mot": "entier.",
+    "debut": 21.7,
+    "fin": 22.02
+   }
+  ]
+ },
+ {
+  "debut": 23.02,
+  "fin": 25.84,
+  "texte": "Aujourd'hui, la famille approche les 100 millions d'exemplaires.",
+  "mots": [
+   {
+    "mot": "Aujourd",
+    "debut": 23.02,
+    "fin": 23.32
+   },
+   {
+    "mot": "'hui,",
+    "debut": 23.32,
+    "fin": 23.66
+   },
+   {
+    "mot": "la",
+    "debut": 23.98,
+    "fin": 24.1
+   },
+   {
+    "mot": "famille",
+    "debut": 24.1,
+    "fin": 24.3
+   },
+   {
+    "mot": "approche",
+    "debut": 24.3,
+    "fin": 24.72
+   },
+   {
+    "mot": "les",
+    "debut": 24.72,
+    "fin": 24.82
+   },
+   {
+    "mot": "100",
+    "debut": 24.82,
+    "fin": 25.0
+   },
+   {
+    "mot": "millions",
+    "debut": 25.0,
+    "fin": 25.2
+   },
+   {
+    "mot": "d",
+    "debut": 25.2,
+    "fin": 25.34
+   },
+   {
+    "mot": "'exemplaires.",
+    "debut": 25.34,
+    "fin": 25.84
+   }
+  ]
+ },
+ {
+  "debut": 26.660000000000004,
+  "fin": 31.2,
+  "texte": "Entre 1996 et 2026, 30 ans de tendresse, et il bip toujours.",
+  "mots": [
+   {
+    "mot": "Entre",
+    "debut": 26.660000000000004,
+    "fin": 27.220000000000002
+   },
+   {
+    "mot": "1996",
+    "debut": 27.220000000000002,
+    "fin": 27.78
+   },
+   {
+    "mot": "et",
+    "debut": 27.78,
+    "fin": 28.2
+   },
+   {
+    "mot": "2026,",
+    "debut": 28.2,
+    "fin": 28.82
+   },
+   {
+    "mot": "30",
+    "debut": 29.26,
+    "fin": 29.44
+   },
+   {
+    "mot": "ans",
+    "debut": 29.44,
+    "fin": 29.58
+   },
+   {
+    "mot": "de",
+    "debut": 29.58,
+    "fin": 29.66
+   },
+   {
+    "mot": "tendresse,",
+    "debut": 29.66,
+    "fin": 30.08
+   },
+   {
+    "mot": "et",
+    "debut": 30.4,
+    "fin": 30.48
+   },
+   {
+    "mot": "il",
+    "debut": 30.48,
+    "fin": 30.58
+   },
+   {
+    "mot": "bip",
+    "debut": 30.58,
+    "fin": 30.74
+   },
+   {
+    "mot": "toujours.",
+    "debut": 30.74,
+    "fin": 31.2
+   }
+  ]
+ },
+ {
+  "debut": 32.3,
+  "fin": 34.54,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 32.3,
+    "fin": 32.86
+   },
+   {
+    "mot": "-toi",
+    "debut": 32.86,
+    "fin": 33.04
+   },
+   {
+    "mot": "à",
+    "debut": 33.04,
+    "fin": 33.16
+   },
+   {
+    "mot": "Pixel",
+    "debut": 33.16,
+    "fin": 33.36
+   },
+   {
+    "mot": "Facts",
+    "debut": 33.36,
+    "fin": 33.74
+   },
+   {
+    "mot": "pour",
+    "debut": 33.74,
+    "fin": 33.92
+   },
+   {
+    "mot": "le",
+    "debut": 33.92,
+    "fin": 34.04
+   },
+   {
+    "mot": "prochain",
+    "debut": 34.04,
+    "fin": 34.26
+   },
+   {
+    "mot": "fait.",
+    "debut": 34.26,
+    "fin": 34.54
+   }
+  ]
+ }
+]

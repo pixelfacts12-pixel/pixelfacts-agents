@@ -307,11 +307,12 @@
    "id": "veille-20261123-1",
    "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
    "note": "Short nostalgique de 30 s, Pixel qui s'occupe d'un petit animal pixel qui grandit, compteur 1996 → 2026, ton tendre et amusé, aucun visuel officiel ni logo.",
-   "status": "a_faire",
+   "status": "pret",
    "recu": 1795459234.3153234,
    "essais": 0,
    "reprises": 0,
-   "remarques": []
+   "remarques": [],
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261124-193305-veille-20261123-1.mp4"
   },
   {
    "id": "veille-20261123-2",
@@ -387,7 +388,7 @@
   }
  },
  "agents": {
-  "roblox_tendances": 1795476031.1267455,
+  "roblox_tendances": 1795548094.1737137,
   "roblox_stats": 1795476648.2118013,
   "chef": 1795469215.0586865,
   "controleur": 1795544646.0473113
