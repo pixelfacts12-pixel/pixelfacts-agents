@@ -307,7 +307,7 @@
    "id": "veille-20261123-1",
    "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
    "note": "Short nostalgique de 30 s, Pixel qui s'occupe d'un petit animal pixel qui grandit, compteur 1996 → 2026, ton tendre et amusé, aucun visuel officiel ni logo.",
-   "status": "valide",
+   "status": "programme",
    "recu": 1795459234.3153234,
    "essais": 0,
    "reprises": 0,
@@ -315,8 +315,6 @@
    "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261124-193305-veille-20261123-1.mp4",
    "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-1/legende.json",
    "titre_pub": "📤 Titre choisi : Le Tamagotchi a 30 ans 🐣 #shorts",
-   "attente_buffer": true,
-   "prochain_essai": 1795561426.0397663,
    "averti_buffer": true
   },
   {
