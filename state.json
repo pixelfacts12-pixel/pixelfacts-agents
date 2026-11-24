@@ -147,13 +147,15 @@
    "id": "veille-20261119-3",
    "url": "https://www.youtube.com/shorts/Bo4V0iT-UFs",
    "note": "Angle fiction légère et comique (pas de violence), un personnage animé se retrouve coincé comme PNJ dans le jeu, ton absurde gentil, public ado.",
-   "status": "valide",
+   "status": "programme",
    "recu": 1795117381.6158822,
-   "essais": 1,
+   "essais": 0,
    "reprises": 0,
    "remarques": [],
    "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-153247-veille-20261119-3.mp4",
-   "relance_buffer": true
+   "relance_buffer": true,
+   "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261119-3/legende.json",
+   "titre_pub": "📤 Titre choisi : Pixel coincé en PNJ 🧍 #shorts"
   },
   {
    "id": "veille-20261119-2",
