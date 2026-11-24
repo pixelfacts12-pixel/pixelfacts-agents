@@ -147,12 +147,13 @@
    "id": "veille-20261119-3",
    "url": "https://www.youtube.com/shorts/Bo4V0iT-UFs",
    "note": "Angle fiction légère et comique (pas de violence), un personnage animé se retrouve coincé comme PNJ dans le jeu, ton absurde gentil, public ado.",
-   "status": "programme",
+   "status": "valide",
    "recu": 1795117381.6158822,
-   "essais": 0,
+   "essais": 1,
    "reprises": 0,
    "remarques": [],
-   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-153247-veille-20261119-3.mp4"
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-153247-veille-20261119-3.mp4",
+   "relance_buffer": true
   },
   {
    "id": "veille-20261119-2",
@@ -348,7 +349,7 @@
   "roblox_tendances": 1795476031.1267455,
   "roblox_stats": 1795476648.2118013,
   "chef": 1795469215.0586865,
-  "controleur": 1795510242.2608283
+  "controleur": 1795521959.558862
  },
  "roblox_derniere": 1795213300.7825432
 }
