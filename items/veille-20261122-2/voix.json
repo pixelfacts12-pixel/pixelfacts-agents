@@ -22,12 +22,12 @@
    {
     "mot": "'en",
     "debut": 0.68,
-    "fin": 0.74
+    "fin": 0.76
    },
    {
     "mot": "1983,",
-    "debut": 0.74,
-    "fin": 1.44
+    "debut": 0.76,
+    "fin": 1.5
    },
    {
     "mot": "le",
@@ -68,547 +68,549 @@
  },
  {
   "debut": 4.54,
-  "fin": 7.84,
-  "texte": "Trop de consoles, trop de jeux baclés, le marché américain étouffe.",
-  "mots": [
-   {
-    "mot": "Trop",
-    "debut": 4.54,
-    "fin": 4.7
-   },
-   {
-    "mot": "de",
-    "debut": 4.7,
-    "fin": 4.82
-   },
-   {
-    "mot": "consoles,",
-    "debut": 4.82,
-    "fin": 5.14
-   },
-   {
-    "mot": "trop",
-    "debut": 5.6,
-    "fin": 5.7
-   },
-   {
-    "mot": "de",
-    "debut": 5.7,
-    "fin": 5.84
-   },
-   {
-    "mot": "jeux",
-    "debut": 5.84,
-    "fin": 5.98
-   },
-   {
-    "mot": "baclés,",
-    "debut": 5.98,
-    "fin": 6.32
-   },
-   {
-    "mot": "le",
-    "debut": 6.58,
-    "fin": 6.66
-   },
-   {
-    "mot": "marché",
-    "debut": 6.66,
-    "fin": 6.84
-   },
-   {
-    "mot": "américain",
-    "debut": 6.84,
-    "fin": 7.38
-   },
-   {
-    "mot": "étouffe.",
-    "debut": 7.38,
-    "fin": 7.84
-   }
-  ]
- },
- {
-  "debut": 8.940000000000001,
-  "fin": 12.46,
-  "texte": "Résultat, les ventes s'effondrent d'environ 97 % en quelques années.",
-  "mots": [
-   {
-    "mot": "Résultat,",
-    "debut": 8.940000000000001,
-    "fin": 9.5
-   },
-   {
-    "mot": "les",
-    "debut": 9.78,
-    "fin": 9.86
-   },
-   {
-    "mot": "ventes",
-    "debut": 9.86,
-    "fin": 10.06
-   },
-   {
-    "mot": "s",
-    "debut": 10.06,
-    "fin": 10.16
-   },
-   {
-    "mot": "'effondrent",
-    "debut": 10.16,
-    "fin": 10.42
-   },
-   {
-    "mot": "d",
-    "debut": 10.42,
-    "fin": 10.54
-   },
-   {
-    "mot": "'environ",
-    "debut": 10.54,
-    "fin": 10.7
-   },
-   {
-    "mot": "97",
-    "debut": 10.7,
-    "fin": 11.32
-   },
-   {
-    "mot": "%",
-    "debut": 11.32,
-    "fin": 11.7
-   },
-   {
-    "mot": "en",
-    "debut": 11.7,
-    "fin": 11.94
-   },
-   {
-    "mot": "quelques",
-    "debut": 11.94,
-    "fin": 12.1
-   },
-   {
-    "mot": "années.",
-    "debut": 12.1,
-    "fin": 12.46
-   }
-  ]
- },
- {
-  "debut": 13.48,
-  "fin": 16.88,
-  "texte": "Pixel l'archéologue par enquêté, direction le désert du Nouveau-Mexique.",
+  "fin": 6.74,
+  "texte": "Pixel part en fouille dans le désert du Nouveau-Mexique.",
   "mots": [
    {
     "mot": "Pixel",
-    "debut": 13.48,
-    "fin": 13.84
+    "debut": 4.54,
+    "fin": 4.8
    },
    {
-    "mot": "l",
-    "debut": 13.84,
-    "fin": 14.04
+    "mot": "part",
+    "debut": 4.8,
+    "fin": 5.08
    },
    {
-    "mot": "'archéologue",
-    "debut": 14.04,
-    "fin": 14.34
+    "mot": "en",
+    "debut": 5.08,
+    "fin": 5.2
    },
    {
-    "mot": "par",
-    "debut": 14.34,
-    "fin": 14.56
-   },
-   {
-    "mot": "enquêté,",
-    "debut": 14.56,
-    "fin": 14.98
-   },
-   {
-    "mot": "direction",
-    "debut": 15.26,
-    "fin": 15.54
-   },
-   {
-    "mot": "le",
-    "debut": 15.54,
-    "fin": 15.8
-   },
-   {
-    "mot": "désert",
-    "debut": 15.8,
-    "fin": 16.1
-   },
-   {
-    "mot": "du",
-    "debut": 16.1,
-    "fin": 16.22
-   },
-   {
-    "mot": "Nouveau",
-    "debut": 16.22,
-    "fin": 16.4
-   },
-   {
-    "mot": "-Mexique.",
-    "debut": 16.4,
-    "fin": 16.88
-   }
-  ]
- },
- {
-  "debut": 17.76,
-  "fin": 21.84,
-  "texte": "En septembre 1983, des cartouches invendues sont enterrées dans une décharge.",
-  "mots": [
-   {
-    "mot": "En",
-    "debut": 17.76,
-    "fin": 18.14
-   },
-   {
-    "mot": "septembre",
-    "debut": 18.14,
-    "fin": 18.58
-   },
-   {
-    "mot": "1983,",
-    "debut": 18.58,
-    "fin": 19.26
-   },
-   {
-    "mot": "des",
-    "debut": 19.86,
-    "fin": 19.94
-   },
-   {
-    "mot": "cartouches",
-    "debut": 19.94,
-    "fin": 20.32
-   },
-   {
-    "mot": "invendues",
-    "debut": 20.32,
-    "fin": 20.72
-   },
-   {
-    "mot": "sont",
-    "debut": 20.72,
-    "fin": 20.86
-   },
-   {
-    "mot": "enterrées",
-    "debut": 20.86,
-    "fin": 21.24
+    "mot": "fouille",
+    "debut": 5.2,
+    "fin": 5.4
    },
    {
     "mot": "dans",
-    "debut": 21.24,
-    "fin": 21.36
+    "debut": 5.4,
+    "fin": 5.5
    },
    {
-    "mot": "une",
-    "debut": 21.36,
-    "fin": 21.5
+    "mot": "le",
+    "debut": 5.5,
+    "fin": 5.58
    },
    {
-    "mot": "décharge.",
-    "debut": 21.5,
-    "fin": 21.84
+    "mot": "désert",
+    "debut": 5.58,
+    "fin": 5.88
+   },
+   {
+    "mot": "du",
+    "debut": 5.88,
+    "fin": 6.02
+   },
+   {
+    "mot": "Nouveau",
+    "debut": 6.02,
+    "fin": 6.22
+   },
+   {
+    "mot": "-Mexique.",
+    "debut": 6.22,
+    "fin": 6.74
    }
   ]
  },
  {
-  "debut": 22.720000000000002,
-  "fin": 26.0,
-  "texte": "Les fouilles de 2014 en ont confirmé environ 728 000.",
+  "debut": 7.500000000000002,
+  "fin": 11.0,
+  "texte": "Le marché américain s'effondre, trop de consoles, trop de jeux bâclés.",
   "mots": [
    {
-    "mot": "Les",
-    "debut": 22.720000000000002,
-    "fin": 23.28
+    "mot": "Le",
+    "debut": 7.500000000000002,
+    "fin": 7.94
    },
    {
-    "mot": "fouilles",
-    "debut": 23.28,
-    "fin": 23.5
+    "mot": "marché",
+    "debut": 7.94,
+    "fin": 8.16
+   },
+   {
+    "mot": "américain",
+    "debut": 8.16,
+    "fin": 8.68
+   },
+   {
+    "mot": "s",
+    "debut": 8.68,
+    "fin": 8.8
+   },
+   {
+    "mot": "'effondre,",
+    "debut": 8.8,
+    "fin": 9.12
+   },
+   {
+    "mot": "trop",
+    "debut": 9.32,
+    "fin": 9.44
    },
    {
     "mot": "de",
-    "debut": 23.5,
-    "fin": 23.6
+    "debut": 9.44,
+    "fin": 9.54
    },
    {
-    "mot": "2014",
-    "debut": 23.6,
-    "fin": 23.96
+    "mot": "consoles,",
+    "debut": 9.54,
+    "fin": 9.86
+   },
+   {
+    "mot": "trop",
+    "debut": 10.3,
+    "fin": 10.38
+   },
+   {
+    "mot": "de",
+    "debut": 10.38,
+    "fin": 10.52
+   },
+   {
+    "mot": "jeux",
+    "debut": 10.52,
+    "fin": 10.64
+   },
+   {
+    "mot": "bâclés.",
+    "debut": 10.64,
+    "fin": 11.0
+   }
+  ]
+ },
+ {
+  "debut": 12.1,
+  "fin": 14.74,
+  "texte": "Atari perd alors 536 millions de dollars en une seule année.",
+  "mots": [
+   {
+    "mot": "Atari",
+    "debut": 12.1,
+    "fin": 12.42
+   },
+   {
+    "mot": "perd",
+    "debut": 12.42,
+    "fin": 12.62
+   },
+   {
+    "mot": "alors",
+    "debut": 12.62,
+    "fin": 12.82
+   },
+   {
+    "mot": "536",
+    "debut": 12.82,
+    "fin": 13.36
+   },
+   {
+    "mot": "millions",
+    "debut": 13.36,
+    "fin": 13.72
+   },
+   {
+    "mot": "de",
+    "debut": 13.72,
+    "fin": 13.9
+   },
+   {
+    "mot": "dollars",
+    "debut": 13.9,
+    "fin": 14.12
    },
    {
     "mot": "en",
-    "debut": 23.96,
+    "debut": 14.12,
+    "fin": 14.28
+   },
+   {
+    "mot": "une",
+    "debut": 14.28,
+    "fin": 14.4
+   },
+   {
+    "mot": "seule",
+    "debut": 14.4,
+    "fin": 14.54
+   },
+   {
+    "mot": "année.",
+    "debut": 14.54,
+    "fin": 14.74
+   }
+  ]
+ },
+ {
+  "debut": 15.92,
+  "fin": 18.7,
+  "texte": "Des centaines de milliers de cartouches invendues sont enterrées sous du béton.",
+  "mots": [
+   {
+    "mot": "Des",
+    "debut": 15.92,
+    "fin": 16.04
+   },
+   {
+    "mot": "centaines",
+    "debut": 16.04,
+    "fin": 16.36
+   },
+   {
+    "mot": "de",
+    "debut": 16.36,
+    "fin": 16.48
+   },
+   {
+    "mot": "milliers",
+    "debut": 16.48,
+    "fin": 16.74
+   },
+   {
+    "mot": "de",
+    "debut": 16.74,
+    "fin": 16.86
+   },
+   {
+    "mot": "cartouches",
+    "debut": 16.86,
+    "fin": 17.28
+   },
+   {
+    "mot": "invendues",
+    "debut": 17.28,
+    "fin": 17.66
+   },
+   {
+    "mot": "sont",
+    "debut": 17.66,
+    "fin": 17.82
+   },
+   {
+    "mot": "enterrées",
+    "debut": 17.82,
+    "fin": 18.22
+   },
+   {
+    "mot": "sous",
+    "debut": 18.22,
+    "fin": 18.34
+   },
+   {
+    "mot": "du",
+    "debut": 18.34,
+    "fin": 18.46
+   },
+   {
+    "mot": "béton.",
+    "debut": 18.46,
+    "fin": 18.7
+   }
+  ]
+ },
+ {
+  "debut": 19.68,
+  "fin": 22.98,
+  "texte": "En 2014, 31 ans plus tard, les fouilles commencent.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 19.68,
+    "fin": 19.94
+   },
+   {
+    "mot": "2014,",
+    "debut": 19.94,
+    "fin": 20.36
+   },
+   {
+    "mot": "31",
+    "debut": 21.0,
+    "fin": 21.2
+   },
+   {
+    "mot": "ans",
+    "debut": 21.2,
+    "fin": 21.46
+   },
+   {
+    "mot": "plus",
+    "debut": 21.46,
+    "fin": 21.62
+   },
+   {
+    "mot": "tard,",
+    "debut": 21.62,
+    "fin": 21.86
+   },
+   {
+    "mot": "les",
+    "debut": 22.22,
+    "fin": 22.32
+   },
+   {
+    "mot": "fouilles",
+    "debut": 22.32,
+    "fin": 22.5
+   },
+   {
+    "mot": "commencent.",
+    "debut": 22.5,
+    "fin": 22.98
+   }
+  ]
+ },
+ {
+  "debut": 24.02,
+  "fin": 27.48,
+  "texte": "Pas des millions, comme la légende, environ 1300 cartouches sont retrouvés.",
+  "mots": [
+   {
+    "mot": "Pas",
+    "debut": 24.02,
+    "fin": 24.24
+   },
+   {
+    "mot": "des",
+    "debut": 24.24,
     "fin": 24.38
    },
    {
-    "mot": "ont",
+    "mot": "millions,",
     "debut": 24.38,
-    "fin": 24.46
+    "fin": 24.56
    },
    {
-    "mot": "confirmé",
-    "debut": 24.46,
-    "fin": 24.9
+    "mot": "comme",
+    "debut": 24.96,
+    "fin": 25.08
+   },
+   {
+    "mot": "la",
+    "debut": 25.08,
+    "fin": 25.2
+   },
+   {
+    "mot": "légende,",
+    "debut": 25.2,
+    "fin": 25.54
    },
    {
     "mot": "environ",
-    "debut": 24.9,
-    "fin": 25.14
+    "debut": 25.76,
+    "fin": 25.94
    },
    {
-    "mot": "728",
-    "debut": 25.14,
-    "fin": 25.78
+    "mot": "1300",
+    "debut": 25.94,
+    "fin": 26.2
    },
    {
-    "mot": "000.",
-    "debut": 25.78,
-    "fin": 26.0
-   }
-  ]
- },
- {
-  "debut": 26.88,
-  "fin": 30.62,
-  "texte": "Mais le Japon réagit, la Famicom sort le 15 juillet 1983.",
-  "mots": [
-   {
-    "mot": "Mais",
-    "debut": 26.88,
-    "fin": 27.34
+    "mot": "cartouches",
+    "debut": 26.2,
+    "fin": 26.92
    },
    {
-    "mot": "le",
-    "debut": 27.34,
+    "mot": "sont",
+    "debut": 26.92,
+    "fin": 27.04
+   },
+   {
+    "mot": "retrouvés.",
+    "debut": 27.04,
     "fin": 27.48
-   },
-   {
-    "mot": "Japon",
-    "debut": 27.48,
-    "fin": 27.74
-   },
-   {
-    "mot": "réagit,",
-    "debut": 27.74,
-    "fin": 28.14
-   },
-   {
-    "mot": "la",
-    "debut": 28.44,
-    "fin": 28.56
-   },
-   {
-    "mot": "Famicom",
-    "debut": 28.56,
-    "fin": 28.98
-   },
-   {
-    "mot": "sort",
-    "debut": 28.98,
-    "fin": 29.14
-   },
-   {
-    "mot": "le",
-    "debut": 29.14,
-    "fin": 29.28
-   },
-   {
-    "mot": "15",
-    "debut": 29.28,
-    "fin": 29.44
-   },
-   {
-    "mot": "juillet",
-    "debut": 29.44,
-    "fin": 29.76
-   },
-   {
-    "mot": "1983.",
-    "debut": 29.76,
-    "fin": 30.62
    }
   ]
  },
  {
-  "debut": 31.48,
-  "fin": 35.42,
-  "texte": "Puis la NES arrive aux États-Unis en 1985 et le jeu vidéo repart.",
+  "debut": 28.28,
+  "fin": 31.94,
+  "texte": "Le jeu vidéo repart dès 1985 avec la NES de Nintendo.",
   "mots": [
    {
-    "mot": "Puis",
-    "debut": 31.48,
-    "fin": 31.94
-   },
-   {
-    "mot": "la",
-    "debut": 31.94,
-    "fin": 32.06
-   },
-   {
-    "mot": "NES",
-    "debut": 32.06,
-    "fin": 32.18
-   },
-   {
-    "mot": "arrive",
-    "debut": 32.18,
-    "fin": 32.42
-   },
-   {
-    "mot": "aux",
-    "debut": 32.42,
-    "fin": 32.58
-   },
-   {
-    "mot": "États",
-    "debut": 32.58,
-    "fin": 32.72
-   },
-   {
-    "mot": "-Unis",
-    "debut": 32.72,
-    "fin": 32.98
-   },
-   {
-    "mot": "en",
-    "debut": 32.98,
-    "fin": 33.12
-   },
-   {
-    "mot": "1985",
-    "debut": 33.12,
-    "fin": 34.0
-   },
-   {
-    "mot": "et",
-    "debut": 34.0,
-    "fin": 34.46
-   },
-   {
-    "mot": "le",
-    "debut": 34.46,
-    "fin": 34.58
+    "mot": "Le",
+    "debut": 28.28,
+    "fin": 28.74
    },
    {
     "mot": "jeu",
-    "debut": 34.58,
-    "fin": 34.72
+    "debut": 28.74,
+    "fin": 28.9
    },
    {
     "mot": "vidéo",
-    "debut": 34.72,
-    "fin": 35.0
+    "debut": 28.9,
+    "fin": 29.22
    },
    {
-    "mot": "repart.",
-    "debut": 35.0,
-    "fin": 35.42
+    "mot": "repart",
+    "debut": 29.22,
+    "fin": 29.56
+   },
+   {
+    "mot": "dès",
+    "debut": 29.56,
+    "fin": 29.68
+   },
+   {
+    "mot": "1985",
+    "debut": 29.68,
+    "fin": 30.56
+   },
+   {
+    "mot": "avec",
+    "debut": 30.56,
+    "fin": 31.12
+   },
+   {
+    "mot": "la",
+    "debut": 31.12,
+    "fin": 31.32
+   },
+   {
+    "mot": "NES",
+    "debut": 31.32,
+    "fin": 31.46
+   },
+   {
+    "mot": "de",
+    "debut": 31.46,
+    "fin": 31.6
+   },
+   {
+    "mot": "Nintendo.",
+    "debut": 31.6,
+    "fin": 31.94
    }
   ]
  },
  {
-  "debut": 36.54,
-  "fin": 41.56,
-  "texte": "Et toi, tu aurais parié sur son retour ? Abonne-toi à Pixel Facts pour le prochain fait.",
+  "debut": 33.12,
+  "fin": 35.88,
+  "texte": "Aujourd'hui, il pèse plus de 200 milliards de dollars par an.",
   "mots": [
    {
-    "mot": "Et",
-    "debut": 36.54,
-    "fin": 36.72
+    "mot": "Aujourd",
+    "debut": 33.12,
+    "fin": 33.4
    },
    {
-    "mot": "toi,",
-    "debut": 36.72,
-    "fin": 36.88
+    "mot": "'hui,",
+    "debut": 33.4,
+    "fin": 33.72
    },
    {
-    "mot": "tu",
-    "debut": 37.28,
-    "fin": 37.38
+    "mot": "il",
+    "debut": 34.04,
+    "fin": 34.14
    },
    {
-    "mot": "aurais",
-    "debut": 37.38,
-    "fin": 37.52
+    "mot": "pèse",
+    "debut": 34.14,
+    "fin": 34.34
    },
    {
-    "mot": "parié",
-    "debut": 37.52,
-    "fin": 37.8
+    "mot": "plus",
+    "debut": 34.34,
+    "fin": 34.5
    },
    {
-    "mot": "sur",
-    "debut": 37.8,
-    "fin": 37.96
+    "mot": "de",
+    "debut": 34.5,
+    "fin": 34.62
    },
    {
-    "mot": "son",
-    "debut": 37.96,
-    "fin": 38.1
+    "mot": "200",
+    "debut": 34.62,
+    "fin": 34.88
    },
    {
-    "mot": "retour",
-    "debut": 38.1,
-    "fin": 38.4
+    "mot": "milliards",
+    "debut": 34.88,
+    "fin": 35.12
    },
    {
-    "mot": "?",
-    "debut": 38.4,
-    "fin": 39.6
+    "mot": "de",
+    "debut": 35.12,
+    "fin": 35.32
    },
+   {
+    "mot": "dollars",
+    "debut": 35.32,
+    "fin": 35.5
+   },
+   {
+    "mot": "par",
+    "debut": 35.5,
+    "fin": 35.76
+   },
+   {
+    "mot": "an.",
+    "debut": 35.76,
+    "fin": 35.88
+   }
+  ]
+ },
+ {
+  "debut": 36.72,
+  "fin": 38.86,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
    {
     "mot": "Abonne",
-    "debut": 39.6,
-    "fin": 39.88
+    "debut": 36.72,
+    "fin": 37.18
    },
    {
     "mot": "-toi",
-    "debut": 39.88,
-    "fin": 40.06
+    "debut": 37.18,
+    "fin": 37.34
    },
    {
     "mot": "à",
-    "debut": 40.06,
-    "fin": 40.2
+    "debut": 37.34,
+    "fin": 37.48
    },
    {
     "mot": "Pixel",
-    "debut": 40.2,
-    "fin": 40.4
+    "debut": 37.48,
+    "fin": 37.66
    },
    {
     "mot": "Facts",
-    "debut": 40.4,
-    "fin": 40.78
+    "debut": 37.66,
+    "fin": 38.08
    },
    {
     "mot": "pour",
-    "debut": 40.78,
-    "fin": 40.96
+    "debut": 38.08,
+    "fin": 38.24
    },
    {
     "mot": "le",
-    "debut": 40.96,
-    "fin": 41.08
+    "debut": 38.24,
+    "fin": 38.36
    },
    {
     "mot": "prochain",
-    "debut": 41.08,
-    "fin": 41.3
+    "debut": 38.36,
+    "fin": 38.58
    },
    {
     "mot": "fait.",
-    "debut": 41.3,
-    "fin": 41.56
+    "debut": 38.58,
+    "fin": 38.86
    }
   ]
  }

@@ -1,7 +1,7 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
-const MUSVOL = 0.065;
+const MUSVOL = 0.061;
 
 const {fontFamily} = loadFont();
 const IMGS = ['a', 'b', 'c', 'd', 'e'];
@@ -89,7 +89,9 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   if (beat.kind === 'counter') {
     const dec = beat.dec ?? 0; const v = (beat.to ?? 0) * p;
     const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : beat.nofmt ? String(Math.round(v)) : fmt(Math.round(v));
-    const size = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : (beat.to ?? 0) < 1000 ? (beat.suffix ? 360 : 460) : 340;
+    const size0 = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : (beat.to ?? 0) < 1000 ? (beat.suffix ? 360 : 460) : 340;
+    const fullTxt = (beat.prefix ?? '') + txt + (beat.suffix ?? '');
+    const size = Math.min(size0, Math.floor(900 / (fullTxt.length * 0.6)));
     return <div style={{width: 1000, height: 1250, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
       <div style={big(size, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{beat.prefix ?? ''}{txt}{beat.suffix ?? ''}</div>
