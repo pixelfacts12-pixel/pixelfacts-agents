@@ -1,8 +1,9 @@
-1|+14%|Savais-tu qu'hier, un tout petit animal pixel a fêté ses 30 ans ?
-2|+12%|Le 23 novembre 1996, le Tamagotchi sort au Japon !
-3|+13%|Pixel l'adopte aujourd'hui : un câlin, un repas, et hop, il grandit.
-4|+12%|Bip bip ! Il réclame déjà de l'attention, même au milieu de la nuit.
-5|+13%|Un an plus tard, en 1997, il part conquérir le monde entier.
-6|+12%|Aujourd'hui, la famille approche les cent millions d'exemplaires !
-7|+13%|Entre 1996 et 2026, trente ans de tendresse, et il bipe toujours.
-8|+14%|Abonne-toi à Pixel Facts pour le prochain fait !
+1|+14%|Savais-tu qu'il y a trente ans, un minuscule animal de pixels débarquait dans nos poches ?
+2|+12%|C'était le vingt-trois novembre 1996, au Japon !
+3|+13%|Pixel s'en occupe : un câlin, un petit repas, et hop, il grandit !
+4|+13%|Chaque bip, c'est un appel : il faut être là, jour et nuit !
+5|+12%|Gare aux oublis : le petit animal boude, et Pixel culpabilise !
+6|+13%|Plus de cent millions d'exemplaires écoulés depuis !
+7|+12%|Une vraie vague de nostalgie, partout dans le monde.
+8|+12%|Le petit animal a bien grandi, et toi aussi.
+9|+14%|Abonne-toi à Pixel Facts pour le prochain fait !

@@ -1,8 +1,8 @@
 {
  "status": "pret",
- "titre": "Il a 30 ans et il bipe toujours 🥚",
+ "titre": "Le petit animal de pixels a 30 ans 🐣",
  "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-1",
  "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-1/envoi.mp4",
- "telegram": "Short Tamagotchi 30 ans prêt : Pixel adopte un petit animal pixel, 1996 → 2026.",
- "resume": "Sujet : les 30 ans du Tamagotchi (sortie au Japon le 23/11/1996), angle tendre, Pixel adopte un petit animal pixel, compteur 1996 → 2026.\nVérifié : date 23/11/1996 et sortie hors Japon en 1997 (Wikipédia, recoupé avec la liste Cubed3) ; « près de 100 millions » (Bandai Namco, fin juillet 2025) ; 30e anniversaire en novembre 2026 confirmé.\nChoix prudents : aucun visuel ni logo officiel (créature générique IA), nom cité seulement dans la voix, rôle de Yokoi non repris car non confirmé ; Cubed3 indique un « 29 février » inexistant, ignoré. Contenu pas conçu pour les enfants a priori.\nÀ voir : images IA un peu floues (fonds), filigrane pollinations rogné par le zoom ; mix -22,3 LUFS, true peak -6,5 dBTP, musique ~-20 dB sous la voix."
+ "telegram": "Short Tamagotchi 30 ans prêt : Pixel soigne un petit animal, compteur 1996→2026.",
+ "resume": "Sujet : les 30 ans du petit animal virtuel Tamagotchi (sortie Japon 23/11/1996), Short de 34 s, ton tendre, compteur 1996→2026.\nVérifié : date du 23/11/1996 (liste Cubed3 + recherche), plus de 100 M d'exemplaires (communiqué Bandai 2025, lu partiellement car en japonais) ; transcription Whisper conforme au script ; mix -21,9 LUFS, true peak -6,2 dBTP.\nChoix prudents : nom Tamagotchi absent des textes à l'écran, aucun logo ni visuel officiel (images IA génériques, filigrane pollinations rogné par le zoom) ; non conçu pour les enfants a priori.\nÀ voir : images IA parfois floues, filigrane pollinations possible en bas à droite ; envoi.mp4 à 8,9 Mo (limite Discord à surveiller)."
 }

@@ -1,7 +1,7 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
-const MUSVOL = 0.065;
+const MUSVOL = 0.063;
 
 const {fontFamily} = loadFont();
 const IMGS = ['a', 'b', 'c', 'd', 'e'];
@@ -87,7 +87,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   const p = Easing.out(Easing.cubic)(Math.min(1, localT / Math.max(0.5, dur * 0.85)));
   if (beat.kind === 'chart') return <div style={{transform: `scale(${sc})`}}><Chart beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.92))} /></div>;
   if (beat.kind === 'counter') {
-    const dec = beat.dec ?? 0; const v0 = beat.from ?? 0; const v = v0 + ((beat.to ?? 0) - v0) * p;
+    const dec = beat.dec ?? 0; const v = (beat.v0 ?? 0) + ((beat.to ?? 0) - (beat.v0 ?? 0)) * p;
     const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : beat.nofmt ? String(Math.round(v)) : fmt(Math.round(v));
     const size0 = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : (beat.to ?? 0) < 1000 ? (beat.suffix ? 360 : 460) : 340;
     const fullTxt = (beat.prefix ?? '') + txt + (beat.suffix ?? '');
@@ -112,7 +112,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`}}>
     <div style={{fontSize: 560, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
     {beat.sub && <div style={big(100, '#fff', {marginTop: 10})}>{beat.sub}</div>}
-    <div style={big(L > 17 ? 132 : L > 8 ? 160 : 200, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
+    <div style={big(L > 17 ? 132 : L > 12 ? 160 : 200, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
   </div>;
 };
 
