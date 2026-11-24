@@ -1,0 +1,48 @@
+{
+ "status": "veille",
+ "telegram": "🔎 Veille du jour : remake Zelda OoT, 235 M de GTA V, 30 ans de Pokémon, 20 ans de la Wii, et deux jeux Roblox simples (football ragdoll, construction sur parcelle).",
+ "propositions": [
+  {
+   "type": "video",
+   "titre": "Zelda Ocarina of Time : le remake cartonne en 4 jours",
+   "url": "https://www.player.one/ocarina-time-2026s-best-selling-physical-game-us-after-just-one-week-164459",
+   "pourquoi": "Article du 16/11/2026 : sortie le 5/11 sur Switch 2, plus de 5,2 M d'exemplaires en 4 jours dont 810 000 au Japon (Nintendo), et plus d'1 M de boîtes aux USA en une semaine (Circana). Chiffres nets, nostalgie forte ; vues de Shorts non vérifiées (YouTube illisible sans compte).",
+   "note": "Angle compteurs et nostalgie, aucune image du jeu ni logo ; préciser que le total mondial inclut le numérique alors que le chiffre américain ne compte que le physique."
+  },
+  {
+   "type": "video",
+   "titre": "GTA V approche 235 millions de ventes, 13 ans après",
+   "url": "https://gamingbolt.com/?p=656679",
+   "pourquoi": "GamingBolt, 10/11/2026, d'après Take-Two (au 30/09/2026) : GTA V près de 235 M d'exemplaires depuis 2013, RDR2 plus de 89 M. Fait chiffré qui parle en pleine semaine de sortie de GTA 6 ; vues non vérifiées.",
+   "note": "Courbe animée et compteurs, ton « le champion qui ne s'arrête pas », aucune scène de jeu ; ne reprendre que 235 M et 89 M, ignorer la ligne douteuse de l'article sur RDR2."
+  },
+  {
+   "type": "video",
+   "titre": "Pokémon : 6 ans de travail dans l'ombre avant la sortie",
+   "url": "https://www.smithsonianmag.com/smithsonian-institution/nintendo-released-its-first-pokemon-games-30-years-ago-heres-how-the-beloved-catchable-pocket-monsters-became-the-worlds-biggest-media-franchise-180988271/",
+   "pourquoi": "Smithsonian, 27/02/2026 : idée de Satoshi Tajiri en 1990, six ans de développement, Rouge et Vert sortis le 27/02/1996 au Japon, bouche-à-oreille dans les cours de récré. Pokémon fête ses 30 ans cette année ; vues non vérifiées.",
+   "note": "Histoire de marque, ton chaleureux, chronologie 1990 → 1996 avec compteurs ; ne pas évoquer l'incident de l'anime de 1997, ni images ni logos officiels."
+  },
+  {
+   "type": "video",
+   "titre": "La Wii a 20 ans en Europe le 8 décembre",
+   "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
+   "pourquoi": "Liste Cubed3 des anniversaires 2026 : Wii sortie en Europe le 8/12 (20 ans), Mario Kart 64 (30 ans) le 14/12, Yoshi sur NES (35 ans) le 14/12. Sujet d'actualité à publier juste avant, nostalgie ; vues non vérifiées.",
+   "note": "Format « 3 anniversaires de décembre » avec compteurs d'années, sans logo ni image officielle ; confirmer l'année de chaque jeu avant écriture, la page ne les donne pas."
+  },
+  {
+   "type": "roblox",
+   "titre": "Football ragdoll à plusieurs, version simple",
+   "url": "https://www.roblox.com/games/106931373443671",
+   "pourquoi": "Ragdoll Soccer : créé le 13/10/2026, ~34 600 joueurs et 77 M de visites (API Roblox, 24/11/2026), 35 907 votes positifs pour 12 910 négatifs. Page ouverte, 4v4 en physique ragdoll.",
+   "note": "Garder 4v4 à physique ragdoll, ballon, but et chrono de 3 minutes ; sans arbitre, VAR ni clubs ; autres noms et décors que l'original, familial, sans copie d'assets."
+  },
+  {
+   "type": "roblox",
+   "titre": "Bac à sable de construction sur parcelle perso",
+   "url": "https://www.roblox.com/games/80392427444524",
+   "pourquoi": "Build Your World! : créé le 01/10/2026, ~25 500 joueurs et 20,9 M de visites (API Roblox, 24/11/2026), 7 651 votes positifs pour 3 164 négatifs. Page ouverte : parcelle personnelle, blocs et meubles, construire entre amis.",
+   "note": "Parcelle par joueur, 30 blocs et meubles de base, sauvegarde simple ; ni TNT ni tornades, ton paisible, assets originaux."
+  }
+ ]
+}

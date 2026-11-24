@@ -343,10 +343,41 @@
  ],
  "ev_lus": 76,
  "veille": {
-  "derniere": 1795446258.707919,
+  "derniere": 1795525991.506642,
   "essais": 0
  },
- "propositions": {},
+ "propositions": {
+  "veille-20261124-1": {
+   "type": "video",
+   "url": "https://www.player.one/ocarina-time-2026s-best-selling-physical-game-us-after-just-one-week-164459",
+   "note": "Angle compteurs et nostalgie, aucune image du jeu ni logo ; préciser que le total mondial inclut le numérique alors que le chiffre américain ne compte que le physique."
+  },
+  "veille-20261124-2": {
+   "type": "video",
+   "url": "https://gamingbolt.com/?p=656679",
+   "note": "Courbe animée et compteurs, ton « le champion qui ne s'arrête pas », aucune scène de jeu ; ne reprendre que 235 M et 89 M, ignorer la ligne douteuse de l'article sur RDR2."
+  },
+  "veille-20261124-3": {
+   "type": "video",
+   "url": "https://www.smithsonianmag.com/smithsonian-institution/nintendo-released-its-first-pokemon-games-30-years-ago-heres-how-the-beloved-catchable-pocket-monsters-became-the-worlds-biggest-media-franchise-180988271/",
+   "note": "Histoire de marque, ton chaleureux, chronologie 1990 → 1996 avec compteurs ; ne pas évoquer l'incident de l'anime de 1997, ni images ni logos officiels."
+  },
+  "veille-20261124-4": {
+   "type": "video",
+   "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
+   "note": "Format « 3 anniversaires de décembre » avec compteurs d'années, sans logo ni image officielle ; confirmer l'année de chaque jeu avant écriture, la page ne les donne pas."
+  },
+  "veille-20261124-5": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/106931373443671",
+   "note": "Garder 4v4 à physique ragdoll, ballon, but et chrono de 3 minutes ; sans arbitre, VAR ni clubs ; autres noms et décors que l'original, familial, sans copie d'assets."
+  },
+  "veille-20261124-6": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/80392427444524",
+   "note": "Parcelle par joueur, 30 blocs et meubles de base, sauvegarde simple ; ni TNT ni tornades, ton paisible, assets originaux."
+  }
+ },
  "agents": {
   "roblox_tendances": 1795476031.1267455,
   "roblox_stats": 1795476648.2118013,
