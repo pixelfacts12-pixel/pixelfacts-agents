@@ -1,8 +1,2 @@
-{
- "status": "pret",
- "titre": "Le petit animal de pixels a 30 ans 🐣",
- "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-1",
- "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-1/envoi.mp4",
- "telegram": "Short Tamagotchi 30 ans prêt : Pixel soigne un petit animal, compteur 1996→2026.",
- "resume": "Sujet : les 30 ans du petit animal virtuel Tamagotchi (sortie Japon 23/11/1996), Short de 34 s, ton tendre, compteur 1996→2026.\nVérifié : date du 23/11/1996 (liste Cubed3 + recherche), plus de 100 M d'exemplaires (communiqué Bandai 2025, lu partiellement car en japonais) ; transcription Whisper conforme au script ; mix -21,9 LUFS, true peak -6,2 dBTP.\nChoix prudents : nom Tamagotchi absent des textes à l'écran, aucun logo ni visuel officiel (images IA génériques, filigrane pollinations rogné par le zoom) ; non conçu pour les enfants a priori.\nÀ voir : images IA parfois floues, filigrane pollinations possible en bas à droite ; envoi.mp4 à 8,9 Mo (limite Discord à surveiller)."
-}
+{"status": "programme", "video": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261124-193305-veille-20261123-1.mp4", "legende": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-1/legende.json",
+ "telegram": "📤 Titre choisi : Le Tamagotchi a 30 ans 🐣 #shorts"}
