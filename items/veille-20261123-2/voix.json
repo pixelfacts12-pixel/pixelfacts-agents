@@ -1,0 +1,530 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 3.36,
+  "texte": "savait-tu que ce jeu a été le tout premier de millions de joueurs ?",
+  "mots": [
+   {
+    "mot": "savait",
+    "debut": 0.0,
+    "fin": 0.44
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.44,
+    "fin": 0.54
+   },
+   {
+    "mot": "que",
+    "debut": 0.54,
+    "fin": 0.68
+   },
+   {
+    "mot": "ce",
+    "debut": 0.68,
+    "fin": 0.82
+   },
+   {
+    "mot": "jeu",
+    "debut": 0.82,
+    "fin": 0.96
+   },
+   {
+    "mot": "a",
+    "debut": 0.96,
+    "fin": 1.06
+   },
+   {
+    "mot": "été",
+    "debut": 1.06,
+    "fin": 1.2
+   },
+   {
+    "mot": "le",
+    "debut": 1.2,
+    "fin": 1.32
+   },
+   {
+    "mot": "tout",
+    "debut": 1.32,
+    "fin": 1.46
+   },
+   {
+    "mot": "premier",
+    "debut": 1.46,
+    "fin": 1.72
+   },
+   {
+    "mot": "de",
+    "debut": 1.72,
+    "fin": 1.84
+   },
+   {
+    "mot": "millions",
+    "debut": 1.84,
+    "fin": 2.04
+   },
+   {
+    "mot": "de",
+    "debut": 2.04,
+    "fin": 2.18
+   },
+   {
+    "mot": "joueurs",
+    "debut": 2.18,
+    "fin": 2.52
+   },
+   {
+    "mot": "?",
+    "debut": 2.52,
+    "fin": 3.36
+   }
+  ]
+ },
+ {
+  "debut": 3.36,
+  "fin": 6.54,
+  "texte": "C'était le 19 novembre 2006, avec la console Wii.",
+  "mots": [
+   {
+    "mot": "C",
+    "debut": 3.36,
+    "fin": 3.8
+   },
+   {
+    "mot": "'était",
+    "debut": 3.8,
+    "fin": 3.92
+   },
+   {
+    "mot": "le",
+    "debut": 3.92,
+    "fin": 4.04
+   },
+   {
+    "mot": "19",
+    "debut": 4.04,
+    "fin": 4.32
+   },
+   {
+    "mot": "novembre",
+    "debut": 4.32,
+    "fin": 4.8
+   },
+   {
+    "mot": "2006,",
+    "debut": 4.8,
+    "fin": 5.28
+   },
+   {
+    "mot": "avec",
+    "debut": 5.68,
+    "fin": 5.86
+   },
+   {
+    "mot": "la",
+    "debut": 5.86,
+    "fin": 6.04
+   },
+   {
+    "mot": "console",
+    "debut": 6.04,
+    "fin": 6.32
+   },
+   {
+    "mot": "Wii.",
+    "debut": 6.32,
+    "fin": 6.54
+   }
+  ]
+ },
+ {
+  "debut": 7.56,
+  "fin": 11.04,
+  "texte": "Dans la boîte, un jeu de sport, offert avec la console, presque partout.",
+  "mots": [
+   {
+    "mot": "Dans",
+    "debut": 7.56,
+    "fin": 7.82
+   },
+   {
+    "mot": "la",
+    "debut": 7.82,
+    "fin": 7.92
+   },
+   {
+    "mot": "boîte,",
+    "debut": 7.92,
+    "fin": 8.22
+   },
+   {
+    "mot": "un",
+    "debut": 8.36,
+    "fin": 8.44
+   },
+   {
+    "mot": "jeu",
+    "debut": 8.44,
+    "fin": 8.56
+   },
+   {
+    "mot": "de",
+    "debut": 8.56,
+    "fin": 8.66
+   },
+   {
+    "mot": "sport,",
+    "debut": 8.66,
+    "fin": 8.96
+   },
+   {
+    "mot": "offert",
+    "debut": 9.18,
+    "fin": 9.44
+   },
+   {
+    "mot": "avec",
+    "debut": 9.44,
+    "fin": 9.58
+   },
+   {
+    "mot": "la",
+    "debut": 9.58,
+    "fin": 9.74
+   },
+   {
+    "mot": "console,",
+    "debut": 9.74,
+    "fin": 10.12
+   },
+   {
+    "mot": "presque",
+    "debut": 10.44,
+    "fin": 10.64
+   },
+   {
+    "mot": "partout.",
+    "debut": 10.64,
+    "fin": 11.04
+   }
+  ]
+ },
+ {
+  "debut": 12.08,
+  "fin": 15.2,
+  "texte": "Tennis, bowling, golf, il suffisait de bouger la manette.",
+  "mots": [
+   {
+    "mot": "Tennis,",
+    "debut": 12.08,
+    "fin": 12.44
+   },
+   {
+    "mot": "bowling,",
+    "debut": 12.84,
+    "fin": 12.94
+   },
+   {
+    "mot": "golf,",
+    "debut": 13.42,
+    "fin": 13.6
+   },
+   {
+    "mot": "il",
+    "debut": 13.86,
+    "fin": 13.94
+   },
+   {
+    "mot": "suffisait",
+    "debut": 13.94,
+    "fin": 14.38
+   },
+   {
+    "mot": "de",
+    "debut": 14.38,
+    "fin": 14.48
+   },
+   {
+    "mot": "bouger",
+    "debut": 14.48,
+    "fin": 14.74
+   },
+   {
+    "mot": "la",
+    "debut": 14.74,
+    "fin": 14.84
+   },
+   {
+    "mot": "manette.",
+    "debut": 14.84,
+    "fin": 15.2
+   }
+  ]
+ },
+ {
+  "debut": 16.24,
+  "fin": 18.72,
+  "texte": "Pas besoin de savoir jouer, toute la famille s'y mettait.",
+  "mots": [
+   {
+    "mot": "Pas",
+    "debut": 16.24,
+    "fin": 16.48
+   },
+   {
+    "mot": "besoin",
+    "debut": 16.48,
+    "fin": 16.76
+   },
+   {
+    "mot": "de",
+    "debut": 16.76,
+    "fin": 16.88
+   },
+   {
+    "mot": "savoir",
+    "debut": 16.88,
+    "fin": 17.08
+   },
+   {
+    "mot": "jouer,",
+    "debut": 17.08,
+    "fin": 17.38
+   },
+   {
+    "mot": "toute",
+    "debut": 17.72,
+    "fin": 17.82
+   },
+   {
+    "mot": "la",
+    "debut": 17.82,
+    "fin": 17.98
+   },
+   {
+    "mot": "famille",
+    "debut": 17.98,
+    "fin": 18.22
+   },
+   {
+    "mot": "s",
+    "debut": 18.22,
+    "fin": 18.4
+   },
+   {
+    "mot": "'y",
+    "debut": 18.4,
+    "fin": 18.46
+   },
+   {
+    "mot": "mettait.",
+    "debut": 18.46,
+    "fin": 18.72
+   }
+  ]
+ },
+ {
+  "debut": 19.82,
+  "fin": 21.8,
+  "texte": "Près de 83 millions d'exemplaires écoulés.",
+  "mots": [
+   {
+    "mot": "Près",
+    "debut": 19.82,
+    "fin": 20.0
+   },
+   {
+    "mot": "de",
+    "debut": 20.0,
+    "fin": 20.1
+   },
+   {
+    "mot": "83",
+    "debut": 20.1,
+    "fin": 20.6
+   },
+   {
+    "mot": "millions",
+    "debut": 20.6,
+    "fin": 20.84
+   },
+   {
+    "mot": "d",
+    "debut": 20.84,
+    "fin": 21.0
+   },
+   {
+    "mot": "'exemplaires",
+    "debut": 21.0,
+    "fin": 21.4
+   },
+   {
+    "mot": "écoulés.",
+    "debut": 21.4,
+    "fin": 21.8
+   }
+  ]
+ },
+ {
+  "debut": 22.88,
+  "fin": 25.1,
+  "texte": "En Europe, il a fallu attendre le 8 décembre.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 22.88,
+    "fin": 23.06
+   },
+   {
+    "mot": "Europe,",
+    "debut": 23.06,
+    "fin": 23.32
+   },
+   {
+    "mot": "il",
+    "debut": 23.68,
+    "fin": 23.76
+   },
+   {
+    "mot": "a",
+    "debut": 23.76,
+    "fin": 23.86
+   },
+   {
+    "mot": "fallu",
+    "debut": 23.86,
+    "fin": 24.06
+   },
+   {
+    "mot": "attendre",
+    "debut": 24.06,
+    "fin": 24.42
+   },
+   {
+    "mot": "le",
+    "debut": 24.42,
+    "fin": 24.52
+   },
+   {
+    "mot": "8",
+    "debut": 24.52,
+    "fin": 24.64
+   },
+   {
+    "mot": "décembre.",
+    "debut": 24.64,
+    "fin": 25.1
+   }
+  ]
+ },
+ {
+  "debut": 26.2,
+  "fin": 28.56,
+  "texte": "20 ans déjà, et ça bouge encore dans nos souvenirs.",
+  "mots": [
+   {
+    "mot": "20",
+    "debut": 26.2,
+    "fin": 26.46
+   },
+   {
+    "mot": "ans",
+    "debut": 26.46,
+    "fin": 26.6
+   },
+   {
+    "mot": "déjà,",
+    "debut": 26.6,
+    "fin": 26.8
+   },
+   {
+    "mot": "et",
+    "debut": 27.16,
+    "fin": 27.28
+   },
+   {
+    "mot": "ça",
+    "debut": 27.28,
+    "fin": 27.4
+   },
+   {
+    "mot": "bouge",
+    "debut": 27.4,
+    "fin": 27.62
+   },
+   {
+    "mot": "encore",
+    "debut": 27.62,
+    "fin": 27.84
+   },
+   {
+    "mot": "dans",
+    "debut": 27.84,
+    "fin": 28.02
+   },
+   {
+    "mot": "nos",
+    "debut": 28.02,
+    "fin": 28.14
+   },
+   {
+    "mot": "souvenirs.",
+    "debut": 28.14,
+    "fin": 28.56
+   }
+  ]
+ },
+ {
+  "debut": 29.520000000000003,
+  "fin": 31.6,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 29.520000000000003,
+    "fin": 29.92
+   },
+   {
+    "mot": "-toi",
+    "debut": 29.92,
+    "fin": 30.1
+   },
+   {
+    "mot": "à",
+    "debut": 30.1,
+    "fin": 30.24
+   },
+   {
+    "mot": "Pixel",
+    "debut": 30.24,
+    "fin": 30.42
+   },
+   {
+    "mot": "Facts",
+    "debut": 30.42,
+    "fin": 30.82
+   },
+   {
+    "mot": "pour",
+    "debut": 30.82,
+    "fin": 31.0
+   },
+   {
+    "mot": "le",
+    "debut": 31.0,
+    "fin": 31.1
+   },
+   {
+    "mot": "prochain",
+    "debut": 31.1,
+    "fin": 31.32
+   },
+   {
+    "mot": "fait.",
+    "debut": 31.32,
+    "fin": 31.6
+   }
+  ]
+ }
+]
