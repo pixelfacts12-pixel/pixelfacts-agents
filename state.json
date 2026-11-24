@@ -294,12 +294,14 @@
    "id": "veille-20261122-2",
    "url": "https://www.aljazeera.com/features/longform/2026/11/12/from-pong-to-gta-vi-play-your-way-through-50-years-of-video-games",
    "note": "Format enquête courte « le jour où le jeu vidéo a failli mourir », ton intrigant mais léger, Pixel en archéologue, aucune image d'Atari.",
-   "status": "pret",
+   "status": "programme",
    "recu": 1795368046.269286,
    "essais": 0,
    "reprises": 0,
    "remarques": [],
-   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261124-182007-veille-20261122-2.mp4"
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261124-182007-veille-20261122-2.mp4",
+   "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261122-2/legende.json",
+   "titre_pub": "📤 Titre choisi : Le jour où le jeu vidéo a failli mourir 🕹️ #shorts"
   },
   {
    "id": "veille-20261123-1",
@@ -372,7 +374,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 82,
+ "ev_lus": 83,
  "veille": {
   "derniere": 1795525991.506642,
   "essais": 0
