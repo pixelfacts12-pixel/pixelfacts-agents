@@ -1,0 +1,426 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 5.24,
+  "texte": "Savais-tu que GTA V approche les 235 millions d'exemplaires vendus ? C'est un jeu sorti",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "que",
+    "debut": 0.54,
+    "fin": 0.68
+   },
+   {
+    "mot": "GTA",
+    "debut": 0.68,
+    "fin": 0.88
+   },
+   {
+    "mot": "V",
+    "debut": 0.88,
+    "fin": 1.18
+   },
+   {
+    "mot": "approche",
+    "debut": 1.18,
+    "fin": 1.62
+   },
+   {
+    "mot": "les",
+    "debut": 1.62,
+    "fin": 1.72
+   },
+   {
+    "mot": "235",
+    "debut": 1.72,
+    "fin": 2.36
+   },
+   {
+    "mot": "millions",
+    "debut": 2.36,
+    "fin": 2.54
+   },
+   {
+    "mot": "d",
+    "debut": 2.54,
+    "fin": 2.68
+   },
+   {
+    "mot": "'exemplaires",
+    "debut": 2.68,
+    "fin": 3.06
+   },
+   {
+    "mot": "vendus",
+    "debut": 3.06,
+    "fin": 3.36
+   },
+   {
+    "mot": "?",
+    "debut": 3.36,
+    "fin": 4.4
+   },
+   {
+    "mot": "C",
+    "debut": 4.4,
+    "fin": 4.6
+   },
+   {
+    "mot": "'est",
+    "debut": 4.6,
+    "fin": 4.64
+   },
+   {
+    "mot": "un",
+    "debut": 4.64,
+    "fin": 4.78
+   },
+   {
+    "mot": "jeu",
+    "debut": 4.78,
+    "fin": 4.92
+   },
+   {
+    "mot": "sorti",
+    "debut": 4.92,
+    "fin": 5.24
+   }
+  ]
+ },
+ {
+  "debut": 5.24,
+  "fin": 7.06,
+  "texte": "il y a plus de 10 ans, et il ne s'arrête pas.",
+  "mots": [
+   {
+    "mot": "il",
+    "debut": 5.24,
+    "fin": 5.36
+   },
+   {
+    "mot": "y",
+    "debut": 5.36,
+    "fin": 5.44
+   },
+   {
+    "mot": "a",
+    "debut": 5.44,
+    "fin": 5.48
+   },
+   {
+    "mot": "plus",
+    "debut": 5.48,
+    "fin": 5.6
+   },
+   {
+    "mot": "de",
+    "debut": 5.6,
+    "fin": 5.72
+   },
+   {
+    "mot": "10",
+    "debut": 5.72,
+    "fin": 5.9
+   },
+   {
+    "mot": "ans,",
+    "debut": 5.9,
+    "fin": 6.06
+   },
+   {
+    "mot": "et",
+    "debut": 6.34,
+    "fin": 6.42
+   },
+   {
+    "mot": "il",
+    "debut": 6.42,
+    "fin": 6.48
+   },
+   {
+    "mot": "ne",
+    "debut": 6.48,
+    "fin": 6.6
+   },
+   {
+    "mot": "s",
+    "debut": 6.6,
+    "fin": 6.72
+   },
+   {
+    "mot": "'arrête",
+    "debut": 6.72,
+    "fin": 6.84
+   },
+   {
+    "mot": "pas.",
+    "debut": 6.84,
+    "fin": 7.06
+   }
+  ]
+ },
+ {
+  "debut": 8.06,
+  "fin": 10.82,
+  "texte": "Ces ventes continuent de grimper, trimestre après trimestre.",
+  "mots": [
+   {
+    "mot": "Ces",
+    "debut": 8.06,
+    "fin": 8.36
+   },
+   {
+    "mot": "ventes",
+    "debut": 8.36,
+    "fin": 8.56
+   },
+   {
+    "mot": "continuent",
+    "debut": 8.56,
+    "fin": 8.96
+   },
+   {
+    "mot": "de",
+    "debut": 8.96,
+    "fin": 9.04
+   },
+   {
+    "mot": "grimper,",
+    "debut": 9.04,
+    "fin": 9.38
+   },
+   {
+    "mot": "trimestre",
+    "debut": 9.76,
+    "fin": 10.12
+   },
+   {
+    "mot": "après",
+    "debut": 10.12,
+    "fin": 10.3
+   },
+   {
+    "mot": "trimestre.",
+    "debut": 10.3,
+    "fin": 10.82
+   }
+  ]
+ },
+ {
+  "debut": 11.94,
+  "fin": 15.34,
+  "texte": "Son grand-frère, Red Dead Redemption 2, dépasse les 89 millions.",
+  "mots": [
+   {
+    "mot": "Son",
+    "debut": 11.94,
+    "fin": 12.14
+   },
+   {
+    "mot": "grand",
+    "debut": 12.14,
+    "fin": 12.3
+   },
+   {
+    "mot": "-frère,",
+    "debut": 12.3,
+    "fin": 12.64
+   },
+   {
+    "mot": "Red",
+    "debut": 12.96,
+    "fin": 13.08
+   },
+   {
+    "mot": "Dead",
+    "debut": 13.08,
+    "fin": 13.22
+   },
+   {
+    "mot": "Redemption",
+    "debut": 13.22,
+    "fin": 13.54
+   },
+   {
+    "mot": "2,",
+    "debut": 13.54,
+    "fin": 13.9
+   },
+   {
+    "mot": "dépasse",
+    "debut": 14.2,
+    "fin": 14.5
+   },
+   {
+    "mot": "les",
+    "debut": 14.5,
+    "fin": 14.64
+   },
+   {
+    "mot": "89",
+    "debut": 14.64,
+    "fin": 15.06
+   },
+   {
+    "mot": "millions.",
+    "debut": 15.06,
+    "fin": 15.34
+   }
+  ]
+ },
+ {
+  "debut": 16.42,
+  "fin": 18.96,
+  "texte": "Chiffre de Tech2, au 30 septembre 2026.",
+  "mots": [
+   {
+    "mot": "Chiffre",
+    "debut": 16.42,
+    "fin": 16.82
+   },
+   {
+    "mot": "de",
+    "debut": 16.82,
+    "fin": 16.94
+   },
+   {
+    "mot": "Tech2,",
+    "debut": 16.94,
+    "fin": 17.3
+   },
+   {
+    "mot": "au",
+    "debut": 17.56,
+    "fin": 17.68
+   },
+   {
+    "mot": "30",
+    "debut": 17.68,
+    "fin": 17.86
+   },
+   {
+    "mot": "septembre",
+    "debut": 17.86,
+    "fin": 18.32
+   },
+   {
+    "mot": "2026.",
+    "debut": 18.32,
+    "fin": 18.96
+   }
+  ]
+ },
+ {
+  "debut": 20.02,
+  "fin": 21.98,
+  "texte": "2 champions de Rockstar qui ne s'arrêtent jamais.",
+  "mots": [
+   {
+    "mot": "2",
+    "debut": 20.02,
+    "fin": 20.42
+   },
+   {
+    "mot": "champions",
+    "debut": 20.42,
+    "fin": 20.64
+   },
+   {
+    "mot": "de",
+    "debut": 20.64,
+    "fin": 20.84
+   },
+   {
+    "mot": "Rockstar",
+    "debut": 20.84,
+    "fin": 21.18
+   },
+   {
+    "mot": "qui",
+    "debut": 21.18,
+    "fin": 21.38
+   },
+   {
+    "mot": "ne",
+    "debut": 21.38,
+    "fin": 21.5
+   },
+   {
+    "mot": "s",
+    "debut": 21.5,
+    "fin": 21.6
+   },
+   {
+    "mot": "'arrêtent",
+    "debut": 21.6,
+    "fin": 21.8
+   },
+   {
+    "mot": "jamais.",
+    "debut": 21.8,
+    "fin": 21.98
+   }
+  ]
+ },
+ {
+  "debut": 23.0,
+  "fin": 25.1,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 23.0,
+    "fin": 23.4
+   },
+   {
+    "mot": "-toi",
+    "debut": 23.4,
+    "fin": 23.58
+   },
+   {
+    "mot": "à",
+    "debut": 23.58,
+    "fin": 23.72
+   },
+   {
+    "mot": "Pixel",
+    "debut": 23.72,
+    "fin": 23.9
+   },
+   {
+    "mot": "Facts",
+    "debut": 23.9,
+    "fin": 24.3
+   },
+   {
+    "mot": "pour",
+    "debut": 24.3,
+    "fin": 24.48
+   },
+   {
+    "mot": "le",
+    "debut": 24.48,
+    "fin": 24.6
+   },
+   {
+    "mot": "prochain",
+    "debut": 24.6,
+    "fin": 24.82
+   },
+   {
+    "mot": "fait.",
+    "debut": 24.82,
+    "fin": 25.1
+   }
+  ]
+ }
+]
