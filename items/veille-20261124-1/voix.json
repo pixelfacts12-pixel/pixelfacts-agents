@@ -1,0 +1,542 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.28,
+  "texte": "savait-tu que 5,2 millions de joueurs ont craqué en seulement quatre jours ?",
+  "mots": [
+   {
+    "mot": "savait",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "que",
+    "debut": 0.54,
+    "fin": 0.68
+   },
+   {
+    "mot": "5",
+    "debut": 0.68,
+    "fin": 0.84
+   },
+   {
+    "mot": ",2",
+    "debut": 0.84,
+    "fin": 1.3
+   },
+   {
+    "mot": "millions",
+    "debut": 1.3,
+    "fin": 1.46
+   },
+   {
+    "mot": "de",
+    "debut": 1.46,
+    "fin": 1.62
+   },
+   {
+    "mot": "joueurs",
+    "debut": 1.62,
+    "fin": 1.88
+   },
+   {
+    "mot": "ont",
+    "debut": 1.88,
+    "fin": 1.98
+   },
+   {
+    "mot": "craqué",
+    "debut": 1.98,
+    "fin": 2.26
+   },
+   {
+    "mot": "en",
+    "debut": 2.26,
+    "fin": 2.4
+   },
+   {
+    "mot": "seulement",
+    "debut": 2.4,
+    "fin": 2.58
+   },
+   {
+    "mot": "quatre",
+    "debut": 2.58,
+    "fin": 2.88
+   },
+   {
+    "mot": "jours",
+    "debut": 2.88,
+    "fin": 3.16
+   },
+   {
+    "mot": "?",
+    "debut": 3.16,
+    "fin": 4.28
+   }
+  ]
+ },
+ {
+  "debut": 4.28,
+  "fin": 8.14,
+  "texte": "Le remake de Zelda Ocarina of Time sur Switch 2 sorti le 5 novembre.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 4.28,
+    "fin": 4.5
+   },
+   {
+    "mot": "remake",
+    "debut": 4.5,
+    "fin": 4.7
+   },
+   {
+    "mot": "de",
+    "debut": 4.7,
+    "fin": 4.86
+   },
+   {
+    "mot": "Zelda",
+    "debut": 4.86,
+    "fin": 5.08
+   },
+   {
+    "mot": "Ocarina",
+    "debut": 5.08,
+    "fin": 5.52
+   },
+   {
+    "mot": "of",
+    "debut": 5.52,
+    "fin": 5.7
+   },
+   {
+    "mot": "Time",
+    "debut": 5.7,
+    "fin": 5.94
+   },
+   {
+    "mot": "sur",
+    "debut": 5.94,
+    "fin": 6.38
+   },
+   {
+    "mot": "Switch",
+    "debut": 6.38,
+    "fin": 6.6
+   },
+   {
+    "mot": "2",
+    "debut": 6.6,
+    "fin": 6.86
+   },
+   {
+    "mot": "sorti",
+    "debut": 6.86,
+    "fin": 7.44
+   },
+   {
+    "mot": "le",
+    "debut": 7.44,
+    "fin": 7.54
+   },
+   {
+    "mot": "5",
+    "debut": 7.54,
+    "fin": 7.66
+   },
+   {
+    "mot": "novembre.",
+    "debut": 7.66,
+    "fin": 8.14
+   }
+  ]
+ },
+ {
+  "debut": 9.1,
+  "fin": 11.1,
+  "texte": "Le jeu original date de 1998.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 9.1,
+    "fin": 9.38
+   },
+   {
+    "mot": "jeu",
+    "debut": 9.38,
+    "fin": 9.52
+   },
+   {
+    "mot": "original",
+    "debut": 9.52,
+    "fin": 9.92
+   },
+   {
+    "mot": "date",
+    "debut": 9.92,
+    "fin": 10.14
+   },
+   {
+    "mot": "de",
+    "debut": 10.14,
+    "fin": 10.32
+   },
+   {
+    "mot": "1998.",
+    "debut": 10.32,
+    "fin": 11.1
+   }
+  ]
+ },
+ {
+  "debut": 12.3,
+  "fin": 14.2,
+  "texte": "Dont 810 000 exemplaires au Japon.",
+  "mots": [
+   {
+    "mot": "Dont",
+    "debut": 12.3,
+    "fin": 12.82
+   },
+   {
+    "mot": "810",
+    "debut": 12.82,
+    "fin": 13.12
+   },
+   {
+    "mot": "000",
+    "debut": 13.12,
+    "fin": 13.34
+   },
+   {
+    "mot": "exemplaires",
+    "debut": 13.34,
+    "fin": 13.84
+   },
+   {
+    "mot": "au",
+    "debut": 13.84,
+    "fin": 13.94
+   },
+   {
+    "mot": "Japon.",
+    "debut": 13.94,
+    "fin": 14.2
+   }
+  ]
+ },
+ {
+  "debut": 15.26,
+  "fin": 18.06,
+  "texte": "Attention, ce total mondial compte le physique et le numérique.",
+  "mots": [
+   {
+    "mot": "Attention,",
+    "debut": 15.26,
+    "fin": 15.62
+   },
+   {
+    "mot": "ce",
+    "debut": 16.06,
+    "fin": 16.1
+   },
+   {
+    "mot": "total",
+    "debut": 16.1,
+    "fin": 16.34
+   },
+   {
+    "mot": "mondial",
+    "debut": 16.34,
+    "fin": 16.7
+   },
+   {
+    "mot": "compte",
+    "debut": 16.7,
+    "fin": 16.96
+   },
+   {
+    "mot": "le",
+    "debut": 16.96,
+    "fin": 17.12
+   },
+   {
+    "mot": "physique",
+    "debut": 17.12,
+    "fin": 17.36
+   },
+   {
+    "mot": "et",
+    "debut": 17.36,
+    "fin": 17.62
+   },
+   {
+    "mot": "le",
+    "debut": 17.62,
+    "fin": 17.74
+   },
+   {
+    "mot": "numérique.",
+    "debut": 17.74,
+    "fin": 18.06
+   }
+  ]
+ },
+ {
+  "debut": 19.2,
+  "fin": 21.78,
+  "texte": "Aux États-Unis, seuls les boîtes comptent plus d'un million.",
+  "mots": [
+   {
+    "mot": "Aux",
+    "debut": 19.2,
+    "fin": 19.48
+   },
+   {
+    "mot": "États",
+    "debut": 19.48,
+    "fin": 19.6
+   },
+   {
+    "mot": "-Unis,",
+    "debut": 19.6,
+    "fin": 19.88
+   },
+   {
+    "mot": "seuls",
+    "debut": 20.18,
+    "fin": 20.4
+   },
+   {
+    "mot": "les",
+    "debut": 20.4,
+    "fin": 20.5
+   },
+   {
+    "mot": "boîtes",
+    "debut": 20.5,
+    "fin": 20.72
+   },
+   {
+    "mot": "comptent",
+    "debut": 20.72,
+    "fin": 21.06
+   },
+   {
+    "mot": "plus",
+    "debut": 21.06,
+    "fin": 21.36
+   },
+   {
+    "mot": "d",
+    "debut": 21.36,
+    "fin": 21.5
+   },
+   {
+    "mot": "'un",
+    "debut": 21.5,
+    "fin": 21.56
+   },
+   {
+    "mot": "million.",
+    "debut": 21.56,
+    "fin": 21.78
+   }
+  ]
+ },
+ {
+  "debut": 22.88,
+  "fin": 24.56,
+  "texte": "Le premier a y arrivé depuis 2023.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 22.88,
+    "fin": 23.08
+   },
+   {
+    "mot": "premier",
+    "debut": 23.08,
+    "fin": 23.32
+   },
+   {
+    "mot": "a",
+    "debut": 23.32,
+    "fin": 23.48
+   },
+   {
+    "mot": "y",
+    "debut": 23.48,
+    "fin": 23.56
+   },
+   {
+    "mot": "arrivé",
+    "debut": 23.56,
+    "fin": 23.8
+   },
+   {
+    "mot": "depuis",
+    "debut": 23.8,
+    "fin": 24.02
+   },
+   {
+    "mot": "2023.",
+    "debut": 24.02,
+    "fin": 24.56
+   }
+  ]
+ },
+ {
+  "debut": 25.9,
+  "fin": 28.8,
+  "texte": "Deux chiffres différents, donc impossibles à comparer directement.",
+  "mots": [
+   {
+    "mot": "Deux",
+    "debut": 25.9,
+    "fin": 26.18
+   },
+   {
+    "mot": "chiffres",
+    "debut": 26.18,
+    "fin": 26.38
+   },
+   {
+    "mot": "différents,",
+    "debut": 26.38,
+    "fin": 26.8
+   },
+   {
+    "mot": "donc",
+    "debut": 27.12,
+    "fin": 27.3
+   },
+   {
+    "mot": "impossibles",
+    "debut": 27.3,
+    "fin": 27.9
+   },
+   {
+    "mot": "à",
+    "debut": 27.9,
+    "fin": 27.98
+   },
+   {
+    "mot": "comparer",
+    "debut": 27.98,
+    "fin": 28.36
+   },
+   {
+    "mot": "directement.",
+    "debut": 28.36,
+    "fin": 28.8
+   }
+  ]
+ },
+ {
+  "debut": 29.6,
+  "fin": 32.24,
+  "texte": "Un jeu de 1998 qui fait encore rêver.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 29.6,
+    "fin": 30.08
+   },
+   {
+    "mot": "jeu",
+    "debut": 30.08,
+    "fin": 30.24
+   },
+   {
+    "mot": "de",
+    "debut": 30.24,
+    "fin": 30.34
+   },
+   {
+    "mot": "1998",
+    "debut": 30.34,
+    "fin": 31.16
+   },
+   {
+    "mot": "qui",
+    "debut": 31.16,
+    "fin": 31.5
+   },
+   {
+    "mot": "fait",
+    "debut": 31.5,
+    "fin": 31.66
+   },
+   {
+    "mot": "encore",
+    "debut": 31.66,
+    "fin": 31.86
+   },
+   {
+    "mot": "rêver.",
+    "debut": 31.86,
+    "fin": 32.24
+   }
+  ]
+ },
+ {
+  "debut": 33.120000000000005,
+  "fin": 35.28,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 33.120000000000005,
+    "fin": 33.6
+   },
+   {
+    "mot": "-toi",
+    "debut": 33.6,
+    "fin": 33.8
+   },
+   {
+    "mot": "à",
+    "debut": 33.8,
+    "fin": 33.9
+   },
+   {
+    "mot": "Pixel",
+    "debut": 33.9,
+    "fin": 34.12
+   },
+   {
+    "mot": "Facts",
+    "debut": 34.12,
+    "fin": 34.52
+   },
+   {
+    "mot": "pour",
+    "debut": 34.52,
+    "fin": 34.68
+   },
+   {
+    "mot": "le",
+    "debut": 34.68,
+    "fin": 34.78
+   },
+   {
+    "mot": "prochain",
+    "debut": 34.78,
+    "fin": 35.02
+   },
+   {
+    "mot": "fait.",
+    "debut": 35.02,
+    "fin": 35.28
+   }
+  ]
+ }
+]

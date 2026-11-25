@@ -1,0 +1,8 @@
+{
+ "status": "pret",
+ "titre": "Zelda Ocarina of Time : 5,2 M en 4 jours 🎮",
+ "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261124-1",
+ "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261124-1/envoi.mp4",
+ "telegram": "Zelda Ocarina of Time : 5,2 M de ventes mondiales, 1 M de boîtes aux USA.",
+ "resume": "Sujet : remake de Zelda Ocarina of Time (Switch 2, 5/11/2026), compteurs et nostalgie, 36 s.\nVérifié : 5,2 M en 4 jours dont 810 000 au Japon (Nintendo) et plus d'1 M de boîtes aux USA (Circana, données au 7/11), via Player.One recoupé GameSpot/TweakTown.\nChoix prudents : dit que le total mondial inclut le numérique et pas le chiffre US, « impossibles à comparer » ; pas de « première semaine » (données sur ~3 jours) ; aucune image du jeu ni logo ; voix de fond mixée -21,9 LUFS, pic -6 dBTP ; images IA avec petit filigrane masqué par zoom/sous-titres.\nÀ voir : relire le rendu ; pas de logo de fin (mascotte seule, comme les précédentes) ; whisper.py du dépôt plante (variante transcrire.py utilisée), la voix correspond au script."
+}
