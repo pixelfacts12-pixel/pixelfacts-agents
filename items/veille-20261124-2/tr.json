@@ -1,0 +1,522 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 3.5,
+  "texte": "Savais-tu que JT A5 se vend encore, 13 ans après sa sortie ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "que",
+    "debut": 0.54,
+    "fin": 0.68
+   },
+   {
+    "mot": "JT",
+    "debut": 0.68,
+    "fin": 0.88
+   },
+   {
+    "mot": "A5",
+    "debut": 0.88,
+    "fin": 1.2
+   },
+   {
+    "mot": "se",
+    "debut": 1.2,
+    "fin": 1.38
+   },
+   {
+    "mot": "vend",
+    "debut": 1.38,
+    "fin": 1.44
+   },
+   {
+    "mot": "encore,",
+    "debut": 1.44,
+    "fin": 1.76
+   },
+   {
+    "mot": "13",
+    "debut": 2.14,
+    "fin": 2.3
+   },
+   {
+    "mot": "ans",
+    "debut": 2.3,
+    "fin": 2.42
+   },
+   {
+    "mot": "après",
+    "debut": 2.42,
+    "fin": 2.6
+   },
+   {
+    "mot": "sa",
+    "debut": 2.6,
+    "fin": 2.78
+   },
+   {
+    "mot": "sortie",
+    "debut": 2.78,
+    "fin": 3.08
+   },
+   {
+    "mot": "?",
+    "debut": 3.08,
+    "fin": 3.5
+   }
+  ]
+ },
+ {
+  "debut": 4.26,
+  "fin": 5.3,
+  "texte": "Il est sorti en 2013.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 4.26,
+    "fin": 4.36
+   },
+   {
+    "mot": "est",
+    "debut": 4.36,
+    "fin": 4.46
+   },
+   {
+    "mot": "sorti",
+    "debut": 4.46,
+    "fin": 4.76
+   },
+   {
+    "mot": "en",
+    "debut": 4.76,
+    "fin": 4.86
+   },
+   {
+    "mot": "2013.",
+    "debut": 4.86,
+    "fin": 5.3
+   }
+  ]
+ },
+ {
+  "debut": 6.52,
+  "fin": 9.76,
+  "texte": "Et après Tech2, il approche les 235 millions d'exemplaires.",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 6.52,
+    "fin": 6.76
+   },
+   {
+    "mot": "après",
+    "debut": 6.76,
+    "fin": 6.96
+   },
+   {
+    "mot": "Tech2,",
+    "debut": 6.96,
+    "fin": 7.32
+   },
+   {
+    "mot": "il",
+    "debut": 7.66,
+    "fin": 7.78
+   },
+   {
+    "mot": "approche",
+    "debut": 7.78,
+    "fin": 8.1
+   },
+   {
+    "mot": "les",
+    "debut": 8.1,
+    "fin": 8.2
+   },
+   {
+    "mot": "235",
+    "debut": 8.2,
+    "fin": 8.9
+   },
+   {
+    "mot": "millions",
+    "debut": 8.9,
+    "fin": 9.1
+   },
+   {
+    "mot": "d",
+    "debut": 9.1,
+    "fin": 9.24
+   },
+   {
+    "mot": "'exemplaires.",
+    "debut": 9.24,
+    "fin": 9.76
+   }
+  ]
+ },
+ {
+  "debut": 10.88,
+  "fin": 12.58,
+  "texte": "5 millions de plus que le dernier palier.",
+  "mots": [
+   {
+    "mot": "5",
+    "debut": 10.88,
+    "fin": 11.1
+   },
+   {
+    "mot": "millions",
+    "debut": 11.1,
+    "fin": 11.36
+   },
+   {
+    "mot": "de",
+    "debut": 11.36,
+    "fin": 11.5
+   },
+   {
+    "mot": "plus",
+    "debut": 11.5,
+    "fin": 11.7
+   },
+   {
+    "mot": "que",
+    "debut": 11.7,
+    "fin": 11.88
+   },
+   {
+    "mot": "le",
+    "debut": 11.88,
+    "fin": 12.0
+   },
+   {
+    "mot": "dernier",
+    "debut": 12.0,
+    "fin": 12.2
+   },
+   {
+    "mot": "palier.",
+    "debut": 12.2,
+    "fin": 12.58
+   }
+  ]
+ },
+ {
+  "debut": 13.44,
+  "fin": 15.18,
+  "texte": "C'est énorme pour un jeu aussi ancien.",
+  "mots": [
+   {
+    "mot": "C",
+    "debut": 13.44,
+    "fin": 13.86
+   },
+   {
+    "mot": "'est",
+    "debut": 13.86,
+    "fin": 13.92
+   },
+   {
+    "mot": "énorme",
+    "debut": 13.92,
+    "fin": 14.24
+   },
+   {
+    "mot": "pour",
+    "debut": 14.24,
+    "fin": 14.4
+   },
+   {
+    "mot": "un",
+    "debut": 14.4,
+    "fin": 14.5
+   },
+   {
+    "mot": "jeu",
+    "debut": 14.5,
+    "fin": 14.62
+   },
+   {
+    "mot": "aussi",
+    "debut": 14.62,
+    "fin": 14.82
+   },
+   {
+    "mot": "ancien.",
+    "debut": 14.82,
+    "fin": 15.18
+   }
+  ]
+ },
+ {
+  "debut": 16.22,
+  "fin": 18.44,
+  "texte": "Ces chiffres s'arrêtent au 30 septembre 2026.",
+  "mots": [
+   {
+    "mot": "Ces",
+    "debut": 16.22,
+    "fin": 16.44
+   },
+   {
+    "mot": "chiffres",
+    "debut": 16.44,
+    "fin": 16.74
+   },
+   {
+    "mot": "s",
+    "debut": 16.74,
+    "fin": 16.9
+   },
+   {
+    "mot": "'arrêtent",
+    "debut": 16.9,
+    "fin": 17.1
+   },
+   {
+    "mot": "au",
+    "debut": 17.1,
+    "fin": 17.18
+   },
+   {
+    "mot": "30",
+    "debut": 17.18,
+    "fin": 17.32
+   },
+   {
+    "mot": "septembre",
+    "debut": 17.32,
+    "fin": 17.82
+   },
+   {
+    "mot": "2026.",
+    "debut": 17.82,
+    "fin": 18.44
+   }
+  ]
+ },
+ {
+  "debut": 19.66,
+  "fin": 22.46,
+  "texte": "À côté, Red Dead Redemption 2 dépasse 89 millions.",
+  "mots": [
+   {
+    "mot": "À",
+    "debut": 19.66,
+    "fin": 19.9
+   },
+   {
+    "mot": "côté,",
+    "debut": 19.9,
+    "fin": 20.14
+   },
+   {
+    "mot": "Red",
+    "debut": 20.58,
+    "fin": 20.66
+   },
+   {
+    "mot": "Dead",
+    "debut": 20.66,
+    "fin": 20.82
+   },
+   {
+    "mot": "Redemption",
+    "debut": 20.82,
+    "fin": 21.16
+   },
+   {
+    "mot": "2",
+    "debut": 21.16,
+    "fin": 21.42
+   },
+   {
+    "mot": "dépasse",
+    "debut": 21.42,
+    "fin": 21.72
+   },
+   {
+    "mot": "89",
+    "debut": 21.72,
+    "fin": 22.14
+   },
+   {
+    "mot": "millions.",
+    "debut": 22.14,
+    "fin": 22.46
+   }
+  ]
+ },
+ {
+  "debut": 23.64,
+  "fin": 25.96,
+  "texte": "Il en avait plus de 87 millions le trimestre d'avant.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 23.64,
+    "fin": 23.74
+   },
+   {
+    "mot": "en",
+    "debut": 23.74,
+    "fin": 23.84
+   },
+   {
+    "mot": "avait",
+    "debut": 23.84,
+    "fin": 24.0
+   },
+   {
+    "mot": "plus",
+    "debut": 24.0,
+    "fin": 24.18
+   },
+   {
+    "mot": "de",
+    "debut": 24.18,
+    "fin": 24.3
+   },
+   {
+    "mot": "87",
+    "debut": 24.3,
+    "fin": 24.7
+   },
+   {
+    "mot": "millions",
+    "debut": 24.7,
+    "fin": 25.1
+   },
+   {
+    "mot": "le",
+    "debut": 25.1,
+    "fin": 25.28
+   },
+   {
+    "mot": "trimestre",
+    "debut": 25.28,
+    "fin": 25.66
+   },
+   {
+    "mot": "d",
+    "debut": 25.66,
+    "fin": 25.82
+   },
+   {
+    "mot": "'avant.",
+    "debut": 25.82,
+    "fin": 25.96
+   }
+  ]
+ },
+ {
+  "debut": 27.1,
+  "fin": 28.48,
+  "texte": "Le vieux champion qui ne s'arrête pas.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 27.1,
+    "fin": 27.32
+   },
+   {
+    "mot": "vieux",
+    "debut": 27.32,
+    "fin": 27.48
+   },
+   {
+    "mot": "champion",
+    "debut": 27.48,
+    "fin": 27.7
+   },
+   {
+    "mot": "qui",
+    "debut": 27.7,
+    "fin": 27.92
+   },
+   {
+    "mot": "ne",
+    "debut": 27.92,
+    "fin": 28.04
+   },
+   {
+    "mot": "s",
+    "debut": 28.04,
+    "fin": 28.18
+   },
+   {
+    "mot": "'arrête",
+    "debut": 28.18,
+    "fin": 28.3
+   },
+   {
+    "mot": "pas.",
+    "debut": 28.3,
+    "fin": 28.48
+   }
+  ]
+ },
+ {
+  "debut": 29.46,
+  "fin": 31.56,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 29.46,
+    "fin": 29.88
+   },
+   {
+    "mot": "-toi",
+    "debut": 29.88,
+    "fin": 30.06
+   },
+   {
+    "mot": "à",
+    "debut": 30.06,
+    "fin": 30.16
+   },
+   {
+    "mot": "Pixel",
+    "debut": 30.16,
+    "fin": 30.36
+   },
+   {
+    "mot": "Facts",
+    "debut": 30.36,
+    "fin": 30.76
+   },
+   {
+    "mot": "pour",
+    "debut": 30.76,
+    "fin": 30.94
+   },
+   {
+    "mot": "le",
+    "debut": 30.94,
+    "fin": 31.04
+   },
+   {
+    "mot": "prochain",
+    "debut": 31.04,
+    "fin": 31.26
+   },
+   {
+    "mot": "fait.",
+    "debut": 31.26,
+    "fin": 31.56
+   }
+  ]
+ }
+]

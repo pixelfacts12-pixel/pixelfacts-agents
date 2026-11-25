@@ -12,24 +12,25 @@ S=starts
 Y,B,P,G='#FFD628','#5ECBFF','#FF5FA2','#7CFF8A'
 # (start,kind,accent,bg,label,sub,icon,mascot,extra)
 B_=[
-(0,'counter',Y,0,'GTA 5 VENDUS','','',"surpris",{'to':235,'suffix':' M','corner':1}),
-(1.5,'words',P,1,'GTA 5','','🏆','',{}),
-(2.9,'words',G,2,'PRESQUE 235 M','','📦','',{}),
-(S[1],'words',B,3,'SORTI IL Y A + DE 10 ANS','','📅','',{}),
-(S[1]+1.9,'words',Y,0,'IL NE S\'ARRÊTE PAS','','🏃','reflechit',{'corner':1}),
-(S[2],'chart',G,4,'LES VENTES MONTENT','','','',{'v0':0,'v1':235,'suffix':' M','r0':0,'r1':1}),
-(S[2]+2.0,'words',P,1,'TRIMESTRE APRÈS TRIMESTRE','','📈','',{}),
-(S[3],'words',Y,3,'SON GRAND FRÈRE','','🤠','',{}),
-(S[3]+1.5,'words',B,2,'RED DEAD REDEMPTION 2','','🐎','',{}),
-(S[3]+3.0,'counter',P,0,'DÉPASSE LES','','','',{'to':89,'suffix':' M'}),
-(S[4],'words',G,4,'CHIFFRES TAKE-TWO','','📊','',{}),
-(S[4]+1.9,'words',Y,1,'AU 30 SEPTEMBRE 2026','','🗓️','',{}),
-(S[5],'bars',P,2,'DEUX CHAMPIONS','','','',{'v0':89,'v1':235,'l0':'RDR 2','l1':'GTA 5','unit':' M'}),
-(S[5]+1.5,'words',B,0,'NE S\'ARRÊTENT JAMAIS','','🚀','',{}),
-(S[6],'cta',Y,0,'','','','coucou',{}),
+(0,'words',Y,0,'GTA 5','','🏆','surpris',{}),
+(1.9,'words',P,1,'13 ANS APRÈS','','⏳','',{}),
+(S[1],'counter',B,1,'SORTIE EN','',0,'',{'to':2013,'raw':1}),
+(S[2],'chart',G,2,'EXEMPLAIRES','D\'APRÈS TAKE-TWO','','',{'v0':0,'v1':235,'suffix':' M','r0':0,'r1':1}),
+(S[2]+2.3,'counter',Y,2,"PRÈS DE",'',0,'',{'to':235,'suffix':' M'}),
+(S[3],'bars',G,3,'MILLIONS','',"",'',{'v0':230,'v1':235,'l0':'AVANT','l1':'ACTUEL','unit':' M','dec':0}),
+(S[3]+1.6,'counter',P,3,'DE PLUS','',0,'',{'to':5,'prefix':'+','suffix':' M'}),
+(S[4],'words',Y,0,'ÉNORME !','POUR UN VIEUX JEU','🤯','reflechit',{'corner':1}),
+(S[5],'words',B,1,'FIN SEPTEMBRE','TAKE-TWO','🗓️','',{}),
+(S[5]+1.8,'words',P,4,'30 SEPT. 2026','','📊','',{}),
+(S[6],'words',Y,3,'RED DEAD 2','','🤠','',{}),
+(S[6]+1.9,'counter',G,3,'PLUS DE','',0,'',{'to':89,'suffix':' M'}),
+(S[7],'words',B,4,"TRIMESTRE D'AVANT",'','⏪','',{}),
+(S[7]+1.6,'bars',Y,3,'RED DEAD 2','',"",'',{'v0':87,'v1':89,'l0':'AVANT','l1':'ACTUEL','unit':' M','dec':0}),
+(S[8],'words',G,0,'2 CHAMPIONS','QUI CONTINUENT','🏆','surpris',{'corner':1}),
+(S[9],'cta',Y,0,'','','','coucou',{}),
 ]
 total=round(t-0.12+0.3,2)
-out=['export type Beat = {start:number;end:number;kind:"words"|"counter"|"chart"|"bars"|"cta";accent:string;bg:number;label:string;sub:string;icon:string;mascot:string;to?:number;dec?:number;suffix?:string;prefix?:string;raw?:number;corner?:number;r0?:number;r1?:number;v0?:number;v1?:number;l0?:string;l1?:string;unit?:string;};','export const TOTAL = %s;'%total,'export const BEATS: Beat[] = [']
+out=['export type Beat = {start:number;end:number;kind:"words"|"counter"|"chart"|"bars"|"cta";accent:string;bg:number;label:string;sub:string;icon:string;mascot:string;to?:number;dec?:number;suffix?:string;prefix?:string;raw?:number;raw?:number;corner?:number;r0?:number;r1?:number;v0?:number;v1?:number;l0?:string;l1?:string;unit?:string;};','export const TOTAL = %s;'%total,'export const BEATS: Beat[] = [']
 for i,b in enumerate(B_):
     end=B_[i+1][0] if i+1<len(B_) else total
     d={'start':round(b[0],2),'end':round(end,2),'kind':b[1],'accent':b[2],'bg':b[3],'label':b[4],'sub':b[5],'icon':b[6] if isinstance(b[6],str) else '','mascot':b[7]}

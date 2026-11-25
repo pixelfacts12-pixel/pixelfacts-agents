@@ -1,7 +1,7 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
 import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
-const MUSVOL = 0.064;
+const MUSVOL = 0.065;
 
 const {fontFamily} = loadFont();
 const IMGS = ['a', 'b', 'c', 'd', 'e'];
@@ -14,7 +14,7 @@ const big = (size: number, color: string, extra: React.CSSProperties = {}): Reac
 // rotation de sons différents (whoosh + pops), jamais le même deux fois de suite
 const SFX = ['whoosh_1', 'pop1', 'whoosh_5', 'whoosh_2', 'pop2', 'whoosh_7', 'whoosh_3', 'pop3', 'whoosh_8', 'whoosh_4', 'whoosh_6'];
 
-const KEYS: [number, number][] = [[0, 0.03], [0.15, 0.1], [0.4, 0.3], [0.7, 0.62], [1, 1]];
+const KEYS: [number, number][] = [[0, 0.03], [0.2, 0.08], [0.4, 0.3], [0.6, 0.55], [0.8, 0.8], [1, 1]];
 const curveY = (x: number) => {
   for (let i = 1; i < KEYS.length; i++) if (x <= KEYS[i][0]) {
     const [x0, y0] = KEYS[i - 1]; const [x1, y1] = KEYS[i]; const u = (x - x0) / (x1 - x0);
@@ -104,8 +104,8 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   if (beat.kind === 'bars') return <div style={{transform: `scale(${sc})`}}><Bars beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.8))} /></div>;
   if (beat.kind === 'counter') {
     const dec = beat.dec ?? 0; const v = (beat.to ?? 0) * p;
-    const txt = beat.raw ? String(Math.round(v)) : dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : fmt(Math.round(v));
-    const size = (beat.to ?? 0) >= 1000000 ? 175 : (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : 300;
+    const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : beat.raw ? String(Math.round(v)) : fmt(Math.round(v));
+    const size = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : 300;
     return <div style={{width: 1000, height: 820, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
       <div style={big(size, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{beat.prefix ?? ''}{txt}{beat.suffix ?? ''}</div>
@@ -137,7 +137,7 @@ export const Video: React.FC = () => {
   if (idx === -1) { idx = 0; for (let i = 0; i < BEATS.length; i++) if (BEATS[i].start <= t) idx = i; }
   const beat = BEATS[idx];
   const dur = beat.end - beat.start; const localT = Math.max(0, t - beat.start); const bf = Math.max(0, frame - Math.round(beat.start * fps));
-  const bgZoom = 1.12 + 0.2 * Math.min(1, localT / dur);
+  const bgZoom = 1.08 + 0.2 * Math.min(1, localT / dur);
   const pan = (idx % 2 ? -1 : 1) * 30 * Math.min(1, localT / dur);
   const isLast = idx === BEATS.length - 1;
   return (
