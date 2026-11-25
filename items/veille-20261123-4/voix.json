@@ -1,0 +1,699 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.42,
+  "texte": "Savais-tu qu'un jeu au bloc s'a gagné plus de 200 millions de visites en trois semaines ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "qu",
+    "debut": 0.54,
+    "fin": 0.66
+   },
+   {
+    "mot": "'un",
+    "debut": 0.66,
+    "fin": 0.74
+   },
+   {
+    "mot": "jeu",
+    "debut": 0.74,
+    "fin": 0.86
+   },
+   {
+    "mot": "au",
+    "debut": 0.86,
+    "fin": 0.98
+   },
+   {
+    "mot": "bloc",
+    "debut": 0.98,
+    "fin": 1.18
+   },
+   {
+    "mot": "s",
+    "debut": 1.18,
+    "fin": 1.26
+   },
+   {
+    "mot": "'a",
+    "debut": 1.26,
+    "fin": 1.3
+   },
+   {
+    "mot": "gagné",
+    "debut": 1.3,
+    "fin": 1.56
+   },
+   {
+    "mot": "plus",
+    "debut": 1.56,
+    "fin": 1.68
+   },
+   {
+    "mot": "de",
+    "debut": 1.68,
+    "fin": 1.82
+   },
+   {
+    "mot": "200",
+    "debut": 1.82,
+    "fin": 2.04
+   },
+   {
+    "mot": "millions",
+    "debut": 2.04,
+    "fin": 2.3
+   },
+   {
+    "mot": "de",
+    "debut": 2.3,
+    "fin": 2.44
+   },
+   {
+    "mot": "visites",
+    "debut": 2.44,
+    "fin": 2.74
+   },
+   {
+    "mot": "en",
+    "debut": 2.74,
+    "fin": 2.84
+   },
+   {
+    "mot": "trois",
+    "debut": 2.84,
+    "fin": 3.02
+   },
+   {
+    "mot": "semaines",
+    "debut": 3.02,
+    "fin": 3.26
+   },
+   {
+    "mot": "?",
+    "debut": 3.26,
+    "fin": 4.42
+   }
+  ]
+ },
+ {
+  "debut": 4.42,
+  "fin": 5.48,
+  "texte": "Il s'appelle Don Splash.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 4.42,
+    "fin": 4.58
+   },
+   {
+    "mot": "s",
+    "debut": 4.58,
+    "fin": 4.74
+   },
+   {
+    "mot": "'appelle",
+    "debut": 4.74,
+    "fin": 4.9
+   },
+   {
+    "mot": "Don",
+    "debut": 4.9,
+    "fin": 5.06
+   },
+   {
+    "mot": "Splash.",
+    "debut": 5.06,
+    "fin": 5.48
+   }
+  ]
+ },
+ {
+  "debut": 6.38,
+  "fin": 8.66,
+  "texte": "Le 2 novembre, 162 millions de visites.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 6.38,
+    "fin": 6.58
+   },
+   {
+    "mot": "2",
+    "debut": 6.58,
+    "fin": 6.72
+   },
+   {
+    "mot": "novembre,",
+    "debut": 6.72,
+    "fin": 7.16
+   },
+   {
+    "mot": "162",
+    "debut": 7.36,
+    "fin": 7.92
+   },
+   {
+    "mot": "millions",
+    "debut": 7.92,
+    "fin": 8.1
+   },
+   {
+    "mot": "de",
+    "debut": 8.1,
+    "fin": 8.26
+   },
+   {
+    "mot": "visites.",
+    "debut": 8.26,
+    "fin": 8.66
+   }
+  ]
+ },
+ {
+  "debut": 9.46,
+  "fin": 11.98,
+  "texte": "Le 25 novembre, 371 millions.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 9.46,
+    "fin": 9.94
+   },
+   {
+    "mot": "25",
+    "debut": 9.94,
+    "fin": 10.18
+   },
+   {
+    "mot": "novembre,",
+    "debut": 10.18,
+    "fin": 10.68
+   },
+   {
+    "mot": "371",
+    "debut": 10.94,
+    "fin": 11.68
+   },
+   {
+    "mot": "millions.",
+    "debut": 11.68,
+    "fin": 11.98
+   }
+  ]
+ },
+ {
+  "debut": 13.08,
+  "fin": 14.12,
+  "texte": "Mais ces joueurs en même temps,",
+  "mots": [
+   {
+    "mot": "Mais",
+    "debut": 13.08,
+    "fin": 13.3
+   },
+   {
+    "mot": "ces",
+    "debut": 13.3,
+    "fin": 13.44
+   },
+   {
+    "mot": "joueurs",
+    "debut": 13.44,
+    "fin": 13.66
+   },
+   {
+    "mot": "en",
+    "debut": 13.66,
+    "fin": 13.76
+   },
+   {
+    "mot": "même",
+    "debut": 13.76,
+    "fin": 13.92
+   },
+   {
+    "mot": "temps,",
+    "debut": 13.92,
+    "fin": 14.12
+   }
+  ]
+ },
+ {
+  "debut": 14.98,
+  "fin": 17.04,
+  "texte": "de 97 000 à environ 24 000.",
+  "mots": [
+   {
+    "mot": "de",
+    "debut": 14.98,
+    "fin": 15.18
+   },
+   {
+    "mot": "97",
+    "debut": 15.18,
+    "fin": 15.7
+   },
+   {
+    "mot": "000",
+    "debut": 15.7,
+    "fin": 16.04
+   },
+   {
+    "mot": "à",
+    "debut": 16.04,
+    "fin": 16.14
+   },
+   {
+    "mot": "environ",
+    "debut": 16.14,
+    "fin": 16.4
+   },
+   {
+    "mot": "24",
+    "debut": 16.4,
+    "fin": 16.72
+   },
+   {
+    "mot": "000.",
+    "debut": 16.72,
+    "fin": 17.04
+   }
+  ]
+ },
+ {
+  "debut": 18.16,
+  "fin": 20.04,
+  "texte": "Le numéro 2, Breckenstiel & Hague,",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 18.16,
+    "fin": 18.42
+   },
+   {
+    "mot": "numéro",
+    "debut": 18.42,
+    "fin": 18.62
+   },
+   {
+    "mot": "2,",
+    "debut": 18.62,
+    "fin": 18.92
+   },
+   {
+    "mot": "Breckenstiel",
+    "debut": 19.26,
+    "fin": 19.78
+   },
+   {
+    "mot": "&",
+    "debut": 19.78,
+    "fin": 19.86
+   },
+   {
+    "mot": "Hague,",
+    "debut": 19.86,
+    "fin": 20.04
+   }
+  ]
+ },
+ {
+  "debut": 20.32,
+  "fin": 23.16,
+  "texte": "passe de 325 à 492 millions de visites.",
+  "mots": [
+   {
+    "mot": "passe",
+    "debut": 20.32,
+    "fin": 20.5
+   },
+   {
+    "mot": "de",
+    "debut": 20.5,
+    "fin": 20.64
+   },
+   {
+    "mot": "325",
+    "debut": 20.64,
+    "fin": 21.16
+   },
+   {
+    "mot": "à",
+    "debut": 21.16,
+    "fin": 21.44
+   },
+   {
+    "mot": "492",
+    "debut": 21.44,
+    "fin": 21.92
+   },
+   {
+    "mot": "millions",
+    "debut": 21.92,
+    "fin": 22.6
+   },
+   {
+    "mot": "de",
+    "debut": 22.6,
+    "fin": 22.76
+   },
+   {
+    "mot": "visites.",
+    "debut": 22.76,
+    "fin": 23.16
+   }
+  ]
+ },
+ {
+  "debut": 23.96,
+  "fin": 27.12,
+  "texte": "Ces joueurs, de 94 700 à 47 000.",
+  "mots": [
+   {
+    "mot": "Ces",
+    "debut": 23.96,
+    "fin": 24.46
+   },
+   {
+    "mot": "joueurs,",
+    "debut": 24.46,
+    "fin": 24.84
+   },
+   {
+    "mot": "de",
+    "debut": 25.04,
+    "fin": 25.14
+   },
+   {
+    "mot": "94",
+    "debut": 25.14,
+    "fin": 25.5
+   },
+   {
+    "mot": "700",
+    "debut": 25.5,
+    "fin": 26.22
+   },
+   {
+    "mot": "à",
+    "debut": 26.22,
+    "fin": 26.5
+   },
+   {
+    "mot": "47",
+    "debut": 26.5,
+    "fin": 26.8
+   },
+   {
+    "mot": "000.",
+    "debut": 26.8,
+    "fin": 27.12
+   }
+  ]
+ },
+ {
+  "debut": 28.04,
+  "fin": 28.62,
+  "texte": "Moitié moins.",
+  "mots": [
+   {
+    "mot": "Moitié",
+    "debut": 28.04,
+    "fin": 28.42
+   },
+   {
+    "mot": "moins.",
+    "debut": 28.42,
+    "fin": 28.62
+   }
+  ]
+ },
+ {
+  "debut": 29.46,
+  "fin": 33.52,
+  "texte": "Turbo Soccer fait l'inverse, de 19 000 de scènes à 23 400 joueurs.",
+  "mots": [
+   {
+    "mot": "Turbo",
+    "debut": 29.46,
+    "fin": 29.98
+   },
+   {
+    "mot": "Soccer",
+    "debut": 29.98,
+    "fin": 30.38
+   },
+   {
+    "mot": "fait",
+    "debut": 30.38,
+    "fin": 30.52
+   },
+   {
+    "mot": "l",
+    "debut": 30.52,
+    "fin": 30.6
+   },
+   {
+    "mot": "'inverse,",
+    "debut": 30.6,
+    "fin": 30.86
+   },
+   {
+    "mot": "de",
+    "debut": 31.18,
+    "fin": 31.28
+   },
+   {
+    "mot": "19",
+    "debut": 31.28,
+    "fin": 31.58
+   },
+   {
+    "mot": "000",
+    "debut": 31.58,
+    "fin": 31.74
+   },
+   {
+    "mot": "de",
+    "debut": 31.74,
+    "fin": 31.92
+   },
+   {
+    "mot": "scènes",
+    "debut": 31.92,
+    "fin": 32.18
+   },
+   {
+    "mot": "à",
+    "debut": 32.18,
+    "fin": 32.28
+   },
+   {
+    "mot": "23",
+    "debut": 32.28,
+    "fin": 32.44
+   },
+   {
+    "mot": "400",
+    "debut": 32.44,
+    "fin": 32.92
+   },
+   {
+    "mot": "joueurs.",
+    "debut": 32.92,
+    "fin": 33.52
+   }
+  ]
+ },
+ {
+  "debut": 34.22,
+  "fin": 36.18,
+  "texte": "Et 4 battles ?",
+  "mots": [
+   {
+    "mot": "Et",
+    "debut": 34.22,
+    "fin": 34.74
+   },
+   {
+    "mot": "4",
+    "debut": 34.74,
+    "fin": 34.9
+   },
+   {
+    "mot": "battles",
+    "debut": 34.9,
+    "fin": 35.22
+   },
+   {
+    "mot": "?",
+    "debut": 35.22,
+    "fin": 36.18
+   }
+  ]
+ },
+ {
+  "debut": 36.18,
+  "fin": 37.46,
+  "texte": "De 15 000 à 3 100.",
+  "mots": [
+   {
+    "mot": "De",
+    "debut": 36.18,
+    "fin": 36.46
+   },
+   {
+    "mot": "15",
+    "debut": 36.46,
+    "fin": 36.74
+   },
+   {
+    "mot": "000",
+    "debut": 36.74,
+    "fin": 36.92
+   },
+   {
+    "mot": "à",
+    "debut": 36.92,
+    "fin": 37.0
+   },
+   {
+    "mot": "3",
+    "debut": 37.0,
+    "fin": 37.2
+   },
+   {
+    "mot": "100.",
+    "debut": 37.2,
+    "fin": 37.46
+   }
+  ]
+ },
+ {
+  "debut": 38.48,
+  "fin": 39.58,
+  "texte": "Les visites montent toujours.",
+  "mots": [
+   {
+    "mot": "Les",
+    "debut": 38.48,
+    "fin": 38.8
+   },
+   {
+    "mot": "visites",
+    "debut": 38.8,
+    "fin": 39.08
+   },
+   {
+    "mot": "montent",
+    "debut": 39.08,
+    "fin": 39.32
+   },
+   {
+    "mot": "toujours.",
+    "debut": 39.32,
+    "fin": 39.58
+   }
+  ]
+ },
+ {
+  "debut": 40.66,
+  "fin": 42.1,
+  "texte": "Les joueurs en direct, pas forcément.",
+  "mots": [
+   {
+    "mot": "Les",
+    "debut": 40.66,
+    "fin": 40.78
+   },
+   {
+    "mot": "joueurs",
+    "debut": 40.78,
+    "fin": 41.0
+   },
+   {
+    "mot": "en",
+    "debut": 41.0,
+    "fin": 41.08
+   },
+   {
+    "mot": "direct,",
+    "debut": 41.08,
+    "fin": 41.32
+   },
+   {
+    "mot": "pas",
+    "debut": 41.68,
+    "fin": 41.82
+   },
+   {
+    "mot": "forcément.",
+    "debut": 41.82,
+    "fin": 42.1
+   }
+  ]
+ },
+ {
+  "debut": 43.1,
+  "fin": 45.3,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 43.1,
+    "fin": 43.58
+   },
+   {
+    "mot": "-toi",
+    "debut": 43.58,
+    "fin": 43.76
+   },
+   {
+    "mot": "à",
+    "debut": 43.76,
+    "fin": 43.88
+   },
+   {
+    "mot": "Pixel",
+    "debut": 43.88,
+    "fin": 44.12
+   },
+   {
+    "mot": "Facts",
+    "debut": 44.12,
+    "fin": 44.48
+   },
+   {
+    "mot": "pour",
+    "debut": 44.48,
+    "fin": 44.68
+   },
+   {
+    "mot": "le",
+    "debut": 44.68,
+    "fin": 44.78
+   },
+   {
+    "mot": "prochain",
+    "debut": 44.78,
+    "fin": 45.02
+   },
+   {
+    "mot": "fait.",
+    "debut": 45.02,
+    "fin": 45.3
+   }
+  ]
+ }
+]

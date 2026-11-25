@@ -332,7 +332,7 @@
    "id": "veille-20261123-3",
    "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
    "note": "Format liste « 3 faits sur Skyrim » sans scène du jeu, graphique animé 2011 → 2026, ton humoristique, vérifier chaque chiffre avant de l'écrire.",
-   "status": "pret",
+   "status": "rejete",
    "recu": 1795459234.3153293,
    "essais": 0,
    "reprises": 0,
@@ -343,11 +343,12 @@
    "id": "veille-20261123-4",
    "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/",
    "note": "Angle chiffres et graphique animé uniquement, ton neutre, aucune image du jeu ; vérifier les chiffres actuels sur l'API Roblox avant le script.",
-   "status": "a_faire",
+   "status": "pret",
    "recu": 1795459234.3153303,
    "essais": 0,
    "reprises": 0,
-   "remarques": []
+   "remarques": [],
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261125-173224-veille-20261123-4.mp4"
   },
   {
    "id": "veille-20261124-1",
@@ -380,7 +381,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 87,
+ "ev_lus": 89,
  "veille": {
   "derniere": 1795605743.2981164,
   "essais": 0

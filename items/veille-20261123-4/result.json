@@ -1,0 +1,8 @@
+{
+ "status": "pret",
+ "titre": "Dont Splash : 162 M → 371 M de visites 📈",
+ "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-4",
+ "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-4/envoi.mp4",
+ "telegram": "Top Roblox du 2 au 25 novembre : visites en hausse, joueurs en baisse.",
+ "resume": "Sujet : classement GGRecon des jeux Roblox à plus forte croissance (2/11), comparé au 25/11 : visites et joueurs, barres animées, chiffres seulement.\nVérifié : API Roblox du 25/11 pour Dont Splash (371 M, ~24 000), Break and Steal an Egg (492 M, ~47 000), Turbo Soccer (~23 400), Cat Battles (~3 100) ; chiffres du 2/11 tirés de GGRecon seul. Plusieurs requêtes API en 429 : RoWorld, Backseat Rally, Kukirin Life, Spider Arm non relus, donc non cités.\nPrudent : aucune image ni logo du jeu, images cartoon génériques, noms de jeux seulement en texte ; mention IA à cocher ; pas pour enfants. Mix -22,2 LUFS (= voix seule), true peak -6,0 dBTP.\nÀ voir : la voix prononce les noms anglais à la française (Whisper les transcrit mal) ; sujet voisin de Dont Splash (20261117-4) et Kukirin (20261120-2), angle différent (classement avant/après)."
+}
