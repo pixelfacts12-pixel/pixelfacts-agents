@@ -12,33 +12,31 @@ S=starts
 Y,B,P,G='#FFD628','#5ECBFF','#FF5FA2','#7CFF8A'
 # (start,kind,accent,bg,label,sub,icon,mascot,extra)
 B_=[
-(0,'words',Y,0,'UN JEU ROBLOX','','🎮','surpris',{}),
-(1.8,'counter',B,3,'MILLIONS DE VISITES EN PLUS','',0,'',{'to':209,'prefix':'+'}),
-(S[1],'words',P,1,'DONT SPLASH','','💦','',{}),
-(S[1]+1.9,'counter',Y,4,'MILLIONS · 2 NOVEMBRE','',0,'',{'to':162}),
-(S[1]+3.7,'words',B,1,'EN 23 JOURS','','🗓️','',{}),
-(S[2],'bars',G,0,'DONT SPLASH','VISITES (MILLIONS)','','',{'va':162,'vb':371,'la':'2 NOV','lb':'25 NOV','unit':' M'}),
-(S[2]+1.7,'words',G,4,'+129 % !','','🚀','',{}),
-(S[3],'bars',P,2,'DONT SPLASH','JOUEURS EN DIRECT','','',{'va':97000,'vb':24000,'la':'2 NOV','lb':'25 NOV','unit':''}),
-(S[3]+2.3,'words',B,2,'MOINS DE JOUEURS','','📉','reflechit',{'corner':1}),
-(S[4],'bars',Y,1,'BREAK AND STEAL AN EGG','VISITES (MILLIONS)','','',{'va':325,'vb':492,'la':'2 NOV','lb':'25 NOV','unit':' M'}),
-(S[4]+2.2,'words',Y,4,'NUMÉRO 2','','🥈','',{}),
-(S[4]+3.6,'counter',G,4,'DE VISITES EN PLUS','',0,'',{'to':51,'prefix':'+','suffix':' %'}),
-(S[5],'bars',P,2,'BREAK AND STEAL AN EGG','JOUEURS EN DIRECT','','',{'va':94700,'vb':47000,'la':'2 NOV','lb':'25 NOV','unit':''}),
-(S[5]+2.0,'words',B,3,'MOITIÉ MOINS','','½','',{}),
-(S[5]+3.6,'counter',P,3,'DE JOUEURS EN DIRECT','',0,'',{'to':50,'prefix':'-','suffix':' %'}),
-(S[6],'bars',G,0,'TURBO SOCCER','JOUEURS EN DIRECT','','',{'va':19200,'vb':23400,'la':'2 NOV','lb':'25 NOV','unit':''}),
-(S[6]+2.0,'words',G,1,'L\'INVERSE','','📈','',{}),
-(S[6]+3.4,'counter',G,0,'DE JOUEURS EN PLUS','',0,'',{'to':22,'prefix':'+','suffix':' %'}),
-(S[7],'bars',P,2,'CAT BATTLES','JOUEURS EN DIRECT','','',{'va':15000,'vb':3100,'la':'2 NOV','lb':'25 NOV','unit':''}),
-(S[7]+1.8,'words',B,3,'FORTE BAISSE','','📉','',{}),
-(S[8],'words',Y,0,'VISITES : ↑','','👟','surpris',{'corner':1}),
-(S[8]+1.6,'words',P,2,'JOUEURS : ?','','🎯','',{}),
-(S[8]+2.9,'words',B,1,'PAS PAREIL','','⚖️','',{}),
-(S[9],'cta',Y,0,'','','','coucou',{}),
+(0,'words',Y,0,'10 JEUX ROBLOX','','🏆','surpris',{}),
+(1.8,'words',P,1,'EN QUELQUES SEMAINES','','🚀','',{}),
+(S[1],'words',B,0,'LE 2 NOVEMBRE','','🗓️','',{}),
+(S[1]+1.9,'words',Y,2,'LE CLASSEMENT','PAR VISITES / JOUR','📊','',{}),
+(S[2],'words',G,0,'DONT SPLASH','NUMÉRO 1','🥇','',{}),
+(S[2]+2.2,'counter',B,1,'VISITES PAR JOUR','',0,'',{'to':97,'dec':1,'suffix':' M'}),
+(S[3],'counter',Y,2,'VISITES AU TOTAL','',0,'',{'to':162,'suffix':' M'}),
+(S[3]+2.0,'words',P,3,'AU DÉPART','LE 2 NOVEMBRE','⏱️','reflechit',{'corner':1}),
+(S[4],'bars',G,1,'VISITES','',"",'',{'v0':161.9,'v1':371.2,'l0':'2 NOV','l1':'25 NOV','unit':' M','dec':1}),
+(S[4]+2.7,'counter',G,2,"VISITES AU 25 NOV.",'',0,'',{'to':371,'suffix':' M'}),
+(S[5],'words',P,0,'BREAK AND STEAL AN EGG','NUMÉRO 2','🥈','',{}),
+(S[5]+2.5,'counter',B,3,'AU DÉPART','',0,'',{'to':325,'suffix':' M'}),
+(S[6],'bars',G,1,'VISITES','',"",'',{'v0':325.3,'v1':492.3,'l0':'2 NOV','l1':'25 NOV','unit':' M','dec':1}),
+(S[6]+1.7,'counter',Y,2,"VISITES AU 25 NOV.",'',0,'',{'to':492,'suffix':' M'}),
+(S[7],'words',B,3,'JOUEURS EN DIRECT','','👥','',{}),
+(S[7]+2.0,'bars',P,3,'EN MÊME TEMPS','',"",'',{'v0':94659,'v1':45531,'l0':'2 NOV','l1':'25 NOV','unit':'','dec':0}),
+(S[7]+4.4,'words',P,3,'MOITIÉ MOINS','','📉','surpris',{'corner':1}),
+(S[8],'words',Y,4,'CAT BATTLES','','🐱','',{}),
+(S[8]+1.7,'bars',P,3,'EN MÊME TEMPS','',"",'',{'v0':15025,'v1':3327,'l0':'2 NOV','l1':'25 NOV','unit':'','dec':0}),
+(S[9],'words',G,1,'LES VISITES MONTENT','','📈','',{}),
+(S[9]+1.9,'words',P,3,'LES JOUEURS BAISSENT','','📉','',{}),
+(S[10],'cta',Y,0,'','','','coucou',{}),
 ]
 total=round(t-0.12+0.3,2)
-out=['export type Beat = {start:number;end:number;kind:"words"|"bars"|"counter"|"chart"|"cta";accent:string;bg:number;label:string;sub:string;icon:string;mascot:string;to?:number;dec?:number;suffix?:string;prefix?:string;corner?:number;va?:number;vb?:number;la?:string;lb?:string;unit?:string;r0?:number;r1?:number;v0?:number;v1?:number;};','export const TOTAL = %s;'%total,'export const BEATS: Beat[] = [']
+out=['export type Beat = {start:number;end:number;kind:"words"|"counter"|"chart"|"bars"|"cta";accent:string;bg:number;label:string;sub:string;icon:string;mascot:string;to?:number;dec?:number;suffix?:string;prefix?:string;corner?:number;r0?:number;r1?:number;v0?:number;v1?:number;l0?:string;l1?:string;unit?:string;};','export const TOTAL = %s;'%total,'export const BEATS: Beat[] = [']
 for i,b in enumerate(B_):
     end=B_[i+1][0] if i+1<len(B_) else total
     d={'start':round(b[0],2),'end':round(end,2),'kind':b[1],'accent':b[2],'bg':b[3],'label':b[4],'sub':b[5],'icon':b[6] if isinstance(b[6],str) else '','mascot':b[7]}

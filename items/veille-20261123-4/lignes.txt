@@ -1,10 +1,11 @@
-+14%|Savais-tu qu'un jeu Roblox a gagné plus de 200 millions de visites en trois semaines ?
-+12%|Il s'appelle Dont Splash. Le 2 novembre : 162 millions de visites.
-+13%|Le 25 novembre : 371 millions !
-+11%|Mais ses joueurs en même temps ? De 97 000 à environ 24 000.
-+14%|Le numéro 2, Break and Steal an Egg, passe de 325 à 492 millions de visites.
-+12%|Ses joueurs : de 94 700 à 47 000. Moitié moins.
-+13%|Turbo Soccer fait l'inverse : de 19 200 à 23 400 joueurs.
-+11%|Et Cat Battles ? De 15 000 à 3 100.
-+14%|Les visites montent toujours. Les joueurs en direct, pas forcément.
-+12%|Abonne-toi à Pixel Facts pour le prochain fait !
++14%|Savais-tu que 10 jeux Roblox neufs ont explosé en quelques semaines ?
++12%|Le 2 novembre, GGRecon les classait par visites par jour.
++13%|Numéro un : Dont Splash, avec 9,7 millions de visites par jour.
++11%|À ce moment-là, il totalisait 162 millions de visites.
++14%|Vérifié sur l'API Roblox le 25 novembre : plus de 371 millions !
++12%|Numéro deux : Break and Steal an Egg, 325 millions de visites au départ.
++13%|Aujourd'hui, plus de 492 millions !
++11%|Mais les joueurs en direct, eux, redescendent : de 94 659 à environ 45 500.
++14%|Cat Battles : de 15 000 joueurs à environ 3 300.
++12%|Les visites ne baissent jamais, mais les joueurs en direct, si.
++13%|Abonne-toi à Pixel Facts pour le prochain fait !

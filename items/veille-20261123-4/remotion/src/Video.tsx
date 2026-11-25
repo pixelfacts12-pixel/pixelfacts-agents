@@ -78,21 +78,20 @@ const Chart: React.FC<{beat: Beat; p: number}> = ({beat, p}) => {
 };
 
 const Bars: React.FC<{beat: Beat; p: number}> = ({beat, p}) => {
-  const mx = Math.max(beat.va ?? 1, beat.vb ?? 1);
-  const pa = Math.min(1, p * 2); const pb = Math.max(0, Math.min(1, p * 2 - 0.7));
-  const rows = [{l: beat.la ?? '', v: (beat.va ?? 0), q: pa, c: '#5ECBFF'}, {l: beat.lb ?? '', v: (beat.vb ?? 0), q: pb, c: beat.accent}];
-  return <div style={{width: 1010, borderRadius: 70, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.8)', padding: '70px 30px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: `0 0 90px ${beat.accent}88`}}>
-    <div style={big(beat.label.length > 14 ? 110 : 150, '#fff', {padding: 0})}>{beat.label}</div>
-    <div style={big(95, beat.accent, {padding: 0, marginTop: 10, marginBottom: 60})}>{beat.sub}</div>
-    {rows.map((r, i) => <div key={i} style={{width: '100%', marginBottom: 60}}>
-      <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'baseline'}}>
-        <span style={big(115, '#fff', {padding: 0})}>{r.l}</span>
-        <span style={big(165, r.c, {padding: 0, whiteSpace: 'nowrap'})}>{fmt(Math.round(r.v * r.q))}{beat.unit ?? ''}</span>
-      </div>
-      <div style={{height: 190, borderRadius: 40, background: '#ffffff22', overflow: 'hidden', border: `6px solid ${OUT}`}}>
-        <div style={{width: `${(r.v / mx) * r.q * 100}%`, height: '100%', background: r.c, borderRadius: 22}} />
-      </div>
-    </div>)}
+  const v0 = beat.v0 ?? 0, v1 = beat.v1 ?? 0, mx = Math.max(v0, v1), H = 820, dec = beat.dec ?? 0;
+  const show = (v: number) => dec ? v.toFixed(dec).replace('.', ',') : fmt(Math.round(v));
+  const p0 = Math.min(1, p * 2), p1 = Math.max(0, Math.min(1, p * 2 - 0.7));
+  const col = (v: number, pp: number, color: string, lab: string) => (
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', width: 440}}>
+      <div style={big(v > 9999 ? 110 : 130, '#fff', {whiteSpace: 'nowrap', padding: 0, marginBottom: 12})}>{show(v * pp)}{beat.unit}</div>
+      <div style={{width: 340, height: Math.max(20, H * (v / mx) * pp), borderRadius: 36, background: color, border: `10px solid ${OUT}`, boxShadow: `0 0 60px ${color}aa`}} />
+      <div style={big(100, color, {marginTop: 14, padding: 0})}>{lab}</div>
+    </div>);
+  return <div style={{width: 1010, borderRadius: 70, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.78)', padding: '40px 0 30px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: `0 0 90px ${beat.accent}88`}}>
+    <div style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'center', height: H + 190}}>
+      {col(v0, p0, '#5ECBFF', beat.l0 ?? '')}{col(v1, p1, beat.accent, beat.l1 ?? '')}
+    </div>
+    <div style={big(110, '#fff', {marginTop: 16})}>{beat.label}</div>
   </div>;
 };
 
@@ -102,7 +101,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   const sc = enter * slow;
   const p = Easing.out(Easing.cubic)(Math.min(1, localT / Math.max(0.5, dur * 0.85)));
   if (beat.kind === 'chart') return <div style={{transform: `scale(${sc})`}}><Chart beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.92))} /></div>;
-  if (beat.kind === 'bars') return <div style={{transform: `scale(${sc})`}}><Bars beat={beat} p={Math.min(1, localT / Math.max(0.6, dur * 0.8))} /></div>;
+  if (beat.kind === 'bars') return <div style={{transform: `scale(${sc})`}}><Bars beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.8))} /></div>;
   if (beat.kind === 'counter') {
     const dec = beat.dec ?? 0; const v = (beat.to ?? 0) * p;
     const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : fmt(Math.round(v));

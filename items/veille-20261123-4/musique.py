@@ -1,5 +1,5 @@
 import numpy as np, wave
-sr=44100; dur=40; bpm=100; beat=60/bpm
+sr=44100; dur=50; bpm=100; beat=60/bpm
 t=np.arange(int(sr*dur))/sr; out=np.zeros_like(t)
 def env(n,a=0.01,r=0.4):
     x=np.arange(n)/sr; return np.minimum(1,x/a)*np.exp(-x/r)
