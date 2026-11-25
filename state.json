@@ -381,7 +381,7 @@
  ],
  "ev_lus": 84,
  "veille": {
-  "derniere": 1795525991.506642,
+  "derniere": 1795605743.2981164,
   "essais": 0
  },
  "propositions": {
@@ -389,6 +389,16 @@
    "type": "video",
    "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
    "note": "Format « 3 anniversaires de décembre » avec compteurs d'années, sans logo ni image officielle ; confirmer l'année de chaque jeu avant écriture, la page ne les donne pas."
+  },
+  "veille-20261125-1": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/101277003916102",
+   "note": "Simulateur minimal : un pantin physique, quelques rampes et obstacles, argent selon la chute, améliorations et skins ; ton humoristique et familial, sans sang, aucun asset copié."
+  },
+  "veille-20261125-2": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/91652462379782",
+   "note": "Petit simulateur à niveaux : parcours de conduite avec règles simples (stop, créneau, slalom), score et pièces, voitures à débloquer ; ton léger et familial, sans copier noms ni assets."
   }
  },
  "agents": {

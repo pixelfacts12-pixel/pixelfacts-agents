@@ -1,0 +1,12 @@
+{"status": "veille",
+ "telegram": "🔎 Veille du jour : 2 jeux Roblox à construire (Hyper Realistic Ragdoll, Can You Pass A Driving Test?) ; aucune vidéo proposée, YouTube ne rend ni vues ni dates sans compte, donc aucun Short vérifiable.",
+ "propositions": [
+  {"type": "roblox", "titre": "Simulateur ragdoll à physique réaliste",
+   "url": "https://www.roblox.com/games/101277003916102",
+   "pourquoi": "Hyper Realistic Ragdoll : créé le 29/10/2026, 64 141 joueurs en même temps et 69,1 M de visites le 25/11/2026 (API Roblox) ; 86 471 joueurs au relevé du 24/11. Concept très simple : un pantin qui tombe, rebondit et se fait lancer, drôle à regarder et à partager.",
+   "note": "Simulateur minimal : un pantin physique, quelques rampes et obstacles, argent selon la chute, améliorations et skins ; ton humoristique et familial, sans sang, aucun asset copié."},
+  {"type": "roblox", "titre": "Simulateur d'examen de conduite",
+   "url": "https://www.roblox.com/games/91652462379782",
+   "pourquoi": "Can You Pass A Driving Test? : créé le 18/10/2026, 9 786 joueurs en même temps et 34,6 M de visites le 25/11/2026 (API Roblox) ; 19 566 joueurs au relevé du 24/11. Boucle courte et claire : réussir des épreuves de conduite, gagner de l'argent, débloquer des voitures.",
+   "note": "Petit simulateur à niveaux : parcours de conduite avec règles simples (stop, créneau, slalom), score et pièces, voitures à débloquer ; ton léger et familial, sans copier noms ni assets."}
+ ]}
