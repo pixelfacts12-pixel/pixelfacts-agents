@@ -212,7 +212,8 @@
    "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-184014-veille-20261120-1.mp4",
    "averti_buffer": true,
    "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261120-1/legende.json",
-   "titre_pub": "📤 Titre choisi : 29 ans de mystère dans Tales of Destiny 🕵️ #shorts"
+   "titre_pub": "📤 Titre choisi : 29 ans de mystère dans Tales of Destiny 🕵️ #shorts",
+   "relance_buffer": true
   },
   {
    "id": "roblox-20261120-2221",
@@ -229,7 +230,7 @@
    "id": "veille-20261121-1",
    "url": "https://www.youtube.com/shorts/1KP8-D2SgQ0",
    "note": "Refaire l'idée en enquête courte : d'où vient vraiment le son « oof », sans utiliser le son original (bruitage synthétisé), ton curieux, sans visage réel ; ne citer que des faits sourcés (histoire du son et de son remplacement en 2022).",
-   "status": "programme",
+   "status": "valide",
    "recu": 1795286433.2226858,
    "essais": 0,
    "reprises": 0,
@@ -237,7 +238,8 @@
    "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261121-230237-veille-20261121-1.mp4",
    "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-1/legende.json",
    "titre_pub": "📤 Titre choisi : Le « oof » de Roblox n'est pas né dans Roblox 🔊 #shorts",
-   "averti_buffer": true
+   "averti_buffer": true,
+   "relance_buffer": true
   },
   {
    "id": "veille-20261121-2",
@@ -408,7 +410,7 @@
   "roblox_tendances": 1795620652.9746823,
   "roblox_stats": 1795625146.318709,
   "chef": 1795642250.6846519,
-  "controleur": 1795633310.5488055
+  "controleur": 1795644637.9676075
  },
  "roblox_derniere": 1795213300.7825432
 }
