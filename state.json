@@ -369,12 +369,17 @@
    "id": "veille-20261124-2",
    "url": "https://gamingbolt.com/?p=656679",
    "note": "Courbe animée et compteurs, ton « le champion qui ne s'arrête pas », aucune scène de jeu ; ne reprendre que 235 M et 89 M, ignorer la ligne douteuse de l'article sur RDR2.",
-   "status": "pret",
+   "status": "valide",
    "recu": 1795542876.1435125,
    "essais": 0,
    "reprises": 0,
    "remarques": [],
-   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261125-200231-veille-20261124-2.mp4"
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261125-200231-veille-20261124-2.mp4",
+   "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261124-2/legende.json",
+   "titre_pub": "📤 Titre choisi : GTA V : 235 M de ventes, toujours le champion ! 🏆 #shorts",
+   "attente_buffer": true,
+   "prochain_essai": 1795648300.024163,
+   "averti_buffer": true
   },
   {
    "id": "veille-20261124-3",
@@ -387,7 +392,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 91,
+ "ev_lus": 92,
  "veille": {
   "derniere": 1795605743.2981164,
   "essais": 0

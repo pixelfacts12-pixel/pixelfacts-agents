@@ -1,8 +1,2 @@
-{
- "status": "pret",
- "titre": "GTA V : 235 M de ventes, 13 ans après ! 🏆",
- "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261124-2",
- "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261124-2/envoi.mp4",
- "telegram": "GTA 5 approche 235 M de ventes, Red Dead 2 passe 89 M : les champions continuent.",
- "resume": "Sujet : GTA V (près de 235 M, 2013) et RDR2 (plus de 89 M), courbe animée et compteurs, sans scène de jeu.\nVérifié : chiffres absents du communiqué Take-Two mais repris par GamingBolt, VGChartz, Insider Gaming (rapport trimestriel du 30/09/2026) ; un média cite 85 M pour RDR2 et 230 M pour GTA V, donc formules prudentes « près de » / « plus de » et « d'après Take-Two ».\nChoix prudents : seuls 235 M et 89 M mis en avant (87 M et 230 M en comparaison), ligne douteuse ignorée, aucun logo ni image du jeu, pas de chiffres de GTA 6.\nÀ revoir : confirmer 235 M/89 M dans le 10-Q de Take-Two ; aucun public enfant."
-}
+{"status": "programme", "video": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261125-200231-veille-20261124-2.mp4", "legende": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261124-2/legende.json",
+ "telegram": "📤 Titre choisi : GTA V : 235 M de ventes, toujours le champion ! 🏆 #shorts"}
