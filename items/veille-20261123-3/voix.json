@@ -1,0 +1,561 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 3.56,
+  "texte": "savait-tu que ce jeu à 15 ans. Voici trois faits sur Skyrim.",
+  "mots": [
+   {
+    "mot": "savait",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.56
+   },
+   {
+    "mot": "que",
+    "debut": 0.56,
+    "fin": 0.68
+   },
+   {
+    "mot": "ce",
+    "debut": 0.68,
+    "fin": 0.82
+   },
+   {
+    "mot": "jeu",
+    "debut": 0.82,
+    "fin": 0.96
+   },
+   {
+    "mot": "à",
+    "debut": 0.96,
+    "fin": 1.06
+   },
+   {
+    "mot": "15",
+    "debut": 1.06,
+    "fin": 1.24
+   },
+   {
+    "mot": "ans.",
+    "debut": 1.24,
+    "fin": 1.4
+   },
+   {
+    "mot": "Voici",
+    "debut": 2.14,
+    "fin": 2.58
+   },
+   {
+    "mot": "trois",
+    "debut": 2.58,
+    "fin": 2.84
+   },
+   {
+    "mot": "faits",
+    "debut": 2.84,
+    "fin": 3.04
+   },
+   {
+    "mot": "sur",
+    "debut": 3.04,
+    "fin": 3.16
+   },
+   {
+    "mot": "Skyrim.",
+    "debut": 3.16,
+    "fin": 3.56
+   }
+  ]
+ },
+ {
+  "debut": 4.460000000000003,
+  "fin": 10.86,
+  "texte": "Fait numéro 1, il est sorti le 11 du 11 2011. Même le calendrier fait un clin d'œil. Fait",
+  "mots": [
+   {
+    "mot": "Fait",
+    "debut": 4.460000000000003,
+    "fin": 4.9
+   },
+   {
+    "mot": "numéro",
+    "debut": 4.9,
+    "fin": 5.06
+   },
+   {
+    "mot": "1,",
+    "debut": 5.06,
+    "fin": 5.38
+   },
+   {
+    "mot": "il",
+    "debut": 5.6,
+    "fin": 5.62
+   },
+   {
+    "mot": "est",
+    "debut": 5.62,
+    "fin": 5.72
+   },
+   {
+    "mot": "sorti",
+    "debut": 5.72,
+    "fin": 5.98
+   },
+   {
+    "mot": "le",
+    "debut": 5.98,
+    "fin": 6.1
+   },
+   {
+    "mot": "11",
+    "debut": 6.1,
+    "fin": 6.22
+   },
+   {
+    "mot": "du",
+    "debut": 6.22,
+    "fin": 6.36
+   },
+   {
+    "mot": "11",
+    "debut": 6.36,
+    "fin": 6.52
+   },
+   {
+    "mot": "2011.",
+    "debut": 6.52,
+    "fin": 6.92
+   },
+   {
+    "mot": "Même",
+    "debut": 8.0,
+    "fin": 8.18
+   },
+   {
+    "mot": "le",
+    "debut": 8.18,
+    "fin": 8.32
+   },
+   {
+    "mot": "calendrier",
+    "debut": 8.32,
+    "fin": 8.68
+   },
+   {
+    "mot": "fait",
+    "debut": 8.68,
+    "fin": 8.94
+   },
+   {
+    "mot": "un",
+    "debut": 8.94,
+    "fin": 9.08
+   },
+   {
+    "mot": "clin",
+    "debut": 9.08,
+    "fin": 9.24
+   },
+   {
+    "mot": "d",
+    "debut": 9.24,
+    "fin": 9.4
+   },
+   {
+    "mot": "'œil.",
+    "debut": 9.4,
+    "fin": 9.56
+   },
+   {
+    "mot": "Fait",
+    "debut": 10.68,
+    "fin": 10.86
+   }
+  ]
+ },
+ {
+  "debut": 10.86,
+  "fin": 15.28,
+  "texte": "numéro 2, plus de 60 millions d'exemplaires vendus. Il y en a plus que de chaussettes",
+  "mots": [
+   {
+    "mot": "numéro",
+    "debut": 10.86,
+    "fin": 11.08
+   },
+   {
+    "mot": "2,",
+    "debut": 11.08,
+    "fin": 11.36
+   },
+   {
+    "mot": "plus",
+    "debut": 11.66,
+    "fin": 11.72
+   },
+   {
+    "mot": "de",
+    "debut": 11.72,
+    "fin": 11.82
+   },
+   {
+    "mot": "60",
+    "debut": 11.82,
+    "fin": 12.14
+   },
+   {
+    "mot": "millions",
+    "debut": 12.14,
+    "fin": 12.4
+   },
+   {
+    "mot": "d",
+    "debut": 12.4,
+    "fin": 12.56
+   },
+   {
+    "mot": "'exemplaires",
+    "debut": 12.56,
+    "fin": 12.96
+   },
+   {
+    "mot": "vendus.",
+    "debut": 12.96,
+    "fin": 13.3
+   },
+   {
+    "mot": "Il",
+    "debut": 14.12,
+    "fin": 14.3
+   },
+   {
+    "mot": "y",
+    "debut": 14.3,
+    "fin": 14.4
+   },
+   {
+    "mot": "en",
+    "debut": 14.4,
+    "fin": 14.42
+   },
+   {
+    "mot": "a",
+    "debut": 14.42,
+    "fin": 14.52
+   },
+   {
+    "mot": "plus",
+    "debut": 14.52,
+    "fin": 14.66
+   },
+   {
+    "mot": "que",
+    "debut": 14.66,
+    "fin": 14.84
+   },
+   {
+    "mot": "de",
+    "debut": 14.84,
+    "fin": 14.96
+   },
+   {
+    "mot": "chaussettes",
+    "debut": 14.96,
+    "fin": 15.28
+   }
+  ]
+ },
+ {
+  "debut": 15.28,
+  "fin": 23.4,
+  "texte": "dans ta chambre. 20 millions en 2013, 30 en 2016, 60 en 2023. Fait numéro 3, il ressort",
+  "mots": [
+   {
+    "mot": "dans",
+    "debut": 15.28,
+    "fin": 15.44
+   },
+   {
+    "mot": "ta",
+    "debut": 15.44,
+    "fin": 15.58
+   },
+   {
+    "mot": "chambre.",
+    "debut": 15.58,
+    "fin": 15.84
+   },
+   {
+    "mot": "20",
+    "debut": 17.0,
+    "fin": 17.26
+   },
+   {
+    "mot": "millions",
+    "debut": 17.26,
+    "fin": 17.48
+   },
+   {
+    "mot": "en",
+    "debut": 17.48,
+    "fin": 17.6
+   },
+   {
+    "mot": "2013,",
+    "debut": 17.6,
+    "fin": 18.04
+   },
+   {
+    "mot": "30",
+    "debut": 18.54,
+    "fin": 18.72
+   },
+   {
+    "mot": "en",
+    "debut": 18.72,
+    "fin": 18.9
+   },
+   {
+    "mot": "2016,",
+    "debut": 18.9,
+    "fin": 19.26
+   },
+   {
+    "mot": "60",
+    "debut": 19.76,
+    "fin": 19.98
+   },
+   {
+    "mot": "en",
+    "debut": 19.98,
+    "fin": 20.24
+   },
+   {
+    "mot": "2023.",
+    "debut": 20.24,
+    "fin": 20.7
+   },
+   {
+    "mot": "Fait",
+    "debut": 21.84,
+    "fin": 22.22
+   },
+   {
+    "mot": "numéro",
+    "debut": 22.22,
+    "fin": 22.4
+   },
+   {
+    "mot": "3,",
+    "debut": 22.4,
+    "fin": 22.78
+   },
+   {
+    "mot": "il",
+    "debut": 23.04,
+    "fin": 23.08
+   },
+   {
+    "mot": "ressort",
+    "debut": 23.08,
+    "fin": 23.4
+   }
+  ]
+ },
+ {
+  "debut": 23.4,
+  "fin": 29.22,
+  "texte": "sans arrêt. 2016, 2017, 2018. Il a plus de vie qu'un",
+  "mots": [
+   {
+    "mot": "sans",
+    "debut": 23.4,
+    "fin": 23.56
+   },
+   {
+    "mot": "arrêt.",
+    "debut": 23.56,
+    "fin": 23.88
+   },
+   {
+    "mot": "2016,",
+    "debut": 24.76,
+    "fin": 25.2
+   },
+   {
+    "mot": "2017,",
+    "debut": 25.66,
+    "fin": 26.06
+   },
+   {
+    "mot": "2018.",
+    "debut": 26.64,
+    "fin": 27.02
+   },
+   {
+    "mot": "Il",
+    "debut": 28.32,
+    "fin": 28.58
+   },
+   {
+    "mot": "a",
+    "debut": 28.58,
+    "fin": 28.7
+   },
+   {
+    "mot": "plus",
+    "debut": 28.7,
+    "fin": 28.8
+   },
+   {
+    "mot": "de",
+    "debut": 28.8,
+    "fin": 28.92
+   },
+   {
+    "mot": "vie",
+    "debut": 28.92,
+    "fin": 29.04
+   },
+   {
+    "mot": "qu",
+    "debut": 29.04,
+    "fin": 29.14
+   },
+   {
+    "mot": "'un",
+    "debut": 29.14,
+    "fin": 29.22
+   }
+  ]
+ },
+ {
+  "debut": 29.22,
+  "fin": 35.86,
+  "texte": "chat et il refuse la retraite. 15 ans après, on l'achète encore. Abonne-toi à Pixel Facts",
+  "mots": [
+   {
+    "mot": "chat",
+    "debut": 29.22,
+    "fin": 29.44
+   },
+   {
+    "mot": "et",
+    "debut": 29.44,
+    "fin": 29.8
+   },
+   {
+    "mot": "il",
+    "debut": 29.8,
+    "fin": 29.9
+   },
+   {
+    "mot": "refuse",
+    "debut": 29.9,
+    "fin": 30.2
+   },
+   {
+    "mot": "la",
+    "debut": 30.2,
+    "fin": 30.36
+   },
+   {
+    "mot": "retraite.",
+    "debut": 30.36,
+    "fin": 31.06
+   },
+   {
+    "mot": "15",
+    "debut": 31.66,
+    "fin": 32.1
+   },
+   {
+    "mot": "ans",
+    "debut": 32.1,
+    "fin": 32.22
+   },
+   {
+    "mot": "après,",
+    "debut": 32.22,
+    "fin": 32.44
+   },
+   {
+    "mot": "on",
+    "debut": 32.8,
+    "fin": 32.88
+   },
+   {
+    "mot": "l",
+    "debut": 32.88,
+    "fin": 32.98
+   },
+   {
+    "mot": "'achète",
+    "debut": 32.98,
+    "fin": 33.18
+   },
+   {
+    "mot": "encore.",
+    "debut": 33.18,
+    "fin": 33.48
+   },
+   {
+    "mot": "Abonne",
+    "debut": 34.54,
+    "fin": 34.96
+   },
+   {
+    "mot": "-toi",
+    "debut": 34.96,
+    "fin": 35.14
+   },
+   {
+    "mot": "à",
+    "debut": 35.14,
+    "fin": 35.26
+   },
+   {
+    "mot": "Pixel",
+    "debut": 35.26,
+    "fin": 35.48
+   },
+   {
+    "mot": "Facts",
+    "debut": 35.48,
+    "fin": 35.86
+   }
+  ]
+ },
+ {
+  "debut": 35.86,
+  "fin": 36.66,
+  "texte": "pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "pour",
+    "debut": 35.86,
+    "fin": 36.04
+   },
+   {
+    "mot": "le",
+    "debut": 36.04,
+    "fin": 36.16
+   },
+   {
+    "mot": "prochain",
+    "debut": 36.16,
+    "fin": 36.38
+   },
+   {
+    "mot": "fait.",
+    "debut": 36.38,
+    "fin": 36.66
+   }
+  ]
+ }
+]

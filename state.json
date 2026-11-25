@@ -321,7 +321,7 @@
    "id": "veille-20261123-2",
    "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
    "note": "Angle « le jeu que tout le monde a eu en premier », frise 2006 → 2026, manette qui bouge en animation simple, ton joyeux, aucune image Nintendo.",
-   "status": "pret",
+   "status": "rejete",
    "recu": 1795459234.3153276,
    "essais": 0,
    "reprises": 0,
@@ -332,11 +332,12 @@
    "id": "veille-20261123-3",
    "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
    "note": "Format liste « 3 faits sur Skyrim » sans scène du jeu, graphique animé 2011 → 2026, ton humoristique, vérifier chaque chiffre avant de l'écrire.",
-   "status": "a_faire",
+   "status": "pret",
    "recu": 1795459234.3153293,
    "essais": 0,
    "reprises": 0,
-   "remarques": []
+   "remarques": [],
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261125-164129-veille-20261123-3.mp4"
   },
   {
    "id": "veille-20261123-4",
@@ -379,7 +380,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 84,
+ "ev_lus": 87,
  "veille": {
   "derniere": 1795605743.2981164,
   "essais": 0
@@ -389,21 +390,11 @@
    "type": "video",
    "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
    "note": "Format « 3 anniversaires de décembre » avec compteurs d'années, sans logo ni image officielle ; confirmer l'année de chaque jeu avant écriture, la page ne les donne pas."
-  },
-  "veille-20261125-1": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/101277003916102",
-   "note": "Simulateur minimal : un pantin physique, quelques rampes et obstacles, argent selon la chute, améliorations et skins ; ton humoristique et familial, sans sang, aucun asset copié."
-  },
-  "veille-20261125-2": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/91652462379782",
-   "note": "Petit simulateur à niveaux : parcours de conduite avec règles simples (stop, créneau, slalom), score et pièces, voitures à débloquer ; ton léger et familial, sans copier noms ni assets."
   }
  },
  "agents": {
   "roblox_tendances": 1795620652.9746823,
-  "roblox_stats": 1795550609.476137,
+  "roblox_stats": 1795624260.2410083,
   "chef": 1795555787.043517,
   "controleur": 1795621833.6368432
  },
