@@ -96,32 +96,20 @@ const Remote: React.FC<{frame: number; accent: string; scale?: number}> = ({fram
 };
 
 const Frise: React.FC<{beat: Beat; p: number; frame: number}> = ({beat, p, frame}) => {
-  const reveal = (beat.r0 ?? 0) + ((beat.r1 ?? 1) - (beat.r0 ?? 0)) * p; const W = 880;
+  const reveal = (beat.r0 ?? 0) + ((beat.r1 ?? 1) - (beat.r0 ?? 0)) * p; const W = 760;
   const year = Math.round(2011 + 15 * reveal);
   return <div style={{width: 1010, borderRadius: 70, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.78)', padding: '110px 0', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: `0 0 90px ${beat.accent}88`}}>
     <div style={big(400, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{year}</div>
     <div style={{position: 'relative', width: W, height: 330, marginTop: 70}}>
       <div style={{position: 'absolute', left: 0, top: 230, width: W, height: 26, borderRadius: 13, background: '#ffffff33'}} />
       <div style={{position: 'absolute', left: 0, top: 230, width: W * reveal, height: 26, borderRadius: 13, background: beat.accent}} />
-      {[2011, 2016, 2017, 2018, 2026].map((y) => { const x = (y - 2011) / 15; const on = x <= reveal + 0.005; return <div key={y} style={{position: 'absolute', left: x * W - 18, top: 208, width: 36, height: 70, borderRadius: 12, background: on ? '#fff' : '#ffffff55', border: `6px solid ${OUT}`}}>
-        {(y === 2011 || y === 2026) && <span style={{...big(56, '#fff', {padding: 0}), position: 'absolute', top: 84, left: -34, WebkitTextStroke: '5px ' + OUT}}>{y}</span>}</div>; })}
-      <div style={{position: 'absolute', left: W * reveal - 80, top: 20 + Math.sin(frame / 4) * 12, fontSize: 160, transform: `rotate(${Math.sin(frame / 3) * 15}deg)`}}>⭐</div>
+      {[2011, 2016, 2021, 2026].map((y, i) => <div key={y} style={{position: 'absolute', left: i * W / 3 - 14, top: 214, width: 28, height: 58, borderRadius: 10, background: '#fff', border: `6px solid ${OUT}`}}>
+        <span style={{...big(56, '#fff', {padding: 0}), position: 'absolute', top: 70, left: -34, WebkitTextStroke: '5px ' + OUT}}>{y}</span></div>)}
+      <div style={{position: 'absolute', left: W * reveal - 100, top: 10, transform: `rotate(${Math.sin(frame / 3) * 20}deg)`}}>
+        <div style={{fontSize: 200, lineHeight: 1, filter: 'drop-shadow(0 12px 20px rgba(0,0,0,.5))'}}>⚔️</div>
+      </div>
     </div>
     <div style={big(170, beat.accent, {marginTop: 70})}>{beat.label}</div>
-  </div>;
-};
-
-const Bars: React.FC<{beat: Beat; p: number}> = ({beat, p}) => {
-  const reveal = (beat.r0 ?? 0) + ((beat.r1 ?? 1) - (beat.r0 ?? 0)) * p;
-  const D = [{y: 2013, v: 20}, {y: 2016, v: 30}, {y: 2023, v: 60}]; const H = 640;
-  return <div style={{width: 1010, borderRadius: 70, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.78)', padding: '40px 0 40px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: `0 0 90px ${beat.accent}88`}}>
-    <div style={big(130, '#fff', {padding: 0})}>EXEMPLAIRES</div>
-    <div style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'space-around', width: 940, height: H + 140, marginTop: 20}}>
-      {D.map((d, i) => { const k = Math.max(0, Math.min(1, reveal * 3 - i)); const h = (d.v / 60) * H * k; return <div key={d.y} style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: 280}}>
-        <div style={big(96, beat.accent, {padding: 0, opacity: k > 0.05 ? 1 : 0, whiteSpace: 'nowrap'})}>{'+' + Math.round(d.v * k) + ' M'}</div>
-        <div style={{width: 250, height: h, borderRadius: 30, background: beat.accent, border: `10px solid ${OUT}`, marginTop: 10, boxShadow: `0 0 50px ${beat.accent}`}} />
-        <div style={big(90, '#fff', {padding: 0, marginTop: 14})}>{d.y}</div></div>; })}
-    </div>
   </div>;
 };
 
@@ -131,7 +119,6 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   const sc = enter * slow;
   const p = Easing.out(Easing.cubic)(Math.min(1, localT / Math.max(0.5, dur * 0.85)));
   if (beat.kind === 'chart') return <div style={{transform: `scale(${sc})`}}><Chart beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.92))} /></div>;
-  if (beat.kind === 'bars') return <div style={{transform: `scale(${sc})`}}><Bars beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.9))} /></div>;
   if (beat.kind === 'frise') return <div style={{transform: `scale(${sc})`}}><Frise beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.9))} frame={frame} /></div>;
   if (beat.kind === 'remote') return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`, marginTop: -40}}>
     <Remote frame={frame} accent={beat.accent} />
@@ -163,7 +150,7 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`}}>
     <div style={{fontSize: 560, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
     {beat.sub && <div style={big(100, '#fff', {marginTop: 10})}>{beat.sub}</div>}
-    <div style={big(L > 17 ? 132 : L > 12 ? 160 : 200, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
+    <div style={big(L > 17 ? 132 : L > 9 ? 150 : 200, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
   </div>;
 };
 
