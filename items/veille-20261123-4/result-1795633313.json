@@ -1,0 +1,8 @@
+{
+ "status": "pret",
+ "titre": "Ces jeux Roblox ont explosé… puis ? 📉",
+ "dossier": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-4",
+ "envoi": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-4/envoi.mp4",
+ "telegram": "Vidéo prête : top Roblox, visites en hausse mais joueurs en baisse.",
+ "resume": "Sujet : top 10 GGRecon des nouveaux jeux Roblox (2/11), comparé à aujourd'hui en barres animées, sans image de jeu.\nVérifié : visites et joueurs relevés sur l'API Roblox le 25/11 (Dont Splash 371,2 M ; Break and Steal an Egg 492,3 M, 45 531 joueurs ; Cat Battles 3 327) ; Whisper conforme au script (erreurs seulement sur les noms de jeux).\nPrudence : chiffres du 2/11 attribués à GGRecon (visites/jour calculées par eux) ; Turbo Soccer et Kukirin Life introuvables sur l'API ce jour, non cités ; Dont Splash déjà traité le 17/11 mais ici angle classement.\nÀ voir : versions du 25/11 ; musique synthétisée ; image IA non vérifiée une à une (planches OK) ; pas de contrôle visuel final du plan à 31 s."
+}

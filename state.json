@@ -343,12 +343,14 @@
    "id": "veille-20261123-4",
    "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/",
    "note": "Angle chiffres et graphique animé uniquement, ton neutre, aucune image du jeu ; vérifier les chiffres actuels sur l'API Roblox avant le script.",
-   "status": "pret",
+   "status": "programme",
    "recu": 1795459234.3153303,
    "essais": 0,
    "reprises": 0,
    "remarques": [],
-   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261125-175742-veille-20261123-4.mp4"
+   "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261125-175742-veille-20261123-4.mp4",
+   "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-4/legende.json",
+   "titre_pub": "📤 Titre choisi : Roblox : 492 M de visites, mais les joueurs fuient 📉 #shorts"
   },
   {
    "id": "veille-20261124-1",
@@ -381,7 +383,7 @@
    "remarques": []
   }
  ],
- "ev_lus": 89,
+ "ev_lus": 90,
  "veille": {
   "derniere": 1795605743.2981164,
   "essais": 0
@@ -397,7 +399,7 @@
   "roblox_tendances": 1795620652.9746823,
   "roblox_stats": 1795625146.318709,
   "chef": 1795555787.043517,
-  "controleur": 1795621833.6368432
+  "controleur": 1795633310.5488055
  },
  "roblox_derniere": 1795213300.7825432
 }
