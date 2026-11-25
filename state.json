@@ -239,7 +239,9 @@
    "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-1/legende.json",
    "titre_pub": "📤 Titre choisi : Le « oof » de Roblox n'est pas né dans Roblox 🔊 #shorts",
    "averti_buffer": true,
-   "relance_buffer": true
+   "relance_buffer": true,
+   "attente_buffer": true,
+   "prochain_essai": 1795656084.0391955
   },
   {
    "id": "veille-20261121-2",
