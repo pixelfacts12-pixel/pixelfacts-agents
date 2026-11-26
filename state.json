@@ -268,7 +268,8 @@
    "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261122-222223-veille-20261121-3.mp4",
    "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261121-3/legende.json",
    "titre_pub": "📤 Titre choisi : 3 voyants rouges : la garantie à 1 milliard 🔴 #shorts",
-   "averti_buffer": true
+   "averti_buffer": true,
+   "relance_buffer": true
   },
   {
    "id": "veille-20261121-4",
@@ -450,7 +451,7 @@
   "roblox_tendances": 1795692835.5225532,
   "roblox_stats": 1795697433.2505782,
   "chef": 1795642250.6846519,
-  "controleur": 1795711234.158629
+  "controleur": 1795722633.0786927
  },
  "roblox_derniere": 1795213300.7825432
 }
