@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25T22:10:41.143109+00:00",
+ "date": "2026-11-26T01:20:37.687749+00:00",
  "problemes": [
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
@@ -7,10 +7,7 @@
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)"
  ],
- "reparations": [
-  "je reprogramme veille-20261121-1 automatiquement",
-  "je reprogramme veille-20261120-1 automatiquement"
- ],
+ "reparations": [],
  "a_relancer": [],
  "signales": {
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)": 1795621836.0167077
