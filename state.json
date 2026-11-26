@@ -398,7 +398,7 @@
  ],
  "ev_lus": 92,
  "veille": {
-  "derniere": 1795686016.43769,
+  "derniere": 1795686158.8394704,
   "essais": 0
  },
  "propositions": {
@@ -409,28 +409,33 @@
   },
   "veille-20261126-1": {
    "type": "video",
-   "url": "https://www.gamesradar.com/games/action-rpg/nier-automata-is-now-a-366gb-install-on-steam-after-a-small-update-up-from-50gb/",
-   "note": "Ton humoristique, compteur 50 → 366, préciser que c'était un bug d'affichage corrigé ensuite ; aucune image du jeu ni logo."
+   "url": "https://www.gematsu.com/2026/09/dragon-quest-series-shipments-and-digital-sales-top-100-million",
+   "note": "Frise 1986 → 2026 et compteur jusqu'à 100 M, ton nostalgique, aucune image ni logo du jeu, Pixel en explorateur."
   },
   "veille-20261126-2": {
    "type": "video",
-   "url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
-   "note": "Angle chiffres neutres, barres animées, pas de prédiction ni conseil financier ; mentionner que les chiffres viennent de l'entreprise via la presse."
+   "url": "https://beatcopgame.com/?p=73853",
+   "note": "Graphique animé 12,4 → 16,3 → 17 M, ton neutre et factuel, aucune scène du jeu."
   },
   "veille-20261126-3": {
    "type": "video",
-   "url": "https://gameinformer.com/2026/11/06/a-documentary-about-biowares-final-years-is-coming-next-year",
-   "note": "Ton posé et respectueux, histoire du studio d'Edmonton, frise chronologique ; ne pas évoquer les fuites ni les licenciements en détail, aucun visuel officiel."
+   "url": "https://respawn.outlookindia.com/gaming/gaming-news/nintendo-switch-2-reaches-1-million-uk-sales-in-under-a-year",
+   "note": "Course animée de barres 52 contre 82 semaines, ton enthousiaste, aucun visuel ni logo Nintendo."
   },
   "veille-20261126-4": {
-   "type": "roblox",
+   "type": "video",
    "url": "https://www.roblox.com/games/101277003916102",
-   "note": "Simulateur de ragdoll : objets à lancer ou sauter pour faire tomber un personnage, argent selon l'impact, améliorations ; thème et assets originaux, rien de violent."
+   "note": "Angle chiffres et courbe uniquement, aucune image du jeu, ton neutre, public jeunes joueurs."
   },
   "veille-20261126-5": {
    "type": "roblox",
+   "url": "https://www.roblox.com/games/101277003916102",
+   "note": "Concept simple : un personnage ragdoll lâché sur des rampes et obstacles, argent selon la distance, améliorations de résistance ; ton drôle, familial, sans violence, aucun asset copié."
+  },
+  "veille-20261126-6": {
+   "type": "roblox",
    "url": "https://www.roblox.com/games/128749725449995",
-   "note": "Clicker/simulateur : viser des cibles mignonnes (cibles en peluche, pas de mort), gagner de l'argent, débloquer arcs et familiers ; ton familial, assets originaux, noms différents."
+   "note": "Concept simple : tirer sur des cibles pour faire apparaître des animaux mignons, vendre, améliorer l'arc ; ton familial, aucun tir sur les animaux, aucun asset copié."
   }
  },
  "agents": {
