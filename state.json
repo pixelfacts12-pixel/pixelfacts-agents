@@ -394,9 +394,49 @@
    "essais": 0,
    "reprises": 0,
    "remarques": []
+  },
+  {
+   "id": "veille-20261126-1",
+   "url": "https://www.gematsu.com/2026/09/dragon-quest-series-shipments-and-digital-sales-top-100-million",
+   "note": "Frise 1986 → 2026 et compteur jusqu'à 100 M, ton nostalgique, aucune image ni logo du jeu, Pixel en explorateur.",
+   "status": "a_faire",
+   "recu": 1795690831.7500522,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261126-2",
+   "url": "https://beatcopgame.com/?p=73853",
+   "note": "Graphique animé 12,4 → 16,3 → 17 M, ton neutre et factuel, aucune scène du jeu.",
+   "status": "a_faire",
+   "recu": 1795690831.7500553,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261126-3",
+   "url": "https://respawn.outlookindia.com/gaming/gaming-news/nintendo-switch-2-reaches-1-million-uk-sales-in-under-a-year",
+   "note": "Course animée de barres 52 contre 82 semaines, ton enthousiaste, aucun visuel ni logo Nintendo.",
+   "status": "a_faire",
+   "recu": 1795690831.7500567,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261126-4",
+   "url": "https://www.roblox.com/games/101277003916102",
+   "note": "Angle chiffres et courbe uniquement, aucune image du jeu, ton neutre, public jeunes joueurs.",
+   "status": "a_faire",
+   "recu": 1795690831.7500575,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
   }
  ],
- "ev_lus": 92,
+ "ev_lus": 98,
  "veille": {
   "derniere": 1795686158.8394704,
   "essais": 0
@@ -406,36 +446,6 @@
    "type": "video",
    "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
    "note": "Format « 3 anniversaires de décembre » avec compteurs d'années, sans logo ni image officielle ; confirmer l'année de chaque jeu avant écriture, la page ne les donne pas."
-  },
-  "veille-20261126-1": {
-   "type": "video",
-   "url": "https://www.gematsu.com/2026/09/dragon-quest-series-shipments-and-digital-sales-top-100-million",
-   "note": "Frise 1986 → 2026 et compteur jusqu'à 100 M, ton nostalgique, aucune image ni logo du jeu, Pixel en explorateur."
-  },
-  "veille-20261126-2": {
-   "type": "video",
-   "url": "https://beatcopgame.com/?p=73853",
-   "note": "Graphique animé 12,4 → 16,3 → 17 M, ton neutre et factuel, aucune scène du jeu."
-  },
-  "veille-20261126-3": {
-   "type": "video",
-   "url": "https://respawn.outlookindia.com/gaming/gaming-news/nintendo-switch-2-reaches-1-million-uk-sales-in-under-a-year",
-   "note": "Course animée de barres 52 contre 82 semaines, ton enthousiaste, aucun visuel ni logo Nintendo."
-  },
-  "veille-20261126-4": {
-   "type": "video",
-   "url": "https://www.roblox.com/games/101277003916102",
-   "note": "Angle chiffres et courbe uniquement, aucune image du jeu, ton neutre, public jeunes joueurs."
-  },
-  "veille-20261126-5": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/101277003916102",
-   "note": "Concept simple : un personnage ragdoll lâché sur des rampes et obstacles, argent selon la distance, améliorations de résistance ; ton drôle, familial, sans violence, aucun asset copié."
-  },
-  "veille-20261126-6": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/128749725449995",
-   "note": "Concept simple : tirer sur des cibles pour faire apparaître des animaux mignons, vendre, améliorer l'arc ; ton familial, aucun tir sur les animaux, aucun asset copié."
   }
  },
  "agents": {
