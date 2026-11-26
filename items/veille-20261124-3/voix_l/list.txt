@@ -1,0 +1,10 @@
+file l1.wav
+file l2.wav
+file l3.wav
+file l4.wav
+file l5.wav
+file l6.wav
+file l7.wav
+file l8.wav
+file l9.wav
+file l10.wav

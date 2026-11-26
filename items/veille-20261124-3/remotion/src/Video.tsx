@@ -1,19 +1,20 @@
 import {AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Sequence, Easing} from 'remotion';
+import {loadFont} from '@remotion/google-fonts/Fredoka';
 import {BEATS, WORDS, Beat, TOTAL as TOTAL_S} from './beats';
-const MUSVOL = 0.063;
+const MUSVOL = 0.065;
 
-const fontFamily = "'Lato', 'Liberation Sans', sans-serif";
+const {fontFamily} = loadFont();
 const IMGS = ['a', 'b', 'c', 'd', 'e'];
 const OUT = '#281450';
 const fmt = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 const stroke = (w = 10) => ({WebkitTextStroke: `${w}px ${OUT}`, paintOrder: 'stroke fill' as const, textShadow: `0 10px 0 ${OUT}`});
 const big = (size: number, color: string, extra: React.CSSProperties = {}): React.CSSProperties => ({
-  fontFamily, fontWeight: 900, fontSize: size, color, textAlign: 'center', lineHeight: 1.02, padding: '0 36px', ...stroke(size > 200 ? 16 : 12), ...extra,
+  fontFamily, fontWeight: 700, fontSize: size, color, textAlign: 'center', lineHeight: 1.02, padding: '0 36px', ...stroke(size > 200 ? 16 : 12), ...extra,
 });
 // rotation de sons différents (whoosh + pops), jamais le même deux fois de suite
 const SFX = ['whoosh_1', 'pop1', 'whoosh_5', 'whoosh_2', 'pop2', 'whoosh_7', 'whoosh_3', 'pop3', 'whoosh_8', 'whoosh_4', 'whoosh_6'];
 
-const KEYS: [number, number][] = [[0, 0.01], [0.2, 0.1], [0.4, 0.27], [0.6, 0.5], [0.8, 0.76], [1, 1]];
+const KEYS: [number, number][] = [[0, 0.03], [0.2, 0.08], [0.4, 0.3], [0.6, 0.55], [0.8, 0.8], [1, 1]];
 const curveY = (x: number) => {
   for (let i = 1; i < KEYS.length; i++) if (x <= KEYS[i][0]) {
     const [x0, y0] = KEYS[i - 1]; const [x1, y1] = KEYS[i]; const u = (x - x0) / (x1 - x0);
@@ -62,20 +63,35 @@ const Chart: React.FC<{beat: Beat; p: number}> = ({beat, p}) => {
   const N = 120;
   for (let i = 0; i <= N; i++) { const x = (i / N) * reveal; pts.push(`${(x * W).toFixed(1)},${(H - curveY(x) * (H - 40) - 10).toFixed(1)}`); }
   const tx = reveal * W; const ty = H - curveY(reveal) * (H - 40) - 10;
-  const val = Math.round(100 * curveY(reveal));
+  const val = Math.round((beat.v0 ?? 0) + ((beat.v1 ?? 0) - (beat.v0 ?? 0)) * p);
   return <div style={{width: 1010, borderRadius: 70, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.78)', padding: '30px 0 30px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: `0 0 90px ${beat.accent}88`}}>
-    <div style={big(230, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>100 M</div>
+    <div style={big(val > 99999 ? 190 : 230, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{fmt(val)}{beat.suffix ?? ''}</div>
     <svg width={W} height={H} style={{marginTop: 10, overflow: 'visible'}}>
       {[0.25, 0.5, 0.75].map((g) => <line key={g} x1={0} x2={W} y1={H * g} y2={H * g} stroke="#ffffff22" strokeWidth={4} />)}
       <polyline points={pts.join(' ')} fill="none" stroke={OUT} strokeWidth={34} strokeLinejoin="round" strokeLinecap="round" />
       <polyline points={pts.join(' ')} fill="none" stroke={beat.accent} strokeWidth={20} strokeLinejoin="round" strokeLinecap="round" />
       <circle cx={tx} cy={ty} r={30} fill="#fff" stroke={OUT} strokeWidth={10} />
     </svg>
-    <div style={{display: 'flex', justifyContent: 'space-between', width: W, marginTop: 6}}>
-      {[2020, 2021, 2022, 2023, 2024, 2025, 2026].map((y, i) => <span key={y} style={{...big(50, i / 6 <= reveal + 0.01 ? '#fff' : '#ffffff55', {padding: 0}), WebkitTextStroke: '5px ' + OUT}}>{y}</span>)}
-    </div>
     <div style={big(110, beat.accent, {marginTop: 10})}>{beat.label}</div>
     {beat.sub ? <div style={big(90, '#fff', {marginTop: 4})}>{beat.sub}</div> : null}
+  </div>;
+};
+
+const Bars: React.FC<{beat: Beat; p: number}> = ({beat, p}) => {
+  const v0 = beat.v0 ?? 0, v1 = beat.v1 ?? 0, mx = Math.max(v0, v1), H = 820, dec = beat.dec ?? 0;
+  const show = (v: number) => dec ? v.toFixed(dec).replace('.', ',') : fmt(Math.round(v));
+  const p0 = Math.min(1, p * 2), p1 = Math.max(0, Math.min(1, p * 2 - 0.7));
+  const col = (v: number, pp: number, color: string, lab: string) => (
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', width: 440}}>
+      <div style={big(v > 9999 ? 110 : 130, '#fff', {whiteSpace: 'nowrap', padding: 0, marginBottom: 12})}>{show(v * pp)}{beat.unit}</div>
+      <div style={{width: 340, height: Math.max(20, H * (v / mx) * pp), borderRadius: 36, background: color, border: `10px solid ${OUT}`, boxShadow: `0 0 60px ${color}aa`}} />
+      <div style={big(100, color, {marginTop: 14, padding: 0})}>{lab}</div>
+    </div>);
+  return <div style={{width: 1010, borderRadius: 70, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.78)', padding: '40px 0 30px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: `0 0 90px ${beat.accent}88`}}>
+    <div style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'center', height: H + 190}}>
+      {col(v0, p0, '#5ECBFF', beat.l0 ?? '')}{col(v1, p1, beat.accent, beat.l1 ?? '')}
+    </div>
+    <div style={big(110, '#fff', {marginTop: 16})}>{beat.label}</div>
   </div>;
 };
 
@@ -85,33 +101,32 @@ const Stage: React.FC<{beat: Beat; localT: number; dur: number; frame: number; f
   const sc = enter * slow;
   const p = Easing.out(Easing.cubic)(Math.min(1, localT / Math.max(0.5, dur * 0.85)));
   if (beat.kind === 'chart') return <div style={{transform: `scale(${sc})`}}><Chart beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.92))} /></div>;
+  if (beat.kind === 'bars') return <div style={{transform: `scale(${sc})`}}><Bars beat={beat} p={Math.min(1, localT / Math.max(0.5, dur * 0.8))} /></div>;
   if (beat.kind === 'counter') {
-    const dec = beat.dec ?? 0; const v = (beat.v0 ?? 0) + ((beat.to ?? 0) - (beat.v0 ?? 0)) * p;
-    const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : beat.nofmt ? String(Math.round(v)) : fmt(Math.round(v));
-    const size0 = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : (beat.to ?? 0) < 1000 ? (beat.suffix ? 360 : 460) : 340;
-    const fullTxt = (beat.prefix ?? '') + txt + (beat.suffix ?? '');
-    const size = Math.min(size0, Math.floor(900 / (fullTxt.length * 0.6)));
-    return <div style={{width: 1000, height: 1250, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
+    const dec = beat.dec ?? 0; const fr = beat.raw && (beat.to ?? 0) > 100 ? (beat.to ?? 0) - 20 : 0; const v = fr + ((beat.to ?? 0) - fr) * p;
+    const txt = dec ? (v / Math.pow(10, dec)).toFixed(dec).replace('.', ',') : beat.raw ? String(Math.round(v)) : fmt(Math.round(v));
+    const size = (beat.to ?? 0) > 100000 ? 230 : beat.dec ? 230 : 300;
+    return <div style={{width: 1000, height: 820, borderRadius: 80, border: `10px solid ${beat.accent}`, background: 'rgba(40,20,80,0.72)', display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center', transform: `scale(${sc})`, boxShadow: `0 0 100px ${beat.accent}99`}}>
       <div style={big(size, '#fff', {textShadow: `0 0 50px ${beat.accent}, 0 10px 0 ${OUT}`, whiteSpace: 'nowrap', padding: 0})}>{beat.prefix ?? ''}{txt}{beat.suffix ?? ''}</div>
       <div style={{width: 760, height: 46, borderRadius: 23, background: '#ffffff33', marginTop: 50, overflow: 'hidden'}}>
         <div style={{width: `${p * 100}%`, height: '100%', background: beat.accent}} />
       </div>
-      <div style={big(beat.label.length > 14 ? 100 : 130, beat.accent, {marginTop: 36})}>{beat.label}</div>
+      <div style={big(beat.label.length > 14 ? 84 : 110, beat.accent, {marginTop: 36})}>{beat.label}</div>
     </div>;
   }
   if (beat.kind === 'cta') {
     return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`, marginTop: 300}}>
-      <div style={big(130, beat.accent, {whiteSpace: 'nowrap'})}>ABONNE-TOI</div>
-      <div style={big(100, '#fff', {marginTop: 10, whiteSpace: 'nowrap'})}>À PIXEL FACTS !</div>
+      <div style={big(160, beat.accent)}>ABONNE-TOI</div>
+      <div style={big(135, '#fff', {marginTop: 10})}>À PIXEL FACTS !</div>
       <div style={big(100, '#5ECBFF', {marginTop: 20})}>PROCHAIN FAIT 👇</div>
     </div>;
   }
   const L = beat.label.length;
   return <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${sc})`}}>
-    <div style={{fontSize: 560, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
+    <div style={{fontSize: 420, lineHeight: 1, transform: `translateY(${Math.sin(frame / 7) * 18}px) rotate(${Math.sin(frame / 11) * 5}deg)`, filter: 'drop-shadow(0 24px 40px rgba(0,0,0,.55))'}}>{beat.icon}</div>
     {beat.sub && <div style={big(100, '#fff', {marginTop: 10})}>{beat.sub}</div>}
-    <div style={big(Math.min(190, Math.floor(960 / (L * 0.68))), beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
+    <div style={big(L > 17 ? 118 : L > 12 ? 140 : 170, beat.accent, {marginTop: 10, maxWidth: 1040})}>{beat.label}</div>
   </div>;
 };
 
@@ -122,13 +137,13 @@ export const Video: React.FC = () => {
   if (idx === -1) { idx = 0; for (let i = 0; i < BEATS.length; i++) if (BEATS[i].start <= t) idx = i; }
   const beat = BEATS[idx];
   const dur = beat.end - beat.start; const localT = Math.max(0, t - beat.start); const bf = Math.max(0, frame - Math.round(beat.start * fps));
-  const bgZoom = 1.16 + 0.2 * Math.min(1, localT / dur);
+  const bgZoom = 1.08 + 0.2 * Math.min(1, localT / dur);
   const pan = (idx % 2 ? -1 : 1) * 30 * Math.min(1, localT / dur);
   const isLast = idx === BEATS.length - 1;
   return (
     <AbsoluteFill style={{background: OUT}}>
       <Img src={staticFile('fond_banniere.png')} style={{position: 'absolute', width: '100%', height: '100%', objectFit: 'cover'}} />
-      <Img src={staticFile(`img/${IMGS[beat.bg % IMGS.length]}.jpg`)} style={{position: 'absolute', width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${bgZoom}) translateX(${pan}px) translateY(-45px)`, opacity: 0.85, filter: 'saturate(1.15)'}} />
+      <Img src={staticFile(`img/${IMGS[beat.bg % IMGS.length]}.jpg`)} style={{position: 'absolute', width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${bgZoom}) translateX(${pan}px)`, opacity: 0.85, filter: 'saturate(1.15)'}} />
       <AbsoluteFill style={{background: `linear-gradient(180deg, ${OUT}00 25%, ${OUT}99 100%)`}} />
       <Cubes frame={frame} accent={beat.accent} />
       <Audio src={staticFile('voix.mp3')} />

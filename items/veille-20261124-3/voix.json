@@ -1,0 +1,537 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 3.02,
+  "texte": "Savais-tu que les Pokémon ont mis six ans à naître ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "que",
+    "debut": 0.54,
+    "fin": 0.66
+   },
+   {
+    "mot": "les",
+    "debut": 0.66,
+    "fin": 0.78
+   },
+   {
+    "mot": "Pokémon",
+    "debut": 0.78,
+    "fin": 1.04
+   },
+   {
+    "mot": "ont",
+    "debut": 1.04,
+    "fin": 1.28
+   },
+   {
+    "mot": "mis",
+    "debut": 1.28,
+    "fin": 1.4
+   },
+   {
+    "mot": "six",
+    "debut": 1.4,
+    "fin": 1.56
+   },
+   {
+    "mot": "ans",
+    "debut": 1.56,
+    "fin": 1.66
+   },
+   {
+    "mot": "à",
+    "debut": 1.66,
+    "fin": 1.78
+   },
+   {
+    "mot": "naître",
+    "debut": 1.78,
+    "fin": 1.98
+   },
+   {
+    "mot": "?",
+    "debut": 1.98,
+    "fin": 3.02
+   }
+  ]
+ },
+ {
+  "debut": 3.02,
+  "fin": 6.2,
+  "texte": "Tout commence en 1989, avec la sortie de la Game Boy.",
+  "mots": [
+   {
+    "mot": "Tout",
+    "debut": 3.02,
+    "fin": 3.22
+   },
+   {
+    "mot": "commence",
+    "debut": 3.22,
+    "fin": 3.52
+   },
+   {
+    "mot": "en",
+    "debut": 3.52,
+    "fin": 3.68
+   },
+   {
+    "mot": "1989,",
+    "debut": 3.68,
+    "fin": 4.44
+   },
+   {
+    "mot": "avec",
+    "debut": 4.92,
+    "fin": 5.14
+   },
+   {
+    "mot": "la",
+    "debut": 5.14,
+    "fin": 5.34
+   },
+   {
+    "mot": "sortie",
+    "debut": 5.34,
+    "fin": 5.58
+   },
+   {
+    "mot": "de",
+    "debut": 5.58,
+    "fin": 5.72
+   },
+   {
+    "mot": "la",
+    "debut": 5.72,
+    "fin": 5.84
+   },
+   {
+    "mot": "Game",
+    "debut": 5.84,
+    "fin": 5.98
+   },
+   {
+    "mot": "Boy.",
+    "debut": 5.98,
+    "fin": 6.2
+   }
+  ]
+ },
+ {
+  "debut": 7.34,
+  "fin": 11.42,
+  "texte": "En 1990, Satoshi Tajiri imagine collectionner des monstres de poche.",
+  "mots": [
+   {
+    "mot": "En",
+    "debut": 7.34,
+    "fin": 7.56
+   },
+   {
+    "mot": "1990,",
+    "debut": 7.56,
+    "fin": 8.22
+   },
+   {
+    "mot": "Satoshi",
+    "debut": 8.92,
+    "fin": 9.24
+   },
+   {
+    "mot": "Tajiri",
+    "debut": 9.24,
+    "fin": 9.62
+   },
+   {
+    "mot": "imagine",
+    "debut": 9.62,
+    "fin": 9.88
+   },
+   {
+    "mot": "collectionner",
+    "debut": 9.88,
+    "fin": 10.54
+   },
+   {
+    "mot": "des",
+    "debut": 10.54,
+    "fin": 10.64
+   },
+   {
+    "mot": "monstres",
+    "debut": 10.64,
+    "fin": 10.92
+   },
+   {
+    "mot": "de",
+    "debut": 10.92,
+    "fin": 11.06
+   },
+   {
+    "mot": "poche.",
+    "debut": 11.06,
+    "fin": 11.42
+   }
+  ]
+ },
+ {
+  "debut": 12.36,
+  "fin": 15.24,
+  "texte": "Petit, à Tokyo, il collectionnait déjà les insectes.",
+  "mots": [
+   {
+    "mot": "Petit,",
+    "debut": 12.36,
+    "fin": 12.86
+   },
+   {
+    "mot": "à",
+    "debut": 13.14,
+    "fin": 13.2
+   },
+   {
+    "mot": "Tokyo,",
+    "debut": 13.2,
+    "fin": 13.42
+   },
+   {
+    "mot": "il",
+    "debut": 13.82,
+    "fin": 13.9
+   },
+   {
+    "mot": "collectionnait",
+    "debut": 13.9,
+    "fin": 14.42
+   },
+   {
+    "mot": "déjà",
+    "debut": 14.42,
+    "fin": 14.64
+   },
+   {
+    "mot": "les",
+    "debut": 14.64,
+    "fin": 14.76
+   },
+   {
+    "mot": "insectes.",
+    "debut": 14.76,
+    "fin": 15.24
+   }
+  ]
+ },
+ {
+  "debut": 16.24,
+  "fin": 19.34,
+  "texte": "Son studio, Game Freak, travaille avec le soutien de Nintendo.",
+  "mots": [
+   {
+    "mot": "Son",
+    "debut": 16.24,
+    "fin": 16.48
+   },
+   {
+    "mot": "studio,",
+    "debut": 16.48,
+    "fin": 16.74
+   },
+   {
+    "mot": "Game",
+    "debut": 17.18,
+    "fin": 17.3
+   },
+   {
+    "mot": "Freak,",
+    "debut": 17.3,
+    "fin": 17.62
+   },
+   {
+    "mot": "travaille",
+    "debut": 17.94,
+    "fin": 18.14
+   },
+   {
+    "mot": "avec",
+    "debut": 18.14,
+    "fin": 18.38
+   },
+   {
+    "mot": "le",
+    "debut": 18.38,
+    "fin": 18.54
+   },
+   {
+    "mot": "soutien",
+    "debut": 18.54,
+    "fin": 18.84
+   },
+   {
+    "mot": "de",
+    "debut": 18.84,
+    "fin": 18.94
+   },
+   {
+    "mot": "Nintendo.",
+    "debut": 18.94,
+    "fin": 19.34
+   }
+  ]
+ },
+ {
+  "debut": 20.46,
+  "fin": 21.62,
+  "texte": "Le développement dure six ans.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 20.46,
+    "fin": 20.66
+   },
+   {
+    "mot": "développement",
+    "debut": 20.66,
+    "fin": 20.98
+   },
+   {
+    "mot": "dure",
+    "debut": 20.98,
+    "fin": 21.24
+   },
+   {
+    "mot": "six",
+    "debut": 21.24,
+    "fin": 21.44
+   },
+   {
+    "mot": "ans.",
+    "debut": 21.44,
+    "fin": 21.62
+   }
+  ]
+ },
+ {
+  "debut": 22.44,
+  "fin": 26.04,
+  "texte": "Le 27 février 1996, les premiers jeux sortent au Japon.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 22.44,
+    "fin": 22.82
+   },
+   {
+    "mot": "27",
+    "debut": 22.82,
+    "fin": 23.1
+   },
+   {
+    "mot": "février",
+    "debut": 23.1,
+    "fin": 23.48
+   },
+   {
+    "mot": "1996,",
+    "debut": 23.48,
+    "fin": 24.06
+   },
+   {
+    "mot": "les",
+    "debut": 24.94,
+    "fin": 25.04
+   },
+   {
+    "mot": "premiers",
+    "debut": 25.04,
+    "fin": 25.24
+   },
+   {
+    "mot": "jeux",
+    "debut": 25.24,
+    "fin": 25.46
+   },
+   {
+    "mot": "sortent",
+    "debut": 25.46,
+    "fin": 25.72
+   },
+   {
+    "mot": "au",
+    "debut": 25.72,
+    "fin": 25.78
+   },
+   {
+    "mot": "Japon.",
+    "debut": 25.78,
+    "fin": 26.04
+   }
+  ]
+ },
+ {
+  "debut": 26.82,
+  "fin": 28.96,
+  "texte": "Il s'appelle Rouge et Vert, sur Game Boy.",
+  "mots": [
+   {
+    "mot": "Il",
+    "debut": 26.82,
+    "fin": 27.26
+   },
+   {
+    "mot": "s",
+    "debut": 27.26,
+    "fin": 27.42
+   },
+   {
+    "mot": "'appelle",
+    "debut": 27.42,
+    "fin": 27.56
+   },
+   {
+    "mot": "Rouge",
+    "debut": 27.56,
+    "fin": 27.8
+   },
+   {
+    "mot": "et",
+    "debut": 27.8,
+    "fin": 27.92
+   },
+   {
+    "mot": "Vert,",
+    "debut": 27.92,
+    "fin": 28.12
+   },
+   {
+    "mot": "sur",
+    "debut": 28.42,
+    "fin": 28.56
+   },
+   {
+    "mot": "Game",
+    "debut": 28.56,
+    "fin": 28.72
+   },
+   {
+    "mot": "Boy.",
+    "debut": 28.72,
+    "fin": 28.96
+   }
+  ]
+ },
+ {
+  "debut": 30.16,
+  "fin": 32.18,
+  "texte": "Six ans d'idée pour lancer une collection géante.",
+  "mots": [
+   {
+    "mot": "Six",
+    "debut": 30.16,
+    "fin": 30.44
+   },
+   {
+    "mot": "ans",
+    "debut": 30.44,
+    "fin": 30.6
+   },
+   {
+    "mot": "d",
+    "debut": 30.6,
+    "fin": 30.66
+   },
+   {
+    "mot": "'idée",
+    "debut": 30.66,
+    "fin": 30.78
+   },
+   {
+    "mot": "pour",
+    "debut": 30.78,
+    "fin": 30.96
+   },
+   {
+    "mot": "lancer",
+    "debut": 30.96,
+    "fin": 31.24
+   },
+   {
+    "mot": "une",
+    "debut": 31.24,
+    "fin": 31.36
+   },
+   {
+    "mot": "collection",
+    "debut": 31.36,
+    "fin": 31.62
+   },
+   {
+    "mot": "géante.",
+    "debut": 31.62,
+    "fin": 32.18
+   }
+  ]
+ },
+ {
+  "debut": 33.120000000000005,
+  "fin": 35.24,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 33.120000000000005,
+    "fin": 33.56
+   },
+   {
+    "mot": "-toi",
+    "debut": 33.56,
+    "fin": 33.72
+   },
+   {
+    "mot": "à",
+    "debut": 33.72,
+    "fin": 33.84
+   },
+   {
+    "mot": "Pixel",
+    "debut": 33.84,
+    "fin": 34.06
+   },
+   {
+    "mot": "Facts",
+    "debut": 34.06,
+    "fin": 34.46
+   },
+   {
+    "mot": "pour",
+    "debut": 34.46,
+    "fin": 34.64
+   },
+   {
+    "mot": "le",
+    "debut": 34.64,
+    "fin": 34.74
+   },
+   {
+    "mot": "prochain",
+    "debut": 34.74,
+    "fin": 34.98
+   },
+   {
+    "mot": "fait.",
+    "debut": 34.98,
+    "fin": 35.24
+   }
+  ]
+ }
+]

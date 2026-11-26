@@ -1,8 +1,10 @@
-1|+14%|Savais-tu que Pokémon est né d'une simple idée, en 1990 ?
-2|+12%|Un jeune Japonais, Satoshi Tajiri, rêve de collectionner des petites bêtes, sur la Game Boy !
-3|+13%|Avec son équipe Game Freak, il travaille pendant six ans !
-4|+12%|Six ans d'essais, de tests et de patience, de 1990 à 1996.
-5|+13%|Le vingt-sept février 1996, Pokémon Rouge et Vert sortent enfin au Japon !
-6|+12%|Trente ans plus tard, c'est l'une des plus grandes franchises du monde.
-7|+13%|Tout ça, parce qu'un enfant adorait collectionner !
-8|+14%|Abonne-toi à Pixel Facts pour le prochain fait !
++14%|Savais-tu que les Pokémon ont mis six ans à naître ?
++12%|Tout commence en 1989, avec la sortie de la Game Boy.
++13%|En 1990, Satoshi Tajiri imagine collectionner des monstres de poche.
++11%|Petit, à Tokyo, il collectionnait déjà les insectes.
++14%|Son studio, Game Freak, travaille avec le soutien de Nintendo.
++12%|Le développement dure six ans.
++13%|Le vingt-sept février 1996, les premiers jeux sortent au Japon.
++11%|Ils s'appellent Rouge et Vert, sur Game Boy.
++14%|Six ans d'idées pour lancer une collection géante.
++13%|Abonne-toi à Pixel Facts pour le prochain fait !
