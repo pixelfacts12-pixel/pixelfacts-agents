@@ -1,29 +1,29 @@
-# Jeux Roblox récents qui montent (2026-11-25)
+# Jeux Roblox récents qui montent (2026-11-26)
 
 | Jeu | Joueurs | Âge (j) | Note | Genre | Lien |
 |---|---|---|---|---|---|
-| Throw Food For Animals | 229319 | 68 | 94% | Simulation | https://www.roblox.com/games/120219252362013 |
-| Hyper Realistic Ragdoll | 92340 | 27 | 92% | Simulation | https://www.roblox.com/games/101277003916102 |
-| Break and Steal an Egg | 55225 | 81 | 97% | Simulation | https://www.roblox.com/games/114326934417838 |
-| 100 Miles Down the River | 52682 | 44 | 95% | Survival | https://www.roblox.com/games/95105291546154 |
-| Ragdoll Soccer | 46089 | 43 | 74% | Sports & Racing | https://www.roblox.com/games/106931373443671 |
-| BloxNG [CRASH PHYSICS] 💥 | 42350 | 43 | 90% | Simulation | https://www.roblox.com/games/83784149502814 |
-| [🏹] Shoot Arrows For Animals! | 37102 | 20 | 99% | Simulation | https://www.roblox.com/games/128749725449995 |
-| Clean The Ballpit!  | 36461 | 25 | 92% | Simulation | https://www.roblox.com/games/126221718321318 |
-| Throw a Seed | 36323 | 18 | 94% | Simulation | https://www.roblox.com/games/129081220403721 |
-| Build Your World! 🔨 | 33030 | 55 | 71% | Simulation | https://www.roblox.com/games/80392427444524 |
-| [🐟] Fish For Sea Animals | 30562 | 25 | 89% | Simulation | https://www.roblox.com/games/90296841634441 |
-| Voxel Wars | 30076 | 28 | 81% | Shooter | https://www.roblox.com/games/78884249003161 |
-| Stay the Night | 26581 | 39 | 95% | Survival | https://www.roblox.com/games/93349291960708 |
-| [🦧 BOSS] Survive Your Ideas | 25914 | 50 | 89% | Survival | https://www.roblox.com/games/77900175935766 |
-| [💈] Barber Empire  | 24829 | 25 | 75% | Simulation | https://www.roblox.com/games/129516203408961 |
-|  [THROWING DISC!] Unstable SMP FFA | 24151 | 35 | 85% | Action | https://www.roblox.com/games/76870565041704 |
-| Half Punch | 23313 | 30 | 92% | Action | https://www.roblox.com/games/73547227876007 |
-| 🎃 KRN: Crosshair | 23247 | 43 | 78% | Survival | https://www.roblox.com/games/129382295065915 |
-| DONT SPLASH | 22192 | 39 | 85% | Obby & Platformer | https://www.roblox.com/games/119958473240233 |
-| Volley Bomb | 21783 | 24 | 92% | Action | https://www.roblox.com/games/98979169190595 |
-| [2x WEEKEND] Omega Evolution | 21323 | 31 | 91% | Simulation | https://www.roblox.com/games/79122499196822 |
-| 13 Days to Escape [ALPHA] | 20989 | 47 | 83% | Survival | https://www.roblox.com/games/134117451433332 |
-| [🏝️ISLAND] Criminal Simulator 💰 | 20091 | 48 | 93% | Simulation | https://www.roblox.com/games/83048653078891 |
-| [🐜] Ant Evolution | 19880 | 28 | 93% | Survival | https://www.roblox.com/games/123969755970816 |
-| [🍔] Huss Valley | 19750 | 86 | 87% | Action | https://www.roblox.com/games/107535308163741 |
+| Throw Food For Animals | 192345 | 69 | 94% | Simulation | https://www.roblox.com/games/120219252362013 |
+| Hyper Realistic Ragdoll | 63457 | 28 | 92% | Simulation | https://www.roblox.com/games/101277003916102 |
+| Break and Steal an Egg | 59602 | 82 | 97% | Simulation | https://www.roblox.com/games/114326934417838 |
+| The Great Build | 49113 | 2 | 88% | Entertainment | https://www.roblox.com/games/98487757108234 |
+| Throw a Seed | 40500 | 19 | 94% | Simulation | https://www.roblox.com/games/129081220403721 |
+| [🏹] Shoot Arrows For Animals! | 35636 | 21 | 99% | Simulation | https://www.roblox.com/games/128749725449995 |
+| [🐟] Fish For Sea Animals | 34617 | 26 | 89% | Simulation | https://www.roblox.com/games/90296841634441 |
+| 100 Miles Down the River | 26407 | 45 | 95% | Survival | https://www.roblox.com/games/95105291546154 |
+| BloxNG [CRASH PHYSICS] 💥 | 25020 | 44 | 90% | Simulation | https://www.roblox.com/games/83784149502814 |
+| Ragdoll Soccer | 24800 | 44 | 74% | Sports & Racing | https://www.roblox.com/games/106931373443671 |
+| NIGHT WITH OPAH | 23418 | 37 | 85% | Survival | https://www.roblox.com/games/91246277860636 |
+| Build Your World! 🔨 | 23387 | 56 | 71% | Simulation | https://www.roblox.com/games/80392427444524 |
+| Voxel Wars | 23282 | 29 | 81% | Shooter | https://www.roblox.com/games/78884249003161 |
+| Clean The Ballpit!  | 20657 | 26 | 92% | Simulation | https://www.roblox.com/games/126221718321318 |
+| [EVENT] River Hunter | 20475 | 21 | 89% | Adventure | https://www.roblox.com/games/92700843475315 |
+|  [THROWING DISC!] Unstable SMP FFA | 18255 | 36 | 85% | Action | https://www.roblox.com/games/76870565041704 |
+| Fish for Secret Animals! | 17856 | 24 | 94% | Simulation | https://www.roblox.com/games/107192230357786 |
+| [🦧 BOSS] Survive Your Ideas | 17303 | 51 | 89% | Survival | https://www.roblox.com/games/77900175935766 |
+| Cast For Fish! | 16172 | 16 | 94% | Simulation | https://www.roblox.com/games/131424283721618 |
+| [🐜] Ant Evolution | 15515 | 29 | 93% | Survival | https://www.roblox.com/games/123969755970816 |
+| [💈] Barber Empire  | 14622 | 26 | 68% | Simulation | https://www.roblox.com/games/129516203408961 |
+| [🏦HEISTS] Criminal Simulator 💰 | 14549 | 49 | 93% | Simulation | https://www.roblox.com/games/83048653078891 |
+| Stay the Night | 14279 | 40 | 96% | Survival | https://www.roblox.com/games/93349291960708 |
+| Half Punch | 14037 | 31 | 92% | Action | https://www.roblox.com/games/73547227876007 |
+| DONT SPLASH | 13758 | 40 | 85% | Obby & Platformer | https://www.roblox.com/games/119958473240233 |
