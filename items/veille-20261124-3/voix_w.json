@@ -1,0 +1,528 @@
+[
+ {
+  "debut": 0.0,
+  "fin": 4.38,
+  "texte": "Savais-tu que Pokémon est née d'une simple idée, en 1990 ?",
+  "mots": [
+   {
+    "mot": "Savais",
+    "debut": 0.0,
+    "fin": 0.46
+   },
+   {
+    "mot": "-tu",
+    "debut": 0.46,
+    "fin": 0.54
+   },
+   {
+    "mot": "que",
+    "debut": 0.54,
+    "fin": 0.68
+   },
+   {
+    "mot": "Pokémon",
+    "debut": 0.68,
+    "fin": 0.98
+   },
+   {
+    "mot": "est",
+    "debut": 0.98,
+    "fin": 1.2
+   },
+   {
+    "mot": "née",
+    "debut": 1.2,
+    "fin": 1.24
+   },
+   {
+    "mot": "d",
+    "debut": 1.24,
+    "fin": 1.34
+   },
+   {
+    "mot": "'une",
+    "debut": 1.34,
+    "fin": 1.38
+   },
+   {
+    "mot": "simple",
+    "debut": 1.38,
+    "fin": 1.58
+   },
+   {
+    "mot": "idée,",
+    "debut": 1.58,
+    "fin": 1.88
+   },
+   {
+    "mot": "en",
+    "debut": 2.12,
+    "fin": 2.28
+   },
+   {
+    "mot": "1990",
+    "debut": 2.28,
+    "fin": 2.84
+   },
+   {
+    "mot": "?",
+    "debut": 2.84,
+    "fin": 4.38
+   }
+  ]
+ },
+ {
+  "debut": 4.38,
+  "fin": 8.86,
+  "texte": "Un jeune japonais, Satoshi Tajiri, rêve de collectionner des petites bêtes sur la Game Boy.",
+  "mots": [
+   {
+    "mot": "Un",
+    "debut": 4.38,
+    "fin": 4.5
+   },
+   {
+    "mot": "jeune",
+    "debut": 4.5,
+    "fin": 4.66
+   },
+   {
+    "mot": "japonais,",
+    "debut": 4.66,
+    "fin": 5.12
+   },
+   {
+    "mot": "Satoshi",
+    "debut": 5.42,
+    "fin": 5.76
+   },
+   {
+    "mot": "Tajiri,",
+    "debut": 5.76,
+    "fin": 6.18
+   },
+   {
+    "mot": "rêve",
+    "debut": 6.6,
+    "fin": 6.72
+   },
+   {
+    "mot": "de",
+    "debut": 6.72,
+    "fin": 6.86
+   },
+   {
+    "mot": "collectionner",
+    "debut": 6.86,
+    "fin": 7.32
+   },
+   {
+    "mot": "des",
+    "debut": 7.32,
+    "fin": 7.42
+   },
+   {
+    "mot": "petites",
+    "debut": 7.42,
+    "fin": 7.64
+   },
+   {
+    "mot": "bêtes",
+    "debut": 7.64,
+    "fin": 7.96
+   },
+   {
+    "mot": "sur",
+    "debut": 7.96,
+    "fin": 8.36
+   },
+   {
+    "mot": "la",
+    "debut": 8.36,
+    "fin": 8.48
+   },
+   {
+    "mot": "Game",
+    "debut": 8.48,
+    "fin": 8.66
+   },
+   {
+    "mot": "Boy.",
+    "debut": 8.66,
+    "fin": 8.86
+   }
+  ]
+ },
+ {
+  "debut": 10.06,
+  "fin": 12.56,
+  "texte": "Avec son équipe Game Freak, il travaille pendant 6 ans.",
+  "mots": [
+   {
+    "mot": "Avec",
+    "debut": 10.06,
+    "fin": 10.28
+   },
+   {
+    "mot": "son",
+    "debut": 10.28,
+    "fin": 10.48
+   },
+   {
+    "mot": "équipe",
+    "debut": 10.48,
+    "fin": 10.74
+   },
+   {
+    "mot": "Game",
+    "debut": 10.74,
+    "fin": 10.92
+   },
+   {
+    "mot": "Freak,",
+    "debut": 10.92,
+    "fin": 11.22
+   },
+   {
+    "mot": "il",
+    "debut": 11.54,
+    "fin": 11.62
+   },
+   {
+    "mot": "travaille",
+    "debut": 11.62,
+    "fin": 11.9
+   },
+   {
+    "mot": "pendant",
+    "debut": 11.9,
+    "fin": 12.14
+   },
+   {
+    "mot": "6",
+    "debut": 12.14,
+    "fin": 12.44
+   },
+   {
+    "mot": "ans.",
+    "debut": 12.44,
+    "fin": 12.56
+   }
+  ]
+ },
+ {
+  "debut": 13.58,
+  "fin": 17.82,
+  "texte": "6 ans d'essai, de test et de patience, de 1990 à 1996.",
+  "mots": [
+   {
+    "mot": "6",
+    "debut": 13.58,
+    "fin": 13.86
+   },
+   {
+    "mot": "ans",
+    "debut": 13.86,
+    "fin": 13.98
+   },
+   {
+    "mot": "d",
+    "debut": 13.98,
+    "fin": 14.08
+   },
+   {
+    "mot": "'essai,",
+    "debut": 14.08,
+    "fin": 14.32
+   },
+   {
+    "mot": "de",
+    "debut": 14.6,
+    "fin": 14.72
+   },
+   {
+    "mot": "test",
+    "debut": 14.72,
+    "fin": 14.9
+   },
+   {
+    "mot": "et",
+    "debut": 14.9,
+    "fin": 15.04
+   },
+   {
+    "mot": "de",
+    "debut": 15.04,
+    "fin": 15.14
+   },
+   {
+    "mot": "patience,",
+    "debut": 15.14,
+    "fin": 15.48
+   },
+   {
+    "mot": "de",
+    "debut": 15.92,
+    "fin": 16.1
+   },
+   {
+    "mot": "1990",
+    "debut": 16.1,
+    "fin": 16.56
+   },
+   {
+    "mot": "à",
+    "debut": 16.56,
+    "fin": 17.1
+   },
+   {
+    "mot": "1996.",
+    "debut": 17.1,
+    "fin": 17.82
+   }
+  ]
+ },
+ {
+  "debut": 19.12,
+  "fin": 23.12,
+  "texte": "Le 27 février 1996, Pokémon rouge et verre sortent enfin au Japon.",
+  "mots": [
+   {
+    "mot": "Le",
+    "debut": 19.12,
+    "fin": 19.4
+   },
+   {
+    "mot": "27",
+    "debut": 19.4,
+    "fin": 19.62
+   },
+   {
+    "mot": "février",
+    "debut": 19.62,
+    "fin": 20.02
+   },
+   {
+    "mot": "1996,",
+    "debut": 20.02,
+    "fin": 20.6
+   },
+   {
+    "mot": "Pokémon",
+    "debut": 21.46,
+    "fin": 21.74
+   },
+   {
+    "mot": "rouge",
+    "debut": 21.74,
+    "fin": 22.0
+   },
+   {
+    "mot": "et",
+    "debut": 22.0,
+    "fin": 22.14
+   },
+   {
+    "mot": "verre",
+    "debut": 22.14,
+    "fin": 22.32
+   },
+   {
+    "mot": "sortent",
+    "debut": 22.32,
+    "fin": 22.56
+   },
+   {
+    "mot": "enfin",
+    "debut": 22.56,
+    "fin": 22.76
+   },
+   {
+    "mot": "au",
+    "debut": 22.76,
+    "fin": 22.88
+   },
+   {
+    "mot": "Japon.",
+    "debut": 22.88,
+    "fin": 23.12
+   }
+  ]
+ },
+ {
+  "debut": 24.14,
+  "fin": 26.74,
+  "texte": "30 ans plus tard, c'est l'une des plus grandes franchises du monde.",
+  "mots": [
+   {
+    "mot": "30",
+    "debut": 24.14,
+    "fin": 24.46
+   },
+   {
+    "mot": "ans",
+    "debut": 24.46,
+    "fin": 24.58
+   },
+   {
+    "mot": "plus",
+    "debut": 24.58,
+    "fin": 24.74
+   },
+   {
+    "mot": "tard,",
+    "debut": 24.74,
+    "fin": 24.98
+   },
+   {
+    "mot": "c",
+    "debut": 25.32,
+    "fin": 25.42
+   },
+   {
+    "mot": "'est",
+    "debut": 25.42,
+    "fin": 25.44
+   },
+   {
+    "mot": "l",
+    "debut": 25.44,
+    "fin": 25.54
+   },
+   {
+    "mot": "'une",
+    "debut": 25.54,
+    "fin": 25.56
+   },
+   {
+    "mot": "des",
+    "debut": 25.56,
+    "fin": 25.68
+   },
+   {
+    "mot": "plus",
+    "debut": 25.68,
+    "fin": 25.84
+   },
+   {
+    "mot": "grandes",
+    "debut": 25.84,
+    "fin": 26.04
+   },
+   {
+    "mot": "franchises",
+    "debut": 26.04,
+    "fin": 26.4
+   },
+   {
+    "mot": "du",
+    "debut": 26.4,
+    "fin": 26.58
+   },
+   {
+    "mot": "monde.",
+    "debut": 26.58,
+    "fin": 26.74
+   }
+  ]
+ },
+ {
+  "debut": 27.56,
+  "fin": 30.06,
+  "texte": "Tout ça, parce qu'un enfant adorait collectionner.",
+  "mots": [
+   {
+    "mot": "Tout",
+    "debut": 27.56,
+    "fin": 28.04
+   },
+   {
+    "mot": "ça,",
+    "debut": 28.04,
+    "fin": 28.28
+   },
+   {
+    "mot": "parce",
+    "debut": 28.56,
+    "fin": 28.76
+   },
+   {
+    "mot": "qu",
+    "debut": 28.76,
+    "fin": 28.9
+   },
+   {
+    "mot": "'un",
+    "debut": 28.9,
+    "fin": 28.96
+   },
+   {
+    "mot": "enfant",
+    "debut": 28.96,
+    "fin": 29.2
+   },
+   {
+    "mot": "adorait",
+    "debut": 29.2,
+    "fin": 29.54
+   },
+   {
+    "mot": "collectionner.",
+    "debut": 29.54,
+    "fin": 30.06
+   }
+  ]
+ },
+ {
+  "debut": 30.92,
+  "fin": 33.06,
+  "texte": "Abonne-toi à Pixel Facts pour le prochain fait.",
+  "mots": [
+   {
+    "mot": "Abonne",
+    "debut": 30.92,
+    "fin": 31.4
+   },
+   {
+    "mot": "-toi",
+    "debut": 31.4,
+    "fin": 31.58
+   },
+   {
+    "mot": "à",
+    "debut": 31.58,
+    "fin": 31.7
+   },
+   {
+    "mot": "Pixel",
+    "debut": 31.7,
+    "fin": 31.92
+   },
+   {
+    "mot": "Facts",
+    "debut": 31.92,
+    "fin": 32.28
+   },
+   {
+    "mot": "pour",
+    "debut": 32.28,
+    "fin": 32.46
+   },
+   {
+    "mot": "le",
+    "debut": 32.46,
+    "fin": 32.56
+   },
+   {
+    "mot": "prochain",
+    "debut": 32.56,
+    "fin": 32.8
+   },
+   {
+    "mot": "fait.",
+    "debut": 32.8,
+    "fin": 33.06
+   }
+  ]
+ }
+]
