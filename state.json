@@ -436,7 +436,7 @@
  ],
  "ev_lus": 98,
  "veille": {
-  "derniere": 1795686158.8394704,
+  "derniere": 1795765989.0788372,
   "essais": 0
  },
  "propositions": {
@@ -444,6 +444,36 @@
    "type": "video",
    "url": "https://www.cubed3.com/features/insights/2026-video-game-gaming-anniversaries-milestones-list",
    "note": "Format « 3 anniversaires de décembre » avec compteurs d'années, sans logo ni image officielle ; confirmer l'année de chaque jeu avant écriture, la page ne les donne pas."
+  },
+  "veille-20261127-1": {
+   "type": "video",
+   "url": "https://gameluster.com/ea-classics-steam-vault-wing-commander-road-rash/",
+   "note": "Enquête « trésor retrouvé », Pixel explore une salle pleine de bandes, compteurs 20 000 / 2022 / 25 jeux, aucun visuel ni logo EA."
+  },
+  "veille-20261127-2": {
+   "type": "video",
+   "url": "https://en.wikipedia.org/wiki/Sonic_3D_Blast",
+   "note": "Mini-histoire nostalgique avec frise 1995 → 1996, compteurs 8 mois / 7 semaines, anecdote de l'écran secret au lieu d'un plantage, aucun visuel ni logo Sega."
+  },
+  "veille-20261127-3": {
+   "type": "video",
+   "url": "https://en.wikipedia.org/wiki/PlayStation_3",
+   "note": "Angle nostalgie et chiffres, frise 2006 → 2017, compteurs de prix et de ventes, aucune image de console ni logo Sony."
+  },
+  "veille-20261127-4": {
+   "type": "video",
+   "url": "https://en.wikipedia.org/wiki/Mario_Kart_64",
+   "note": "Anecdote de coulisses, ton léger, compteurs 1996 / 80 % / 9,87 M, sans visuel ni logo Nintendo."
+  },
+  "veille-20261127-5": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/101277003916102",
+   "note": "Bac à sable de physique avec mannequins qu'on lance, fait tomber ou glisse, aucun sang, aucune arme réaliste, sans copier nom ni assets."
+  },
+  "veille-20261127-6": {
+   "type": "roblox",
+   "url": "https://www.roblox.com/games/106267220422944",
+   "note": "Tycoon familial : acheter des PC, accueillir des clients, agrandir, avec thème et noms originaux, sans copier les assets."
   }
  },
  "agents": {
