@@ -305,7 +305,8 @@
    "remarques": [],
    "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261124-182007-veille-20261122-2.mp4",
    "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261122-2/legende.json",
-   "titre_pub": "📤 Titre choisi : Le jour où le jeu vidéo a failli mourir 🕹️ #shorts"
+   "titre_pub": "📤 Titre choisi : Le jour où le jeu vidéo a failli mourir 🕹️ #shorts",
+   "relance_buffer": true
   },
   {
    "id": "veille-20261123-1",
@@ -481,7 +482,7 @@
   "roblox_tendances": 1795765233.6796584,
   "roblox_stats": 1795769434.7681015,
   "chef": 1795729231.6239738,
-  "controleur": 1795789851.879978
+  "controleur": 1795800653.0774736
  },
  "roblox_derniere": 1795213300.7825432
 }
