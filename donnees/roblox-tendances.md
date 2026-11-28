@@ -1,29 +1,29 @@
-# Jeux Roblox récents qui montent (2026-11-27)
+# Jeux Roblox récents qui montent (2026-11-28)
 
 | Jeu | Joueurs | Âge (j) | Note | Genre | Lien |
 |---|---|---|---|---|---|
-| Throw Food For Animals | 151859 | 70 | 94% | Simulation | https://www.roblox.com/games/120219252362013 |
-| Hyper Realistic Ragdoll | 73759 | 29 | 92% | Simulation | https://www.roblox.com/games/101277003916102 |
-| Break and Steal an Egg | 54258 | 83 | 97% | Simulation | https://www.roblox.com/games/114326934417838 |
-| 100 Miles Down the River | 32159 | 46 | 95% | Survival | https://www.roblox.com/games/95105291546154 |
-| Throw a Seed | 31968 | 20 | 94% | Simulation | https://www.roblox.com/games/129081220403721 |
-| NIGHT WITH OPAH | 30562 | 38 | 85% | Survival | https://www.roblox.com/games/91246277860636 |
-| [🏹] Shoot Arrows For Animals! | 27678 | 22 | 99% | Simulation | https://www.roblox.com/games/128749725449995 |
-| The Great Build | 26346 | 3 | 83% | Entertainment | https://www.roblox.com/games/98487757108234 |
-| Crash Engine | 25711 | 10 | 87% | Simulation | https://www.roblox.com/games/81268852194868 |
-| [🐟] Fish For Sea Animals | 25126 | 27 | 89% | Simulation | https://www.roblox.com/games/90296841634441 |
-| Ragdoll Soccer | 22785 | 45 | 74% | Sports & Racing | https://www.roblox.com/games/106931373443671 |
-| Clean The Ballpit!  | 21855 | 27 | 92% | Simulation | https://www.roblox.com/games/126221718321318 |
-| Build Your World! 🔨 | 21779 | 57 | 71% | Simulation | https://www.roblox.com/games/80392427444524 |
-| BloxNG [CRASH PHYSICS] 💥 | 21748 | 45 | 90% | Simulation | https://www.roblox.com/games/83784149502814 |
-| Voxel Wars | 21669 | 30 | 81% | Shooter | https://www.roblox.com/games/78884249003161 |
-| Fish for Secret Animals! | 19321 | 25 | 94% | Simulation | https://www.roblox.com/games/107192230357786 |
-| [🏦HEISTS] Criminal Simulator 💰 | 17955 | 50 | 93% | Simulation | https://www.roblox.com/games/83048653078891 |
-| Half Punch | 17520 | 32 | 92% | Action | https://www.roblox.com/games/73547227876007 |
-| [🍔] Huss Valley | 16861 | 88 | 87% | Action | https://www.roblox.com/games/107535308163741 |
-| 🦃 Survive Your Ideas | 15376 | 52 | 89% | Survival | https://www.roblox.com/games/77900175935766 |
-| [🏴‍☠️] Throw a Friend for Monsters | 15194 | 24 | 97% | Simulation | https://www.roblox.com/games/135753683017288 |
-| Cast For Fish! | 14660 | 17 | 94% | Simulation | https://www.roblox.com/games/131424283721618 |
-| DONT SPLASH | 14017 | 41 | 85% | Obby & Platformer | https://www.roblox.com/games/119958473240233 |
-| Warnetopia: Internet Cafe | 13266 | 22 | 94% | Simulation | https://www.roblox.com/games/106267220422944 |
-| [🐜] Ant Evolution | 12559 | 30 | 93% | Survival | https://www.roblox.com/games/123969755970816 |
+| Throw Food For Animals | 210300 | 71 | 94% | Simulation | https://www.roblox.com/games/120219252362013 |
+| Hyper Realistic Ragdoll | 138632 | 30 | 92% | Simulation | https://www.roblox.com/games/101277003916102 |
+| Throw a Seed | 54375 | 21 | 94% | Simulation | https://www.roblox.com/games/129081220403721 |
+| Ragdoll Soccer | 54329 | 46 | 74% | Sports & Racing | https://www.roblox.com/games/106931373443671 |
+| 100 Miles Down the River | 54040 | 47 | 95% | Survival | https://www.roblox.com/games/95105291546154 |
+| Break and Steal an Egg | 52315 | 84 | 97% | Simulation | https://www.roblox.com/games/114326934417838 |
+| untitled monkey game | 46870 | 11 | 80% | Survival | https://www.roblox.com/games/78203199643918 |
+| BloxNG [CRASH PHYSICS] 💥 | 43092 | 46 | 90% | Simulation | https://www.roblox.com/games/83784149502814 |
+| [🐟] Fish For Sea Animals | 40752 | 28 | 89% | Simulation | https://www.roblox.com/games/90296841634441 |
+| Build Your World! 🔨 | 38344 | 58 | 71% | Simulation | https://www.roblox.com/games/80392427444524 |
+| [🏹] Shoot Arrows For Animals! | 38171 | 23 | 99% | Simulation | https://www.roblox.com/games/128749725449995 |
+| Clean The Ballpit!  | 37697 | 28 | 92% | Simulation | https://www.roblox.com/games/126221718321318 |
+| NIGHT WITH OPAH | 36280 | 39 | 85% | Survival | https://www.roblox.com/games/91246277860636 |
+| Half Punch | 33895 | 33 | 92% | Action | https://www.roblox.com/games/73547227876007 |
+| Crash Engine | 32663 | 11 | 86% | Simulation | https://www.roblox.com/games/81268852194868 |
+| Voxel Wars | 30715 | 31 | 81% | Shooter | https://www.roblox.com/games/78884249003161 |
+| Fish for Secret Animals! | 30603 | 26 | 94% | Simulation | https://www.roblox.com/games/107192230357786 |
+| [🏦HEISTS] Criminal Simulator 💰 | 30344 | 51 | 93% | Simulation | https://www.roblox.com/games/83048653078891 |
+| [🍗] Huss Valley | 29260 | 89 | 87% | Action | https://www.roblox.com/games/107535308163741 |
+| [💈] Barber Empire  | 27008 | 28 | 71% | Simulation | https://www.roblox.com/games/129516203408961 |
+| PINKIE PROMISE [CH 2] | 26602 | 53 | 93% | Adventure | https://www.roblox.com/games/75815532269840 |
+| The Great Build | 26441 | 4 | 81% | Entertainment | https://www.roblox.com/games/98487757108234 |
+| 🦃 Survive Your Ideas | 24668 | 53 | 89% | Survival | https://www.roblox.com/games/77900175935766 |
+| DONT SPLASH | 22776 | 42 | 85% | Obby & Platformer | https://www.roblox.com/games/119958473240233 |
+| 13 Days to Escape [ALPHA] | 22133 | 50 | 83% | Survival | https://www.roblox.com/games/134117451433332 |
