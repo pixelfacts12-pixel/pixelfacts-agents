@@ -435,9 +435,49 @@
    "essais": 0,
    "reprises": 0,
    "remarques": []
+  },
+  {
+   "id": "veille-20261128-1",
+   "url": "https://www.foxbusiness.com/entertainment/grand-theft-auto-vi-shatters-entertainment-records-staggering-3-79b-debut",
+   "note": "Angle compteurs et comparaison 2013 → 2026 (GTA V vs GTA VI), ton enthousiaste, aucune scène ni logo, mention « estimation basée sur les chiffres de Rockstar ».",
+   "status": "a_faire",
+   "recu": 1795868449.2270155,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261128-2",
+   "url": "https://www.videogameschronicle.com/news/gta-6-is-the-most-nominated-game-at-the-game-awards-2026/",
+   "note": "Format « qui va gagner ? » : liste animée des 6 nommés en texte seul, ton quiz, invitation à commenter son favori. Ne pas citer les nombres de nominations autres que GTA VI (les sources divergent).",
+   "status": "a_faire",
+   "recu": 1795868449.2270188,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261128-3",
+   "url": "https://gematsu.com/2026/11/switch-2-worldwide-sales-top-26-35-million-switch-tops-157-20-million",
+   "note": "Barres animées Switch 2 contre Switch, compteurs, ton neutre et factuel, aucun visuel ni logo Nintendo.",
+   "status": "a_faire",
+   "recu": 1795868449.22702,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
+  },
+  {
+   "id": "veille-20261128-4",
+   "url": "https://www.roblox.com/games/120219252362013",
+   "note": "Angle tendance : la même boucle (lancer, attirer, vendre) copiée trois fois, avec compteurs de joueurs. Aucune image des jeux, ton curieux, public Roblox.",
+   "status": "a_faire",
+   "recu": 1795868449.2270205,
+   "essais": 0,
+   "reprises": 0,
+   "remarques": []
   }
  ],
- "ev_lus": 98,
+ "ev_lus": 104,
  "veille": {
   "derniere": 1795845788.734204,
   "essais": 0
@@ -477,36 +517,6 @@
    "type": "roblox",
    "url": "https://www.roblox.com/games/106267220422944",
    "note": "Tycoon familial : acheter des PC, accueillir des clients, agrandir, avec thème et noms originaux, sans copier les assets."
-  },
-  "veille-20261128-1": {
-   "type": "video",
-   "url": "https://www.foxbusiness.com/entertainment/grand-theft-auto-vi-shatters-entertainment-records-staggering-3-79b-debut",
-   "note": "Angle compteurs et comparaison 2013 → 2026 (GTA V vs GTA VI), ton enthousiaste, aucune scène ni logo, mention « estimation basée sur les chiffres de Rockstar »."
-  },
-  "veille-20261128-2": {
-   "type": "video",
-   "url": "https://www.videogameschronicle.com/news/gta-6-is-the-most-nominated-game-at-the-game-awards-2026/",
-   "note": "Format « qui va gagner ? » : liste animée des 6 nommés en texte seul, ton quiz, invitation à commenter son favori. Ne pas citer les nombres de nominations autres que GTA VI (les sources divergent)."
-  },
-  "veille-20261128-3": {
-   "type": "video",
-   "url": "https://gematsu.com/2026/11/switch-2-worldwide-sales-top-26-35-million-switch-tops-157-20-million",
-   "note": "Barres animées Switch 2 contre Switch, compteurs, ton neutre et factuel, aucun visuel ni logo Nintendo."
-  },
-  "veille-20261128-4": {
-   "type": "video",
-   "url": "https://www.roblox.com/games/120219252362013",
-   "note": "Angle tendance : la même boucle (lancer, attirer, vendre) copiée trois fois, avec compteurs de joueurs. Aucune image des jeux, ton curieux, public Roblox."
-  },
-  "veille-20261128-5": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/101277003916102",
-   "note": "Version familiale : mannequins qui tombent, rebondissent ou sont lancés par des trampolines, ressorts et ventilateurs ; ni armes ni sang ; objets à débloquer ; aucun asset copié."
-  },
-  "veille-20261128-6": {
-   "type": "roblox",
-   "url": "https://www.roblox.com/games/128749725449995",
-   "note": "Tirer des flèches sur des cibles pour la distance, ce qui attire des animaux mignons qui rapportent de l'argent ; arcs et zones à débloquer ; ton familial, sans violence envers les animaux, thème original."
   }
  },
  "agents": {
