@@ -1,5 +1,5 @@
 {
- "date": "2026-11-28T09:10:33.302092+00:00",
+ "date": "2026-11-28T12:20:12.863917+00:00",
  "problemes": [
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
@@ -8,11 +8,16 @@
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
   "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
-  "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)"
+  "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
+  "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)",
+  "Buffer : plus aucune vidéo programmée sur instagram (valide des vidéos dans Discord)"
  ],
- "reparations": [],
+ "reparations": [
+  "je reprogramme veille-20261123-4 automatiquement"
+ ],
  "a_relancer": [],
  "signales": {
-  "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)": 1795800655.0704153
+  "Buffer : publication youtube en erreur (The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.)": 1795800655.0704153,
+  "Buffer : plus aucune vidéo programmée sur instagram (valide des vidéos dans Discord)": 1795868412.8639114
  }
 }

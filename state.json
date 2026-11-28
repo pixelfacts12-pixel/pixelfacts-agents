@@ -355,7 +355,8 @@
    "remarques": [],
    "video_url": "https://pixelfacts12-pixel.github.io/pixelfacts-media/videos/20261125-175742-veille-20261123-4.mp4",
    "legende_json": "/home/runner/work/pixelfacts-agents/pixelfacts-agents/items/veille-20261123-4/legende.json",
-   "titre_pub": "📤 Titre choisi : Roblox : 492 M de visites, mais les joueurs fuient 📉 #shorts"
+   "titre_pub": "📤 Titre choisi : Roblox : 492 M de visites, mais les joueurs fuient 📉 #shorts",
+   "relance_buffer": true
   },
   {
    "id": "veille-20261124-1",
@@ -512,7 +513,7 @@
   "roblox_tendances": 1795837234.6029158,
   "roblox_stats": 1795841439.2484787,
   "chef": 1795815634.6935794,
-  "controleur": 1795857031.3657107
+  "controleur": 1795868411.0362928
  },
  "roblox_derniere": 1795213300.7825432
 }
